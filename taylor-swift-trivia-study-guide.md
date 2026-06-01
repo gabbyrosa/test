@@ -31,7 +31,7 @@
 | Childhood home | Family Christmas tree farm in Pennsylvania |
 | Move to Tennessee | At age 14, her father transferred to Merrill Lynch's Nashville office; family relocated to Hendersonville, TN |
 | RCA deal | Got an RCA Records artist-development deal at age 13; left after about a year because the label wanted to keep her in development until 18 |
-| Big Machine signing | Performed at Nashville's Bluebird Cafe (Nov 3, 2004); Scott Borchetta, then forming the independent Big Machine Records, signed her about two weeks later |
+| Big Machine signing | Performed at Nashville's Bluebird Cafe (Nov 2004), where Scott Borchetta saw her and promised to sign her to the label he was about to launch; she officially signed with Big Machine Records in 2005 (label founded Sept 2005), at age 15 |
 | First single | "Tim McGraw," released June 19, 2006 |
 
 ---
@@ -49,7 +49,7 @@ Twelve studio albums. All dates, labels, lead singles, and producers cross-check
 | **1989** | Oct 27, 2014 | Big Machine | "Shake It Off" (Aug 18 2014) | Max Martin, Shellback, Jack Antonoff, Ryan Tedder, Imogen Heap | 13 |
 | **reputation** | Nov 10, 2017 | Big Machine | "Look What You Made Me Do" (Aug 24 2017) | Taylor Swift, Max Martin, Shellback, Jack Antonoff | 15 |
 | **Lover** | Aug 23, 2019 | Republic | "ME!" ft. Brendon Urie (Apr 26 2019) | Taylor Swift, Jack Antonoff, Joel Little, Louis Bell, Frank Dukes | 18 |
-| **folklore** | Jul 24, 2020 | Republic | "cardigan" (Jul 27 2020) | Aaron Dessner, Jack Antonoff, Taylor Swift | 16 |
+| **folklore** | Jul 24, 2020 | Republic | "cardigan" (Jul 24 2020) | Aaron Dessner, Jack Antonoff, Taylor Swift | 16 |
 | **evermore** | Dec 11, 2020 | Republic | "willow" (Dec 11 2020) | Aaron Dessner, Taylor Swift, Jack Antonoff, Bryce Dessner | 15 |
 | **Midnights** | Oct 21, 2022 | Republic | "Anti-Hero" (Oct 21 2022) | Taylor Swift, Jack Antonoff | 13 |
 | **The Tortured Poets Department** | Apr 19, 2024 | Republic | "Fortnight" ft. Post Malone | Taylor Swift, Jack Antonoff, Aaron Dessner | 16 |
