@@ -15,7 +15,7 @@ depth. Best time to water: early morning (6-8 AM). Evening is second best.
 | Scallions | Moderate    | Every 2-3 days           | Medium | Shallow roots, so keep top few inches moist.             |
 | Basil     | Moderate    | Every 1-2 days           | Medium | Loves moisture but hates soggy roots. Well-drained soil is key. |
 | Parsley   | Moderate    | Every 2-3 days           | Medium | Even moisture. Tolerates brief dry spells better than basil. |
-| Marigolds | Low-Mod     | Every 3-4 days           | Light  | Drought tolerant once established. Overwatering causes root rot. |
+| Marigolds | Low-Mod     | Every 1-2 days (with tomatoes) | Deep   | Shares a box with tomatoes, so water together. Handles extra moisture fine with good drainage. |
 | Thyme     | Low         | Every 4-7 days           | Light  | Prefers to dry out between waterings. Mediterranean plant, likes it lean. |
 
 ## Weekly Schedule Template
@@ -23,12 +23,12 @@ depth. Best time to water: early morning (6-8 AM). Evening is second best.
 | Day       | What to Water                                         |
 |-----------|-------------------------------------------------------|
 | Monday    | Everything (deep watering day)                        |
-| Tuesday   | Tomatoes, zucchini, basil                             |
-| Wednesday | Tomatoes, zucchini, spinach, scallions, peppers, basil, parsley |
-| Thursday  | Tomatoes, zucchini, basil                             |
+| Tuesday   | Tomatoes + marigolds, zucchini, basil                 |
+| Wednesday | Tomatoes + marigolds, zucchini, spinach, scallions, peppers, basil, parsley |
+| Thursday  | Tomatoes + marigolds, zucchini, basil                 |
 | Friday    | Everything (deep watering day)                        |
-| Saturday  | Tomatoes, zucchini, basil                             |
-| Sunday    | Tomatoes, zucchini, spinach, scallions, peppers, basil, parsley |
+| Saturday  | Tomatoes + marigolds, zucchini, basil                 |
+| Sunday    | Tomatoes + marigolds, zucchini, spinach, scallions, peppers, basil, parsley |
 
 Adjust based on weather: skip a day after rain, water more during heat waves (95F+).
 
