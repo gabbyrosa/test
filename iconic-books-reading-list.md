@@ -120,7 +120,24 @@ Self-knowledge, relationships, and how to actually understand people, including 
 - **Quiet** by Susan Cain (the power of introverts)
 - **Crucial Conversations** by Patterson, Grenny, McMillan, and Switzler
 
-## Underrated Books to Make You a Better Speaker
+## Fiction That Makes You a Better Speaker
+
+The underrated way to sharpen your speaking: read work where wit, persuasion, and oratory are the whole point, then steal the rhythm. Plays are the cheat code here, since speech is the entire medium.
+
+- **Cyrano de Bergerac** by Edmond Rostand (the greatest story ever told about the power of eloquence and improvised wit)
+- **Julius Caesar** by William Shakespeare (Antony's funeral oration is the single best masterclass in turning a crowd)
+- **All the King's Men** by Robert Penn Warren (a politician's rise and fall, packed with rhetoric and demagoguery)
+- **Pygmalion** by George Bernard Shaw (speech literally as power and class; the source of My Fair Lady)
+- **The Importance of Being Earnest** by Oscar Wilde (epigram, timing, and the art of the perfect line)
+- **Wolf Hall** by Hilary Mantel (Thomas Cromwell winning every room through quiet conversation)
+- **Twelve Angry Men** by Reginald Rose (changing minds one stubborn person at a time)
+- **A Man for All Seasons** by Robert Bolt (verbal fencing under deadly pressure)
+- **I, Claudius** by Robert Graves (Roman politics and oratory at full volume)
+- **The Secret History** by Donna Tartt (a narrator so eloquent he seduces you into the story)
+- **Burr** and **Lincoln** by Gore Vidal (American political oratory brought to life)
+- **Inherit the Wind** by Lawrence and Lee (two titans of courtroom rhetoric go head to head)
+
+## Underrated Nonfiction to Make You a Better Speaker
 
 Past the obvious bestsellers. These are the ones working speakers, speechwriters, and rhetoric nerds actually pass around.
 
