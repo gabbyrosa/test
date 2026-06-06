@@ -120,6 +120,23 @@ Self-knowledge, relationships, and how to actually understand people, including 
 - **Quiet** by Susan Cain (the power of introverts)
 - **Crucial Conversations** by Patterson, Grenny, McMillan, and Switzler
 
+## Underrated Books to Make You a Better Speaker
+
+Past the obvious bestsellers. These are the ones working speakers, speechwriters, and rhetoric nerds actually pass around.
+
+- **Thank You for Arguing** by Jay Heinrichs (Aristotle and Cicero made practical; the best modern book on rhetoric)
+- **The Elements of Eloquence** by Mark Forsyth (the rhetorical tricks behind every line you remember, and a genuinely fun read)
+- **The Charisma Myth** by Olivia Fox Cabane (presence and warmth as a trainable skill, not a personality)
+- **Confessions of a Public Speaker** by Scott Berkun (honest, funny craft from someone who does it for a living)
+- **On Speaking Well** by Peggy Noonan (speechwriting wisdom from a Reagan speechwriter)
+- **Words That Work** by Frank Luntz (it is not what you say, it is what people hear)
+- **Resonate** by Nancy Duarte (story structure that makes a talk move, not just inform)
+- **Verbal Judo** by George Thompson (staying in control of tense, high-stakes exchanges)
+- **You're Not Listening** by Kate Murphy (the half of speaking everyone ignores)
+- **Do You Talk Funny?** by David Nihill (stand-up comedy techniques applied to public speaking)
+- **Speak Like Churchill, Stand Like Lincoln** by James Humes (delivery secrets from history's great orators)
+- **Lend Me Your Ears** by William Safire (study the greatest speeches ever given, then steal their moves)
+
 ## Buzzy Right Now and Fun Reads
 
 The zeitgeist picks. Big on BookTok, in every book club, and just plain fun. If you loved **Magnolia Parks** by Jessa Hastings, start with the first group.
