@@ -133,7 +133,7 @@ The underrated way to sharpen your speaking: read work where wit, persuasion, an
 - **Twelve Angry Men** by Reginald Rose (changing minds one stubborn person at a time)
 - **A Man for All Seasons** by Robert Bolt (verbal fencing under deadly pressure)
 - **I, Claudius** by Robert Graves (Roman politics and oratory at full volume)
-- **The Secret History** by Donna Tartt (a narrator so eloquent he seduces you into the story)
+- **Lolita** by Vladimir Nabokov (a monstrous narrator who almost talks you onto his side through sheer command of language; the ultimate lesson in rhetoric)
 - **Burr** and **Lincoln** by Gore Vidal (American political oratory brought to life)
 - **Inherit the Wind** by Lawrence and Lee (two titans of courtroom rhetoric go head to head)
 
