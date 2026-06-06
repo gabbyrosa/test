@@ -120,22 +120,30 @@ Self-knowledge, relationships, and how to actually understand people, including 
 - **Quiet** by Susan Cain (the power of introverts)
 - **Crucial Conversations** by Patterson, Grenny, McMillan, and Switzler
 
-## Fiction That Makes You a Better Speaker
+## More Like Your Favorites
 
-The underrated way to sharpen your speaking: read work where wit, persuasion, and oratory are the whole point, then steal the rhythm. Plays are the cheat code here, since speech is the entire medium.
+Tuned to the books you love: the Magnolia Parks Universe (Magnolia Parks and the Daisy Haites series) by Jessa Hastings, and The Favorites by Layne Fargo. Think obsessive, all-consuming love, morally-grey heroes, glamorous ensemble casts, and angst that wrecks you in the best way.
 
-- **Cyrano de Bergerac** by Edmond Rostand (the greatest story ever told about the power of eloquence and improvised wit)
-- **Julius Caesar** by William Shakespeare (Antony's funeral oration is the single best masterclass in turning a crowd)
-- **All the King's Men** by Robert Penn Warren (a politician's rise and fall, packed with rhetoric and demagoguery)
-- **Pygmalion** by George Bernard Shaw (speech literally as power and class; the source of My Fair Lady)
-- **The Importance of Being Earnest** by Oscar Wilde (epigram, timing, and the art of the perfect line)
-- **Wolf Hall** by Hilary Mantel (Thomas Cromwell winning every room through quiet conversation)
-- **Twelve Angry Men** by Reginald Rose (changing minds one stubborn person at a time)
-- **A Man for All Seasons** by Robert Bolt (verbal fencing under deadly pressure)
-- **I, Claudius** by Robert Graves (Roman politics and oratory at full volume)
-- **Lolita** by Vladimir Nabokov (a monstrous narrator who almost talks you onto his side through sheer command of language; the ultimate lesson in rhetoric)
-- **Burr** and **Lincoln** by Gore Vidal (American political oratory brought to life)
-- **Inherit the Wind** by Lawrence and Lee (two titans of courtroom rhetoric go head to head)
+### Closest to the Magnolia Parks vibe (toxic, angsty, ensemble romance)
+
+- **Twisted** series, start with **Twisted Love**, by Ana Huang (possessive, morally-grey heroes and an interconnected friend group, just like the Magnolia Parks Universe)
+- **Sinners of Saint** series, start with **Vicious**, by L.J. Shen (old money, enemies to lovers, vicious banter, ensemble cast)
+- **Devil's Night** series, start with **Corrupt**, by Penelope Douglas (dark, obsessive, friend-group slow burn)
+- **Beautiful Disaster** by Jamie McGuire (the original toxic, all-consuming college love)
+- **If He Had Been with Me** by Laura Nowlin (devastating friends-to-lovers pining; the angst will destroy you)
+- **The Sweetest Oblivion** by Danielle Lori (glamorous, morally-grey mafia romance)
+
+### Closest to The Favorites (obsessive, sports, doomed passion)
+
+- **From Lukov with Love** by Mariana Zapata (figure-skating rivals to lovers, slow burn; basically made for you)
+- **Daisy Jones and The Six** by Taylor Jenkins Reid (the documentary, oral-history format and doomed passion The Favorites borrows from)
+- **Wuthering Heights** by Emily Bronte (the obsessive love story that directly inspired The Favorites)
+- **Carrie Soto Is Back** by Taylor Jenkins Reid (fierce, driven athlete with the same competitive fire)
+
+### More from Layne Fargo
+
+- **They Never Learn** by Layne Fargo (morally-grey women you root for anyway)
+- **Temper** by Layne Fargo (toxic, obsessive, set in the cutthroat theater world)
 
 ## Underrated Nonfiction to Make You a Better Speaker
 
