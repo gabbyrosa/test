@@ -92,6 +92,34 @@ Iconic and genuinely fun. Proof that "important" and "enjoyable" overlap.
 
 ---
 
+## Books That Make You Smarter
+
+Mental models, psychology, and clearer thinking. Read these and you notice your own reasoning differently.
+
+- **Thinking, Fast and Slow** by Daniel Kahneman (the foundation for how the mind makes errors)
+- **Influence: The Psychology of Persuasion** by Robert Cialdini
+- **Predictably Irrational** by Dan Ariely
+- **The Art of Thinking Clearly** by Rolf Dobelli (a field guide to cognitive biases)
+- **Factfulness** by Hans Rosling (how to read the world with data, not gut)
+- **Range** by David Epstein (why generalists win)
+- **Mindset** by Carol Dweck (fixed vs growth thinking)
+- **Why We Sleep** by Matthew Walker
+- **Meditations** by Marcus Aurelius (Stoic wisdom that still lands 1,800 years later)
+
+## Books That Make You More Emotionally Intelligent
+
+Self-knowledge, relationships, and how to actually understand people, including yourself.
+
+- **Emotional Intelligence** by Daniel Goleman (the book that named the concept)
+- **Atlas of the Heart** and **Daring Greatly** by Brene Brown
+- **Attached** by Amir Levine and Rachel Heller (attachment theory, will reframe your relationships)
+- **Nonviolent Communication** by Marshall Rosenberg
+- **The Body Keeps the Score** by Bessel van der Kolk (how trauma lives in the body)
+- **How to Win Friends and Influence People** by Dale Carnegie (old but timeless)
+- **The Four Agreements** by Don Miguel Ruiz
+- **Quiet** by Susan Cain (the power of introverts)
+- **Crucial Conversations** by Patterson, Grenny, McMillan, and Switzler
+
 ## Buzzy Right Now and Fun Reads
 
 The zeitgeist picks. Big on BookTok, in every book club, and just plain fun. If you loved **Magnolia Parks** by Jessa Hastings, start with the first group.
