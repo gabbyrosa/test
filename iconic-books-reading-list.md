@@ -92,6 +92,66 @@ Iconic and genuinely fun. Proof that "important" and "enjoyable" overlap.
 
 ---
 
+## Buzzy Right Now and Fun Reads
+
+The zeitgeist picks. Big on BookTok, in every book club, and just plain fun. If you loved **Magnolia Parks** by Jessa Hastings, start with the first group.
+
+### If You Love Magnolia Parks (emotional, dramatic, morally-grey romance)
+
+- **The Seven Husbands of Evelyn Hugo** by Taylor Jenkins Reid
+- **It Ends With Us** by Colleen Hoover
+- **Twisted Love** (Twisted series) by Ana Huang
+- **Credence** by Penelope Douglas
+- **The Sequel** continues Hastings' world: read **Daisy Haites: The Great Undoing** by Jessa Hastings
+- **Punk 57** by Penelope Douglas
+
+### Romantasy (the biggest trend going)
+
+- **Fourth Wing**, then **Iron Flame** and **Onyx Storm** (The Empyrean) by Rebecca Yarros
+- **A Court of Thorns and Roses** (ACOTAR series) by Sarah J. Maas
+- **Powerless** by Lauren Roberts
+- **Quicksilver** by Callie Hart
+
+### BookTok Romance and Rom-Coms
+
+- **The Love Hypothesis** by Ali Hazelwood
+- **Icebreaker** by Hannah Grace
+- **Book Lovers**, **Beach Read**, and **Funny Story** by Emily Henry
+- **Happy Place** by Emily Henry
+
+### Buzzy Book-Club and Literary Picks
+
+- **Tomorrow, and Tomorrow, and Tomorrow** by Gabrielle Zevin
+- **Lessons in Chemistry** by Bonnie Garmus
+- **The Women** by Kristin Hannah
+- **Yellowface** by R.F. Kuang
+- **James** by Percival Everett
+- **The Midnight Library** by Matt Haig
+- **A Little Life** by Hanya Yanagihara (the famous BookTok cry-book)
+
+---
+
+## Which Translation to Read
+
+For the translated classics on this list, the edition you pick really changes the experience. These are the ones to look for.
+
+| Book | Author | Read this translation |
+|------|--------|-----------------------|
+| Crime and Punishment | Dostoevsky | Oliver Ready (Penguin) for readability, or Pevear & Volokhonsky |
+| The Brothers Karamazov | Dostoevsky | Pevear & Volokhonsky, or Ignat Avsey (Oxford) for a smoother read |
+| War and Peace | Tolstoy | Anthony Briggs (Penguin), or the Maude translation Tolstoy endorsed |
+| Anna Karenina | Tolstoy | Rosamund Bartlett (Oxford) or Marian Schwartz |
+| Don Quixote | Cervantes | Edith Grossman |
+| One Hundred Years of Solitude | Garcia Marquez | Gregory Rabassa |
+| Madame Bovary | Flaubert | Lydia Davis |
+| The Count of Monte Cristo | Dumas | Robin Buss (Penguin), and make sure it is unabridged |
+| The Odyssey | Homer | Emily Wilson for modern clarity, or Robert Fagles for grand style |
+| The Name of the Rose | Eco | William Weaver |
+
+Rule of thumb: an in-print, recently reviewed translation almost always beats a free public-domain Victorian-era one.
+
+---
+
 ## A 12-Book Starter Plan
 
 If the full list feels like a lot, read these twelve over a year (one a month) for the biggest cultural payoff:
