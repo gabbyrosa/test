@@ -21,33 +21,95 @@ editorial "best of" lists, and runs to roughly 250 titles.
   with real sourcing.
 - Sources are grouped at the end.
 
+Throughout the genre sections below, the most anticipated titles are marked with a
+**star (★)**. The curated shortlist immediately below collects them in one place.
+
+---
+
+## ★ Most Anticipated of June 2026
+
+A curated shortlist of the highest-buzz titles, judged by signals that surfaced in the
+research: first-printing size, major book-club picks (Katie Couric, Reese, GMA, Modern
+Mrs Darcy), established-author profile, debut hype, and how often a title recurred across
+roundups. Grouped by category.
+
+**Literary & general fiction**
+- **Whistler** by Ann Patchett (June 2). The month's marquee literary title; 500K first
+  printing and a Katie Couric Book Club pick.
+- **Land** by Maggie O'Farrell (June 2). The follow-up to *Hamnet*, billed by her UK
+  publisher as her "most ambitious" novel.
+- **Villa Coco** by Andrew Sean Greer (June 9). New comic novel from the Pulitzer winner
+  behind *Less*.
+- **Contrapposto** by Dave Eggers (June 9). Twenty years in the making.
+- **The Typing Lady: And Other Fictions** by Ruth Ozeki (June 2). Ozeki's first story
+  collection; a LitHub most-anticipated pick.
+
+**Commercial & book-club**
+- **Our Perfect Storm** by Carley Fortune (June). The lead beach read from the #1 NYT
+  bestseller.
+- **Daughters of the Sun and Moon** by Lisa See (June 9). Major historical book-club title.
+- **The Shampoo Effect** by Jenny Jackson (June 30). Follow-up to *Pineapple Street*.
+
+**Thriller, mystery & crime**
+- **You First** by Caroline Kepnes (June 9). Joe Goldberg prequel, riding the Netflix *You*
+  wave.
+- **It Could Have Been Her** by Lisa Jewell (June 23). New thriller from the global
+  bestseller; sequel to *Don't Let Him In*.
+- **Red Sheet** by James Ellroy (June). New LA-noir from a crime-fiction titan.
+
+**Science fiction & fantasy**
+- **Six of Crows: A Darker Shore** by Leigh Bardugo (June 30). Long-awaited return to the
+  Grishaverse/Ketterdam.
+- **The Unicorn Hunters** by Katherine Arden (June 2). Historical fantasy from the
+  bestselling author of *The Bear and the Nightingale*.
+- **Songs of the Dead** by Brandon Sanderson & Peter Orullian (June 16). New Sanderson
+  series launch.
+- **Exodus: The Helium Sea** by Peter F. Hamilton (June 16). Conclusion of the Archimedes
+  Engine duology.
+- **Sublimation** by Isabel J. Kim (June 2). The month's most-hyped SF debut, "for fans of
+  *Severance*."
+
+**Romance & romantasy**
+- **Father Material** by Alexis Hall (June 2). Return to the beloved *Boyfriend Material*
+  couple.
+- **Shattered Gods** by Katee Robert (June 2). Dark Olympus #10.
+- **The Missed Connection** by Tia Williams (June 9). New romance from the *Seven Days in
+  June* author.
+- **The Feywild Job** by C.L. Polk (June 30). Official D&D romantasy.
+
+**Horror**
+- **Dead But Dreaming of Electric Sheep** by Paul Tremblay (June 30). New genre-bender from
+  a leading horror name.
+- **Headlights** by CJ Leede (June 9). Follow-up from the author of *Maeve Fly*.
+- **It Came From Neverland** by Cynthia Pelayo (June 9). "Peter Pan meets *It*."
+
 ---
 
 ## 1. Literary & General Fiction
 
 ### Lead titles
 
-- **Whistler** by Ann Patchett (Harper, US / Bloomsbury, UK). US June 2; UK June 4.
+- ★ **Whistler** by Ann Patchett (Harper, US / Bloomsbury, UK). US June 2; UK June 4.
   Daphne Fuller, an English teacher in her fifties, reconnects with a former stepfather
   (Eddie Triplett) after a chance encounter at the Met, across two timelines. A
   meditation on impermanence and connection that defies time. 500K first printing; Katie
   Couric Book Club pick.
 
-- **Land** by Maggie O'Farrell (Knopf, US / Tinder Press, UK). June 2. From the author of
+- ★ **Land** by Maggie O'Farrell (Knopf, US / Tinder Press, UK). June 2. From the author of
   *Hamnet*: in 1865 Ireland, Tomas surveys the land for the British Ordnance Survey, then
   quits after a mystical encounter to map it "how it really is," sparking a
   multi-generational saga running from the Great Hunger to Canada and India.
 
-- **Villa Coco** by Andrew Sean Greer (Doubleday, US / Hodder & Stoughton/Sceptre, UK).
+- ★ **Villa Coco** by Andrew Sean Greer (Doubleday, US / Hodder & Stoughton/Sceptre, UK).
   June 9. From the Pulitzer winner behind *Less*, a warm, madcap tale of a young American
   who takes a mysterious job helping a charismatic elderly Baronessa at her crumbling
   villa in the Tuscan hills.
 
-- **Contrapposto** by Dave Eggers (Knopf). June 9. Twenty years in the making and drawing
+- ★ **Contrapposto** by Dave Eggers (Knopf). June 9. Twenty years in the making and drawing
   on Eggers's own art-school years, the 65-year friendship, partnership, and love affair
   of artists Cricket Dib and Olympia Argyros.
 
-- **The Typing Lady: And Other Fictions** by Ruth Ozeki (Viking). June 2. Ozeki's first
+- ★ **The Typing Lady: And Other Fictions** by Ruth Ozeki (Viking). June 2. Ozeki's first
   story collection: eleven stories of characters at life's thresholds, grappling with
   shifting identities and the compromises that shape a life.
 
@@ -126,11 +188,11 @@ editorial "best of" lists, and runs to roughly 250 titles.
 
 ## 2. Commercial, Book-Club & Women's Fiction
 
-- **Our Perfect Storm** by Carley Fortune. June *(approx)*. After a broken engagement,
+- ★ **Our Perfect Storm** by Carley Fortune. June *(approx)*. After a broken engagement,
   best friends take the would-be honeymoon trip together, with one week in paradise to fix
   their friendship or fall apart. Lead beach read from the #1 NYT bestseller.
 
-- **The Shampoo Effect** by Jenny Jackson (Pamela Dorman Books/Penguin). June 30. An
+- ★ **The Shampoo Effect** by Jenny Jackson (Pamela Dorman Books/Penguin). June 30. An
   ambitious woman insinuates herself into a tight-knit set in a seaside New England town,
   exposing secrets, from the author of *Pineapple Street*.
 
@@ -185,7 +247,7 @@ editorial "best of" lists, and runs to roughly 250 titles.
 
 ## 3. Historical Fiction
 
-- **Daughters of the Sun and Moon** by Lisa See (Scribner). June 9. Three Chinese women,
+- ★ **Daughters of the Sun and Moon** by Lisa See (Scribner). June 9. Three Chinese women,
   including Dove, a bound-footed scholar's daughter in an arranged marriage, forge a bond
   in 1870s Los Angeles amid intense anti-Chinese sentiment.
 
@@ -248,7 +310,7 @@ single-source details as provisional.*
 
 ### Epic / secondary-world fantasy
 
-- **The Unicorn Hunters** by Katherine Arden (Del Rey; Putnam per Gizmodo). June 2.
+- ★ **The Unicorn Hunters** by Katherine Arden (Del Rey; Putnam per Gizmodo). June 2.
   Historical fantasy: Anne of Brittany resists French conquest, secretly betrothing
   herself to a rival and planning a unicorn hunt into an enchanted forest.
 - **The Heart of the Nhaga** (The Bird That Drinks Tears #1) by Lee Young-do, trans. Anton
@@ -307,7 +369,7 @@ single-source details as provisional.*
 
 - **Inkpot Gods** (Alchemical Journeys #4) by Seanan McGuire (Tordotcom). June 9. A young
   alchemist confronts the legacy of history's most powerful alchemist.
-- **Songs of the Dead** (The Strata Wars #1) by Brandon Sanderson & Peter Orullian
+- ★ **Songs of the Dead** (The Strata Wars #1) by Brandon Sanderson & Peter Orullian
   (Tordotcom/Saga Press). June 16. A deceased London musician joins a secret magic society
   opposing angry spirits during a revolution beneath the city.
 
@@ -322,7 +384,7 @@ single-source details as provisional.*
 
 ### Space opera / far-future SF
 
-- **Exodus: The Helium Sea** by Peter F. Hamilton (Del Rey, US / Tor UK, Pan Macmillan).
+- ★ **Exodus: The Helium Sea** by Peter F. Hamilton (Del Rey, US / Tor UK, Pan Macmillan).
   June 16, simultaneous US/UK. Conclusion of the Archimedes Engine duology: the Crown
   Dominion faces an exiled faction returning after seven thousand years. ~752 pages.
 - **The Sixth Nik** by Daniel Kraus (Saga Press). June 23. A tech-enhanced nine-year-old
@@ -335,7 +397,7 @@ single-source details as provisional.*
 
 ### Literary / speculative SF
 
-- **Sublimation** by Isabel J. Kim (Tor/Macmillan). June 2. Immigrating leaves a copy of
+- ★ **Sublimation** by Isabel J. Kim (Tor/Macmillan). June 2. Immigrating leaves a copy of
   yourself behind; one returns to Korea to find her copy plotting to take her place.
   Heavily hyped debut, "for fans of *Severance*."
 - **Voyagers** by Meg Charlton (Harper). June 16. Two childhood alien abductees reunite
@@ -381,7 +443,7 @@ single-source details as provisional.*
 
 ### YA / crossover SFF
 
-- **Six of Crows: A Darker Shore** and companion **Letters from Ketterdam** by Leigh Bardugo
+- ★ **Six of Crows: A Darker Shore** and companion **Letters from Ketterdam** by Leigh Bardugo
   (Flatiron). June 30. A Grishaverse mystery told in part through found documents, set
   years after a massacre in Ketterdam.
 - **Her Sharp Embrace** by Kate Koenig (Tor Teen). June 9. First of a queer fantasy duology
@@ -423,10 +485,10 @@ marked (approx). Verified exact dates are noted.*
 
 ### Romantasy / fantasy romance
 
-- **Shattered Gods** (Dark Olympus #10) by Katee Robert (Sourcebooks Casablanca). June 2
+- ★ **Shattered Gods** (Dark Olympus #10) by Katee Robert (Sourcebooks Casablanca). June 2
   (verified). Hermes, rebuilding with Atalanta, faces the return of her lost love Circe,
   risen blood-soaked and bent on shattering Olympus.
-- **The Feywild Job** (D&D) by C.L. Polk (Del Rey/Random House Worlds). June 30 (verified).
+- ★ **The Feywild Job** (D&D) by C.L. Polk (Del Rey/Random House Worlds). June 30 (verified).
   A grifter sworn never to love reunites with their ex on a Feywild gem heist. Cozy
   romantasy.
 - **The Raven at the Ash Door** (Oak & Holly #3) by K.A. Linde (Entangled/Red Tower). June
@@ -449,10 +511,10 @@ marked (approx). Verified exact dates are noted.*
 
 ### Contemporary romance
 
-- **Father Material** by Alexis Hall (Sourcebooks Casablanca). June 2 (verified). London
+- ★ **Father Material** by Alexis Hall (Sourcebooks Casablanca). June 2 (verified). London
   Calling #3. Married queer couple Luc and Oliver consider expanding their family beyond
   their dog, Spud.
-- **The Missed Connection** by Tia Williams (Grand Central). June 9 *(some retailers June
+- ★ **The Missed Connection** by Tia Williams (Grand Central). June 9 *(some retailers June
   16)*. Casting agent Sasha Cruz has a spark-filled encounter with a brooding seatmate on
   a flight to Paris but never exchanges contact info, then searches for him.
 - **The Summer Girlfriend** by Kristina Forest. June 9 *(approx)*. A fake-girlfriend
@@ -562,10 +624,10 @@ marked (approx). Verified exact dates are noted.*
 
 ### US releases
 
-- **You First** by Caroline Kepnes (Random House). June 9. A Joe Goldberg prequel:
+- ★ **You First** by Caroline Kepnes (Random House). June 9. A Joe Goldberg prequel:
   seventeen-year-old Joe works in Mr. Mooney's bookshop and lies about his age when
   twenty-four-year-old production assistant Vail Gunderson takes an interest.
-- **Red Sheet** by James Ellroy (Knopf). June *(one source June 9)*. Early-1960s LA: an
+- ★ **Red Sheet** by James Ellroy (Knopf). June *(one source June 9)*. Early-1960s LA: an
   LAPD fixer uncovers alleged communist conspiracies amid Cold War paranoia.
 - **The Pinnacle** by Abir Mukherjee (Little, Brown, US / Harvill Secker, UK). US June / UK
   June 18. Washed-up actor George Abercrombie wakes beside his murdered Bollywood-star wife
@@ -601,7 +663,7 @@ marked (approx). Verified exact dates are noted.*
   them in a deadly love triangle.
 - **The Butler** by Clare Mackintosh. June 16. A butler aids a murder investigation in the
   South of France.
-- **It Could Have Been Her** by Lisa Jewell (Atria, US / Century, UK). June 23. A sequel to
+- ★ **It Could Have Been Her** by Lisa Jewell (Atria, US / Century, UK). June 23. A sequel to
   *Don't Let Him In*: a lost dog, a missing woman, and a house of long-buried secrets, as
   Jane Trevally uncovers what happened there 25 years earlier.
 - **Nine Lives** by Catherine Steadman (Quercus). June 23. A woman peering into her
@@ -680,9 +742,9 @@ June 2026, but the hardcover published September 2025. June 2026 is the UK paper
   attacks her, and faces escalating consequences.
 - **Muneca** by Cynthia Gomez (Saga Press; Putnam per one source). June 2. *(Also under
   SFF.)* A witch suspects dark magic while caring for a paralyzed heiress in 1968 Oakland.
-- **Headlights** by CJ Leede (Tor Nightfire). June 9. People in Denver wake on roadsides
+- ★ **Headlights** by CJ Leede (Tor Nightfire). June 9. People in Denver wake on roadsides
   wearing the skin of murder victims; a near-retirement agent confronts his past.
-- **It Came From Neverland** by Cynthia Pelayo (Crooked Lane / Saga Press). June 9. "Peter
+- ★ **It Came From Neverland** by Cynthia Pelayo (Crooked Lane / Saga Press). June 9. "Peter
   Pan meets Stephen King's *It*." In 1914 London, Wendy Darling aids returning Western
   Front soldiers, haunted by memories of Peter Pan.
 - **The Sixth Nik** by Daniel Kraus (Saga Press). June 23. *(Also under SFF.)* Space horror
@@ -692,7 +754,7 @@ June 2026, but the hardcover published September 2025. June 2026 is the UK paper
 - **Tillinghast** by Clare Cavenagh (Viking). June 23. Inspired by the New England vampire
   panic; a reclusive minister with a thirst for blood meets a girl who shares his surname
   and affliction.
-- **Dead But Dreaming of Electric Sheep** by Paul Tremblay (William Morrow). June 30.
+- ★ **Dead But Dreaming of Electric Sheep** by Paul Tremblay (William Morrow). June 30.
   *(Also under SF.)* A streamer pilots a mostly-deceased man via implanted AI as reality
   warps.
 - **Bad Things Happen Here** by Mark Morris *(publisher unconfirmed)*. June 30. College
