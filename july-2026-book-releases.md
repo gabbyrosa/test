@@ -229,10 +229,6 @@ PRH, and publisher pages. Conflicts are flagged.*
 - **Dominion** by Jean Kwok (PRH). July 14. From the author of *Girl in Translation*: an
   amnesiac refugee with little magic competes in a brutal trial where metal mages select
   riders. "Fourth Wing meets The Hunger Games with Chinese mythology."
-- **The Amber Owl** by Juliet Marillier (Solaris). July *(approx)*. Historical/Celtic
-  fantasy; first UK edition.
-- **Birth of Orisha** by Oghenechovwe Donald Ekpeki (Caezik). July *(approx)*.
-  African-inspired fantasy.
 
 ### Cozy fantasy
 
@@ -269,8 +265,14 @@ PRH, and publisher pages. Conflicts are flagged.*
   Martha Wells. *(June listings also appeared; publisher page gives July 7.)*
 - **The Bird Tribe** (The Dreambird Chronicles #3) by Lucinda Roy (Tor). July 7. A trilogy
   finale set in a nation torn by a "Civil War Sequel."
-- **Thieves' Sky** by Wil McCarthy (Baen). July *(approx)*. Hard SF.
-- **Ice Vegas** by Larry Niven & Steven Barnes (Blackstone). July *(approx)*. SF.
+- **Thieves' Sky** (Rich Man's Sky #4) by Wil McCarthy (Baen). July 7. As trillionaires fight
+  over space resources and rogue AIs roam, a dangerous alien technology called the Fracture
+  falls into the hands of space pirates, and the crew of the CV Defender must track them down
+  before it destroys the Solar System.
+- **Ice Vegas** by Larry Niven & Steven Barnes (Blackstone). July 14. In a fusion-powered
+  future city beside a massive nuclear plant, a security chief and a deadly assassin must stop
+  saboteurs from a power-hungry family who aim to cripple the plant and kill hundreds of
+  thousands.
 
 ### Dystopian / literary SF
 
@@ -291,9 +293,13 @@ PRH, and publisher pages. Conflicts are flagged.*
 
 ### Anthologies / collections
 
-- **The Sworn Soldier** by T. Kingfisher (Subterranean Press). July *(approx)*. A gothic
-  fantasy collection.
-- **Lovecraft's Brood** ed. Ellen Datlow (Tachyon). July *(approx)*. Weird/horror anthology.
+- **The Sworn Soldier** by T. Kingfisher (Subterranean Press). July *(approx)*. An omnibus
+  gathering the three interconnected Alex Easton novellas (beginning with *What Moves the
+  Dead*) for the first time, following the Gallacian former soldier through Poe- and
+  folklore-inspired supernatural mysteries.
+- **Lovecraft's Brood** ed. Ellen Datlow (Tachyon). July 21. A reprint anthology of nineteen
+  tales of cosmic horror, billed as the sequel to *Lovecraft's Monsters*, with authors
+  including T. Kingfisher, Paul Tremblay, Caitlin R. Kiernan, and Laird Barron.
 
 *(Flag: **A Trade of Blood** by Robert Jackson Bennett is widely listed for July 21 but the
 publisher and retailers give August 4. Treated as an August title.)*
@@ -332,18 +338,26 @@ publisher and retailers give August 4. Treated as an August title.)*
   cynical divorce lawyer, enemies-to-lovers.
 - **In Stormy Weather** by Chelsea Curto. July 14 *(approx)*. Storm-chasing meteorologists,
   rivals-to-lovers during a Florida hurricane season.
-- **The Name Game** by Beth O'Leary (Quercus UK, likely). July *(approx)*. Contemporary
-  rom-com.
-- **Rich Girl Summer** by Lily Chu. July *(approx)*. Contemporary rom-com.
-- **Book Club Boyfriend** by Jenny Holiday. July *(approx)*. Contemporary rom-com.
+- **Rich Girl Summer** by Lily Chu. July 7. After a viral fiasco tanks event planner Valerie
+  Peng's career, a wealthy client hires her to spend the summer at his lakefront estate posing
+  as his long-lost daughter, watched only by his maddeningly perfect executive assistant.
+- **Book Club Boyfriend** by Jenny Holiday. July 28. A bubbly former rom-com star turned
+  aspiring producer invites the surly bestselling author who publicly snubbed her celebrity
+  book club to stay in her pool house. Enemies-to-lovers.
 
 ### Sports romance
 
 - **The Final Score** by Lana Ferguson (Berkley). July 7 (verified). A hockey player and a
   grad student discover chemistry.
-- **Knights Like These** (Off the Ice #3) by Kendall Ryan. July *(approx)*. Hockey romance.
-- **The Paddock Club** (Slipstream #2) by Madge Maril. July *(approx)*. F1/motorsport romance.
-- **Sacked** (The Coopers #3) by Aleatha Romig. July *(approx)*. Football/sports romance.
+- **Knights Like These** (Off the Ice #3) by Kendall Ryan. July 23. A single-dad NHL goalie and
+  his childhood best friend finally give in to a years-in-the-making slow burn, complicated by
+  scene-stealing twins.
+- **The Paddock Club** (Slipstream #2) by Madge Maril. July. Heartbreaker and fashion
+  influencer Cat Cromwell takes a secret job to date and dump an F1 driver, but his rival
+  suspects she is not who she claims and draws her into a game that threatens to become real.
+- **Sacked** (The Coopers #3) by Aleatha Romig. July *(some sources August)*. Vee Hubbard
+  fights to secure her future as owner of the NFL's Lexington Coopers, but signing a magnetic
+  star quarterback puts everything she has built at risk. Romantic suspense.
 
 ### Romantasy / fantasy romance
 
@@ -351,8 +365,10 @@ publisher and retailers give August 4. Treated as an August title.)*
 - **A Forsaken Prophecy** by Stacey McEwan. July 14 (verified). *(See SFF.)*
 - **Dominion** by Jean Kwok. July 14. *(See SFF.)*
 - **Sea of Charms** by Sarah Beth Durst. July 28. *(See SFF; reads as cozy romantasy.)*
-- **In the Wake of the Ruined** (Siren Mage #2) by Kalie Cassidy. July 7 *(approx)*. Dark
-  fantasy romance.
+- **In the Wake of the Ruined** (Siren Mage #2) by Kalie Cassidy. July 7 *(approx)*. Having
+  claimed her ancestral crown and grotesque new magic, Siren Imogen Nel races to sever the
+  corrupted bond she shares with an ancient deity as war looms, while her feelings for the
+  King of Varya threaten to undo her.
 
 ### Paranormal / urban fantasy romance
 
@@ -372,16 +388,21 @@ publisher and retailers give August 4. Treated as an August title.)*
 
 - **Falling into You** (Colburn Brothers #3) by Jill Shalvis (Kensington). July 14 (verified).
   A grumpy hero who never stopped loving her, plus family chaos.
-- **Into the Fading Twilight** (Starlight Grove #2) by Catherine Cowles. July *(approx)*.
-  Small-town romance.
-- **Westward** (Ashford Creek #3) by Carrie Ann Ryan. July *(approx)*. Western/small-town.
+- **Into the Fading Twilight** (Starlight Grove #2) by Catherine Cowles. July 7 *(approx)*.
+  Back in Starlight Grove after a year in captivity, adrenaline-chasing Nova Monroe refuses to
+  be caged again, while a Forest Service investigator makes it his mission to protect her as a
+  hidden danger closes in.
+- **Westward** (Ashford Creek #3) by Carrie Ann Ryan. July *(approx)*. An NHL star goalie
+  returns to his small hometown and reunites with the woman he left behind, in a second-chance
+  romance shadowed by someone who does not want him back.
 
 ### Dark romance
 
 - **Burn** by Nia Myst. July 2 *(approx)*. Dark romance; a psychopath cop hunts a vigilante
   killing criminals.
-- **Tempting Venom** (Vipers #3) by Rina Kent. July *(approx)*. Dark romance.
-- **Alluring Deception** (Five-Leaf Clover #2) by Cora Reilly. July *(approx)*. Mafia romance.
+- **Tempting Venom** (Vipers #3) by Rina Kent. June 30 / July 7 *(sources differ)*. Depraved
+  hockey player Preston Armstrong collides with the captain of a rival team, turning their
+  violent rivalry into an addictive MM dark romance.
 
 ---
 
@@ -469,8 +490,13 @@ publisher and retailers give August 4. Treated as an August title.)*
   confession.
 - **Scary Movie Night** by Miranda Smith. July 14 *(publisher unconfirmed)*. A horror-themed
   birthday party turns deadly as guests disappear.
-- **The Séance Garden** by Juliet Blackwell. July 28 *(publisher unconfirmed)*. A ghost story.
-- **A Penance for Crows** by Shannon Morgan. July 28 *(publisher unconfirmed)*. Gothic horror.
+- **The Séance Garden** by Juliet Blackwell (Berkley). July 28. Skeptical professor Harper
+  Grae, an expert on witchcraft and the occult, joins a haunted-locations night tour in
+  Monterey only to stumble on the murdered body of a local artist on the grounds of a
+  centuries-old mansion.
+- **A Penance for Crows** by Shannon Morgan. July 28. On a crow-infested island off Ireland's
+  Beara Peninsula, an outsider artist finds a young priest's body marked with a diabolical
+  symbol and is plagued by demonic whispers as suspicion engulfs the island. Modern gothic.
 
 *(Flag: **The Burn Line** by Jonathan Sims (The Magnus Archives) is listed by Gollancz for UK
 July 2026, but the US publisher gives late August. Likely a UK-July vs US-August split.)*
@@ -488,8 +514,12 @@ July 2026, but the US publisher gives late August. Likely a UK-July vs US-August
 - **The Mulai** by Munir Hachemi, trans. Julia Sanches (Fitzcarraldo Editions). July. Literary
   SF in translation; post-climate-war colonists on an unnamed planet worship a deity called
   Dog.
-- **Exhibition** by Alex Hyde (Granta). July *(synopsis unconfirmed)*. Literary fiction.
-- **Venus, Vanishing** by Rebecca Birrell (Picador). July *(approx)*. Historical/literary.
+- **Exhibition** by Alex Hyde (Granta). July. The second novel from the author of *Violets*.
+  (A plot synopsis was not available from the publisher at research time.)
+- **Venus, Vanishing** by Rebecca Birrell (Picador). July *(approx)*. In 1928 Berlin, a
+  tailor-turned-artist pursues freedom and a reckless affair with her patron; when her
+  acclaimed nude "Venus" portraits are exhibited under a man's name, she turns her art into an
+  act of revenge.
 - **Time to Burn** by Ellery Lloyd (Macmillan). July. A time-travel thriller; commercial time
   travel sells the ultra-rich trips to the 1941 Blitz, and a documentary shoot goes wrong.
 - **The Runner** by Scarlett Thomas (Scribner UK). UK July *(US listed November)*. A literary
@@ -499,8 +529,14 @@ July 2026, but the US publisher gives late August. Likely a UK-July vs US-August
 - **Earth 7** by Deb Olin Unferth (Daunt Books Originals). July. Apocalyptic literary fiction.
 - **Eden Falls** by Ajay Chowdhury (Harvill). July. A speculative thriller.
 - **Henry Tudor Must Die** by Jillian Laine (Michael Joseph). July. Historical romantasy.
-- **Lonely Mouth** by Jacqueline Maley (Chatto & Windus). July. Family drama.
+- **Lonely Mouth** by Jacqueline Maley (Chatto & Windus). July 2. Tightly controlled Matilda
+  works at one of Sydney's buzziest restaurants and rigidly manages her cravings until her
+  younger half-sister crashes back into town, dredging up the family's chaotic past. On
+  sisterhood, secrets, and food.
 - **The Man** by Laura Sims (Verve Books, UK / Putnam, US). July. Domestic suspense.
+- **Natural Disaster** by Lisa Owens (Virago). July. Over a single 24-hour period, a darkly
+  funny novel charts one woman's increasingly desperate attempts to spend one last perfect day
+  with her children before returning to her office job after maternity leave.
 
 ---
 
@@ -508,6 +544,10 @@ July 2026, but the US publisher gives late August. Likely a UK-July vs US-August
 
 Verified corrections, to keep the list clean:
 
+- **Beth O'Leary**, *The Name Game* - April 7
+- **The Amber Owl** by Juliet Marillier - February 2025 (Australia); no confirmed July 2026 US edition
+- **Birth of Orisha** by Oghenechovwe Donald Ekpeki - no firm date (author tags it a 2027 debut)
+- **Alluring Deception** by Cora Reilly - was July 8, now delayed indefinitely
 - **Liane Moriarty**, *Big Little Truths* (Big Little Lies sequel) - August 25
 - **Robert Jackson Bennett**, *A Trade of Blood* - August 4
 - **Tarah DeWitt**, *Lost and Found* (Spunes #3) - August 4

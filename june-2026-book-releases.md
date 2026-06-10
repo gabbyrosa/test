@@ -240,9 +240,6 @@ roundups. Grouped by category.
 - **Pink Sand Summer** by Chassity Evans. Summer 2026 *(June date uncertain)*. An insider's
   beach read set on Harbour Island.
 
-- **Natural Disaster** by Lisa Owens (Virago, UK). June *(approx)*. Contemporary fiction on
-  mother-child relationships.
-
 ---
 
 ## 3. Historical Fiction
@@ -297,9 +294,6 @@ roundups. Grouped by category.
 - **A Fortune of Sand** by Ruta Sepetys. June *(flag: month uncertain)*. Prohibition-era
   Detroit; an automotive magnate's daughter tries to escape her gilded world and finds
   danger.
-
-- **The War Girls** by V.S. Alexander (Kensington). June *(date uncertain)*. WWII-era
-  historical fiction.
 
 ---
 
@@ -593,9 +587,9 @@ marked (approx). Verified exact dates are noted.*
   and a schoolteacher become a murder-solving team. Includes a bonus novella.
 - **Harvest Season** by Brynne Weaver. June 9 *(approx)*. A man uncovers secrets in a
   mysterious town while falling for a woman with a dangerous past.
-- **Alluring Deception** (Five-Leaf Clover #2) by Cora Reilly. June *(unverified)*. Mafia
-  romance.
-- **Pretty Little Scars** by Kristen Proby. June *(unverified)*.
+- **Pretty Little Scars** (Silver Springs #1) by Kristen Proby. June *(approx)*. A veterinary
+  intern moves onto her new boss's Montana ranch and realizes he is a man she once flirted
+  with years ago, until someone threatens to derail her new happiness.
 
 ### Small-town / western romance
 
@@ -725,11 +719,20 @@ June 2026, but the hardcover published September 2025. June 2026 is the UK paper
 - **My Sister's Secret** by Jane Corry (Penguin). June 18. A psychiatrist suspects two
   siblings are concealing something.
 - **The Bookseller** by Tim Sullivan (Atlantic Crime). June 1. A DS Cross police procedural.
-- **The Aristocracy** by Patrick Worrall (Bantam). June *(date unverified)*. Thriller.
-- **Solitary Agents** by David Goodman (Headline). June *(unverified)*. Thriller.
-- **We Know What You Did** by Kirsty Lockwood (Orion). June *(unverified)*. Debut thriller.
-- **The Final Six** by Akinari Asakura (Sphere). June *(unverified)*. Japanese corporate
-  thriller, translated.
+- **The Aristocracy** by Patrick Worrall (Bantam). June 4. When the most notorious inmate at a
+  maximum-security prison escapes and hides in a decaying town, an intelligence officer who
+  grew up there must confront his own dark past in a twisted cat-and-mouse hunt.
+- **Solitary Agents** by David Goodman (Headline). June 4. Two reluctant recruits, an ex-tech
+  executive and a burnt-out lawyer, are pitted against each other in a final MI5/MI6
+  evaluation, until they witness the apparent murder of a fellow trainee.
+- **We Know What You Did** by Kirsty Lockwood (Orion). June 4. A nineteen-year-old and an
+  eighty-year-old are beloved online for their unlikely friendship, until he is murdered
+  during a livestream and she is filmed covered in his blood and refuses to speak in her own
+  defense. Debut.
+- **The Final Six** by Akinari Asakura (Sphere). June 4. Shogo Hatano is one of six finalists
+  for a job at Japan's most exclusive tech firm when an email reveals only one will be hired
+  and the candidates must choose among themselves, then receives envelopes exposing each
+  rival's secrets. Translated Japanese suspense.
 
 ---
 
@@ -813,6 +816,10 @@ June 2026, but the hardcover published September 2025. June 2026 is the UK paper
 To prevent false entries, these prominent titles appear in summer roundups but publish in
 other months (verified):
 
+- **Natural Disaster** by Lisa Owens (Virago) - July (UK), not June
+- **The War Girls** by V.S. Alexander - originally published 2022, not a 2026 title
+- **Alluring Deception** by Cora Reilly - was July 8, now delayed indefinitely
+- **Into the Fading Twilight** by Catherine Cowles - July 7
 - **Elizabeth Strout**, *The Things We Never Say* (Random House) - May 5
 - **Douglas Stuart**, *John of John* (Grove/Picador) - May
 - **Julian Barnes**, *Departure(s)* (Cape/Knopf) - January 20
