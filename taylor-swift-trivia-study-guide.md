@@ -14,7 +14,8 @@
 5. [Songwriting, Collaborators & "Who Songs Are About"](#5-songwriting-collaborators--who-songs-are-about)
 6. [Concert Tours](#6-concert-tours)
 7. [Easter Eggs, Lore, Masters, Videos & Acting](#7-easter-eggs-lore-masters-videos--acting)
-8. [Rapid-Fire Q&A](#8-rapid-fire-qa)
+8. [Lyrics Round (Finish the Line)](#8-lyrics-round-finish-the-line)
+9. [Rapid-Fire Q&A](#9-rapid-fire-qa)
 
 ---
 
@@ -235,7 +236,58 @@ Three cats, all named after TV/film characters:
 
 ---
 
-## 8. Rapid-Fire Q&A
+## 8. Lyrics Round (Finish the Line)
+
+Lyric rounds are where matches are won or lost. Drill these three ways: name the song from the opening line, finish the line, and know the famous "Track 5" emotional songs.
+
+### A. Name the song from its opening line
+| Opening line | Song |
+|---|---|
+| "He said the way my blue eyes shined / put those Georgia stars to shame that night" | "Tim McGraw" |
+| "You're on the phone with your girlfriend, she's upset" | "You Belong With Me" |
+| "We were both young when I first saw you" | "Love Story" |
+| "I am not the kind of girl who should be rudely barging in on a white veil occasion" | "Speak Now" |
+| "I walked through the door with you, the air was cold" | "All Too Well" |
+| "I remember when we broke up the first time" | "We Are Never Ever Getting Back Together" |
+| "Nice to meet you, where you been?" | "Blank Space" |
+| "I stay out too late, got nothing in my brain" | "Shake It Off" |
+| "I have this thing where I get older but just never wiser" | "Anti-Hero" |
+| "We could leave the Christmas lights up 'til January" | "Lover" |
+| "I'm doing good, I'm on some new shit" | "the 1" |
+
+### B. Finish the line
+| Setup | Completion |
+|---|---|
+| "We are never ever ever..." | "...getting back together" |
+| "'Cause, darling, I'm a nightmare dressed like a..." | "...daydream" |
+| "I knew you were trouble when you..." | "...walked in" |
+| "It's me, hi, I'm the..." | "...problem, it's me" |
+| "'Cause she's cheer captain and..." | "...I'm on the bleachers" |
+| "Band-Aids don't fix..." | "...bullet holes" |
+| "I had the time of my life fighting..." | "...dragons with you" |
+| "Loving him was..." | "...red" |
+| "Karma is my..." | "...boyfriend" |
+| "I once believed love would be burning red, but it's..." | "...golden, like daylight" |
+
+### C. The famous "Track 5" on every album
+Fans know Track 5 is reserved for her most emotional/vulnerable song. A classic trivia angle:
+| Album | Track 5 |
+|---|---|
+| Taylor Swift | "Cold as You" |
+| Fearless | "White Horse" |
+| Speak Now | "Dear John" |
+| Red | "All Too Well" |
+| 1989 | "All You Had to Do Was Stay" |
+| reputation | "Delicate" |
+| Lover | "The Archer" |
+| folklore | "my tears ricochet" |
+| evermore | "tolerate it" |
+| Midnights | "You're On Your Own, Kid" |
+| The Tortured Poets Department | "So Long, London" |
+
+---
+
+## 9. Rapid-Fire Q&A
 
 **Biography**
 1. Q: Taylor's full name? **A: Taylor Alison Swift.**
