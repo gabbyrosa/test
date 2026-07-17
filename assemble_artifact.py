@@ -12,6 +12,7 @@ import os
 
 import natal
 import build_chart_wheel
+import astrocartography
 from natal import fmt
 
 FONT_DIR = "fonts"
@@ -53,6 +54,16 @@ def placements_rows(data):
     return "\n          ".join(rows)
 
 
+def acg_legend():
+    items = []
+    for name, _body, glyph, color in astrocartography.ACG_BODIES:
+        items.append(
+            f'<span class="item"><span class="sw" style="background:{color}">'
+            f'</span><span class="pg">{glyph}\ufe0e</span>{name}</span>'
+        )
+    return "\n          ".join(items)
+
+
 def angles_line(data):
     dc = (data["asc"] + 180) % 360
     ic = (data["mc"] + 180) % 360
@@ -74,6 +85,8 @@ def main():
         html = html.replace(token, b64_font(os.path.join(FONT_DIR, fname)))
     html = html.replace("%%WHEEL_SVG%%", svg_placidus)
     html = html.replace("%%WHEEL_SVG_WS%%", svg_whole)
+    html = html.replace("%%ACG_SVG%%", astrocartography.build_svg(data))
+    html = html.replace("%%ACG_LEGEND%%", acg_legend())
     html = html.replace("%%PLACEMENTS_ROWS%%", placements_rows(data))
     html = html.replace("%%ANGLES_LINE%%", angles_line(data))
 

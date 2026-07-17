@@ -168,6 +168,40 @@
   .fade:nth-child(2){animation-delay:.08s}
   @keyframes rise{to{opacity:1; transform:none}}
   @media (prefers-reduced-motion:reduce){.fade{animation:none; opacity:1; transform:none}}
+
+  /* astrocartography map */
+  :root{ --acg-ocean:#e9e2d2; --acg-land:#d6cba9; --acg-grid:rgba(60,50,20,.11); }
+  @media (prefers-color-scheme:dark){ :root{ --acg-ocean:#0e1330; --acg-land:#242b4e; --acg-grid:rgba(190,200,230,.07); } }
+  :root[data-theme="light"]{ --acg-ocean:#e9e2d2; --acg-land:#d6cba9; --acg-grid:rgba(60,50,20,.11); }
+  :root[data-theme="dark"]{ --acg-ocean:#0e1330; --acg-land:#242b4e; --acg-grid:rgba(190,200,230,.07); }
+  .acg-wrap{overflow-x:auto; margin-top:1.5rem; padding:.4rem; border:1px solid var(--line); border-radius:3px; background:var(--acg-ocean)}
+  .acg{display:block; width:100%; min-width:660px; height:auto}
+  .acg-ocean{fill:var(--acg-ocean)}
+  .acg-land{fill:var(--acg-land); stroke:none}
+  .acg-grid{stroke:var(--acg-grid); stroke-width:1}
+  .acg-equator{stroke-width:1.4}
+  .acg-line{fill:none; stroke-width:1.5; opacity:.92}
+  .acg-horizon{stroke-dasharray:5 3; opacity:.82}
+  .acg-label{
+    font-family:var(--f-glyph); font-size:11px; font-variant-emoji:text;
+    paint-order:stroke; stroke:var(--acg-ocean); stroke-width:2.4px; stroke-linejoin:round;
+  }
+  .acg-home{fill:var(--gold); stroke:var(--acg-ocean); stroke-width:1.5}
+  .acg-home-label{
+    fill:var(--ink); font-family:var(--f-label); font-size:11px; font-weight:700;
+    paint-order:stroke; stroke:var(--acg-ocean); stroke-width:2.6px; stroke-linejoin:round;
+    text-transform:uppercase; letter-spacing:.07em;
+  }
+  .acg-legend{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(6.5rem,1fr));
+    gap:.45rem .9rem; margin-top:1rem; font-family:var(--f-label); font-size:.74rem;
+  }
+  .acg-legend span.item{display:inline-flex; align-items:center; gap:.45rem; color:var(--muted)}
+  .acg-legend .sw{width:1.1rem; height:.22rem; border-radius:1px; flex:none}
+  .acg-legend .pg{font-family:var(--f-glyph); font-variant-emoji:text; color:var(--ink)}
+  .acg-key{
+    font-size:.98rem; line-height:1.55; color:var(--muted); margin-top:1rem;
+  }
 </style>
 
 <div class="page">
@@ -275,11 +309,22 @@
     <p>The outermost planets move so slowly that they color a whole cohort rather than one person. You carry <strong>Pluto in Sagittarius</strong> (your second house by Placidus, third by whole sign), a generation reworking what it believes and what it values, alongside <strong>Neptune in Capricorn</strong> in the fourth house of home and roots, with <strong>Uranus in Aquarius</strong> close by. They set the historical weather of the mid-nineties; your personal planets, above, are how you weather it.</p>
   </section>
 
+  <section>
+    <p class="kicker">Astrocartography</p>
+    <h2>Where your planets touch the Earth</h2>
+    <p>Astrocartography relocates your birth chart across the whole planet. The instant you were born is fixed, but where you stand changes which planets sit on the horizon or the meridian. Every line below marks where a planet would be exactly <em>angular</em> at your birth moment if you lived there, and living on or near a line is said to turn up that planet's themes in your life.</p>
+    <div class="acg-wrap">%%ACG_SVG%%</div>
+    <div class="acg-legend">%%ACG_LEGEND%%</div>
+    <p class="acg-key">The straight vertical lines are <strong>MC</strong> and <strong>IC</strong>, where a planet culminates overhead or sits at its lowest. The dashed curves are <strong>AC</strong> and <strong>DC</strong>, where a planet rises in the east or sets in the west. The gold dot is your birthplace, Pittsburgh.</p>
+    <p>A few of yours to notice: your <strong>Sun and Venus MC lines</strong> run close together down western North America, the corridor of being seen, warmth, and easy charm. Your <strong>Jupiter line</strong> crosses central Asia, the classic signature of room to expand and grow. Your <strong>Moon line</strong> falls out toward the western Pacific and eastern Australia, about emotional belonging and feeling at home. Read them as symbolic invitations, not instructions, and remember a line's pull is a broad corridor, not a street address.</p>
+  </section>
+
   <div class="method">
     <b>How this was calculated.</b><br>
     Positions computed with the Swiss Ephemeris for June 7, 1996, 3:35 PM EDT (19:35 UT), over Pittsburgh, PA (40.44° N, 79.96° W).
     Tropical zodiac, true lunar node. Two wheels are shown, Placidus (split by time) and whole sign (one sign per house); both keep the same orientation so the planets line up. The placements table lists both systems. Retrograde planets are marked ℞.
     Aspect orbs: 8° for conjunction and opposition, 7° trine, 6° square, 5° sextile.
+    The astrocartography map solves each planet's equatorial position and Greenwich sidereal time for its MC/IC meridians and AC/DC horizon curves, on an equirectangular projection.
     A birth chart is a tool for reflection, offered in that spirit.
   </div>
 
