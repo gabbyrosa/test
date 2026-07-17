@@ -1,0 +1,272 @@
+<title>Natal Chart · June 7, 1996</title>
+<style>
+  @font-face{font-family:"Cormorant";src:url(data:font/woff2;base64,%%CORMORANT%%) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+  @font-face{font-family:"EB Garamond";src:url(data:font/woff2;base64,%%EBG400%%) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+  @font-face{font-family:"EB Garamond";src:url(data:font/woff2;base64,%%EBG500%%) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+
+  :root{
+    --bg:#f3edde; --bg-2:#fbf7ec; --ink:#26263f; --muted:#6c6782;
+    --line:#d7caa7; --line-soft:#e7dcc2; --gold:#9c7523; --gold-deep:#7a5817;
+    --fire:#c15f3f; --earth:#5f7f45; --air:#b98d33; --water:#3f68b0;
+    --aspect-harmony:#3f68b0; --aspect-tension:#c15f3f;
+    --glow:transparent;
+    --f-display:"Cormorant",Georgia,"Times New Roman",serif;
+    --f-body:"EB Garamond",Georgia,serif;
+    --f-mono:ui-monospace,"SF Mono","Cascadia Code",Menlo,Consolas,monospace;
+    --f-label:ui-sans-serif,system-ui,"Segoe UI",sans-serif;
+    --f-glyph:"Apple Symbols","Segoe UI Symbol","Noto Sans Symbols2","DejaVu Sans",serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#0c0f1f; --bg-2:#151a36; --ink:#ece7dc; --muted:#a7a9c4;
+      --line:#2c3159; --line-soft:#20264a; --gold:#dcbd7e; --gold-deep:#c19f5c;
+      --fire:#d67a58; --earth:#8bab68; --air:#d3ab5a; --water:#7098d6;
+      --aspect-harmony:#7098d6; --aspect-tension:#d67a58;
+      --glow:radial-gradient(circle at 50% 42%, rgba(220,189,126,.10), transparent 55%);
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#f3edde; --bg-2:#fbf7ec; --ink:#26263f; --muted:#6c6782;
+    --line:#d7caa7; --line-soft:#e7dcc2; --gold:#9c7523; --gold-deep:#7a5817;
+    --fire:#c15f3f; --earth:#5f7f45; --air:#b98d33; --water:#3f68b0;
+    --aspect-harmony:#3f68b0; --aspect-tension:#c15f3f; --glow:transparent;
+  }
+  :root[data-theme="dark"]{
+    --bg:#0c0f1f; --bg-2:#151a36; --ink:#ece7dc; --muted:#a7a9c4;
+    --line:#2c3159; --line-soft:#20264a; --gold:#dcbd7e; --gold-deep:#c19f5c;
+    --fire:#d67a58; --earth:#8bab68; --air:#d3ab5a; --water:#7098d6;
+    --aspect-harmony:#7098d6; --aspect-tension:#d67a58;
+    --glow:radial-gradient(circle at 50% 42%, rgba(220,189,126,.10), transparent 55%);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--f-body); font-size:1.18rem; line-height:1.72;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{max-width:47rem; margin:0 auto; padding:clamp(1.75rem,4vw,3.5rem) 1.25rem 4rem}
+
+  .eyebrow{
+    font-family:var(--f-label); text-transform:uppercase;
+    letter-spacing:.2em; font-size:.7rem; color:var(--gold-deep);
+    font-weight:600; margin:0 0 1rem;
+  }
+  h1{
+    font-family:var(--f-display); font-weight:600; line-height:1.04;
+    font-size:clamp(2.5rem,7vw,4rem); margin:0; text-wrap:balance;
+    letter-spacing:.005em;
+  }
+  .subtitle{
+    font-family:var(--f-mono); font-size:.86rem; letter-spacing:.02em;
+    color:var(--muted); margin:1rem 0 0;
+  }
+  .lede{font-size:1.24rem; margin:2rem 0 0; color:var(--ink)}
+  .lede .drop{
+    font-family:var(--f-display); float:left; font-size:3.4rem;
+    line-height:.8; padding:.28rem .5rem 0 0; color:var(--gold-deep);
+  }
+
+  section{margin-top:3.25rem}
+  h2{
+    font-family:var(--f-display); font-weight:600;
+    font-size:clamp(1.6rem,4vw,2.1rem); margin:0 0 .2rem; text-wrap:balance;
+  }
+  .kicker{
+    font-family:var(--f-label); text-transform:uppercase; letter-spacing:.18em;
+    font-size:.68rem; color:var(--gold-deep); font-weight:600; margin:0 0 .75rem;
+  }
+  h2 + p{margin-top:.6rem}
+  p{margin:1.05rem 0}
+  strong{font-weight:500; color:var(--gold-deep)}
+  em{font-style:italic}
+
+  /* chart wheel */
+  .wheel-wrap{
+    max-width:35rem; margin:2.5rem auto 0; padding:1rem;
+    background:var(--glow);
+  }
+  .wheel{width:100%; height:auto; display:block; overflow:visible}
+  .wheel circle.ring{fill:none; stroke:var(--line); stroke-width:1}
+  .wheel .ring{stroke:var(--line); stroke-width:1; fill:none}
+  .wheel .band-fill{stroke:none; opacity:.12}
+  .wheel .tick{stroke:var(--line); stroke-width:1; opacity:.55}
+  .wheel .cusp{stroke:var(--line-soft); stroke-width:1}
+  .wheel .cusp-angle{stroke:var(--gold); stroke-width:1.7}
+  .wheel .pointer{stroke:var(--line); stroke-width:.75; opacity:.55}
+  .wheel .house-num{fill:var(--muted); font-family:var(--f-mono); font-size:12px}
+  .wheel .angle-label{fill:var(--gold-deep); font-family:var(--f-label); font-weight:700; font-size:13px; letter-spacing:.06em}
+  .wheel .sign-glyph{font-family:var(--f-glyph); font-size:25px; font-variant-emoji:text}
+  .wheel .planet-glyph{fill:var(--ink); font-family:var(--f-glyph); font-size:23px; font-variant-emoji:text}
+  .wheel .planet-glyph.luminary{fill:var(--gold)}
+  .wheel .deg-label{fill:var(--muted); font-family:var(--f-mono); font-size:10.5px}
+  .wheel .aspect{stroke-width:1.1; opacity:.5; fill:none}
+  .wheel .aspect-harmony{stroke:var(--aspect-harmony)}
+  .wheel .aspect-tension{stroke:var(--aspect-tension)}
+  .el-fire{fill:var(--fire)} .el-earth{fill:var(--earth)}
+  .el-air{fill:var(--air)} .el-water{fill:var(--water)}
+
+  .legend{
+    display:flex; flex-wrap:wrap; gap:.35rem 1.25rem; justify-content:center;
+    font-family:var(--f-label); font-size:.72rem; text-transform:uppercase;
+    letter-spacing:.1em; color:var(--muted); margin:1rem 0 0;
+  }
+  .legend span{display:inline-flex; align-items:center; gap:.4rem}
+  .dot{width:.6rem; height:.6rem; border-radius:50%}
+
+  /* big three */
+  .three{display:grid; grid-template-columns:repeat(3,1fr); gap:.9rem; margin-top:1.5rem}
+  .card{
+    background:var(--bg-2); border:1px solid var(--line); border-radius:3px;
+    padding:1.15rem 1.15rem 1.25rem;
+  }
+  .card .role{
+    font-family:var(--f-label); text-transform:uppercase; letter-spacing:.14em;
+    font-size:.62rem; color:var(--muted); font-weight:600;
+  }
+  .card .glyph{
+    font-family:var(--f-glyph); font-size:1.9rem; color:var(--gold);
+    display:block; margin:.35rem 0 .1rem; font-variant-emoji:text;
+  }
+  .card .sign{font-family:var(--f-display); font-size:1.5rem; line-height:1.1}
+  .card .where{font-family:var(--f-mono); font-size:.72rem; color:var(--muted); margin-top:.15rem}
+  .card .essence{font-size:.98rem; line-height:1.5; margin-top:.6rem; color:var(--ink)}
+
+  /* placements table */
+  .table-wrap{overflow-x:auto; margin-top:1.5rem}
+  table{width:100%; border-collapse:collapse; font-size:1rem}
+  th,td{text-align:left; padding:.5rem .5rem; border-bottom:1px solid var(--line-soft)}
+  thead th{
+    font-family:var(--f-label); text-transform:uppercase; letter-spacing:.12em;
+    font-size:.64rem; color:var(--muted); font-weight:600; border-bottom:1px solid var(--line)
+  }
+  td .pglyph{font-family:var(--f-glyph); color:var(--gold-deep); margin-right:.5rem; font-variant-emoji:text}
+  td.pos,td.house{font-family:var(--f-mono); font-size:.86rem; font-variant-numeric:tabular-nums; white-space:nowrap}
+  .rx{color:var(--aspect-tension); font-family:var(--f-mono); font-size:.78rem}
+  .elem-tag{display:inline-flex; align-items:center; gap:.45rem}
+  .note-inline{font-size:.98rem; line-height:1.55; color:var(--muted); margin-top:1.1rem}
+
+  .method{
+    margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid var(--line);
+    font-family:var(--f-mono); font-size:.78rem; line-height:1.7; color:var(--muted);
+  }
+  .method b{color:var(--ink); font-weight:400}
+
+  @media (max-width:34rem){
+    .three{grid-template-columns:1fr}
+    body{font-size:1.1rem}
+  }
+
+  .fade{opacity:0; transform:translateY(12px); animation:rise .9s ease forwards}
+  .fade:nth-child(2){animation-delay:.08s}
+  @keyframes rise{to{opacity:1; transform:none}}
+  @media (prefers-reduced-motion:reduce){.fade{animation:none; opacity:1; transform:none}}
+</style>
+
+<div class="page">
+
+  <header>
+    <p class="eyebrow">Natal Chart · Tropical Zodiac</p>
+    <h1 class="fade">Gemini Sun,<br>Pisces Moon,<br>Libra Rising</h1>
+    <p class="subtitle fade">June 7, 1996 &nbsp;·&nbsp; 3:35 PM EDT &nbsp;·&nbsp; Pittsburgh, Pennsylvania</p>
+  </header>
+
+  <div class="wheel-wrap">
+    %%WHEEL_SVG%%
+  </div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--fire)"></span>Fire</span>
+    <span><span class="dot" style="background:var(--earth)"></span>Earth</span>
+    <span><span class="dot" style="background:var(--air)"></span>Air</span>
+    <span><span class="dot" style="background:var(--water)"></span>Water</span>
+    <span><span class="dot" style="background:var(--aspect-harmony)"></span>Harmonious aspect</span>
+    <span><span class="dot" style="background:var(--aspect-tension)"></span>Dynamic aspect</span>
+  </div>
+
+  <p class="lede"><span class="drop">A</span> birth chart is the sky held still: the exact arrangement of Sun, Moon, and planets above Pittsburgh at 3:35 that June afternoon, drawn as a wheel around the horizon you were born into. Read it as a portrait in symbols, not a verdict. Here is what the sky was saying.</p>
+
+  <section>
+    <p class="kicker">The Big Three</p>
+    <h2>Who shows up, and how</h2>
+    <div class="three">
+      <div class="card">
+        <div class="role">Sun · Self</div>
+        <span class="glyph">☉&#xFE0E;</span>
+        <div class="sign">Gemini</div>
+        <div class="where">9th house · 17°</div>
+        <p class="essence">Curious, quick, and verbal. You are lit up by ideas, questions, and variety.</p>
+      </div>
+      <div class="card">
+        <div class="role">Moon · Feeling</div>
+        <span class="glyph">☽&#xFE0E;</span>
+        <div class="sign">Pisces</div>
+        <div class="where">5th house (6th whole sign) · 9°</div>
+        <p class="essence">A tender, porous inner world. You feel everything, and you feel it in color.</p>
+      </div>
+      <div class="card">
+        <div class="role">Rising · Mask</div>
+        <span class="glyph">♎&#xFE0E;</span>
+        <div class="sign">Libra</div>
+        <div class="where">Ascendant · 16°</div>
+        <p class="essence">You meet the world with grace and fairness. Relationship is your native language.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="kicker">Placements</p>
+    <h2>The whole sky, in a table</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Body</th><th>Position</th><th>Placidus</th><th>Whole&nbsp;sign</th><th>Motion</th></tr>
+        </thead>
+        <tbody>
+          %%PLACEMENTS_ROWS%%
+        </tbody>
+      </table>
+    </div>
+    <p class="note-inline">Two house columns, because houses depend on the system you choose. <strong>Placidus</strong> (the wheel above) splits the sky by time and gives unequal houses; <strong>whole sign</strong> makes each zodiac sign one whole house, starting from Libra as your 1st. Signs, degrees, and aspects are identical either way; only the house a planet lands in can shift.</p>
+    <p class="subtitle" style="margin-top:1rem">%%ANGLES_LINE%%</p>
+  </section>
+
+  <section>
+    <p class="kicker">The luminaries and the mask</p>
+    <h2>A mind that travels, a heart that dreams</h2>
+    <p>Your <strong>Gemini Sun</strong> sits in the <strong>ninth house</strong>, the part of the chart that reaches for the horizon: travel, big ideas, higher learning, the search for meaning. Gemini already loves to gather and trade information, and in the ninth that curiosity grows wings. You are the perpetual student who collects perspectives the way other people collect souvenirs, happiest when something is teaching you how the wider world fits together.</p>
+    <p>Underneath the quick mind runs a <strong>Pisces Moon</strong>. This is the softest, most impressionable water sign holding your emotional life, so you absorb the mood of a room before a word is spoken and you carry other people's feelings as if they were your own. By Placidus it falls in your <strong>fifth house</strong>, the arena of creativity, romance, and play; by whole sign it sits in the <strong>sixth</strong>, the house of daily care and craft. Either way the instruction is the same: your feelings need a making, a tending, an outlet. Give them one and they steady.</p>
+    <p>The face you present is <strong>Libra rising</strong>, gracious and even-handed, with a real eye for beauty and balance. Because Libra is ruled by Venus, that planet becomes the quiet governor of your whole chart, and yours sits in Gemini right beside the Sun. Charm, words, and a love of connection are not surface manners for you; they run all the way down.</p>
+  </section>
+
+  <section>
+    <p class="kicker">Signature patterns</p>
+    <h2>The aspects that shape you</h2>
+    <p>Your <strong>Sun and Venus meet in Gemini</strong>, a conjunction of warmth and grace that makes you sociable, expressive, and easy to like. Since Venus rules your Libra ascendant, this pairing is doubly central: it is the through-line of the chart. Venus is retrograde here, which turns some of that Venusian attention inward, giving you a reflective, slow-to-commit relationship with what and whom you truly value.</p>
+    <p><strong>Mercury and Mars sit together in Taurus</strong> in the eighth house, and this is the ballast beneath all the Gemini air. It is a deliberate, determined, persuasive mind: you think in order to build, you say what you mean, and you do not let go of an idea, or a person, easily. The eighth house pulls that focus toward the deep end, so you are drawn to what is hidden, intimate, and psychologically real.</p>
+    <p>Most striking is <strong>Mars in near-exact trine to Neptune</strong> (less than one degree apart). Your drive is fused with your imagination, so you act best in service of something you can picture and believe in. Channelled, this is artistic and compassionate energy; unchannelled, it can drift, so a vision worth chasing keeps you honest.</p>
+    <p>Finally, <strong>Saturn opposes Chiron</strong> across your chart, a lifelong conversation between duty and an old tender spot. The work of it is learning to grant yourself the authority and worth you did not always feel entitled to. Saturn's steadying sextile to Uranus and trine to Pluto give you the resilience to actually do that work.</p>
+  </section>
+
+  <section>
+    <p class="kicker">Direction of growth</p>
+    <h2>Toward partnership, away from the grind</h2>
+    <p>Your <strong>North Node is in Libra</strong>, with the South Node in Aries. The nodes describe a direction of travel, and that axis is read from the signs, which do not change with house system: you arrive fluent in self-reliance and going it alone (Aries), and you grow by leaning into partnership, fairness, and a little trust (Libra), letting others in and sharing the load rather than carrying everything yourself.</p>
+    <p>The house overlay is where the two systems part. By Placidus the nodes fall in your <strong>twelfth and sixth houses</strong>, which tints the lesson private and quietly worked out, through rest, faith, and daily service. By whole sign they occupy the <strong>first and seventh</strong>, setting the very same lesson right in the mirror between self and other. Both arrows point the same way.</p>
+    <p><strong>Chiron sits in Libra beside the North Node</strong> (the twelfth house by Placidus, the first by whole sign), so your healing and your growth share a single doorway. The tender place is relationship and self-worth-in-connection, and it is also exactly where your path forward runs. Tending that wound is not a detour from your growth; it is the route.</p>
+  </section>
+
+  <section>
+    <p class="kicker">The generational backdrop</p>
+    <h2>The slow planets you share</h2>
+    <p>The outermost planets move so slowly that they color a whole cohort rather than one person. You carry <strong>Pluto in Sagittarius</strong> (your second house by Placidus, third by whole sign), a generation reworking what it believes and what it values, alongside <strong>Neptune in Capricorn</strong> in the fourth house of home and roots, with <strong>Uranus in Aquarius</strong> close by. They set the historical weather of the mid-nineties; your personal planets, above, are how you weather it.</p>
+  </section>
+
+  <div class="method">
+    <b>How this was calculated.</b><br>
+    Positions computed with the Swiss Ephemeris for June 7, 1996, 3:35 PM EDT (19:35 UT), over Pittsburgh, PA (40.44° N, 79.96° W).
+    Tropical zodiac, true lunar node. The wheel uses Placidus houses; the placements table lists both Placidus and whole sign. Retrograde planets are marked ℞.
+    Aspect orbs: 8° for conjunction and opposition, 7° trine, 6° square, 5° sextile.
+    A birth chart is a tool for reflection, offered in that spirit.
+  </div>
+
+</div>

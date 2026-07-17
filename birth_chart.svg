@@ -1,0 +1,187 @@
+<svg viewBox="0 0 820 820" class="wheel" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Natal chart wheel">
+<path d="M 792.39 520.39 A 398 398 0 0 0 796.35 314.40 L 743.93 327.37 A 344 344 0 0 1 740.50 505.41 Z" class="band-fill el-fire"/>
+<text x="780.93" y="417.14" class="sign-glyph el-fire" text-anchor="middle" dominant-baseline="central">♈︎</text>
+<path d="M 796.35 314.40 A 398 398 0 0 0 696.79 134.04 L 657.88 171.48 A 344 344 0 0 1 743.93 327.37 Z" class="band-fill el-earth"/>
+<text x="734.80" y="230.71" class="sign-glyph el-earth" text-anchor="middle" dominant-baseline="central">♉︎</text>
+<path d="M 696.79 134.04 A 398 398 0 0 0 520.39 27.61 L 505.41 79.50 A 344 344 0 0 1 657.88 171.48 Z" class="band-fill el-air"/>
+<text x="601.65" y="92.33" class="sign-glyph el-air" text-anchor="middle" dominant-baseline="central">♊︎</text>
+<path d="M 520.39 27.61 A 398 398 0 0 0 314.40 23.65 L 327.37 76.07 A 344 344 0 0 1 505.41 79.50 Z" class="band-fill el-water"/>
+<text x="417.14" y="39.07" class="sign-glyph el-water" text-anchor="middle" dominant-baseline="central">♋︎</text>
+<path d="M 314.40 23.65 A 398 398 0 0 0 134.04 123.21 L 171.48 162.12 A 344 344 0 0 1 327.37 76.07 Z" class="band-fill el-fire"/>
+<text x="230.71" y="85.20" class="sign-glyph el-fire" text-anchor="middle" dominant-baseline="central">♌︎</text>
+<path d="M 134.04 123.21 A 398 398 0 0 0 27.61 299.61 L 79.50 314.59 A 344 344 0 0 1 171.48 162.12 Z" class="band-fill el-earth"/>
+<text x="92.33" y="218.35" class="sign-glyph el-earth" text-anchor="middle" dominant-baseline="central">♍︎</text>
+<path d="M 27.61 299.61 A 398 398 0 0 0 23.65 505.60 L 76.07 492.63 A 344 344 0 0 1 79.50 314.59 Z" class="band-fill el-air"/>
+<text x="39.07" y="402.86" class="sign-glyph el-air" text-anchor="middle" dominant-baseline="central">♎︎</text>
+<path d="M 23.65 505.60 A 398 398 0 0 0 123.21 685.96 L 162.12 648.52 A 344 344 0 0 1 76.07 492.63 Z" class="band-fill el-water"/>
+<text x="85.20" y="589.29" class="sign-glyph el-water" text-anchor="middle" dominant-baseline="central">♏︎</text>
+<path d="M 123.21 685.96 A 398 398 0 0 0 299.61 792.39 L 314.59 740.50 A 344 344 0 0 1 162.12 648.52 Z" class="band-fill el-fire"/>
+<text x="218.35" y="727.67" class="sign-glyph el-fire" text-anchor="middle" dominant-baseline="central">♐︎</text>
+<path d="M 299.61 792.39 A 398 398 0 0 0 505.60 796.35 L 492.63 743.93 A 344 344 0 0 1 314.59 740.50 Z" class="band-fill el-earth"/>
+<text x="402.86" y="780.93" class="sign-glyph el-earth" text-anchor="middle" dominant-baseline="central">♑︎</text>
+<path d="M 505.60 796.35 A 398 398 0 0 0 685.96 696.79 L 648.52 657.88 A 344 344 0 0 1 492.63 743.93 Z" class="band-fill el-air"/>
+<text x="589.29" y="734.80" class="sign-glyph el-air" text-anchor="middle" dominant-baseline="central">♒︎</text>
+<path d="M 685.96 696.79 A 398 398 0 0 0 792.39 520.39 L 740.50 505.41 A 344 344 0 0 1 648.52 657.88 Z" class="band-fill el-water"/>
+<text x="727.67" y="601.65" class="sign-glyph el-water" text-anchor="middle" dominant-baseline="central">♓︎</text>
+<circle cx="410.0" cy="410.0" r="398" class="ring"/>
+<circle cx="410.0" cy="410.0" r="344" class="ring"/>
+<circle cx="410.0" cy="410.0" r="250" class="ring"/>
+<line x1="740.50" y1="505.41" x2="792.39" y2="520.39" class="ring"/>
+<line x1="743.93" y1="327.37" x2="796.35" y2="314.40" class="ring"/>
+<line x1="657.88" y1="171.48" x2="696.79" y2="134.04" class="ring"/>
+<line x1="505.41" y1="79.50" x2="520.39" y2="27.61" class="ring"/>
+<line x1="327.37" y1="76.07" x2="314.40" y2="23.65" class="ring"/>
+<line x1="171.48" y1="162.12" x2="134.04" y2="123.21" class="ring"/>
+<line x1="79.50" y1="314.59" x2="27.61" y2="299.61" class="ring"/>
+<line x1="76.07" y1="492.63" x2="23.65" y2="505.60" class="ring"/>
+<line x1="162.12" y1="648.52" x2="123.21" y2="685.96" class="ring"/>
+<line x1="314.59" y1="740.50" x2="299.61" y2="792.39" class="ring"/>
+<line x1="492.63" y1="743.93" x2="505.60" y2="796.35" class="ring"/>
+<line x1="648.52" y1="657.88" x2="685.96" y2="696.79" class="ring"/>
+<line x1="740.50" y1="505.41" x2="731.86" y2="502.91" class="tick"/>
+<line x1="747.56" y1="476.24" x2="744.62" y2="475.66" class="tick"/>
+<line x1="752.05" y1="446.57" x2="746.08" y2="445.93" class="tick"/>
+<line x1="753.94" y1="416.62" x2="750.94" y2="416.56" class="tick"/>
+<line x1="753.20" y1="386.62" x2="747.22" y2="387.02" class="tick"/>
+<line x1="749.86" y1="356.79" x2="746.90" y2="357.26" class="tick"/>
+<line x1="743.93" y1="327.37" x2="735.19" y2="329.54" class="tick"/>
+<line x1="735.46" y1="298.58" x2="732.62" y2="299.56" class="tick"/>
+<line x1="724.51" y1="270.64" x2="719.02" y2="273.07" class="tick"/>
+<line x1="711.17" y1="243.76" x2="708.54" y2="245.21" class="tick"/>
+<line x1="695.53" y1="218.15" x2="690.55" y2="221.49" class="tick"/>
+<line x1="677.72" y1="193.99" x2="675.39" y2="195.87" class="tick"/>
+<line x1="657.88" y1="171.48" x2="651.39" y2="177.72" class="tick"/>
+<line x1="636.15" y1="150.78" x2="634.17" y2="153.04" class="tick"/>
+<line x1="612.69" y1="132.06" x2="609.16" y2="136.91" class="tick"/>
+<line x1="587.70" y1="115.45" x2="586.15" y2="118.02" class="tick"/>
+<line x1="561.35" y1="101.08" x2="558.71" y2="106.47" class="tick"/>
+<line x1="533.85" y1="89.07" x2="532.77" y2="91.87" class="tick"/>
+<line x1="505.41" y1="79.50" x2="502.91" y2="88.14" class="tick"/>
+<line x1="476.24" y1="72.44" x2="475.66" y2="75.38" class="tick"/>
+<line x1="446.57" y1="67.95" x2="445.93" y2="73.92" class="tick"/>
+<line x1="416.62" y1="66.06" x2="416.56" y2="69.06" class="tick"/>
+<line x1="386.62" y1="66.80" x2="387.02" y2="72.78" class="tick"/>
+<line x1="356.79" y1="70.14" x2="357.26" y2="73.10" class="tick"/>
+<line x1="327.37" y1="76.07" x2="329.54" y2="84.81" class="tick"/>
+<line x1="298.58" y1="84.54" x2="299.56" y2="87.38" class="tick"/>
+<line x1="270.64" y1="95.49" x2="273.07" y2="100.98" class="tick"/>
+<line x1="243.76" y1="108.83" x2="245.21" y2="111.46" class="tick"/>
+<line x1="218.15" y1="124.47" x2="221.49" y2="129.45" class="tick"/>
+<line x1="193.99" y1="142.28" x2="195.87" y2="144.61" class="tick"/>
+<line x1="171.48" y1="162.12" x2="177.72" y2="168.61" class="tick"/>
+<line x1="150.78" y1="183.85" x2="153.04" y2="185.83" class="tick"/>
+<line x1="132.06" y1="207.31" x2="136.91" y2="210.84" class="tick"/>
+<line x1="115.45" y1="232.30" x2="118.02" y2="233.85" class="tick"/>
+<line x1="101.08" y1="258.65" x2="106.47" y2="261.29" class="tick"/>
+<line x1="89.07" y1="286.15" x2="91.87" y2="287.23" class="tick"/>
+<line x1="79.50" y1="314.59" x2="88.14" y2="317.09" class="tick"/>
+<line x1="72.44" y1="343.76" x2="75.38" y2="344.34" class="tick"/>
+<line x1="67.95" y1="373.43" x2="73.92" y2="374.07" class="tick"/>
+<line x1="66.06" y1="403.38" x2="69.06" y2="403.44" class="tick"/>
+<line x1="66.80" y1="433.38" x2="72.78" y2="432.98" class="tick"/>
+<line x1="70.14" y1="463.21" x2="73.10" y2="462.74" class="tick"/>
+<line x1="76.07" y1="492.63" x2="84.81" y2="490.46" class="tick"/>
+<line x1="84.54" y1="521.42" x2="87.38" y2="520.44" class="tick"/>
+<line x1="95.49" y1="549.36" x2="100.98" y2="546.93" class="tick"/>
+<line x1="108.83" y1="576.24" x2="111.46" y2="574.79" class="tick"/>
+<line x1="124.47" y1="601.85" x2="129.45" y2="598.51" class="tick"/>
+<line x1="142.28" y1="626.01" x2="144.61" y2="624.13" class="tick"/>
+<line x1="162.12" y1="648.52" x2="168.61" y2="642.28" class="tick"/>
+<line x1="183.85" y1="669.22" x2="185.83" y2="666.96" class="tick"/>
+<line x1="207.31" y1="687.94" x2="210.84" y2="683.09" class="tick"/>
+<line x1="232.30" y1="704.55" x2="233.85" y2="701.98" class="tick"/>
+<line x1="258.65" y1="718.92" x2="261.29" y2="713.53" class="tick"/>
+<line x1="286.15" y1="730.93" x2="287.23" y2="728.13" class="tick"/>
+<line x1="314.59" y1="740.50" x2="317.09" y2="731.86" class="tick"/>
+<line x1="343.76" y1="747.56" x2="344.34" y2="744.62" class="tick"/>
+<line x1="373.43" y1="752.05" x2="374.07" y2="746.08" class="tick"/>
+<line x1="403.38" y1="753.94" x2="403.44" y2="750.94" class="tick"/>
+<line x1="433.38" y1="753.20" x2="432.98" y2="747.22" class="tick"/>
+<line x1="463.21" y1="749.86" x2="462.74" y2="746.90" class="tick"/>
+<line x1="492.63" y1="743.93" x2="490.46" y2="735.19" class="tick"/>
+<line x1="521.42" y1="735.46" x2="520.44" y2="732.62" class="tick"/>
+<line x1="549.36" y1="724.51" x2="546.93" y2="719.02" class="tick"/>
+<line x1="576.24" y1="711.17" x2="574.79" y2="708.54" class="tick"/>
+<line x1="601.85" y1="695.53" x2="598.51" y2="690.55" class="tick"/>
+<line x1="626.01" y1="677.72" x2="624.13" y2="675.39" class="tick"/>
+<line x1="648.52" y1="657.88" x2="642.28" y2="651.39" class="tick"/>
+<line x1="669.22" y1="636.15" x2="666.96" y2="634.17" class="tick"/>
+<line x1="687.94" y1="612.69" x2="683.09" y2="609.16" class="tick"/>
+<line x1="704.55" y1="587.70" x2="701.98" y2="586.15" class="tick"/>
+<line x1="718.92" y1="561.35" x2="713.53" y2="558.71" class="tick"/>
+<line x1="730.93" y1="533.85" x2="728.13" y2="532.77" class="tick"/>
+<line x1="160.00" y1="410.00" x2="66.00" y2="410.00" class="cusp-angle"/>
+<text x="-4.00" y="410.00" class="angle-label" text-anchor="middle" dominant-baseline="central">AC</text>
+<text x="180.65" y="465.65" class="house-num" text-anchor="middle" dominant-baseline="central">1</text>
+<line x1="187.80" y1="524.57" x2="104.25" y2="567.65" class="cusp"/>
+<text x="237.17" y="570.70" class="house-num" text-anchor="middle" dominant-baseline="central">2</text>
+<line x1="279.58" y1="623.29" x2="230.55" y2="703.48" class="cusp"/>
+<text x="351.24" y="638.57" class="house-num" text-anchor="middle" dominant-baseline="central">3</text>
+<line x1="421.39" y1="659.74" x2="425.67" y2="753.64" class="cusp-angle"/>
+<text x="428.85" y="823.57" class="angle-label" text-anchor="middle" dominant-baseline="central">IC</text>
+<text x="487.90" y="632.77" class="house-num" text-anchor="middle" dominant-baseline="central">4</text>
+<line x1="556.72" y1="612.42" x2="611.89" y2="688.53" class="cusp"/>
+<text x="592.53" y="559.60" class="house-num" text-anchor="middle" dominant-baseline="central">5</text>
+<line x1="637.29" y1="514.12" x2="722.75" y2="553.26" class="cusp"/>
+<text x="640.58" y="460.30" class="house-num" text-anchor="middle" dominant-baseline="central">6</text>
+<line x1="660.00" y1="410.00" x2="754.00" y2="410.00" class="cusp-angle"/>
+<text x="824.00" y="410.00" class="angle-label" text-anchor="middle" dominant-baseline="central">DC</text>
+<text x="639.35" y="354.35" class="house-num" text-anchor="middle" dominant-baseline="central">7</text>
+<line x1="632.20" y1="295.43" x2="715.75" y2="252.35" class="cusp"/>
+<text x="582.83" y="249.30" class="house-num" text-anchor="middle" dominant-baseline="central">8</text>
+<line x1="540.42" y1="196.71" x2="589.45" y2="116.52" class="cusp"/>
+<text x="468.76" y="181.43" class="house-num" text-anchor="middle" dominant-baseline="central">9</text>
+<line x1="398.61" y1="160.26" x2="394.33" y2="66.36" class="cusp-angle"/>
+<text x="391.15" y="-3.57" class="angle-label" text-anchor="middle" dominant-baseline="central">MC</text>
+<text x="332.10" y="187.23" class="house-num" text-anchor="middle" dominant-baseline="central">10</text>
+<line x1="263.28" y1="207.58" x2="208.11" y2="131.47" class="cusp"/>
+<text x="227.47" y="260.40" class="house-num" text-anchor="middle" dominant-baseline="central">11</text>
+<line x1="182.71" y1="305.88" x2="97.25" y2="266.74" class="cusp"/>
+<text x="179.42" y="359.70" class="house-num" text-anchor="middle" dominant-baseline="central">12</text>
+<line x1="607.04" y1="256.13" x2="458.80" y2="655.19" class="aspect aspect-harmony"/>
+<line x1="607.04" y1="256.13" x2="233.84" y2="587.39" class="aspect aspect-tension"/>
+<line x1="600.23" y1="247.79" x2="458.80" y2="655.19" class="aspect aspect-harmony"/>
+<line x1="600.23" y1="247.79" x2="233.84" y2="587.39" class="aspect aspect-tension"/>
+<line x1="656.14" y1="453.78" x2="487.77" y2="647.60" class="aspect aspect-harmony"/>
+<line x1="656.14" y1="453.78" x2="233.84" y2="587.39" class="aspect aspect-harmony"/>
+<line x1="656.14" y1="453.78" x2="162.54" y2="374.42" class="aspect aspect-tension"/>
+<line x1="487.77" y1="647.60" x2="233.84" y2="587.39" class="aspect aspect-harmony"/>
+<line x1="487.77" y1="647.60" x2="162.54" y2="374.42" class="aspect aspect-harmony"/>
+<line x1="458.80" y1="655.19" x2="233.84" y2="587.39" class="aspect aspect-harmony"/>
+<line x1="575.69" y1="108.53" x2="571.98" y2="141.00" class="pointer"/>
+<text x="564.75" y="153.00" class="planet-glyph luminary" text-anchor="middle" dominant-baseline="central">☉︎</text>
+<text x="576.10" y="134.15" class="deg-label" text-anchor="middle" dominant-baseline="central">17°</text>
+<line x1="684.23" y1="617.69" x2="660.32" y2="599.57" class="pointer"/>
+<text x="649.15" y="591.12" class="planet-glyph luminary" text-anchor="middle" dominant-baseline="central">☽︎</text>
+<text x="666.69" y="604.40" class="deg-label" text-anchor="middle" dominant-baseline="central">8°</text>
+<line x1="681.12" y1="198.27" x2="668.15" y2="231.24" class="pointer"/>
+<text x="656.64" y="239.21" class="planet-glyph" text-anchor="middle" dominant-baseline="central">☿︎</text>
+<text x="674.73" y="226.69" class="deg-label" text-anchor="middle" dominant-baseline="central">24°</text>
+<line x1="551.42" y1="96.41" x2="527.70" y2="118.89" class="pointer"/>
+<text x="522.45" y="131.87" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♀︎</text>
+<text x="530.70" y="111.48" class="deg-label" text-anchor="middle" dominant-baseline="central">21°℞</text>
+<line x1="671.76" y1="186.80" x2="636.86" y2="192.90" class="pointer"/>
+<text x="626.74" y="202.58" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♂︎</text>
+<text x="642.64" y="187.37" class="deg-label" text-anchor="middle" dominant-baseline="central">26°</text>
+<line x1="408.79" y1="754.00" x2="408.90" y2="724.00" class="pointer"/>
+<text x="408.95" y="710.00" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♃︎</text>
+<text x="408.87" y="732.00" class="deg-label" text-anchor="middle" dominant-baseline="central">15°℞</text>
+<line x1="748.68" y1="470.24" x2="719.15" y2="464.99" class="pointer"/>
+<text x="705.36" y="462.54" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♄︎</text>
+<text x="727.02" y="466.39" class="deg-label" text-anchor="middle" dominant-baseline="central">6°</text>
+<line x1="517.01" y1="736.93" x2="513.32" y2="706.52" class="pointer"/>
+<text x="508.71" y="693.29" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♅︎</text>
+<text x="515.95" y="714.07" class="deg-label" text-anchor="middle" dominant-baseline="central">4°℞</text>
+<line x1="477.15" y1="747.38" x2="465.45" y2="719.07" class="pointer"/>
+<text x="462.97" y="705.29" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♆︎</text>
+<text x="466.86" y="726.94" class="deg-label" text-anchor="middle" dominant-baseline="central">27°℞</text>
+<line x1="167.60" y1="654.09" x2="188.74" y2="632.80" class="pointer"/>
+<text x="198.61" y="622.87" class="planet-glyph" text-anchor="middle" dominant-baseline="central">♇︎</text>
+<text x="183.10" y="638.48" class="deg-label" text-anchor="middle" dominant-baseline="central">1°℞</text>
+<line x1="66.05" y1="403.88" x2="96.00" y2="409.56" class="pointer"/>
+<text x="110.00" y="409.58" class="planet-glyph" text-anchor="middle" dominant-baseline="central">☊︎</text>
+<text x="88.00" y="409.55" class="deg-label" text-anchor="middle" dominant-baseline="central">15°℞</text>
+<line x1="69.50" y1="361.05" x2="99.97" y2="360.23" class="pointer"/>
+<text x="113.79" y="362.45" class="planet-glyph" text-anchor="middle" dominant-baseline="central">⚷︎</text>
+<text x="92.07" y="358.96" class="deg-label" text-anchor="middle" dominant-baseline="central">7°</text>
+</svg>
