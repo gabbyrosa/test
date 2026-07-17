@@ -73,9 +73,17 @@ def esc(t):
     return t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def build_svg(data):
+def build_svg(data, house_mode="placidus"):
     asc = data["asc"]
-    cusps = data["cusps"]
+    mc = data["mc"]
+    if house_mode == "whole":
+        # Whole sign: house cusps sit on sign boundaries; the 1st house is
+        # the Ascendant's whole sign. Orientation stays keyed to the exact
+        # Ascendant degree so this wheel lines up with the Placidus one.
+        base = data["asc_idx"] * 30
+        cusps = [(base + i * 30) % 360 for i in range(12)]
+    else:
+        cusps = data["cusps"]
     p = data["planets"]
     s = []
     s.append(
@@ -128,16 +136,19 @@ def build_svg(data):
                  f'y2="{y2:.2f}" class="tick"/>')
 
     # --- house cusps + numbers ---------------------------------------------
+    # In quadrant systems (Placidus) the 1/4/7/10 cusps ARE the angles. In
+    # whole sign the cusps fall on sign boundaries and the angles are drawn
+    # separately, below.
     ANGLE_CUSPS = {0: "AC", 3: "IC", 6: "DC", 9: "MC"}
     for i in range(12):
         cusp = cusps[i]
         x1, y1 = pt(cusp, R_HUB, asc)
         x2, y2 = pt(cusp, R_SIGN_IN, asc)
-        cls = "cusp-angle" if i in ANGLE_CUSPS else "cusp"
+        is_angle_cusp = house_mode != "whole" and i in ANGLE_CUSPS
+        cls = "cusp-angle" if is_angle_cusp else "cusp"
         s.append(f'<line x1="{x1:.2f}" y1="{y1:.2f}" x2="{x2:.2f}" '
                  f'y2="{y2:.2f}" class="{cls}"/>')
-        # angle label just outside the wheel
-        if i in ANGLE_CUSPS:
+        if is_angle_cusp:
             lx, ly = pt(cusp, R_OUT + 16, asc)
             s.append(
                 f'<text x="{lx:.2f}" y="{ly:.2f}" class="angle-label" '
@@ -152,6 +163,21 @@ def build_svg(data):
             f'<text x="{hx:.2f}" y="{hy:.2f}" class="house-num" '
             f'text-anchor="middle" dominant-baseline="central">{i + 1}</text>'
         )
+
+    # whole sign: draw the true angles (the Ascendant/MC axis) over the
+    # equal sign-houses, since here they are not house cusps themselves.
+    if house_mode == "whole":
+        for lon, lab in ((asc, "AC"), (mc, "MC"),
+                         ((asc + 180) % 360, "DC"), ((mc + 180) % 360, "IC")):
+            x1, y1 = pt(lon, R_HUB, asc)
+            x2, y2 = pt(lon, R_SIGN_IN, asc)
+            s.append(f'<line x1="{x1:.2f}" y1="{y1:.2f}" x2="{x2:.2f}" '
+                     f'y2="{y2:.2f}" class="cusp-angle"/>')
+            lx, ly = pt(lon, R_OUT + 16, asc)
+            s.append(
+                f'<text x="{lx:.2f}" y="{ly:.2f}" class="angle-label" '
+                f'text-anchor="middle" dominant-baseline="central">{lab}</text>'
+            )
 
     # --- aspect lines inside the hub ---------------------------------------
     for a in data["aspects"]:
@@ -196,10 +222,12 @@ def build_svg(data):
 
 def main():
     data = natal.compute()
-    svg = build_svg(data)
-    with open("birth_chart.svg", "w") as f:
-        f.write(svg + "\n")
-    print("Wrote birth_chart.svg")
+    for mode, fname in (("placidus", "birth_chart.svg"),
+                        ("whole", "birth_chart_wholesign.svg")):
+        svg = build_svg(data, mode)
+        with open(fname, "w") as f:
+            f.write(svg + "\n")
+        print(f"Wrote {fname}")
 
 
 if __name__ == "__main__":

@@ -14,7 +14,7 @@ different chart.
 | --- | --- |
 | `natal.py` | Core computation. `compute()` returns every value the other scripts use (planets, houses, angles, aspects). One source of truth. |
 | `birth_chart.py` | Prints the chart and writes `birth_chart_report.md`. |
-| `build_chart_wheel.py` | Renders the chart wheel to `birth_chart.svg` (theme-aware CSS classes, element-colored zodiac). |
+| `build_chart_wheel.py` | Renders the chart wheel to `birth_chart.svg` (Placidus) and `birth_chart_wholesign.svg` (whole sign); theme-aware CSS classes, element-colored zodiac. |
 | `assemble_artifact.py` | Fills `birth_chart_template.html` with the fonts, the wheel, and the placements to produce the self-contained `birth_chart.html`. |
 | `birth_chart_template.html` | The page design (celestial "star atlas" treatment, light and dark themes). |
 | `fonts/` | EB Garamond and Cormorant Garamond (woff2), inlined into the page. |

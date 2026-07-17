@@ -81,9 +81,16 @@
   strong{font-weight:500; color:var(--gold-deep)}
   em{font-style:italic}
 
-  /* chart wheel */
+  /* chart wheels */
+  .wheels{display:flex; flex-direction:column; gap:2.4rem; margin-top:2.5rem}
+  .wheel-fig{margin:0}
+  .wheel-cap{
+    font-family:var(--f-label); text-transform:uppercase; letter-spacing:.13em;
+    font-size:.7rem; color:var(--muted); text-align:center; margin-bottom:.5rem;
+  }
+  .wheel-name{color:var(--gold-deep); font-weight:700}
   .wheel-wrap{
-    max-width:35rem; margin:2.5rem auto 0; padding:1rem;
+    max-width:33rem; margin:0 auto; padding:.5rem;
     background:var(--glow);
   }
   .wheel{width:100%; height:auto; display:block; overflow:visible}
@@ -171,8 +178,15 @@
     <p class="subtitle fade">June 7, 1996 &nbsp;·&nbsp; 3:35 PM EDT &nbsp;·&nbsp; Pittsburgh, Pennsylvania</p>
   </header>
 
-  <div class="wheel-wrap">
-    %%WHEEL_SVG%%
+  <div class="wheels">
+    <figure class="wheel-fig">
+      <figcaption class="wheel-cap"><span class="wheel-name">Placidus</span> houses: split by time, unequal</figcaption>
+      <div class="wheel-wrap">%%WHEEL_SVG%%</div>
+    </figure>
+    <figure class="wheel-fig">
+      <figcaption class="wheel-cap"><span class="wheel-name">Whole sign</span> houses: one sign, one house</figcaption>
+      <div class="wheel-wrap">%%WHEEL_SVG_WS%%</div>
+    </figure>
   </div>
   <div class="legend">
     <span><span class="dot" style="background:var(--fire)"></span>Fire</span>
@@ -226,7 +240,7 @@
         </tbody>
       </table>
     </div>
-    <p class="note-inline">Two house columns, because houses depend on the system you choose. <strong>Placidus</strong> (the wheel above) splits the sky by time and gives unequal houses; <strong>whole sign</strong> makes each zodiac sign one whole house, starting from Libra as your 1st. Signs, degrees, and aspects are identical either way; only the house a planet lands in can shift.</p>
+    <p class="note-inline">Two house columns, because houses depend on the system you choose. <strong>Placidus</strong> (the upper wheel) splits the sky by time into unequal houses; <strong>whole sign</strong> (the lower wheel) makes each zodiac sign one whole house, starting from Libra as your 1st. Signs, degrees, and aspects are identical either way; only the house a planet lands in can shift. That is why the two wheels place the same planets against different house grids.</p>
     <p class="subtitle" style="margin-top:1rem">%%ANGLES_LINE%%</p>
   </section>
 
@@ -264,7 +278,7 @@
   <div class="method">
     <b>How this was calculated.</b><br>
     Positions computed with the Swiss Ephemeris for June 7, 1996, 3:35 PM EDT (19:35 UT), over Pittsburgh, PA (40.44° N, 79.96° W).
-    Tropical zodiac, true lunar node. The wheel uses Placidus houses; the placements table lists both Placidus and whole sign. Retrograde planets are marked ℞.
+    Tropical zodiac, true lunar node. Two wheels are shown, Placidus (split by time) and whole sign (one sign per house); both keep the same orientation so the planets line up. The placements table lists both systems. Retrograde planets are marked ℞.
     Aspect orbs: 8° for conjunction and opposition, 7° trine, 6° square, 5° sextile.
     A birth chart is a tool for reflection, offered in that spirit.
   </div>

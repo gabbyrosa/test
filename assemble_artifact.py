@@ -64,14 +64,16 @@ def angles_line(data):
 
 def main():
     data = natal.compute()
-    svg = build_chart_wheel.build_svg(data)
+    svg_placidus = build_chart_wheel.build_svg(data, "placidus")
+    svg_whole = build_chart_wheel.build_svg(data, "whole")
 
     with open("birth_chart_template.html", encoding="utf-8") as f:
         html = f.read()
 
     for token, fname in FONTS.items():
         html = html.replace(token, b64_font(os.path.join(FONT_DIR, fname)))
-    html = html.replace("%%WHEEL_SVG%%", svg)
+    html = html.replace("%%WHEEL_SVG%%", svg_placidus)
+    html = html.replace("%%WHEEL_SVG_WS%%", svg_whole)
     html = html.replace("%%PLACEMENTS_ROWS%%", placements_rows(data))
     html = html.replace("%%ANGLES_LINE%%", angles_line(data))
 
