@@ -187,6 +187,43 @@ def city_readout(jd, max_mi=500.0):
     return rows
 
 
+def line_table(jd, lat_step=5.0):
+    """Coordinates for every line. MC/IC are meridians (lat=None, one lon);
+    AC/DC are sampled every `lat_step` degrees where the body rises/sets.
+    Longitude is east-positive (negative = west)."""
+    gmst = gmst_deg(jd)
+    rows = []
+    for name, slug, glyph, color, ra, dec in positions(jd):
+        rows.append(dict(body=name, slug=slug, angle="MC", lat=None,
+                         lon=norm180(ra - gmst)))
+        rows.append(dict(body=name, slug=slug, angle="IC", lat=None,
+                         lon=norm180(ra + 180 - gmst)))
+        lat = 85.0
+        while lat >= -85.0 - 1e-9:
+            x = -math.tan(math.radians(lat)) * math.tan(math.radians(dec))
+            if -1.0 <= x <= 1.0:
+                h0 = math.degrees(math.acos(x))
+                rows.append(dict(body=name, slug=slug, angle="AC",
+                                 lat=round(lat, 1),
+                                 lon=norm180(ra - h0 - gmst)))
+                rows.append(dict(body=name, slug=slug, angle="DC",
+                                 lat=round(lat, 1),
+                                 lon=norm180(ra + h0 - gmst)))
+            lat -= lat_step
+    return rows
+
+
+def export_csv(jd, path="astrocartography_lines.csv"):
+    import csv
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["body", "angle", "latitude_deg", "longitude_deg"])
+        for r in line_table(jd):
+            lat = "" if r["lat"] is None else f"{r['lat']:.1f}"
+            w.writerow([r["body"], r["angle"], lat, f"{r['lon']:.2f}"])
+    return path
+
+
 def land_paths():
     with open("world_land.json", encoding="utf-8") as f:
         geo = json.load(f)
@@ -285,6 +322,7 @@ def main():
     with open("astrocartography.svg", "w", encoding="utf-8") as f:
         f.write(build_svg(data) + "\n")
     print("Wrote astrocartography.svg")
+    print("Wrote", export_csv(data["jd"]))
 
 
 if __name__ == "__main__":
