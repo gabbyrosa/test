@@ -1,0 +1,9023 @@
+{
+ "Barcelona": {
+  "lat": 41.39,
+  "lon": 2.17,
+  "raw": {
+   "asc": 261.06,
+   "asc_sign": "Sagittarius",
+   "mc": 193.47,
+   "mc_sign": "Libra",
+   "cusps": [
+    261.06,
+    297.37,
+    338.23,
+    13.47,
+    40.29,
+    61.68,
+    81.06,
+    117.37,
+    158.23,
+    193.47,
+    220.29,
+    241.68
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 176.25,
+      "MC": 116.16,
+      "DC": 3.75,
+      "IC": 63.84
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 3,
+     "orbs": {
+      "AC": 77.9,
+      "MC": 145.49,
+      "DC": 102.1,
+      "IC": 34.51
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 153.03,
+      "MC": 139.38,
+      "DC": 26.97,
+      "IC": 40.62
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 179.23,
+      "MC": 111.64,
+      "DC": 0.77,
+      "IC": 68.36
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 155.49,
+      "MC": 136.91,
+      "DC": 24.51,
+      "IC": 43.09
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 24.84,
+      "MC": 92.43,
+      "DC": 155.16,
+      "IC": 87.57
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 104.95,
+      "MC": 172.55,
+      "DC": 75.05,
+      "IC": 7.45
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 43.16,
+      "MC": 110.76,
+      "DC": 136.84,
+      "IC": 69.24
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 36.3,
+      "MC": 103.89,
+      "DC": 143.7,
+      "IC": 76.11
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 19.76,
+      "MC": 47.83,
+      "DC": 160.24,
+      "IC": 132.17
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 10,
+     "orbs": {
+      "AC": 65.98,
+      "MC": 1.61,
+      "DC": 114.02,
+      "IC": 178.39
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 73.14,
+      "MC": 5.55,
+      "DC": 106.86,
+      "IC": 174.45
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 4,
+     "orbs": {
+      "AC": 114.02,
+      "MC": 178.39,
+      "DC": 65.98,
+      "IC": 1.61
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 55
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 78
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 78
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 229
+    },
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 305
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 311
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    },
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.28,
+   "relationships": 5.0,
+   "career": 4.45,
+   "identity": 3.76,
+   "emotional_ease": 4.42,
+   "creativity": 3.68,
+   "stability": 2.9,
+   "balance": 3.12
+  },
+  "intensity": 0.07,
+  "growth": 4.04,
+  "code": "C12"
+ },
+ "Madrid": {
+  "lat": 40.42,
+  "lon": -3.7,
+  "raw": {
+   "asc": 256.72,
+   "asc_sign": "Sagittarius",
+   "mc": 187.11,
+   "mc_sign": "Libra",
+   "cusps": [
+    256.72,
+    291.57,
+    331.32,
+    7.11,
+    34.97,
+    57.1,
+    76.72,
+    111.57,
+    151.32,
+    187.11,
+    214.97,
+    237.1
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 7,
+     "orbs": {
+      "AC": 179.41,
+      "MC": 109.8,
+      "DC": 0.59,
+      "IC": 70.2
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 3,
+     "orbs": {
+      "AC": 82.24,
+      "MC": 151.86,
+      "DC": 97.76,
+      "IC": 28.14
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 157.37,
+      "MC": 133.02,
+      "DC": 22.63,
+      "IC": 46.98
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 174.89,
+      "MC": 105.28,
+      "DC": 5.11,
+      "IC": 74.72
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 159.84,
+      "MC": 130.55,
+      "DC": 20.16,
+      "IC": 49.45
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 29.18,
+      "MC": 98.8,
+      "DC": 150.82,
+      "IC": 81.2
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 109.3,
+      "MC": 178.91,
+      "DC": 70.7,
+      "IC": 1.09
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 47.51,
+      "MC": 117.12,
+      "DC": 132.49,
+      "IC": 62.88
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 2,
+     "orbs": {
+      "AC": 40.64,
+      "MC": 110.25,
+      "DC": 139.36,
+      "IC": 69.75
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 12,
+     "orbs": {
+      "AC": 15.42,
+      "MC": 54.2,
+      "DC": 164.58,
+      "IC": 125.8
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 10,
+     "orbs": {
+      "AC": 61.64,
+      "MC": 7.98,
+      "DC": 118.36,
+      "IC": 172.02
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 10,
+     "orbs": {
+      "AC": 68.8,
+      "MC": 0.82,
+      "DC": 111.2,
+      "IC": 179.18
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 4,
+     "orbs": {
+      "AC": 118.36,
+      "MC": 172.02,
+      "DC": 61.64,
+      "IC": 7.98
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 0
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 7
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 37
+    },
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 324
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 388
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 388
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    },
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    },
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "orb": 1.09
+    }
+   ]
+  },
+  "grades": {
+   "home": 0.86,
+   "relationships": 5.0,
+   "career": 3.6,
+   "identity": 3.79,
+   "emotional_ease": 3.08,
+   "creativity": 3.15,
+   "stability": 3.05,
+   "balance": 2.7
+  },
+  "intensity": 0.86,
+  "growth": 3.47,
+  "code": "C16"
+ },
+ "Valencia": {
+  "lat": 39.47,
+  "lon": -0.38,
+  "raw": {
+   "asc": 260.17,
+   "asc_sign": "Sagittarius",
+   "mc": 190.71,
+   "mc_sign": "Libra",
+   "cusps": [
+    260.17,
+    295.57,
+    335.38,
+    10.71,
+    38.2,
+    60.26,
+    80.17,
+    115.57,
+    155.38,
+    190.71,
+    218.2,
+    240.26
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 177.13,
+      "MC": 113.4,
+      "DC": 2.87,
+      "IC": 66.6
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 3,
+     "orbs": {
+      "AC": 78.79,
+      "MC": 148.25,
+      "DC": 101.21,
+      "IC": 31.75
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 153.92,
+      "MC": 136.62,
+      "DC": 26.08,
+      "IC": 43.38
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 178.35,
+      "MC": 108.88,
+      "DC": 1.65,
+      "IC": 71.12
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 156.38,
+      "MC": 134.15,
+      "DC": 23.62,
+      "IC": 45.85
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 25.73,
+      "MC": 95.19,
+      "DC": 154.27,
+      "IC": 84.81
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 105.84,
+      "MC": 175.31,
+      "DC": 74.16,
+      "IC": 4.69
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 44.05,
+      "MC": 113.52,
+      "DC": 135.95,
+      "IC": 66.48
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 2,
+     "orbs": {
+      "AC": 37.19,
+      "MC": 106.65,
+      "DC": 142.81,
+      "IC": 73.35
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 12,
+     "orbs": {
+      "AC": 18.87,
+      "MC": 50.59,
+      "DC": 161.13,
+      "IC": 129.41
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 10,
+     "orbs": {
+      "AC": 65.09,
+      "MC": 4.37,
+      "DC": 114.91,
+      "IC": 175.63
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 72.25,
+      "MC": 2.79,
+      "DC": 107.75,
+      "IC": 177.21
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 4,
+     "orbs": {
+      "AC": 114.91,
+      "MC": 175.63,
+      "DC": 65.09,
+      "IC": 4.37
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 111
+    },
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 177
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 179
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 184
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 216
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 216
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "orb": 4.69
+    }
+   ]
+  },
+  "grades": {
+   "home": 1.1,
+   "relationships": 5.0,
+   "career": 4.1,
+   "identity": 3.79,
+   "emotional_ease": 3.95,
+   "creativity": 3.57,
+   "stability": 3.0,
+   "balance": 2.99
+  },
+  "intensity": 0.41,
+  "growth": 3.86,
+  "code": "C29"
+ },
+ "Lisbon": {
+  "lat": 38.72,
+  "lon": -9.14,
+  "raw": {
+   "asc": 253.22,
+   "asc_sign": "Sagittarius",
+   "mc": 181.18,
+   "mc_sign": "Libra",
+   "cusps": [
+    253.22,
+    286.82,
+    325.22,
+    1.18,
+    30.05,
+    53.08,
+    73.22,
+    106.82,
+    145.22,
+    181.18,
+    210.05,
+    233.08
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 6,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 6,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 7,
+     "orbs": {
+      "AC": 175.91,
+      "MC": 103.87,
+      "DC": 4.09,
+      "IC": 76.13
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 3,
+     "orbs": {
+      "AC": 85.75,
+      "MC": 157.78,
+      "DC": 94.25,
+      "IC": 22.22
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 6,
+     "orbs": {
+      "AC": 160.87,
+      "MC": 127.09,
+      "DC": 19.13,
+      "IC": 52.91
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 171.39,
+      "MC": 99.35,
+      "DC": 8.61,
+      "IC": 80.65
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 6,
+     "orbs": {
+      "AC": 163.34,
+      "MC": 124.63,
+      "DC": 16.66,
+      "IC": 55.37
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 32.68,
+      "MC": 104.72,
+      "DC": 147.32,
+      "IC": 75.28
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 4,
+     "orbs": {
+      "AC": 112.8,
+      "MC": 175.17,
+      "DC": 67.2,
+      "IC": 4.83
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 51.01,
+      "MC": 123.04,
+      "DC": 128.99,
+      "IC": 56.96
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 2,
+     "orbs": {
+      "AC": 44.14,
+      "MC": 116.18,
+      "DC": 135.86,
+      "IC": 63.82
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 12,
+     "orbs": {
+      "AC": 11.92,
+      "MC": 60.12,
+      "DC": 168.08,
+      "IC": 119.88
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 10,
+     "orbs": {
+      "AC": 58.13,
+      "MC": 13.9,
+      "DC": 121.87,
+      "IC": 166.1
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 10,
+     "orbs": {
+      "AC": 65.3,
+      "MC": 6.74,
+      "DC": 114.7,
+      "IC": 173.26
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 4,
+     "orbs": {
+      "AC": 121.87,
+      "MC": 166.1,
+      "DC": 58.13,
+      "IC": 13.9
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 262
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 287
+    },
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 294
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    },
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "Mercury",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 37.4
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "orb": 4.83
+    }
+   ]
+  },
+  "grades": {
+   "home": 0.94,
+   "relationships": 4.66,
+   "career": 3.6,
+   "identity": 3.79,
+   "emotional_ease": 2.76,
+   "creativity": 2.5,
+   "stability": 2.76,
+   "balance": 2.51
+  },
+  "intensity": 0.4,
+  "growth": 3.15,
+  "code": "C05"
+ },
+ "Paris": {
+  "lat": 48.86,
+  "lon": 2.35,
+  "raw": {
+   "asc": 255.33,
+   "asc_sign": "Sagittarius",
+   "mc": 193.66,
+   "mc_sign": "Libra",
+   "cusps": [
+    255.33,
+    292.89,
+    337.5,
+    13.66,
+    39.2,
+    58.55,
+    75.33,
+    112.89,
+    157.5,
+    193.66,
+    219.2,
+    238.55
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 7,
+     "orbs": {
+      "AC": 178.02,
+      "MC": 116.36,
+      "DC": 1.98,
+      "IC": 63.64
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 3,
+     "orbs": {
+      "AC": 83.64,
+      "MC": 145.3,
+      "DC": 96.36,
+      "IC": 34.7
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 158.76,
+      "MC": 139.57,
+      "DC": 21.24,
+      "IC": 40.43
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 173.5,
+      "MC": 111.84,
+      "DC": 6.5,
+      "IC": 68.16
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 161.23,
+      "MC": 137.11,
+      "DC": 18.77,
+      "IC": 42.89
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 30.57,
+      "MC": 92.24,
+      "DC": 149.43,
+      "IC": 87.76
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 110.69,
+      "MC": 172.35,
+      "DC": 69.31,
+      "IC": 7.65
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 48.9,
+      "MC": 110.56,
+      "DC": 131.1,
+      "IC": 69.44
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 2,
+     "orbs": {
+      "AC": 42.03,
+      "MC": 103.69,
+      "DC": 137.97,
+      "IC": 76.31
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 12,
+     "orbs": {
+      "AC": 14.03,
+      "MC": 47.64,
+      "DC": 165.97,
+      "IC": 132.36
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 10,
+     "orbs": {
+      "AC": 60.24,
+      "MC": 1.42,
+      "DC": 119.76,
+      "IC": 178.58
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 67.41,
+      "MC": 5.74,
+      "DC": 112.59,
+      "IC": 174.26
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 4,
+     "orbs": {
+      "AC": 119.76,
+      "MC": 178.58,
+      "DC": 60.24,
+      "IC": 1.42
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 60
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 60
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 111
+    },
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 275
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 281
+    },
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 370
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "AC",
+     "lat": 48.9
+    },
+    {
+     "b1": "Pluto",
+     "a1": "MC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 49.8
+    },
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 47.8
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 47.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.3,
+   "relationships": 5.0,
+   "career": 4.47,
+   "identity": 3.79,
+   "emotional_ease": 3.68,
+   "creativity": 2.98,
+   "stability": 2.67,
+   "balance": 2.9
+  },
+  "intensity": 0.04,
+  "growth": 3.71,
+  "code": "C35"
+ },
+ "Marseille": {
+  "lat": 43.3,
+  "lon": 5.37,
+  "raw": {
+   "asc": 262.42,
+   "asc_sign": "Sagittarius",
+   "mc": 196.92,
+   "mc_sign": "Libra",
+   "cusps": [
+    262.42,
+    299.92,
+    341.95,
+    16.92,
+    42.92,
+    63.58,
+    82.42,
+    119.92,
+    161.95,
+    196.92,
+    222.92,
+    243.58
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 6,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 174.89,
+      "MC": 119.61,
+      "DC": 5.11,
+      "IC": 60.39
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 76.54,
+      "MC": 142.04,
+      "DC": 103.46,
+      "IC": 37.96
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 151.67,
+      "MC": 142.83,
+      "DC": 28.33,
+      "IC": 37.17
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 6,
+     "orbs": {
+      "AC": 179.41,
+      "MC": 115.09,
+      "DC": 0.59,
+      "IC": 64.91
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 154.14,
+      "MC": 140.36,
+      "DC": 25.86,
+      "IC": 39.64
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 23.48,
+      "MC": 88.98,
+      "DC": 156.52,
+      "IC": 91.02
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 103.6,
+      "MC": 169.1,
+      "DC": 76.4,
+      "IC": 10.9
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 41.81,
+      "MC": 107.31,
+      "DC": 138.19,
+      "IC": 72.69
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 34.94,
+      "MC": 100.44,
+      "DC": 145.06,
+      "IC": 79.56
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 21.12,
+      "MC": 44.38,
+      "DC": 158.88,
+      "IC": 135.62
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 67.34,
+      "MC": 1.84,
+      "DC": 112.66,
+      "IC": 178.16
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 74.5,
+      "MC": 9.0,
+      "DC": 105.5,
+      "IC": 171.0
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 112.66,
+      "MC": 178.16,
+      "DC": 67.34,
+      "IC": 1.84
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 25
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 86
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 86
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 303
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.58,
+   "relationships": 5.0,
+   "career": 4.04,
+   "identity": 3.76,
+   "emotional_ease": 4.38,
+   "creativity": 3.7,
+   "stability": 2.88,
+   "balance": 3.16
+  },
+  "intensity": 0.0,
+  "growth": 4.04,
+  "code": "C20"
+ },
+ "Nice": {
+  "lat": 43.7,
+  "lon": 7.27,
+  "raw": {
+   "asc": 263.76,
+   "asc_sign": "Sagittarius",
+   "mc": 198.96,
+   "mc_sign": "Libra",
+   "cusps": [
+    263.76,
+    301.87,
+    344.27,
+    18.96,
+    44.58,
+    64.99,
+    83.76,
+    121.87,
+    164.27,
+    198.96,
+    224.58,
+    244.99
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 6,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 173.55,
+      "MC": 121.65,
+      "DC": 6.45,
+      "IC": 58.35
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 75.2,
+      "MC": 140.0,
+      "DC": 104.8,
+      "IC": 40.0
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 150.33,
+      "MC": 144.87,
+      "DC": 29.67,
+      "IC": 35.13
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 6,
+     "orbs": {
+      "AC": 178.07,
+      "MC": 117.13,
+      "DC": 1.93,
+      "IC": 62.87
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 152.8,
+      "MC": 142.4,
+      "DC": 27.2,
+      "IC": 37.6
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 22.14,
+      "MC": 86.94,
+      "DC": 157.86,
+      "IC": 93.06
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 102.26,
+      "MC": 167.06,
+      "DC": 77.74,
+      "IC": 12.94
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 40.47,
+      "MC": 105.27,
+      "DC": 139.53,
+      "IC": 74.73
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 33.6,
+      "MC": 98.4,
+      "DC": 146.4,
+      "IC": 81.6
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 22.46,
+      "MC": 42.34,
+      "DC": 157.54,
+      "IC": 137.66
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 68.68,
+      "MC": 3.88,
+      "DC": 111.32,
+      "IC": 176.12
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 75.84,
+      "MC": 11.04,
+      "DC": 104.16,
+      "IC": 168.96
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 111.32,
+      "MC": 176.12,
+      "DC": 68.68,
+      "IC": 3.88
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 102
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 180
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 180
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 378
+    }
+   ],
+   "parans": [],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.72,
+   "relationships": 4.66,
+   "career": 3.78,
+   "identity": 3.76,
+   "emotional_ease": 4.0,
+   "creativity": 3.54,
+   "stability": 2.83,
+   "balance": 3.08
+  },
+  "intensity": 0.0,
+  "growth": 3.86,
+  "code": "C23"
+ },
+ "Lyon": {
+  "lat": 45.76,
+  "lon": 4.84,
+  "raw": {
+   "asc": 260.02,
+   "asc_sign": "Sagittarius",
+   "mc": 196.35,
+   "mc_sign": "Libra",
+   "cusps": [
+    260.02,
+    297.85,
+    341.03,
+    16.35,
+    42.01,
+    62.05,
+    80.02,
+    117.85,
+    161.03,
+    196.35,
+    222.01,
+    242.05
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 177.29,
+      "MC": 119.04,
+      "DC": 2.71,
+      "IC": 60.96
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 78.95,
+      "MC": 142.61,
+      "DC": 101.05,
+      "IC": 37.39
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 154.07,
+      "MC": 142.26,
+      "DC": 25.93,
+      "IC": 37.74
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 178.19,
+      "MC": 114.52,
+      "DC": 1.81,
+      "IC": 65.48
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 156.54,
+      "MC": 139.79,
+      "DC": 23.46,
+      "IC": 40.21
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 25.88,
+      "MC": 89.55,
+      "DC": 154.12,
+      "IC": 90.45
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 106.0,
+      "MC": 169.67,
+      "DC": 74.0,
+      "IC": 10.33
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 44.21,
+      "MC": 107.88,
+      "DC": 135.79,
+      "IC": 72.12
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 37.34,
+      "MC": 101.01,
+      "DC": 142.66,
+      "IC": 78.99
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 18.72,
+      "MC": 44.95,
+      "DC": 161.28,
+      "IC": 135.05
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 64.93,
+      "MC": 1.27,
+      "DC": 115.07,
+      "IC": 178.73
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 72.1,
+      "MC": 8.43,
+      "DC": 107.9,
+      "IC": 171.57
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 115.07,
+      "MC": 178.73,
+      "DC": 64.93,
+      "IC": 1.27
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 57
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 57
+    },
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 113
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 156
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Pluto",
+     "a2": "AC",
+     "lat": 45.8
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mercury",
+     "a2": "AC",
+     "lat": 45.5
+    },
+    {
+     "b1": "Chiron",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.6
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mercury",
+     "a2": "DC",
+     "lat": 46.8
+    },
+    {
+     "b1": "Mercury",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "AC",
+     "lat": 47.1
+    },
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "DC",
+     "lat": 47.2
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Uranus",
+     "a2": "DC",
+     "lat": 47.2
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.55,
+   "relationships": 5.0,
+   "career": 4.11,
+   "identity": 3.76,
+   "emotional_ease": 4.44,
+   "creativity": 3.55,
+   "stability": 2.83,
+   "balance": 3.13
+  },
+  "intensity": 0.0,
+  "growth": 3.99,
+  "code": "C34"
+ },
+ "Milan": {
+  "lat": 45.46,
+  "lon": 9.19,
+  "raw": {
+   "asc": 264.0,
+   "asc_sign": "Sagittarius",
+   "mc": 201.01,
+   "mc_sign": "Libra",
+   "cusps": [
+    264.0,
+    303.09,
+    346.53,
+    21.01,
+    45.99,
+    65.78,
+    84.0,
+    123.09,
+    166.53,
+    201.01,
+    225.99,
+    245.78
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 6,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 173.31,
+      "MC": 123.71,
+      "DC": 6.69,
+      "IC": 56.29
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 74.97,
+      "MC": 137.95,
+      "DC": 105.03,
+      "IC": 42.05
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 150.09,
+      "MC": 146.92,
+      "DC": 29.91,
+      "IC": 33.08
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 6,
+     "orbs": {
+      "AC": 177.83,
+      "MC": 119.19,
+      "DC": 2.17,
+      "IC": 60.81
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 152.56,
+      "MC": 144.46,
+      "DC": 27.44,
+      "IC": 35.54
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 21.91,
+      "MC": 84.89,
+      "DC": 158.09,
+      "IC": 95.11
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 102.02,
+      "MC": 165.0,
+      "DC": 77.98,
+      "IC": 15.0
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 40.23,
+      "MC": 103.21,
+      "DC": 139.77,
+      "IC": 76.79
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 33.36,
+      "MC": 96.35,
+      "DC": 146.64,
+      "IC": 83.65
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 22.69,
+      "MC": 40.29,
+      "DC": 157.31,
+      "IC": 139.71
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 68.91,
+      "MC": 5.93,
+      "DC": 111.09,
+      "IC": 174.07
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 76.07,
+      "MC": 13.09,
+      "DC": 103.93,
+      "IC": 166.91
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 111.09,
+      "MC": 174.07,
+      "DC": 68.91,
+      "IC": 5.93
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 111
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 268
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 268
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 382
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mercury",
+     "a2": "AC",
+     "lat": 45.5
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Pluto",
+     "a2": "AC",
+     "lat": 45.8
+    },
+    {
+     "b1": "Chiron",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.6
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mercury",
+     "a2": "DC",
+     "lat": 46.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.86,
+   "relationships": 4.56,
+   "career": 3.51,
+   "identity": 3.76,
+   "emotional_ease": 3.93,
+   "creativity": 3.51,
+   "stability": 2.82,
+   "balance": 3.06
+  },
+  "intensity": 0.0,
+  "growth": 3.74,
+  "code": "C08"
+ },
+ "Florence": {
+  "lat": 43.77,
+  "lon": 11.26,
+  "raw": {
+   "asc": 267.23,
+   "asc_sign": "Sagittarius",
+   "mc": 203.22,
+   "mc_sign": "Libra",
+   "cusps": [
+    267.23,
+    306.53,
+    349.25,
+    23.22,
+    48.18,
+    68.3,
+    87.23,
+    126.53,
+    169.25,
+    203.22,
+    228.18,
+    248.3
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 6,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 170.08,
+      "MC": 125.91,
+      "DC": 9.92,
+      "IC": 54.09
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 71.73,
+      "MC": 135.75,
+      "DC": 108.27,
+      "IC": 44.25
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 146.86,
+      "MC": 149.13,
+      "DC": 33.14,
+      "IC": 30.87
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 6,
+     "orbs": {
+      "AC": 174.6,
+      "MC": 121.39,
+      "DC": 5.4,
+      "IC": 58.61
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 149.32,
+      "MC": 146.66,
+      "DC": 30.68,
+      "IC": 33.34
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 18.67,
+      "MC": 82.68,
+      "DC": 161.33,
+      "IC": 97.32
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 98.78,
+      "MC": 162.8,
+      "DC": 81.22,
+      "IC": 17.2
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 1,
+     "orbs": {
+      "AC": 36.99,
+      "MC": 101.01,
+      "DC": 143.01,
+      "IC": 78.99
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 30.13,
+      "MC": 94.14,
+      "DC": 149.87,
+      "IC": 85.86
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 25.93,
+      "MC": 38.08,
+      "DC": 154.07,
+      "IC": 141.92
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 72.15,
+      "MC": 8.14,
+      "DC": 107.85,
+      "IC": 171.86
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 79.31,
+      "MC": 15.3,
+      "DC": 100.69,
+      "IC": 164.7
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 107.85,
+      "MC": 171.86,
+      "DC": 72.15,
+      "IC": 8.14
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "DC",
+     "miles": 298
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 379
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 379
+    }
+   ],
+   "parans": [],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 2.0,
+   "relationships": 3.55,
+   "career": 3.25,
+   "identity": 3.79,
+   "emotional_ease": 3.24,
+   "creativity": 3.12,
+   "stability": 2.7,
+   "balance": 2.85
+  },
+  "intensity": 0.0,
+  "growth": 3.46,
+  "code": "C28"
+ },
+ "Rome": {
+  "lat": 41.9,
+  "lon": 12.5,
+  "raw": {
+   "asc": 269.85,
+   "asc_sign": "Sagittarius",
+   "mc": 204.54,
+   "mc_sign": "Libra",
+   "cusps": [
+    269.85,
+    308.99,
+    350.91,
+    24.54,
+    49.65,
+    70.2,
+    89.85,
+    128.99,
+    170.91,
+    204.54,
+    229.65,
+    250.2
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 6,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 6,
+     "orbs": {
+      "AC": 167.46,
+      "MC": 127.23,
+      "DC": 12.54,
+      "IC": 52.77
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 69.12,
+      "MC": 134.43,
+      "DC": 110.88,
+      "IC": 45.57
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 144.24,
+      "MC": 150.45,
+      "DC": 35.76,
+      "IC": 29.55
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 6,
+     "orbs": {
+      "AC": 171.98,
+      "MC": 122.71,
+      "DC": 8.02,
+      "IC": 57.29
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 146.71,
+      "MC": 147.98,
+      "DC": 33.29,
+      "IC": 32.02
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 16.05,
+      "MC": 81.37,
+      "DC": 163.95,
+      "IC": 98.63
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 96.17,
+      "MC": 161.48,
+      "DC": 83.83,
+      "IC": 18.52
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 1,
+     "orbs": {
+      "AC": 34.38,
+      "MC": 99.69,
+      "DC": 145.62,
+      "IC": 80.31
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 1,
+     "orbs": {
+      "AC": 27.51,
+      "MC": 92.82,
+      "DC": 152.49,
+      "IC": 87.18
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 11,
+     "orbs": {
+      "AC": 28.55,
+      "MC": 36.77,
+      "DC": 151.45,
+      "IC": 143.23
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 74.76,
+      "MC": 9.45,
+      "DC": 105.24,
+      "IC": 170.55
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 81.93,
+      "MC": 16.61,
+      "DC": 98.07,
+      "IC": 163.39
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 105.24,
+      "MC": 170.55,
+      "DC": 74.76,
+      "IC": 9.45
+     }
+    }
+   },
+   "acg_lines": [],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 2.0,
+   "relationships": 2.85,
+   "career": 3.25,
+   "identity": 3.79,
+   "emotional_ease": 2.8,
+   "creativity": 2.8,
+   "stability": 2.6,
+   "balance": 2.64
+  },
+  "intensity": 0.0,
+  "growth": 3.29,
+  "code": "C04"
+ },
+ "Amsterdam": {
+  "lat": 52.37,
+  "lon": 4.9,
+  "raw": {
+   "asc": 254.02,
+   "asc_sign": "Sagittarius",
+   "mc": 196.41,
+   "mc_sign": "Libra",
+   "cusps": [
+    254.02,
+    292.81,
+    340.22,
+    16.41,
+    40.74,
+    58.72,
+    74.02,
+    112.81,
+    160.22,
+    196.41,
+    220.74,
+    238.72
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 7,
+     "orbs": {
+      "AC": 176.71,
+      "MC": 119.11,
+      "DC": 3.29,
+      "IC": 60.89
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 2,
+     "orbs": {
+      "AC": 84.95,
+      "MC": 142.55,
+      "DC": 95.05,
+      "IC": 37.45
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 160.07,
+      "MC": 142.32,
+      "DC": 19.93,
+      "IC": 37.68
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 172.19,
+      "MC": 114.59,
+      "DC": 7.81,
+      "IC": 65.41
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 5,
+     "orbs": {
+      "AC": 162.54,
+      "MC": 139.86,
+      "DC": 17.46,
+      "IC": 40.14
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 31.89,
+      "MC": 89.49,
+      "DC": 148.11,
+      "IC": 90.51
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 112.0,
+      "MC": 169.6,
+      "DC": 68.0,
+      "IC": 10.4
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 50.21,
+      "MC": 107.81,
+      "DC": 129.79,
+      "IC": 72.19
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 2,
+     "orbs": {
+      "AC": 43.34,
+      "MC": 100.94,
+      "DC": 136.66,
+      "IC": 79.06
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 12,
+     "orbs": {
+      "AC": 12.71,
+      "MC": 44.89,
+      "DC": 167.29,
+      "IC": 135.11
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 9,
+     "orbs": {
+      "AC": 58.93,
+      "MC": 1.33,
+      "DC": 121.07,
+      "IC": 178.67
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 66.09,
+      "MC": 8.49,
+      "DC": 113.91,
+      "IC": 171.51
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 3,
+     "orbs": {
+      "AC": 121.07,
+      "MC": 178.67,
+      "DC": 58.93,
+      "IC": 1.33
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 52
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 52
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 177
+    },
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 363
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 368
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Sun",
+     "a1": "IC",
+     "b2": "Moon",
+     "a2": "AC",
+     "lat": 51.2
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 1.55,
+   "relationships": 4.81,
+   "career": 4.1,
+   "identity": 3.79,
+   "emotional_ease": 3.36,
+   "creativity": 2.82,
+   "stability": 2.61,
+   "balance": 2.84
+  },
+  "intensity": 0.0,
+  "growth": 3.64,
+  "code": "C07"
+ },
+ "London": {
+  "lat": 51.51,
+  "lon": -0.13,
+  "raw": {
+   "asc": 250.98,
+   "asc_sign": "Sagittarius",
+   "mc": 190.98,
+   "mc_sign": "Libra",
+   "cusps": [
+    250.98,
+    287.97,
+    333.89,
+    10.98,
+    36.48,
+    55.25,
+    70.98,
+    107.97,
+    153.89,
+    190.98,
+    216.48,
+    235.25
+   ],
+   "chart_ruler": "Jupiter",
+   "chart_ruler_house": 1,
+   "chart_ruler_sign": "Capricorn",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 6,
+     "ruler_sign": "Taurus"
+    },
+    "7": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 5,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Libra",
+     "ruler": "Venus",
+     "ruler_house": 7,
+     "ruler_sign": "Gemini"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 7,
+     "orbs": {
+      "AC": 173.67,
+      "MC": 113.67,
+      "DC": 6.33,
+      "IC": 66.33
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 3,
+     "orbs": {
+      "AC": 87.98,
+      "MC": 147.98,
+      "DC": 92.02,
+      "IC": 32.02
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 5,
+     "orbs": {
+      "AC": 163.11,
+      "MC": 136.89,
+      "DC": 16.89,
+      "IC": 43.11
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 7,
+     "orbs": {
+      "AC": 169.15,
+      "MC": 109.15,
+      "DC": 10.85,
+      "IC": 70.85
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 6,
+     "orbs": {
+      "AC": 165.58,
+      "MC": 134.43,
+      "DC": 14.42,
+      "IC": 45.57
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 1,
+     "orbs": {
+      "AC": 34.92,
+      "MC": 94.92,
+      "DC": 145.08,
+      "IC": 85.08
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 3,
+     "orbs": {
+      "AC": 115.04,
+      "MC": 175.03,
+      "DC": 64.96,
+      "IC": 4.97
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 2,
+     "orbs": {
+      "AC": 53.25,
+      "MC": 113.25,
+      "DC": 126.75,
+      "IC": 66.75
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 2,
+     "orbs": {
+      "AC": 46.38,
+      "MC": 106.38,
+      "DC": 133.62,
+      "IC": 73.62
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 12,
+     "orbs": {
+      "AC": 9.68,
+      "MC": 50.32,
+      "DC": 170.32,
+      "IC": 129.68
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 10,
+     "orbs": {
+      "AC": 55.9,
+      "MC": 4.1,
+      "DC": 124.1,
+      "IC": 175.9
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 9,
+     "orbs": {
+      "AC": 63.06,
+      "MC": 3.06,
+      "DC": 116.94,
+      "IC": 176.94
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 4,
+     "orbs": {
+      "AC": 124.1,
+      "MC": 175.9,
+      "DC": 55.9,
+      "IC": 4.1
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Chiron",
+     "angle": "MC",
+     "miles": 154
+    },
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "miles": 159
+    },
+    {
+     "body": "North Node",
+     "angle": "MC",
+     "miles": 163
+    },
+    {
+     "body": "South Node",
+     "angle": "IC",
+     "miles": 163
+    },
+    {
+     "body": "Sun",
+     "angle": "DC",
+     "miles": 348
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Sun",
+     "a1": "IC",
+     "b2": "Moon",
+     "a2": "AC",
+     "lat": 51.2
+    },
+    {
+     "b1": "Neptune",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 50.4
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "IC",
+     "orb": 4.97
+    }
+   ]
+  },
+  "grades": {
+   "home": 1.12,
+   "relationships": 4.41,
+   "career": 4.13,
+   "identity": 3.79,
+   "emotional_ease": 2.53,
+   "creativity": 2.8,
+   "stability": 2.75,
+   "balance": 2.6
+  },
+  "intensity": 0.38,
+  "growth": 3.49,
+  "code": "C13"
+ },
+ "Boston": {
+  "lat": 42.36,
+  "lon": -71.06,
+  "raw": {
+   "asc": 202.72,
+   "asc_sign": "Libra",
+   "mc": 117.11,
+   "mc_sign": "Cancer",
+   "cusps": [
+    202.72,
+    230.25,
+    262.19,
+    297.11,
+    330.59,
+    359.28,
+    22.72,
+    50.25,
+    82.19,
+    117.11,
+    150.59,
+    179.28
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 8,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 8,
+     "orbs": {
+      "AC": 125.41,
+      "MC": 39.81,
+      "DC": 54.59,
+      "IC": 140.19
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 136.24,
+      "MC": 138.15,
+      "DC": 43.76,
+      "IC": 41.85
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 148.63,
+      "MC": 63.02,
+      "DC": 31.37,
+      "IC": 116.98
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 8,
+     "orbs": {
+      "AC": 120.89,
+      "MC": 35.29,
+      "DC": 59.11,
+      "IC": 144.71
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 146.16,
+      "MC": 60.56,
+      "DC": 33.84,
+      "IC": 119.44
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 3,
+     "orbs": {
+      "AC": 83.18,
+      "MC": 168.79,
+      "DC": 96.82,
+      "IC": 11.21
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 163.3,
+      "MC": 111.1,
+      "DC": 16.7,
+      "IC": 68.9
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 101.51,
+      "MC": 172.89,
+      "DC": 78.49,
+      "IC": 7.11
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 94.64,
+      "MC": 179.75,
+      "DC": 85.36,
+      "IC": 0.25
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 38.58,
+      "MC": 124.19,
+      "DC": 141.42,
+      "IC": 55.81
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 7.64,
+      "MC": 77.97,
+      "DC": 172.36,
+      "IC": 102.03
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 14.8,
+      "MC": 70.81,
+      "DC": 165.2,
+      "IC": 109.19
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 172.36,
+      "MC": 102.03,
+      "DC": 7.64,
+      "IC": 77.97
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "miles": 8
+    },
+    {
+     "body": "Uranus",
+     "angle": "IC",
+     "miles": 385
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "orb": 0.25
+    }
+   ]
+  },
+  "grades": {
+   "home": 1.42,
+   "relationships": 1.98,
+   "career": 2.65,
+   "identity": 3.29,
+   "emotional_ease": 2.39,
+   "creativity": 3.45,
+   "stability": 2.12,
+   "balance": 2.17
+  },
+  "intensity": 1.08,
+  "growth": 3.39,
+  "code": "C33"
+ },
+ "New York": {
+  "lat": 40.71,
+  "lon": -74.01,
+  "raw": {
+   "asc": 200.76,
+   "asc_sign": "Libra",
+   "mc": 114.31,
+   "mc_sign": "Cancer",
+   "cusps": [
+    200.76,
+    228.32,
+    259.94,
+    294.31,
+    327.63,
+    356.7,
+    20.76,
+    48.32,
+    79.94,
+    114.31,
+    147.63,
+    176.7
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 8,
+     "orbs": {
+      "AC": 123.45,
+      "MC": 37.0,
+      "DC": 56.55,
+      "IC": 143.0
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 138.2,
+      "MC": 135.35,
+      "DC": 41.8,
+      "IC": 44.65
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 146.67,
+      "MC": 60.22,
+      "DC": 33.33,
+      "IC": 119.78
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 118.93,
+      "MC": 32.48,
+      "DC": 61.07,
+      "IC": 147.52
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 144.2,
+      "MC": 57.76,
+      "DC": 35.8,
+      "IC": 122.24
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 3,
+     "orbs": {
+      "AC": 85.14,
+      "MC": 171.59,
+      "DC": 94.86,
+      "IC": 8.41
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 165.26,
+      "MC": 108.3,
+      "DC": 14.74,
+      "IC": 71.7
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 103.47,
+      "MC": 170.08,
+      "DC": 76.53,
+      "IC": 9.92
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 96.6,
+      "MC": 176.95,
+      "DC": 83.4,
+      "IC": 3.05
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 40.54,
+      "MC": 126.99,
+      "DC": 139.46,
+      "IC": 53.01
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 5.68,
+      "MC": 80.77,
+      "DC": 174.32,
+      "IC": 99.23
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 12.84,
+      "MC": 73.61,
+      "DC": 167.16,
+      "IC": 106.39
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 174.32,
+      "MC": 99.23,
+      "DC": 5.68,
+      "IC": 80.77
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "miles": 163
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 377
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 377
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "orb": 3.05
+    }
+   ]
+  },
+  "grades": {
+   "home": 1.57,
+   "relationships": 1.84,
+   "career": 2.65,
+   "identity": 3.54,
+   "emotional_ease": 2.55,
+   "creativity": 3.21,
+   "stability": 2.35,
+   "balance": 2.24
+  },
+  "intensity": 0.62,
+  "growth": 3.49,
+  "code": "C21"
+ },
+ "Washington DC": {
+  "lat": 38.9,
+  "lon": -77.04,
+  "raw": {
+   "asc": 198.68,
+   "asc_sign": "Libra",
+   "mc": 111.45,
+   "mc_sign": "Cancer",
+   "cusps": [
+    198.68,
+    226.3,
+    257.63,
+    291.45,
+    324.56,
+    353.98,
+    18.68,
+    46.3,
+    77.63,
+    111.45,
+    144.56,
+    173.98
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 8,
+     "orbs": {
+      "AC": 121.37,
+      "MC": 34.14,
+      "DC": 58.63,
+      "IC": 145.86
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 140.28,
+      "MC": 132.49,
+      "DC": 39.72,
+      "IC": 47.51
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 144.59,
+      "MC": 57.36,
+      "DC": 35.41,
+      "IC": 122.64
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 116.85,
+      "MC": 29.62,
+      "DC": 63.15,
+      "IC": 150.38
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 142.13,
+      "MC": 54.9,
+      "DC": 37.87,
+      "IC": 125.1
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 3,
+     "orbs": {
+      "AC": 87.22,
+      "MC": 174.45,
+      "DC": 92.78,
+      "IC": 5.55
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 167.33,
+      "MC": 105.44,
+      "DC": 12.67,
+      "IC": 74.56
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 105.54,
+      "MC": 167.23,
+      "DC": 74.46,
+      "IC": 12.77
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 98.68,
+      "MC": 174.09,
+      "DC": 81.32,
+      "IC": 5.91
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 42.62,
+      "MC": 129.85,
+      "DC": 137.38,
+      "IC": 50.15
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 3.6,
+      "MC": 83.63,
+      "DC": 176.4,
+      "IC": 96.37
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 10.76,
+      "MC": 76.47,
+      "DC": 169.24,
+      "IC": 103.53
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 176.4,
+      "MC": 96.37,
+      "DC": 3.6,
+      "IC": 83.63
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 241
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 241
+    },
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 319
+    },
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "miles": 330
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    },
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "Mercury",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 37.4
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "orb": 5.91
+    }
+   ]
+  },
+  "grades": {
+   "home": 1.97,
+   "relationships": 1.7,
+   "career": 2.65,
+   "identity": 3.79,
+   "emotional_ease": 2.97,
+   "creativity": 3.29,
+   "stability": 2.59,
+   "balance": 2.41
+  },
+  "intensity": 0.26,
+  "growth": 3.76,
+  "code": "C27"
+ },
+ "Raleigh": {
+  "lat": 35.78,
+  "lon": -78.64,
+  "raw": {
+   "asc": 197.89,
+   "asc_sign": "Libra",
+   "mc": 109.95,
+   "mc_sign": "Cancer",
+   "cusps": [
+    197.89,
+    225.8,
+    256.85,
+    289.95,
+    322.67,
+    352.41,
+    17.89,
+    45.8,
+    76.85,
+    109.95,
+    142.67,
+    172.41
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 120.58,
+      "MC": 32.64,
+      "DC": 59.42,
+      "IC": 147.36
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 141.08,
+      "MC": 130.99,
+      "DC": 38.92,
+      "IC": 49.01
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 143.8,
+      "MC": 55.86,
+      "DC": 36.2,
+      "IC": 124.14
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 116.06,
+      "MC": 28.12,
+      "DC": 63.94,
+      "IC": 151.88
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 141.33,
+      "MC": 53.39,
+      "DC": 38.67,
+      "IC": 126.61
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 3,
+     "orbs": {
+      "AC": 88.01,
+      "MC": 175.95,
+      "DC": 91.99,
+      "IC": 4.05
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 168.13,
+      "MC": 103.93,
+      "DC": 11.87,
+      "IC": 76.07
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 106.34,
+      "MC": 165.72,
+      "DC": 73.66,
+      "IC": 14.28
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 99.47,
+      "MC": 172.59,
+      "DC": 80.53,
+      "IC": 7.41
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 43.41,
+      "MC": 131.35,
+      "DC": 136.59,
+      "IC": 48.65
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 2.8,
+      "MC": 85.13,
+      "DC": 177.2,
+      "IC": 94.87
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 9.97,
+      "MC": 77.97,
+      "DC": 170.03,
+      "IC": 102.03
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 177.2,
+      "MC": 94.87,
+      "DC": 2.8,
+      "IC": 85.13
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 190
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 190
+    },
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 243
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mars",
+     "a2": "DC",
+     "lat": 36.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 2.21,
+   "relationships": 1.65,
+   "career": 2.65,
+   "identity": 3.89,
+   "emotional_ease": 3.21,
+   "creativity": 3.36,
+   "stability": 2.72,
+   "balance": 2.5
+  },
+  "intensity": 0.07,
+  "growth": 3.88,
+  "code": "C37"
+ },
+ "Charlotte": {
+  "lat": 35.23,
+  "lon": -80.84,
+  "raw": {
+   "asc": 196.15,
+   "asc_sign": "Libra",
+   "mc": 107.89,
+   "mc_sign": "Cancer",
+   "cusps": [
+    196.15,
+    224.03,
+    254.97,
+    287.89,
+    320.53,
+    350.4,
+    16.15,
+    44.03,
+    74.97,
+    107.89,
+    140.53,
+    170.4
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 118.84,
+      "MC": 30.58,
+      "DC": 61.16,
+      "IC": 149.42
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 142.82,
+      "MC": 128.93,
+      "DC": 37.18,
+      "IC": 51.07
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 142.06,
+      "MC": 53.8,
+      "DC": 37.94,
+      "IC": 126.2
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 114.32,
+      "MC": 26.06,
+      "DC": 65.68,
+      "IC": 153.94
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 139.59,
+      "MC": 51.34,
+      "DC": 40.41,
+      "IC": 128.66
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 3,
+     "orbs": {
+      "AC": 89.75,
+      "MC": 178.01,
+      "DC": 90.25,
+      "IC": 1.99
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 169.87,
+      "MC": 101.88,
+      "DC": 10.13,
+      "IC": 78.12
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 108.08,
+      "MC": 163.66,
+      "DC": 71.92,
+      "IC": 16.34
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 101.21,
+      "MC": 170.53,
+      "DC": 78.79,
+      "IC": 9.47
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 45.15,
+      "MC": 133.41,
+      "DC": 134.85,
+      "IC": 46.59
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 1.06,
+      "MC": 87.19,
+      "DC": 178.94,
+      "IC": 92.81
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 8.23,
+      "MC": 80.03,
+      "DC": 171.77,
+      "IC": 99.97
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 178.94,
+      "MC": 92.81,
+      "DC": 1.06,
+      "IC": 87.19
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 72
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 72
+    },
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 121
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 2.47,
+   "relationships": 1.53,
+   "career": 2.65,
+   "identity": 4.11,
+   "emotional_ease": 3.48,
+   "creativity": 3.54,
+   "stability": 2.83,
+   "balance": 2.59
+  },
+  "intensity": 0.0,
+  "growth": 4.17,
+  "code": "C19"
+ },
+ "Atlanta": {
+  "lat": 33.75,
+  "lon": -84.39,
+  "raw": {
+   "asc": 193.37,
+   "asc_sign": "Libra",
+   "mc": 104.59,
+   "mc_sign": "Cancer",
+   "cusps": [
+    193.37,
+    221.28,
+    252.05,
+    284.59,
+    317.0,
+    347.08,
+    13.37,
+    41.28,
+    72.05,
+    104.59,
+    137.0,
+    167.08
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 116.06,
+      "MC": 27.28,
+      "DC": 63.94,
+      "IC": 152.72
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 145.6,
+      "MC": 125.62,
+      "DC": 34.4,
+      "IC": 54.38
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 139.28,
+      "MC": 50.5,
+      "DC": 40.72,
+      "IC": 129.5
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 111.54,
+      "MC": 22.76,
+      "DC": 68.46,
+      "IC": 157.24
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 136.81,
+      "MC": 48.03,
+      "DC": 43.19,
+      "IC": 131.97
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 92.54,
+      "MC": 178.69,
+      "DC": 87.46,
+      "IC": 1.31
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 172.65,
+      "MC": 98.57,
+      "DC": 7.35,
+      "IC": 81.43
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 110.86,
+      "MC": 160.36,
+      "DC": 69.14,
+      "IC": 19.64
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 103.99,
+      "MC": 167.23,
+      "DC": 76.01,
+      "IC": 12.77
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 47.94,
+      "MC": 136.72,
+      "DC": 132.06,
+      "IC": 43.28
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 1.72,
+      "MC": 90.5,
+      "DC": 178.28,
+      "IC": 89.5
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 5.44,
+      "MC": 83.33,
+      "DC": 174.56,
+      "IC": 96.67
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 178.28,
+      "MC": 89.5,
+      "DC": 1.72,
+      "IC": 90.5
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 81
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 117
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 117
+    },
+    {
+     "body": "Chiron",
+     "angle": "AC",
+     "miles": 347
+    }
+   ],
+   "parans": [],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 2.89,
+   "relationships": 1.28,
+   "career": 2.65,
+   "identity": 4.27,
+   "emotional_ease": 3.46,
+   "creativity": 3.21,
+   "stability": 2.88,
+   "balance": 2.57
+  },
+  "intensity": 0.08,
+  "growth": 4.05,
+  "code": "C22"
+ },
+ "Nashville": {
+  "lat": 36.16,
+  "lon": -86.78,
+  "raw": {
+   "asc": 191.12,
+   "asc_sign": "Libra",
+   "mc": 102.37,
+   "mc_sign": "Cancer",
+   "cusps": [
+    191.12,
+    218.63,
+    249.44,
+    282.37,
+    315.1,
+    345.13,
+    11.12,
+    38.63,
+    69.44,
+    102.37,
+    135.1,
+    165.13
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 113.81,
+      "MC": 25.06,
+      "DC": 66.19,
+      "IC": 154.94
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 147.85,
+      "MC": 123.41,
+      "DC": 32.15,
+      "IC": 56.59
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 137.03,
+      "MC": 48.28,
+      "DC": 42.97,
+      "IC": 131.72
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 109.29,
+      "MC": 20.54,
+      "DC": 70.71,
+      "IC": 159.46
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 134.56,
+      "MC": 45.82,
+      "DC": 45.44,
+      "IC": 134.18
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 94.78,
+      "MC": 176.47,
+      "DC": 85.22,
+      "IC": 3.53
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 174.9,
+      "MC": 96.36,
+      "DC": 5.1,
+      "IC": 83.64
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 113.11,
+      "MC": 158.14,
+      "DC": 66.89,
+      "IC": 21.86
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 106.24,
+      "MC": 165.01,
+      "DC": 73.76,
+      "IC": 14.99
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 50.18,
+      "MC": 138.93,
+      "DC": 129.82,
+      "IC": 41.07
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 3.96,
+      "MC": 92.71,
+      "DC": 176.04,
+      "IC": 87.29
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 3.2,
+      "MC": 85.55,
+      "DC": 176.8,
+      "IC": 94.45
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 176.04,
+      "MC": 87.29,
+      "DC": 3.96,
+      "IC": 92.71
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Chiron",
+     "angle": "AC",
+     "miles": 187
+    },
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 212
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 268
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 268
+    },
+    {
+     "body": "Saturn",
+     "angle": "DC",
+     "miles": 379
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mars",
+     "a2": "DC",
+     "lat": 36.8
+    },
+    {
+     "b1": "Mercury",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 37.4
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "DC",
+     "orb": 5.1
+    }
+   ]
+  },
+  "grades": {
+   "home": 2.64,
+   "relationships": 1.13,
+   "career": 2.65,
+   "identity": 3.97,
+   "emotional_ease": 2.87,
+   "creativity": 2.97,
+   "stability": 2.91,
+   "balance": 2.38
+  },
+  "intensity": 0.36,
+  "growth": 3.67,
+  "code": "C31"
+ },
+ "Columbus": {
+  "lat": 39.96,
+  "lon": -83.0,
+  "raw": {
+   "asc": 193.76,
+   "asc_sign": "Libra",
+   "mc": 105.88,
+   "mc_sign": "Cancer",
+   "cusps": [
+    193.76,
+    220.93,
+    252.05,
+    285.88,
+    319.15,
+    348.8,
+    13.76,
+    40.93,
+    72.05,
+    105.88,
+    139.15,
+    168.8
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 116.45,
+      "MC": 28.57,
+      "DC": 63.55,
+      "IC": 151.43
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 145.21,
+      "MC": 126.91,
+      "DC": 34.79,
+      "IC": 53.09
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 139.67,
+      "MC": 51.79,
+      "DC": 40.33,
+      "IC": 128.21
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 111.93,
+      "MC": 24.05,
+      "DC": 68.07,
+      "IC": 155.95
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 137.2,
+      "MC": 49.32,
+      "DC": 42.8,
+      "IC": 130.68
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 92.15,
+      "MC": 179.98,
+      "DC": 87.85,
+      "IC": 0.02
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 172.26,
+      "MC": 99.86,
+      "DC": 7.74,
+      "IC": 80.14
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 110.47,
+      "MC": 161.65,
+      "DC": 69.53,
+      "IC": 18.35
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 103.6,
+      "MC": 168.52,
+      "DC": 76.4,
+      "IC": 11.48
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 47.55,
+      "MC": 135.42,
+      "DC": 132.45,
+      "IC": 44.58
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 1.33,
+      "MC": 89.21,
+      "DC": 178.67,
+      "IC": 90.79
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 5.83,
+      "MC": 82.04,
+      "DC": 174.17,
+      "IC": 97.96
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 178.67,
+      "MC": 90.79,
+      "DC": 1.33,
+      "IC": 89.21
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 1
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 88
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 88
+    },
+    {
+     "body": "Chiron",
+     "angle": "AC",
+     "miles": 350
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.04,
+   "relationships": 1.3,
+   "career": 2.65,
+   "identity": 4.32,
+   "emotional_ease": 3.66,
+   "creativity": 3.35,
+   "stability": 2.91,
+   "balance": 2.64
+  },
+  "intensity": 0.03,
+  "growth": 4.17,
+  "code": "C36"
+ },
+ "Detroit": {
+  "lat": 42.33,
+  "lon": -83.05,
+  "raw": {
+   "asc": 193.41,
+   "asc_sign": "Libra",
+   "mc": 105.83,
+   "mc_sign": "Cancer",
+   "cusps": [
+    193.41,
+    220.24,
+    251.46,
+    285.83,
+    319.46,
+    348.95,
+    13.41,
+    40.24,
+    71.46,
+    105.83,
+    139.46,
+    168.95
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 116.1,
+      "MC": 28.52,
+      "DC": 63.9,
+      "IC": 151.48
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 145.56,
+      "MC": 126.87,
+      "DC": 34.44,
+      "IC": 53.13
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 139.32,
+      "MC": 51.74,
+      "DC": 40.68,
+      "IC": 128.26
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 111.58,
+      "MC": 24.0,
+      "DC": 68.42,
+      "IC": 156.0
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 136.85,
+      "MC": 49.28,
+      "DC": 43.15,
+      "IC": 130.72
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 92.49,
+      "MC": 179.93,
+      "DC": 87.51,
+      "IC": 0.07
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 172.61,
+      "MC": 99.82,
+      "DC": 7.39,
+      "IC": 80.18
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 110.82,
+      "MC": 161.6,
+      "DC": 69.18,
+      "IC": 18.4
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 103.95,
+      "MC": 168.47,
+      "DC": 76.05,
+      "IC": 11.53
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 47.9,
+      "MC": 135.47,
+      "DC": 132.1,
+      "IC": 44.53
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 1.68,
+      "MC": 89.25,
+      "DC": 178.32,
+      "IC": 90.75
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 5.49,
+      "MC": 82.09,
+      "DC": 174.51,
+      "IC": 97.91
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 178.32,
+      "MC": 90.75,
+      "DC": 1.68,
+      "IC": 89.25
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 4
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 110
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 110
+    },
+    {
+     "body": "Chiron",
+     "angle": "AC",
+     "miles": 317
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.03,
+   "relationships": 1.28,
+   "career": 2.65,
+   "identity": 4.27,
+   "emotional_ease": 3.6,
+   "creativity": 3.34,
+   "stability": 2.93,
+   "balance": 2.63
+  },
+  "intensity": 0.08,
+  "growth": 4.12,
+  "code": "C03"
+ },
+ "Chicago": {
+  "lat": 41.88,
+  "lon": -87.63,
+  "raw": {
+   "asc": 189.88,
+   "asc_sign": "Libra",
+   "mc": 101.58,
+   "mc_sign": "Cancer",
+   "cusps": [
+    189.88,
+    216.51,
+    247.48,
+    281.58,
+    315.19,
+    344.96,
+    9.88,
+    36.51,
+    67.48,
+    101.58,
+    135.19,
+    164.96
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 112.57,
+      "MC": 24.28,
+      "DC": 67.43,
+      "IC": 155.72
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 149.08,
+      "MC": 122.62,
+      "DC": 30.92,
+      "IC": 57.38
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 135.79,
+      "MC": 47.49,
+      "DC": 44.21,
+      "IC": 132.51
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 108.05,
+      "MC": 19.76,
+      "DC": 71.95,
+      "IC": 160.24
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 133.32,
+      "MC": 45.03,
+      "DC": 46.68,
+      "IC": 134.97
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 96.02,
+      "MC": 175.68,
+      "DC": 83.98,
+      "IC": 4.32
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 176.14,
+      "MC": 95.57,
+      "DC": 3.86,
+      "IC": 84.43
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 114.35,
+      "MC": 157.36,
+      "DC": 65.65,
+      "IC": 22.64
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 107.48,
+      "MC": 164.23,
+      "DC": 72.52,
+      "IC": 15.77
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 51.42,
+      "MC": 139.72,
+      "DC": 128.58,
+      "IC": 40.28
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 5.2,
+      "MC": 93.5,
+      "DC": 174.8,
+      "IC": 86.5
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 1.96,
+      "MC": 86.34,
+      "DC": 178.04,
+      "IC": 93.66
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 174.8,
+      "MC": 86.5,
+      "DC": 5.2,
+      "IC": 93.5
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Chiron",
+     "angle": "AC",
+     "miles": 86
+    },
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 240
+    },
+    {
+     "body": "Saturn",
+     "angle": "DC",
+     "miles": 303
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 342
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 342
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "DC",
+     "orb": 3.86
+    }
+   ]
+  },
+  "grades": {
+   "home": 2.55,
+   "relationships": 1.04,
+   "career": 2.65,
+   "identity": 3.8,
+   "emotional_ease": 2.59,
+   "creativity": 2.89,
+   "stability": 2.94,
+   "balance": 2.29
+  },
+  "intensity": 0.52,
+  "growth": 3.48,
+  "code": "C24"
+ },
+ "Phoenix": {
+  "lat": 33.45,
+  "lon": -112.07,
+  "raw": {
+   "asc": 169.97,
+   "asc_sign": "Virgo",
+   "mc": 79.11,
+   "mc_sign": "Gemini",
+   "cusps": [
+    169.97,
+    196.57,
+    226.77,
+    259.11,
+    291.5,
+    322.17,
+    349.97,
+    16.57,
+    46.77,
+    79.11,
+    111.5,
+    142.17
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 92.66,
+      "MC": 1.8,
+      "DC": 87.34,
+      "IC": 178.2
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 168.99,
+      "MC": 100.14,
+      "DC": 11.01,
+      "IC": 79.86
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 115.88,
+      "MC": 25.02,
+      "DC": 64.12,
+      "IC": 154.98
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 88.14,
+      "MC": 2.72,
+      "DC": 91.86,
+      "IC": 177.28
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 113.42,
+      "MC": 22.55,
+      "DC": 66.58,
+      "IC": 157.45
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 115.93,
+      "MC": 153.21,
+      "DC": 64.07,
+      "IC": 26.79
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 163.96,
+      "MC": 73.09,
+      "DC": 16.04,
+      "IC": 106.91
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 134.26,
+      "MC": 134.88,
+      "DC": 45.74,
+      "IC": 45.12
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 127.39,
+      "MC": 141.75,
+      "DC": 52.61,
+      "IC": 38.25
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 71.33,
+      "MC": 162.19,
+      "DC": 108.67,
+      "IC": 17.81
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 25.11,
+      "MC": 115.98,
+      "DC": 154.89,
+      "IC": 64.02
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 17.95,
+      "MC": 108.81,
+      "DC": 162.05,
+      "IC": 71.19
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 154.89,
+      "MC": 64.02,
+      "DC": 25.11,
+      "IC": 115.98
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Sun",
+     "angle": "MC",
+     "miles": 112
+    },
+    {
+     "body": "Venus",
+     "angle": "MC",
+     "miles": 170
+    }
+   ],
+   "parans": [],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.45,
+   "relationships": 1.77,
+   "career": 5.0,
+   "identity": 2.93,
+   "emotional_ease": 4.39,
+   "creativity": 3.44,
+   "stability": 2.8,
+   "balance": 2.95
+  },
+  "intensity": 0.0,
+  "growth": 3.19,
+  "code": "C10"
+ },
+ "Tucson": {
+  "lat": 32.22,
+  "lon": -110.97,
+  "raw": {
+   "asc": 170.81,
+   "asc_sign": "Virgo",
+   "mc": 80.12,
+   "mc_sign": "Gemini",
+   "cusps": [
+    170.81,
+    197.7,
+    227.97,
+    260.12,
+    292.29,
+    322.89,
+    350.81,
+    17.7,
+    47.97,
+    80.12,
+    112.29,
+    142.89
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 93.5,
+      "MC": 2.81,
+      "DC": 86.5,
+      "IC": 177.19
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 168.16,
+      "MC": 101.16,
+      "DC": 11.84,
+      "IC": 78.84
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 116.72,
+      "MC": 26.03,
+      "DC": 63.28,
+      "IC": 153.97
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 88.98,
+      "MC": 1.71,
+      "DC": 91.02,
+      "IC": 178.29
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 114.25,
+      "MC": 23.57,
+      "DC": 65.75,
+      "IC": 156.43
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 115.09,
+      "MC": 154.22,
+      "DC": 64.91,
+      "IC": 25.78
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 164.79,
+      "MC": 74.11,
+      "DC": 15.21,
+      "IC": 105.89
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 133.42,
+      "MC": 135.9,
+      "DC": 46.58,
+      "IC": 44.1
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 126.55,
+      "MC": 142.76,
+      "DC": 53.45,
+      "IC": 37.24
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 70.49,
+      "MC": 161.18,
+      "DC": 109.51,
+      "IC": 18.82
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 24.28,
+      "MC": 114.96,
+      "DC": 155.72,
+      "IC": 65.04
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 17.11,
+      "MC": 107.8,
+      "DC": 162.89,
+      "IC": 72.2
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 155.72,
+      "MC": 65.04,
+      "DC": 24.28,
+      "IC": 114.96
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "MC",
+     "miles": 108
+    },
+    {
+     "body": "Sun",
+     "angle": "MC",
+     "miles": 178
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 31.6
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 31.4
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.45,
+   "relationships": 1.77,
+   "career": 5.0,
+   "identity": 2.93,
+   "emotional_ease": 4.45,
+   "creativity": 3.57,
+   "stability": 2.84,
+   "balance": 2.98
+  },
+  "intensity": 0.0,
+  "growth": 3.25,
+  "code": "C11"
+ },
+ "Flagstaff": {
+  "lat": 35.2,
+  "lon": -111.65,
+  "raw": {
+   "asc": 170.47,
+   "asc_sign": "Virgo",
+   "mc": 79.5,
+   "mc_sign": "Gemini",
+   "cusps": [
+    170.47,
+    196.77,
+    226.92,
+    259.5,
+    292.2,
+    322.92,
+    350.47,
+    16.77,
+    46.92,
+    79.5,
+    112.2,
+    142.92
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 93.16,
+      "MC": 2.19,
+      "DC": 86.84,
+      "IC": 177.81
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 168.49,
+      "MC": 100.53,
+      "DC": 11.51,
+      "IC": 79.47
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 116.38,
+      "MC": 25.41,
+      "DC": 63.62,
+      "IC": 154.59
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 88.64,
+      "MC": 2.33,
+      "DC": 91.36,
+      "IC": 177.67
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 113.91,
+      "MC": 22.94,
+      "DC": 66.09,
+      "IC": 157.06
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 115.43,
+      "MC": 153.59,
+      "DC": 64.57,
+      "IC": 26.41
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 164.45,
+      "MC": 73.48,
+      "DC": 15.55,
+      "IC": 106.52
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 133.76,
+      "MC": 135.27,
+      "DC": 46.24,
+      "IC": 44.73
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 126.89,
+      "MC": 142.14,
+      "DC": 53.11,
+      "IC": 37.86
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 70.83,
+      "MC": 161.81,
+      "DC": 109.17,
+      "IC": 18.19
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 24.61,
+      "MC": 115.59,
+      "DC": 155.39,
+      "IC": 64.41
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 17.45,
+      "MC": 108.43,
+      "DC": 162.55,
+      "IC": 71.57
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 155.39,
+      "MC": 64.41,
+      "DC": 24.61,
+      "IC": 115.59
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Sun",
+     "angle": "MC",
+     "miles": 134
+    },
+    {
+     "body": "Venus",
+     "angle": "MC",
+     "miles": 142
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.45,
+   "relationships": 1.77,
+   "career": 5.0,
+   "identity": 2.93,
+   "emotional_ease": 4.41,
+   "creativity": 3.49,
+   "stability": 2.81,
+   "balance": 2.96
+  },
+  "intensity": 0.0,
+  "growth": 3.21,
+  "code": "C30"
+ },
+ "Santa Fe": {
+  "lat": 35.69,
+  "lon": -105.94,
+  "raw": {
+   "asc": 175.25,
+   "asc_sign": "Virgo",
+   "mc": 84.75,
+   "mc_sign": "Gemini",
+   "cusps": [
+    175.25,
+    201.82,
+    232.12,
+    264.75,
+    297.46,
+    328.04,
+    355.25,
+    21.82,
+    52.12,
+    84.75,
+    117.46,
+    148.04
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 97.94,
+      "MC": 7.45,
+      "DC": 82.06,
+      "IC": 172.55
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 163.71,
+      "MC": 105.79,
+      "DC": 16.29,
+      "IC": 74.21
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 121.16,
+      "MC": 30.66,
+      "DC": 58.84,
+      "IC": 149.34
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 93.42,
+      "MC": 2.93,
+      "DC": 86.58,
+      "IC": 177.07
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 118.69,
+      "MC": 28.2,
+      "DC": 61.31,
+      "IC": 151.8
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 110.65,
+      "MC": 158.85,
+      "DC": 69.35,
+      "IC": 21.15
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 169.23,
+      "MC": 78.74,
+      "DC": 10.77,
+      "IC": 101.26
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 128.98,
+      "MC": 140.53,
+      "DC": 51.02,
+      "IC": 39.47
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 122.11,
+      "MC": 147.39,
+      "DC": 57.89,
+      "IC": 32.61
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 66.05,
+      "MC": 156.55,
+      "DC": 113.95,
+      "IC": 23.45
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 19.83,
+      "MC": 110.33,
+      "DC": 160.17,
+      "IC": 69.67
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 12.67,
+      "MC": 103.17,
+      "DC": 167.33,
+      "IC": 76.83
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 160.17,
+      "MC": 69.67,
+      "DC": 19.83,
+      "IC": 110.33
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "MC",
+     "miles": 179
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mars",
+     "a2": "DC",
+     "lat": 36.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.31,
+   "relationships": 1.77,
+   "career": 3.97,
+   "identity": 2.93,
+   "emotional_ease": 3.72,
+   "creativity": 3.42,
+   "stability": 2.79,
+   "balance": 2.83
+  },
+  "intensity": 0.0,
+  "growth": 3.17,
+  "code": "C26"
+ },
+ "Salt Lake City": {
+  "lat": 40.76,
+  "lon": -111.89,
+  "raw": {
+   "asc": 170.75,
+   "asc_sign": "Virgo",
+   "mc": 79.27,
+   "mc_sign": "Gemini",
+   "cusps": [
+    170.75,
+    195.96,
+    225.84,
+    259.27,
+    293.1,
+    324.0,
+    350.75,
+    15.96,
+    45.84,
+    79.27,
+    113.1,
+    144.0
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 93.44,
+      "MC": 1.97,
+      "DC": 86.56,
+      "IC": 178.03
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 168.22,
+      "MC": 100.31,
+      "DC": 11.78,
+      "IC": 79.69
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 116.66,
+      "MC": 25.18,
+      "DC": 63.34,
+      "IC": 154.82
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 88.92,
+      "MC": 2.55,
+      "DC": 91.08,
+      "IC": 177.45
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 114.19,
+      "MC": 22.72,
+      "DC": 65.81,
+      "IC": 157.28
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 115.15,
+      "MC": 153.37,
+      "DC": 64.85,
+      "IC": 26.63
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 164.73,
+      "MC": 73.26,
+      "DC": 15.27,
+      "IC": 106.74
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 133.48,
+      "MC": 135.05,
+      "DC": 46.52,
+      "IC": 44.95
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 126.61,
+      "MC": 141.91,
+      "DC": 53.39,
+      "IC": 38.09
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 70.55,
+      "MC": 162.03,
+      "DC": 109.45,
+      "IC": 17.97
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 24.33,
+      "MC": 115.81,
+      "DC": 155.67,
+      "IC": 64.19
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 17.17,
+      "MC": 108.65,
+      "DC": 162.83,
+      "IC": 71.35
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 155.67,
+      "MC": 64.19,
+      "DC": 24.33,
+      "IC": 115.81
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Sun",
+     "angle": "MC",
+     "miles": 111
+    },
+    {
+     "body": "Venus",
+     "angle": "MC",
+     "miles": 145
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 41.9
+    },
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.45,
+   "relationships": 1.77,
+   "career": 5.0,
+   "identity": 2.93,
+   "emotional_ease": 4.4,
+   "creativity": 3.46,
+   "stability": 2.8,
+   "balance": 2.96
+  },
+  "intensity": 0.0,
+  "growth": 3.2,
+  "code": "C32"
+ },
+ "San Diego": {
+  "lat": 32.72,
+  "lon": -117.16,
+  "raw": {
+   "asc": 165.58,
+   "asc_sign": "Virgo",
+   "mc": 74.39,
+   "mc_sign": "Gemini",
+   "cusps": [
+    165.58,
+    191.99,
+    222.09,
+    254.39,
+    286.77,
+    317.5,
+    345.58,
+    11.99,
+    42.09,
+    74.39,
+    106.77,
+    137.5
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 10,
+     "orbs": {
+      "AC": 88.28,
+      "MC": 2.92,
+      "DC": 91.72,
+      "IC": 177.08
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 173.38,
+      "MC": 95.43,
+      "DC": 6.62,
+      "IC": 84.57
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 111.49,
+      "MC": 20.3,
+      "DC": 68.51,
+      "IC": 159.7
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 83.76,
+      "MC": 7.44,
+      "DC": 96.24,
+      "IC": 172.56
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 109.03,
+      "MC": 17.83,
+      "DC": 70.97,
+      "IC": 162.17
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 120.32,
+      "MC": 148.49,
+      "DC": 59.68,
+      "IC": 31.51
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 159.57,
+      "MC": 68.37,
+      "DC": 20.43,
+      "IC": 111.63
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 138.64,
+      "MC": 130.16,
+      "DC": 41.36,
+      "IC": 49.84
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 131.77,
+      "MC": 137.03,
+      "DC": 48.23,
+      "IC": 42.97
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 75.72,
+      "MC": 166.91,
+      "DC": 104.28,
+      "IC": 13.09
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 2,
+     "orbs": {
+      "AC": 29.5,
+      "MC": 120.69,
+      "DC": 150.5,
+      "IC": 59.31
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 22.34,
+      "MC": 113.53,
+      "DC": 157.66,
+      "IC": 66.47
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 8,
+     "orbs": {
+      "AC": 150.5,
+      "MC": 59.31,
+      "DC": 29.5,
+      "IC": 120.69
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Sun",
+     "angle": "MC",
+     "miles": 183
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 31.6
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Venus",
+     "a2": "DC",
+     "lat": 31.4
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.45,
+   "relationships": 2.03,
+   "career": 4.96,
+   "identity": 2.66,
+   "emotional_ease": 3.4,
+   "creativity": 2.87,
+   "stability": 2.62,
+   "balance": 2.75
+  },
+  "intensity": 0.0,
+  "growth": 2.77,
+  "code": "C25"
+ },
+ "San Francisco": {
+  "lat": 37.77,
+  "lon": -122.42,
+  "raw": {
+   "asc": 161.93,
+   "asc_sign": "Virgo",
+   "mc": 69.48,
+   "mc_sign": "Gemini",
+   "cusps": [
+    161.93,
+    186.95,
+    216.51,
+    249.48,
+    283.02,
+    314.22,
+    341.93,
+    6.95,
+    36.51,
+    69.48,
+    103.02,
+    134.22
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 10,
+     "orbs": {
+      "AC": 84.62,
+      "MC": 7.83,
+      "DC": 95.38,
+      "IC": 172.17
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 177.04,
+      "MC": 90.51,
+      "DC": 2.96,
+      "IC": 89.49
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 107.84,
+      "MC": 15.39,
+      "DC": 72.16,
+      "IC": 164.61
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 80.1,
+      "MC": 12.35,
+      "DC": 99.9,
+      "IC": 167.65
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 105.37,
+      "MC": 12.92,
+      "DC": 74.63,
+      "IC": 167.08
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 5,
+     "orbs": {
+      "AC": 123.97,
+      "MC": 143.58,
+      "DC": 56.03,
+      "IC": 36.42
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 155.91,
+      "MC": 63.46,
+      "DC": 24.09,
+      "IC": 116.54
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 142.3,
+      "MC": 125.25,
+      "DC": 37.7,
+      "IC": 54.75
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 135.43,
+      "MC": 132.12,
+      "DC": 44.57,
+      "IC": 47.88
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 79.37,
+      "MC": 171.82,
+      "DC": 100.63,
+      "IC": 8.18
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 2,
+     "orbs": {
+      "AC": 33.16,
+      "MC": 125.61,
+      "DC": 146.84,
+      "IC": 54.39
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 2,
+     "orbs": {
+      "AC": 25.99,
+      "MC": 118.44,
+      "DC": 154.01,
+      "IC": 61.56
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 8,
+     "orbs": {
+      "AC": 146.84,
+      "MC": 54.39,
+      "DC": 33.16,
+      "IC": 125.61
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Moon",
+     "angle": "DC",
+     "miles": 142
+    },
+    {
+     "body": "Pluto",
+     "angle": "IC",
+     "miles": 322
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Mercury",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 37.4
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mars",
+     "a2": "DC",
+     "lat": 36.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.1,
+   "relationships": 2.15,
+   "career": 4.0,
+   "identity": 2.75,
+   "emotional_ease": 2.57,
+   "creativity": 2.8,
+   "stability": 2.6,
+   "balance": 2.61
+  },
+  "intensity": 0.0,
+  "growth": 2.77,
+  "code": "C38"
+ },
+ "Portland OR": {
+  "lat": 45.52,
+  "lon": -122.68,
+  "raw": {
+   "asc": 163.05,
+   "asc_sign": "Virgo",
+   "mc": 69.23,
+   "mc_sign": "Gemini",
+   "cusps": [
+    163.05,
+    186.35,
+    215.21,
+    249.23,
+    284.66,
+    316.36,
+    343.05,
+    6.35,
+    35.21,
+    69.23,
+    104.66,
+    136.36
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 10,
+     "orbs": {
+      "AC": 85.74,
+      "MC": 8.07,
+      "DC": 94.26,
+      "IC": 171.93
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 175.92,
+      "MC": 90.27,
+      "DC": 4.08,
+      "IC": 89.73
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 108.96,
+      "MC": 15.14,
+      "DC": 71.04,
+      "IC": 164.86
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 81.22,
+      "MC": 12.59,
+      "DC": 98.78,
+      "IC": 167.41
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 106.49,
+      "MC": 12.68,
+      "DC": 73.51,
+      "IC": 167.32
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 5,
+     "orbs": {
+      "AC": 122.85,
+      "MC": 143.33,
+      "DC": 57.15,
+      "IC": 36.67
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 157.03,
+      "MC": 63.22,
+      "DC": 22.97,
+      "IC": 116.78
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 141.18,
+      "MC": 125.01,
+      "DC": 38.82,
+      "IC": 54.99
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 134.31,
+      "MC": 131.87,
+      "DC": 45.69,
+      "IC": 48.13
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 78.26,
+      "MC": 172.07,
+      "DC": 101.74,
+      "IC": 7.93
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 2,
+     "orbs": {
+      "AC": 32.04,
+      "MC": 125.85,
+      "DC": 147.96,
+      "IC": 54.15
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 2,
+     "orbs": {
+      "AC": 24.87,
+      "MC": 118.69,
+      "DC": 155.13,
+      "IC": 61.31
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 8,
+     "orbs": {
+      "AC": 147.96,
+      "MC": 54.15,
+      "DC": 32.04,
+      "IC": 125.85
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Moon",
+     "angle": "DC",
+     "miles": 177
+    },
+    {
+     "body": "Pluto",
+     "angle": "IC",
+     "miles": 273
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mercury",
+     "a2": "AC",
+     "lat": 45.5
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Pluto",
+     "a2": "AC",
+     "lat": 45.8
+    },
+    {
+     "b1": "Chiron",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.6
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mercury",
+     "a2": "DC",
+     "lat": 46.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.09,
+   "relationships": 2.11,
+   "career": 3.97,
+   "identity": 2.75,
+   "emotional_ease": 2.6,
+   "creativity": 2.8,
+   "stability": 2.6,
+   "balance": 2.61
+  },
+  "intensity": 0.01,
+  "growth": 2.77,
+  "code": "C14"
+ },
+ "Seattle": {
+  "lat": 47.61,
+  "lon": -122.33,
+  "raw": {
+   "asc": 163.69,
+   "asc_sign": "Virgo",
+   "mc": 69.56,
+   "mc_sign": "Gemini",
+   "cusps": [
+    163.69,
+    186.53,
+    215.2,
+    249.56,
+    285.58,
+    317.35,
+    343.69,
+    6.53,
+    35.2,
+    69.56,
+    105.58,
+    137.35
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 10,
+     "orbs": {
+      "AC": 86.38,
+      "MC": 7.75,
+      "DC": 93.62,
+      "IC": 172.25
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 175.28,
+      "MC": 90.6,
+      "DC": 4.72,
+      "IC": 89.4
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 109.6,
+      "MC": 15.47,
+      "DC": 70.4,
+      "IC": 164.53
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 81.86,
+      "MC": 12.27,
+      "DC": 98.14,
+      "IC": 167.73
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 107.13,
+      "MC": 13.01,
+      "DC": 72.87,
+      "IC": 166.99
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 5,
+     "orbs": {
+      "AC": 122.21,
+      "MC": 143.66,
+      "DC": 57.79,
+      "IC": 36.34
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 157.67,
+      "MC": 63.55,
+      "DC": 22.33,
+      "IC": 116.45
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 140.54,
+      "MC": 125.33,
+      "DC": 39.46,
+      "IC": 54.67
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 133.67,
+      "MC": 132.2,
+      "DC": 46.33,
+      "IC": 47.8
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 77.61,
+      "MC": 171.74,
+      "DC": 102.39,
+      "IC": 8.26
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 2,
+     "orbs": {
+      "AC": 31.4,
+      "MC": 125.52,
+      "DC": 148.6,
+      "IC": 54.48
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 2,
+     "orbs": {
+      "AC": 24.23,
+      "MC": 118.36,
+      "DC": 155.77,
+      "IC": 61.64
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 8,
+     "orbs": {
+      "AC": 148.6,
+      "MC": 54.48,
+      "DC": 31.4,
+      "IC": 125.52
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Moon",
+     "angle": "DC",
+     "miles": 207
+    },
+    {
+     "body": "Pluto",
+     "angle": "IC",
+     "miles": 279
+    },
+    {
+     "body": "Sun",
+     "angle": "MC",
+     "miles": 388
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 47.8
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 47.8
+    },
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "DC",
+     "lat": 47.2
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Uranus",
+     "a2": "DC",
+     "lat": 47.2
+    },
+    {
+     "b1": "Mercury",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "AC",
+     "lat": 47.1
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mercury",
+     "a2": "DC",
+     "lat": 46.8
+    },
+    {
+     "b1": "Saturn",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.6
+    },
+    {
+     "b1": "Chiron",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.5
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "AC",
+     "lat": 48.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.1,
+   "relationships": 2.09,
+   "career": 4.02,
+   "identity": 2.75,
+   "emotional_ease": 2.66,
+   "creativity": 2.8,
+   "stability": 2.6,
+   "balance": 2.61
+  },
+  "intensity": 0.0,
+  "growth": 2.77,
+  "code": "C09"
+ },
+ "Denver": {
+  "lat": 39.74,
+  "lon": -104.99,
+  "raw": {
+   "asc": 176.18,
+   "asc_sign": "Virgo",
+   "mc": 85.63,
+   "mc_sign": "Gemini",
+   "cusps": [
+    176.18,
+    202.08,
+    232.31,
+    265.63,
+    299.08,
+    329.67,
+    356.18,
+    22.08,
+    52.31,
+    85.63,
+    119.08,
+    149.67
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 4,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 98.87,
+      "MC": 8.32,
+      "DC": 81.13,
+      "IC": 171.68
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 162.78,
+      "MC": 106.66,
+      "DC": 17.22,
+      "IC": 73.34
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 122.09,
+      "MC": 31.54,
+      "DC": 57.91,
+      "IC": 148.46
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 94.35,
+      "MC": 3.8,
+      "DC": 85.65,
+      "IC": 176.2
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 119.63,
+      "MC": 29.07,
+      "DC": 60.37,
+      "IC": 150.93
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 109.72,
+      "MC": 159.73,
+      "DC": 70.28,
+      "IC": 20.27
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 170.17,
+      "MC": 79.61,
+      "DC": 9.83,
+      "IC": 100.39
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 128.04,
+      "MC": 141.4,
+      "DC": 51.96,
+      "IC": 38.6
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 121.18,
+      "MC": 148.27,
+      "DC": 58.82,
+      "IC": 31.73
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 65.12,
+      "MC": 155.68,
+      "DC": 114.88,
+      "IC": 24.32
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 18.9,
+      "MC": 109.46,
+      "DC": 161.1,
+      "IC": 70.54
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 11.74,
+      "MC": 102.29,
+      "DC": 168.26,
+      "IC": 77.71
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 161.1,
+      "MC": 70.54,
+      "DC": 18.9,
+      "IC": 109.46
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Venus",
+     "angle": "MC",
+     "miles": 220
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Chiron",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.5
+    },
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 40.0
+    },
+    {
+     "b1": "Saturn",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 39.3
+    },
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 40.9
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.31,
+   "relationships": 1.77,
+   "career": 3.69,
+   "identity": 2.93,
+   "emotional_ease": 3.51,
+   "creativity": 3.31,
+   "stability": 2.76,
+   "balance": 2.77
+  },
+  "intensity": 0.0,
+  "growth": 3.12,
+  "code": "C17"
+ },
+ "Tokyo": {
+  "lat": 35.68,
+  "lon": 139.65,
+  "raw": {
+   "asc": 78.57,
+   "asc_sign": "Gemini",
+   "mc": 327.69,
+   "mc_sign": "Aquarius",
+   "cusps": [
+    78.57,
+    100.76,
+    122.53,
+    147.69,
+    179.85,
+    219.49,
+    258.57,
+    280.76,
+    302.53,
+    327.69,
+    359.85,
+    39.49
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 12,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Leo",
+     "ruler": "Sun",
+     "ruler_house": 12,
+     "ruler_sign": "Gemini"
+    },
+    "7": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 8,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Aquarius",
+     "ruler": "Uranus",
+     "ruler_house": 9,
+     "ruler_sign": "Aquarius"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 12,
+     "orbs": {
+      "AC": 1.26,
+      "MC": 109.62,
+      "DC": 178.74,
+      "IC": 70.38
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 10,
+     "orbs": {
+      "AC": 99.6,
+      "MC": 11.28,
+      "DC": 80.4,
+      "IC": 168.72
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 12,
+     "orbs": {
+      "AC": 24.48,
+      "MC": 86.4,
+      "DC": 155.52,
+      "IC": 93.6
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 1,
+     "orbs": {
+      "AC": 3.26,
+      "MC": 114.14,
+      "DC": 176.74,
+      "IC": 65.86
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 12,
+     "orbs": {
+      "AC": 22.01,
+      "MC": 88.87,
+      "DC": 157.99,
+      "IC": 91.13
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 8,
+     "orbs": {
+      "AC": 152.67,
+      "MC": 41.79,
+      "DC": 27.33,
+      "IC": 138.21
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 11,
+     "orbs": {
+      "AC": 72.55,
+      "MC": 38.33,
+      "DC": 107.45,
+      "IC": 141.67
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 9,
+     "orbs": {
+      "AC": 134.34,
+      "MC": 23.46,
+      "DC": 45.66,
+      "IC": 156.54
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 8,
+     "orbs": {
+      "AC": 141.21,
+      "MC": 30.33,
+      "DC": 38.79,
+      "IC": 149.67
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 6,
+     "orbs": {
+      "AC": 162.73,
+      "MC": 86.39,
+      "DC": 17.27,
+      "IC": 93.61
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 5,
+     "orbs": {
+      "AC": 116.51,
+      "MC": 132.61,
+      "DC": 63.49,
+      "IC": 47.39
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 5,
+     "orbs": {
+      "AC": 109.35,
+      "MC": 139.77,
+      "DC": 70.65,
+      "IC": 40.23
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 11,
+     "orbs": {
+      "AC": 63.49,
+      "MC": 47.39,
+      "DC": 116.51,
+      "IC": 132.61
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Sun",
+     "angle": "AC",
+     "miles": 71
+    },
+    {
+     "body": "Venus",
+     "angle": "AC",
+     "miles": 177
+    },
+    {
+     "body": "Pluto",
+     "angle": "DC",
+     "miles": 180
+    }
+   ],
+   "parans": [
+    {
+     "b1": "North Node",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "South Node",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 35.9
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mars",
+     "a2": "DC",
+     "lat": 36.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.1,
+   "relationships": 3.1,
+   "career": 2.68,
+   "identity": 5.0,
+   "emotional_ease": 4.36,
+   "creativity": 3.08,
+   "stability": 3.18,
+   "balance": 3.15
+  },
+  "intensity": 0.0,
+  "growth": 4.04,
+  "code": "C15"
+ },
+ "San Jose CR": {
+  "lat": 9.93,
+  "lon": -84.08,
+  "raw": {
+   "asc": 196.3,
+   "asc_sign": "Libra",
+   "mc": 104.87,
+   "mc_sign": "Cancer",
+   "cusps": [
+    196.3,
+    226.59,
+    255.95,
+    284.87,
+    314.67,
+    345.67,
+    16.3,
+    46.59,
+    75.95,
+    104.87,
+    134.67,
+    165.67
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 118.99,
+      "MC": 27.57,
+      "DC": 61.01,
+      "IC": 152.43
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 142.66,
+      "MC": 125.91,
+      "DC": 37.34,
+      "IC": 54.09
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 142.21,
+      "MC": 50.78,
+      "DC": 37.79,
+      "IC": 129.22
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 114.47,
+      "MC": 23.05,
+      "DC": 65.53,
+      "IC": 156.95
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 139.74,
+      "MC": 48.32,
+      "DC": 40.26,
+      "IC": 131.68
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 89.6,
+      "MC": 178.97,
+      "DC": 90.4,
+      "IC": 1.03
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 169.72,
+      "MC": 98.86,
+      "DC": 10.28,
+      "IC": 81.14
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 107.93,
+      "MC": 160.65,
+      "DC": 72.07,
+      "IC": 19.35
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 101.06,
+      "MC": 167.52,
+      "DC": 78.94,
+      "IC": 12.48
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 45.0,
+      "MC": 136.43,
+      "DC": 135.0,
+      "IC": 43.57
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 1.22,
+      "MC": 90.21,
+      "DC": 178.78,
+      "IC": 89.79
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 8.38,
+      "MC": 83.05,
+      "DC": 171.62,
+      "IC": 96.95
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 178.78,
+      "MC": 89.79,
+      "DC": 1.22,
+      "IC": 90.21
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Jupiter",
+     "angle": "IC",
+     "miles": 75
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 83
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 83
+    }
+   ],
+   "parans": [],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 2.92,
+   "relationships": 1.54,
+   "career": 2.65,
+   "identity": 4.09,
+   "emotional_ease": 3.58,
+   "creativity": 3.24,
+   "stability": 2.86,
+   "balance": 2.65
+  },
+  "intensity": 0.0,
+  "growth": 4.0,
+  "code": "C18"
+ },
+ "Mexico City": {
+  "lat": 19.43,
+  "lon": -99.13,
+  "raw": {
+   "asc": 181.03,
+   "asc_sign": "Libra",
+   "mc": 91.0,
+   "mc_sign": "Cancer",
+   "cusps": [
+    181.03,
+    210.43,
+    240.74,
+    271.0,
+    301.3,
+    331.67,
+    1.03,
+    30.43,
+    60.74,
+    91.0,
+    121.3,
+    151.67
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 7,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 6,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 9,
+     "orbs": {
+      "AC": 103.73,
+      "MC": 13.7,
+      "DC": 76.27,
+      "IC": 166.3
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 157.93,
+      "MC": 112.04,
+      "DC": 22.07,
+      "IC": 67.96
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 126.94,
+      "MC": 36.91,
+      "DC": 53.06,
+      "IC": 143.09
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 99.21,
+      "MC": 9.18,
+      "DC": 80.79,
+      "IC": 170.82
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 124.48,
+      "MC": 34.45,
+      "DC": 55.52,
+      "IC": 145.55
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 4,
+     "orbs": {
+      "AC": 104.87,
+      "MC": 165.1,
+      "DC": 75.13,
+      "IC": 14.9
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 7,
+     "orbs": {
+      "AC": 175.02,
+      "MC": 84.99,
+      "DC": 4.98,
+      "IC": 95.01
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 123.19,
+      "MC": 146.78,
+      "DC": 56.81,
+      "IC": 33.22
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 116.32,
+      "MC": 153.65,
+      "DC": 63.68,
+      "IC": 26.35
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 60.27,
+      "MC": 150.3,
+      "DC": 119.73,
+      "IC": 29.7
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 1,
+     "orbs": {
+      "AC": 14.05,
+      "MC": 104.08,
+      "DC": 165.95,
+      "IC": 75.92
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 1,
+     "orbs": {
+      "AC": 6.89,
+      "MC": 96.92,
+      "DC": 173.11,
+      "IC": 83.08
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 7,
+     "orbs": {
+      "AC": 165.95,
+      "MC": 75.92,
+      "DC": 14.05,
+      "IC": 104.08
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Saturn",
+     "angle": "DC",
+     "miles": 354
+    }
+   ],
+   "parans": [],
+   "angular_malefics": [
+    {
+     "body": "Saturn",
+     "angle": "DC",
+     "orb": 4.98
+    }
+   ]
+  },
+  "grades": {
+   "home": 2.21,
+   "relationships": 0.96,
+   "career": 2.65,
+   "identity": 3.42,
+   "emotional_ease": 2.35,
+   "creativity": 2.5,
+   "stability": 2.75,
+   "balance": 2.09
+  },
+  "intensity": 0.38,
+  "growth": 2.96,
+  "code": "C02"
+ },
+ "Montreal": {
+  "lat": 45.5,
+  "lon": -73.57,
+  "raw": {
+   "asc": 200.12,
+   "asc_sign": "Libra",
+   "mc": 114.73,
+   "mc_sign": "Cancer",
+   "cusps": [
+    200.12,
+    227.09,
+    259.08,
+    294.73,
+    328.65,
+    357.18,
+    20.12,
+    47.09,
+    79.08,
+    114.73,
+    148.65,
+    177.18
+   ],
+   "chart_ruler": "Venus",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Gemini",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Capricorn",
+     "ruler": "Saturn",
+     "ruler_house": 6,
+     "ruler_sign": "Aries"
+    },
+    "7": {
+     "cusp_sign": "Aries",
+     "ruler": "Mars",
+     "ruler_house": 8,
+     "ruler_sign": "Taurus"
+    },
+    "10": {
+     "cusp_sign": "Cancer",
+     "ruler": "Moon",
+     "ruler_house": 5,
+     "ruler_sign": "Pisces"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 8,
+     "orbs": {
+      "AC": 122.81,
+      "MC": 37.42,
+      "DC": 57.19,
+      "IC": 142.58
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 5,
+     "orbs": {
+      "AC": 138.85,
+      "MC": 135.76,
+      "DC": 41.15,
+      "IC": 44.24
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 8,
+     "orbs": {
+      "AC": 146.03,
+      "MC": 60.64,
+      "DC": 33.97,
+      "IC": 119.36
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 9,
+     "orbs": {
+      "AC": 118.29,
+      "MC": 32.9,
+      "DC": 61.71,
+      "IC": 147.1
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 8,
+     "orbs": {
+      "AC": 143.56,
+      "MC": 58.17,
+      "DC": 36.44,
+      "IC": 121.83
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 3,
+     "orbs": {
+      "AC": 85.78,
+      "MC": 171.17,
+      "DC": 94.22,
+      "IC": 8.83
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 6,
+     "orbs": {
+      "AC": 165.9,
+      "MC": 108.71,
+      "DC": 14.1,
+      "IC": 71.29
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 4,
+     "orbs": {
+      "AC": 104.11,
+      "MC": 170.5,
+      "DC": 75.89,
+      "IC": 9.5
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 4,
+     "orbs": {
+      "AC": 97.24,
+      "MC": 177.37,
+      "DC": 82.76,
+      "IC": 2.63
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 2,
+     "orbs": {
+      "AC": 41.18,
+      "MC": 126.57,
+      "DC": 138.82,
+      "IC": 53.43
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 12,
+     "orbs": {
+      "AC": 5.03,
+      "MC": 80.36,
+      "DC": 174.97,
+      "IC": 99.64
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 12,
+     "orbs": {
+      "AC": 12.2,
+      "MC": 73.19,
+      "DC": 167.8,
+      "IC": 106.81
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 6,
+     "orbs": {
+      "AC": 174.97,
+      "MC": 99.64,
+      "DC": 5.03,
+      "IC": 80.36
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "miles": 129
+    },
+    {
+     "body": "North Node",
+     "angle": "AC",
+     "miles": 324
+    },
+    {
+     "body": "South Node",
+     "angle": "DC",
+     "miles": 324
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Uranus",
+     "a1": "MC",
+     "b2": "Mercury",
+     "a2": "AC",
+     "lat": 45.5
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Pluto",
+     "a2": "AC",
+     "lat": 45.8
+    },
+    {
+     "b1": "Chiron",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.5
+    },
+    {
+     "b1": "Saturn",
+     "a1": "MC",
+     "b2": "Neptune",
+     "a2": "DC",
+     "lat": 46.6
+    },
+    {
+     "b1": "Moon",
+     "a1": "IC",
+     "b2": "Mercury",
+     "a2": "DC",
+     "lat": 46.8
+    }
+   ],
+   "angular_malefics": [
+    {
+     "body": "Neptune",
+     "angle": "IC",
+     "orb": 2.63
+    }
+   ]
+  },
+  "grades": {
+   "home": 1.55,
+   "relationships": 1.8,
+   "career": 2.65,
+   "identity": 3.62,
+   "emotional_ease": 2.53,
+   "creativity": 3.24,
+   "stability": 2.33,
+   "balance": 2.23
+  },
+  "intensity": 0.67,
+  "growth": 3.58,
+  "code": "C01"
+ },
+ "Vancouver": {
+  "lat": 49.28,
+  "lon": -123.12,
+  "raw": {
+   "asc": 163.43,
+   "asc_sign": "Virgo",
+   "mc": 68.82,
+   "mc_sign": "Gemini",
+   "cusps": [
+    163.43,
+    185.8,
+    214.21,
+    248.82,
+    285.41,
+    317.31,
+    343.43,
+    5.8,
+    34.21,
+    68.82,
+    105.41,
+    137.31
+   ],
+   "chart_ruler": "Mercury",
+   "chart_ruler_house": 9,
+   "chart_ruler_sign": "Taurus",
+   "rulers": {
+    "4": {
+     "cusp_sign": "Sagittarius",
+     "ruler": "Jupiter",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "7": {
+     "cusp_sign": "Pisces",
+     "ruler": "Neptune",
+     "ruler_house": 5,
+     "ruler_sign": "Capricorn"
+    },
+    "10": {
+     "cusp_sign": "Gemini",
+     "ruler": "Mercury",
+     "ruler_house": 9,
+     "ruler_sign": "Taurus"
+    }
+   },
+   "planets": {
+    "Sun": {
+     "lon": 77.31,
+     "house": 10,
+     "orbs": {
+      "AC": 86.12,
+      "MC": 8.49,
+      "DC": 93.88,
+      "IC": 171.51
+     }
+    },
+    "Moon": {
+     "lon": 338.96,
+     "house": 6,
+     "orbs": {
+      "AC": 175.54,
+      "MC": 89.86,
+      "DC": 4.46,
+      "IC": 90.14
+     }
+    },
+    "Mercury": {
+     "lon": 54.09,
+     "house": 9,
+     "orbs": {
+      "AC": 109.34,
+      "MC": 14.73,
+      "DC": 70.66,
+      "IC": 165.27
+     }
+    },
+    "Venus": {
+     "lon": 81.83,
+     "house": 10,
+     "orbs": {
+      "AC": 81.6,
+      "MC": 13.01,
+      "DC": 98.4,
+      "IC": 166.99
+     }
+    },
+    "Mars": {
+     "lon": 56.56,
+     "house": 9,
+     "orbs": {
+      "AC": 106.87,
+      "MC": 12.26,
+      "DC": 73.13,
+      "IC": 167.74
+     }
+    },
+    "Jupiter": {
+     "lon": 285.9,
+     "house": 5,
+     "orbs": {
+      "AC": 122.47,
+      "MC": 142.92,
+      "DC": 57.53,
+      "IC": 37.08
+     }
+    },
+    "Saturn": {
+     "lon": 6.02,
+     "house": 8,
+     "orbs": {
+      "AC": 157.41,
+      "MC": 62.8,
+      "DC": 22.59,
+      "IC": 117.2
+     }
+    },
+    "Uranus": {
+     "lon": 304.23,
+     "house": 5,
+     "orbs": {
+      "AC": 140.8,
+      "MC": 124.59,
+      "DC": 39.2,
+      "IC": 55.41
+     }
+    },
+    "Neptune": {
+     "lon": 297.36,
+     "house": 5,
+     "orbs": {
+      "AC": 133.93,
+      "MC": 131.46,
+      "DC": 46.07,
+      "IC": 48.54
+     }
+    },
+    "Pluto": {
+     "lon": 241.3,
+     "house": 3,
+     "orbs": {
+      "AC": 77.87,
+      "MC": 172.48,
+      "DC": 102.13,
+      "IC": 7.52
+     }
+    },
+    "North Node": {
+     "lon": 195.08,
+     "house": 2,
+     "orbs": {
+      "AC": 31.66,
+      "MC": 126.26,
+      "DC": 148.34,
+      "IC": 53.74
+     }
+    },
+    "Chiron": {
+     "lon": 187.92,
+     "house": 2,
+     "orbs": {
+      "AC": 24.49,
+      "MC": 119.1,
+      "DC": 155.51,
+      "IC": 60.9
+     }
+    },
+    "South Node": {
+     "lon": 15.08,
+     "house": 8,
+     "orbs": {
+      "AC": 148.34,
+      "MC": 53.74,
+      "DC": 31.66,
+      "IC": 126.26
+     }
+    }
+   },
+   "acg_lines": [
+    {
+     "body": "Moon",
+     "angle": "DC",
+     "miles": 181
+    },
+    {
+     "body": "Pluto",
+     "angle": "IC",
+     "miles": 234
+    }
+   ],
+   "parans": [
+    {
+     "b1": "Mars",
+     "a1": "IC",
+     "b2": "Neptune",
+     "a2": "AC",
+     "lat": 48.9
+    },
+    {
+     "b1": "Pluto",
+     "a1": "MC",
+     "b2": "Uranus",
+     "a2": "AC",
+     "lat": 49.8
+    },
+    {
+     "b1": "Neptune",
+     "a1": "MC",
+     "b2": "Mars",
+     "a2": "AC",
+     "lat": 50.4
+    },
+    {
+     "b1": "North Node",
+     "a1": "MC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 47.8
+    },
+    {
+     "b1": "South Node",
+     "a1": "IC",
+     "b2": "Sun",
+     "a2": "DC",
+     "lat": 47.8
+    }
+   ],
+   "angular_malefics": []
+  },
+  "grades": {
+   "home": 3.05,
+   "relationships": 2.52,
+   "career": 3.97,
+   "identity": 2.75,
+   "emotional_ease": 2.56,
+   "creativity": 2.8,
+   "stability": 2.57,
+   "balance": 2.68
+  },
+  "intensity": 0.06,
+  "growth": 2.77,
+  "code": "C06"
+ }
+}
