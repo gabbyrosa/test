@@ -15,7 +15,8 @@ different chart.
 | `natal.py` | Core computation. `compute()` returns every value the other scripts use (planets, houses, angles, aspects). One source of truth. |
 | `birth_chart.py` | Prints the chart and writes `birth_chart_report.md`. |
 | `build_chart_wheel.py` | Renders the chart wheel to `birth_chart.svg` (Placidus) and `birth_chart_wholesign.svg` (whole sign); theme-aware CSS classes, element-colored zodiac. |
-| `astrocartography.py` | Computes the planetary MC/IC/AC/DC lines and renders the astrocartography world map to `astrocartography.svg`. |
+| `astrocartography.py` | Computes MC/IC/AC/DC lines (10 planets, lunar nodes, Chiron), renders the world map to `astrocartography.svg`, and produces the nearest-line-by-city relocation readout. |
+| `make_pdf.py` | Exports a print-friendly full astrocartography map to `astrocartography_map.pdf` (needs Playwright). |
 | `world_land.json` | Natural Earth 110m land outlines (GeoJSON) used as the map basemap. |
 | `assemble_artifact.py` | Fills `birth_chart_template.html` with the fonts, the wheel, and the placements to produce the self-contained `birth_chart.html`. |
 | `birth_chart_template.html` | The page design (celestial "star atlas" treatment, light and dark themes). |
@@ -40,6 +41,7 @@ python3 birth_chart.py          # text + birth_chart_report.md
 python3 build_chart_wheel.py    # birth_chart.svg + birth_chart_wholesign.svg
 python3 astrocartography.py     # astrocartography.svg
 python3 assemble_artifact.py    # birth_chart.html (open in a browser)
+python3 make_pdf.py             # astrocartography_map.pdf (optional, needs Playwright)
 ```
 
 ## Method

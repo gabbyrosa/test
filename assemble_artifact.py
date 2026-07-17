@@ -56,12 +56,42 @@ def placements_rows(data):
 
 def acg_legend():
     items = []
-    for name, _body, glyph, color in astrocartography.ACG_BODIES:
+    for name, _slug, glyph, color in astrocartography.display_bodies():
         items.append(
             f'<span class="item"><span class="sw" style="background:{color}">'
             f'</span><span class="pg">{glyph}\ufe0e</span>{name}</span>'
         )
     return "\n          ".join(items)
+
+
+def acg_planet_chips():
+    chips = []
+    for name, slug, _glyph, color in astrocartography.display_bodies():
+        chips.append(
+            f'<button class="chip pl on" data-b="{slug}" style="--c:{color}">'
+            f'<span class="dot"></span>{name}</button>'
+        )
+    return "\n          ".join(chips)
+
+
+def acg_readout(data):
+    rows = []
+    for r in astrocartography.city_readout(data["jd"]):
+        cells = [f'<td class="ro-city">{r["city"]}</td>']
+        for ang in astrocartography.ANGLE_ORDER:
+            c = r[ang]
+            extra = " ro-mc" if ang == "MC" else ""
+            if c:
+                cells.append(
+                    f'<td class="ro-cell{extra}">'
+                    f'<span class="pg" style="color:{c["color"]}">'
+                    f'{c["glyph"]}\ufe0e</span>'
+                    f'<span class="ro-mi">{round(c["mi"])}\u2009mi</span></td>'
+                )
+            else:
+                cells.append(f'<td class="ro-cell ro-none{extra}">\u00b7</td>')
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    return "\n          ".join(rows)
 
 
 def angles_line(data):
@@ -87,6 +117,8 @@ def main():
     html = html.replace("%%WHEEL_SVG_WS%%", svg_whole)
     html = html.replace("%%ACG_SVG%%", astrocartography.build_svg(data))
     html = html.replace("%%ACG_LEGEND%%", acg_legend())
+    html = html.replace("%%ACG_PLANET_CHIPS%%", acg_planet_chips())
+    html = html.replace("%%ACG_READOUT%%", acg_readout(data))
     html = html.replace("%%PLACEMENTS_ROWS%%", placements_rows(data))
     html = html.replace("%%ANGLES_LINE%%", angles_line(data))
 

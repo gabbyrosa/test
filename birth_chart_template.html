@@ -202,6 +202,35 @@
   .acg-key{
     font-size:.98rem; line-height:1.55; color:var(--muted); margin-top:1rem;
   }
+  .acg-figure{margin-top:1.5rem}
+  .acg-controls{display:flex; flex-direction:column; gap:.5rem; margin-bottom:.9rem}
+  .acg-ctl-row{display:flex; flex-wrap:wrap; align-items:center; gap:.4rem}
+  .acg-ctl-label{
+    font-family:var(--f-label); text-transform:uppercase; letter-spacing:.11em;
+    font-size:.6rem; color:var(--muted); width:4rem; flex:none;
+  }
+  .chip{
+    font-family:var(--f-label); font-size:.72rem; cursor:pointer;
+    background:transparent; color:var(--muted); border:1px solid var(--line);
+    border-radius:2rem; padding:.22rem .62rem; display:inline-flex;
+    align-items:center; gap:.35rem; line-height:1;
+    transition:border-color .15s, color .15s, opacity .15s;
+  }
+  .chip:hover{border-color:var(--gold-deep); color:var(--ink)}
+  .chip.on{color:var(--ink); border-color:var(--gold-deep); background:var(--bg-2)}
+  .chip.preset{border-style:dashed}
+  .chip.pl .dot{width:.55rem; height:.55rem; border-radius:50%; background:var(--c,#888); flex:none}
+  .chip.pl:not(.on){opacity:.45}
+  .chip:focus-visible{outline:2px solid var(--gold-deep); outline-offset:2px}
+  .acg-figure .acg-wrap{margin-top:0}
+  .acg-readout{font-size:.86rem}
+  .acg-readout th,.acg-readout td{padding:.38rem .4rem; white-space:nowrap}
+  .acg-readout .ro-city{font-family:var(--f-body); font-weight:500}
+  .acg-readout .ro-cell{font-family:var(--f-mono); font-size:.8rem; font-variant-numeric:tabular-nums}
+  .acg-readout .pg{font-family:var(--f-glyph); font-variant-emoji:text; margin-right:.3rem; font-size:.98rem}
+  .acg-readout .ro-mi{color:var(--muted)}
+  .acg-readout .ro-none{color:var(--line); text-align:center}
+  .acg-readout .ro-mc{opacity:.5}
 </style>
 
 <div class="page">
@@ -312,11 +341,46 @@
   <section>
     <p class="kicker">Astrocartography</p>
     <h2>Where your planets touch the Earth</h2>
-    <p>Astrocartography relocates your birth chart across the whole planet. The instant you were born is fixed, but where you stand changes which planets sit on the horizon or the meridian. Every line below marks where a planet would be exactly <em>angular</em> at your birth moment if you lived there, and living on or near a line is said to turn up that planet's themes in your life.</p>
-    <div class="acg-wrap">%%ACG_SVG%%</div>
-    <div class="acg-legend">%%ACG_LEGEND%%</div>
-    <p class="acg-key">The straight vertical lines are <strong>MC</strong> and <strong>IC</strong>, where a planet culminates overhead or sits at its lowest. The dashed curves are <strong>AC</strong> and <strong>DC</strong>, where a planet rises in the east or sets in the west. The gold dot is your birthplace, Pittsburgh.</p>
-    <p>A few of yours to notice: your <strong>Sun and Venus MC lines</strong> run close together down western North America, the corridor of being seen, warmth, and easy charm. Your <strong>Jupiter line</strong> crosses central Asia, the classic signature of room to expand and grow. Your <strong>Moon line</strong> falls out toward the western Pacific and eastern Australia, about emotional belonging and feeling at home. Read them as symbolic invitations, not instructions, and remember a line's pull is a broad corridor, not a street address.</p>
+    <p>Astrocartography relocates your birth chart across the whole planet. The instant you were born is fixed, but where you stand changes which planets sit on the horizon or the meridian. Every line marks where a body would be exactly <em>angular</em> if you lived there. For where you actually enjoy living, the lines that matter most are your <strong>Ascendant (AC)</strong>, how a place makes you feel in your own skin, your <strong>IC</strong>, home and roots, and your <strong>Descendant (DC)</strong>, the people and community you draw in. The <strong>MC</strong> is career and public visibility, which counts for less when your work travels with you, so the map opens with MC hidden.</p>
+
+    <div class="acg-figure">
+      <div class="acg-controls">
+        <div class="acg-ctl-row">
+          <span class="acg-ctl-label">Presets</span>
+          <button class="chip preset" data-preset="living">Where to live</button>
+          <button class="chip preset" data-preset="benefics">Benefics only</button>
+          <button class="chip preset" data-preset="career">Career (MC)</button>
+          <button class="chip preset" data-preset="all">Show all</button>
+        </div>
+        <div class="acg-ctl-row">
+          <span class="acg-ctl-label">Angles</span>
+          <button class="chip ang on" data-a="AC">AC rising</button>
+          <button class="chip ang on" data-a="IC">IC roots</button>
+          <button class="chip ang on" data-a="DC">DC relating</button>
+          <button class="chip ang" data-a="MC">MC career</button>
+        </div>
+        <div class="acg-ctl-row acg-planets">
+          <span class="acg-ctl-label">Bodies</span>
+          %%ACG_PLANET_CHIPS%%
+        </div>
+      </div>
+      <div class="acg-wrap">%%ACG_SVG%%</div>
+      <div class="acg-legend">%%ACG_LEGEND%%</div>
+      <p class="acg-key">Vertical lines are <strong>MC/IC</strong> (culminating / lowest); dashed curves are <strong>AC/DC</strong> (rising / setting). Use the chips to focus on the lines and bodies you care about. The gold dot is Pittsburgh.</p>
+    </div>
+
+    <p>Reading for livability, two of your closer results stand out. <strong>San Francisco</strong> sits near your <strong>Moon Descendant line</strong> (about 140 miles), which favours emotionally rich relationships and a real sense of community. <strong>New York</strong> sits near your <strong>Neptune IC line</strong> (about 160 miles), a romantic, imaginative feeling of home, with the usual Neptune caveat that it can also blur boundaries and finances. The table below has the rest.</p>
+
+    <h2 style="margin-top:2.75rem">Nearest lines by city</h2>
+    <p class="acg-key">For a set of world cities, the closest line of each angle and its rough distance. Blank means no line of that type within about 500 miles. Closer is stronger; on the line (under ~75 miles) is strongest. AC, IC, and DC lead; MC is dimmed since it matters least for remote living.</p>
+    <div class="table-wrap">
+      <table class="acg-readout">
+        <thead><tr><th>City</th><th>AC rising</th><th>IC roots</th><th>DC relating</th><th>MC career</th></tr></thead>
+        <tbody>
+          %%ACG_READOUT%%
+        </tbody>
+      </table>
+    </div>
   </section>
 
   <div class="method">
@@ -329,3 +393,60 @@
   </div>
 
 </div>
+
+<script>
+  (function () {
+    var fig = document.querySelector('.acg-figure');
+    if (!fig) return;
+    var svg = fig.querySelector('.acg');
+    var angBtns = fig.querySelectorAll('.chip.ang');
+    var plBtns = fig.querySelectorAll('.chip.pl');
+    var els = svg.querySelectorAll('[data-b]');
+
+    // opens on the "where to live" view: AC/IC/DC on, MC off
+    var angles = { AC: true, IC: true, DC: true, MC: false };
+    var bodies = {};
+    plBtns.forEach(function (b) { bodies[b.dataset.b] = true; });
+
+    function apply() {
+      angBtns.forEach(function (b) { b.classList.toggle('on', !!angles[b.dataset.a]); });
+      plBtns.forEach(function (b) { b.classList.toggle('on', !!bodies[b.dataset.b]); });
+      els.forEach(function (el) {
+        var show = angles[el.getAttribute('data-a')] && bodies[el.getAttribute('data-b')];
+        el.style.display = show ? '' : 'none';
+      });
+    }
+
+    angBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        angles[b.dataset.a] = !angles[b.dataset.a];
+        apply();
+      });
+    });
+    plBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        bodies[b.dataset.b] = !bodies[b.dataset.b];
+        apply();
+      });
+    });
+
+    function setAngles(a, i, d, m) { angles = { AC: a, IC: i, DC: d, MC: m }; }
+    function setBodies(v) { Object.keys(bodies).forEach(function (k) { bodies[k] = v; }); }
+
+    fig.querySelectorAll('.chip.preset').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var p = b.dataset.preset;
+        if (p === 'living') { setAngles(true, true, true, false); setBodies(true); }
+        else if (p === 'benefics') {
+          setAngles(true, true, true, false); setBodies(false);
+          ['sun', 'venus', 'jupiter', 'moon'].forEach(function (k) { bodies[k] = true; });
+        }
+        else if (p === 'career') { setAngles(false, false, false, true); setBodies(true); }
+        else if (p === 'all') { setAngles(true, true, true, true); setBodies(true); }
+        apply();
+      });
+    });
+
+    apply();
+  })();
+</script>
