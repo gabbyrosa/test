@@ -137,14 +137,40 @@ def profile(lat, lon, angle_orb=8.0):
     difficult = [x for x in angular
                  if x["body"] in ("Saturn", "Mars", "Pluto", "Neptune", "Uranus")]
 
+    # --- 6th house (health, routines, daily embodiment) --------------------
+    c6 = cusps[5]
+    sixth = {
+        "cusp_sign": sign(c6), "ruler": RULERS[sign(c6)],
+        "ruler_house": house_of(d["planets"][RULERS[sign(c6)]]["lon"]),
+        "occupants": [n for n in bodies if planets[n]["house"] == 6],
+        "near_cusp": sorted(
+            [(n, round(abs(norm180(d["planets"][n]["lon"] - c6)), 1)) for n in bodies
+             if abs(norm180(d["planets"][n]["lon"] - c6)) <= 4], key=lambda t: t[1]),
+    }
+
+    # --- Moon and its dispositor (regulation) ------------------------------
+    mh = planets["Moon"]["house"]
+    mh_ruler = RULERS[sign(cusps[mh - 1])]
+    moon = {"house": mh, "angle": planets["Moon"]["angle"],
+            "orb": planets["Moon"]["orb"], "sign": planets["Moon"]["sign"],
+            "house_ruler": mh_ruler,
+            "house_ruler_house": house_of(d["planets"][mh_ruler]["lon"])}
+
+    # --- parans with explicit latitude orb (threshold declared here) -------
+    PARAN_ORB = 1.5
+    parans = [{"b1": p[0], "a1": p[1], "b2": p[2], "a2": p[3],
+               "paran_lat": round(p[4], 2), "city_lat": round(lat, 2),
+               "diff": round(abs(p[4] - lat), 2),
+               "tier": "primary" if abs(p[4] - lat) <= 0.5 else "background"}
+              for p in parans_near(lat, orb=PARAN_ORB)]
+
     return {
         "asc": (round(asc % 30, 1), sign(asc)), "mc": (round(mc % 30, 1), sign(mc)),
         "dsc": (round(dsc % 30, 1), sign(dsc)), "ic": (round(ic % 30, 1), sign(ic)),
         "chart_ruler": RULERS[sign(asc)],
-        "angular": angular, "planets": planets,
-        "angle_rulers": angle_rulers, "difficult_angular": difficult,
-        "parans": [{"b1": p[0], "a1": p[1], "b2": p[2], "a2": p[3],
-                    "lat": round(p[4], 1)} for p in parans_near(lat)],
+        "angular": angular, "planets": planets, "angle_rulers": angle_rulers,
+        "difficult_angular": difficult, "sixth": sixth, "moon": moon,
+        "parans": parans, "paran_orb": PARAN_ORB, "sect": "day",
     }
 
 
