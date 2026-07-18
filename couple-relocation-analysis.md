@@ -187,6 +187,17 @@ So the coastal Carolinas keep, or even sharpen, his heaviest signature. Good hyp
 
 So "maximally expansive for both, in one place" essentially does not exist on land: your two Jupiter engines point at opposite sides of the planet. What *does* exist is a set of honest tradeoffs, which the recommendation lays out.
 
+### The western sweep: is there anywhere you both expand at once?
+
+Sweeping the Mountain West, the central plains, and the Pacific for any city where you *both* get a benefic (Venus, Jupiter, or Sun) on an angle, the answer is that your outward-expansion belts barely overlap:
+
+- **Your outward expansion is the Southwest.** Across Arizona, Utah, and Nevada (Phoenix, Sedona, Flagstaff, Salt Lake City, Las Vegas, Moab, Tucson) your **Sun and Venus both sit on the Midheaven**: visibility, creativity, being seen and admired. This is your equivalent of his Austin. But bfs is negative across all of it (his Uranus/Neptune-rising and Pluto-MC zone), so the Southwest is your dream and his drain.
+- **His outward expansion is the central plains.** His dignified **Jupiter-MC** runs down the ~100°W meridian (Bismarck, San Antonio, Oklahoma City, Austin), where he scores strongly and you have nothing angular.
+- **The one overlap is the Colorado Front Range.** Around Denver, Boulder, and Colorado Springs your **Venus-MC** (about 3.5 to 4°) and his **Jupiter-MC** (about 4.5°) finally coincide. But on a full read, his **Pluto-MC is tighter than his Jupiter-MC there** (Denver: Pluto 3.9° vs Jupiter 4.6°), because his Jupiter and Pluto meridians are only 6° apart and Colorado sits between them. So Colorado reads as *your* clean Venus-MC alongside *his* Jupiter-with-Pluto: shared ambition and visibility with real intensity and high stakes for him, not an easy landing. Colorado Springs is a hair softer than Denver.
+- **The Pacific Northwest** (Seattle, Portland) is the gentle exception the other way: his **Sun-DESC** (partnership vitality) is angular and you are mildly positive, so it is pleasant for you and energizing for him, without being expansive for either.
+
+Net: no city lets you both expand outwardly with ease. Colorado is the near-miss, and it carries Pluto for him.
+
 ---
 
 ## 10. Recommendation
@@ -196,7 +207,7 @@ The ranking stays provisional, but a few things are now firm:
 1. **Shared roots:** **Pittsburgh** remains a legitimate home base, Jupiter-blessed for Gabby and beloved by bfs, with his Saturn/Mars as the standing cost he carries willingly.
 2. **Balanced and still in the East:** the **southern Appalachian / Tennessee band (Knoxville, Atlanta, Asheville, Greenville)** is the real find. It keeps Gabby's Jupiter-IC home blessing and lifts bfs's heavy lines off, moving him from clearly negative to mildly positive. This is the closest thing to a place that works for *both* without leaving the region, though for him it is relief rather than expansion.
 3. **Shared vitality and romance:** **Paris** and **Madrid** remain the places where you both get Sun or Venus angular and your benefic lines converge, ideal for a chapter, a second home, or a reset.
-4. **Individual expansion (Jupiter), if that is the goal:** his is **Austin** (mild negative for you); yours is **Southeast Asia** or the **eastern Mediterranean** (not his best zones). These pull in opposite directions, which is simply the honest geometry.
+4. **Individual outward expansion, if that is the goal:** his is **Austin** (dignified Jupiter-MC; mild negative for you). Yours is the **US Southwest** (Phoenix, Sedona, Salt Lake City: your Sun and Venus on the Midheaven), with your pure-Jupiter growth line farther out in **Southeast Asia** or the **eastern Mediterranean**. The one place your outward belts overlap is the **Colorado Front Range** (your Venus-MC meets his Jupiter-MC), but his there is shadowed by Pluto, so it reads as high-stakes shared ambition rather than easy expansion.
 
 The clean version: **root in Pittsburgh, or shift to the Knoxville/Asheville band for more shared ease; go to Madrid or Paris to turn the relationship up; and treat pure outward expansion as a solo-leaning move for each of you, in opposite directions.**
 
