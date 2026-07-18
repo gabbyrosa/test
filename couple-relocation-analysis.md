@@ -150,19 +150,59 @@ This asymmetry is the real finding. Your easy zones only genuinely coincide in w
 
 ---
 
-## 9. Recommendation
+## 9. City-by-city deep pass: the eastern US
 
-Two different questions, two different answers:
+The ranking in Section 5 is a weighted heuristic and should be treated as provisional. Reading the full relocated charts across the eastern US, city by city, sharpens it and corrects one intuition.
 
-1. **Home base:** **Pittsburgh** holds up as a real answer, not a fallback. It is Jupiter-blessed for Gabby, beloved by bfs, and your shared roots, with the honest note that the standing "cost" is his Saturn/Mars, which he carries willingly. If you ever wanted a home base with more lift for *both* of you at once, the closest candidates are **Paris** and **Marrakesh**, the two balanced cities where you are both positive on your own merits.
+**Charleston and Raleigh: tested, and they do not move up.** The idea was sound. Both sit at almost exactly Pittsburgh's longitude but well to the south, so they keep the good meridian placements (your Jupiter near the IC, his Mercury near the IC and his dignified Sagittarius MC) while the latitude drop might swing his heavy rising and setting lines off. The meridian half holds; the rising half does not. Because his Saturn (24° Pisces) sits almost exactly on his natal Ascendant degree, moving south pulls his Ascendant *toward* Saturn and *tightens* the Saturn-rising signature:
 
-2. **Expansion and romance:** **Madrid** and **Paris** are the two places where you both get Venus or Sun angular *and* your benefic lines converge. Madrid is the love-and-beauty amplifier; Paris is the vitality-and-shared-purpose one. These are ideal for a long trip, a sabbatical chapter, a second home, or a reset, whether or not you ever move the home base.
+| City | lon / lat | his Saturn-ASC orb | his Mars-DESC orb |
+|---|---|---|---|
+| Pittsburgh | -80 / 40.4 | 3.5° | 0.6° |
+| Charleston | -79.9 / 32.8 | **2.3°** (tighter) | 0.6° |
+| Raleigh | -78.6 / 35.8 | **0.7°** (nearly exact) | 2.3° |
+| Wilmington | -77.9 / 34.2 | 0.6° | 3.5° |
 
-The clean version: **root in Pittsburgh, and let Madrid or Paris be where you go to turn the relationship up.**
+So the coastal Carolinas keep, or even sharpen, his heaviest signature. Good hypothesis; the geometry says no.
+
+**What does emerge is a different set: the southern Appalachians and Tennessee.** The lever is longitude, not latitude. Shifting about 4 to 6 degrees *west* of the 80°W meridian finally slides his Ascendant off Saturn and his Descendant off Mars, while your Jupiter-on-the-IC and Node-on-the-Ascendant hold near peak:
+
+| City | Gabby | bfs | bfs angular planets |
+|---|---|---|---|
+| **Knoxville, TN** | +5.7 | **+1.2** | Mercury IC (2.8°) only, no malefics |
+| **Atlanta, GA** | +5.7 | **+1.2** | Mercury IC (3.3°) only |
+| **Asheville, NC** | +5.7 | -0.8 | Mercury IC (1.6°), Mars DESC (3.8°) |
+| **Greenville, SC** | +5.7 | -0.8 | Mercury IC (1.4°), Mars DESC (3.4°) |
+| Chattanooga, TN | +3.8 | +0.6 | Mercury IC (4.1°) only |
+| Nashville, TN | +2.5 | +0.6 | Mercury IC (5.5°) only |
+
+**Knoxville and Atlanta are the standouts.** They move bfs from -4.7 (Pittsburgh) to +1.2, dropping the Saturn and Mars angles entirely while he keeps his dignified Jupiter ruling his relocated Midheaven and a workable Mercury on the IC, and they hold you near your peak (Jupiter IC plus Node ASC). That is a better-*balanced* eastern-US result than Pittsburgh, and it is exactly the "another city could emerge" you flagged.
+
+**One honest limit on the word "expansive."** Even in that band, bfs gets *relief*, not *expansion*: no benefic goes angular for him anywhere in the eastern US. His outward-expansion line (dignified Jupiter on the Midheaven) is the ~100°W meridian, which is Austin and the central plains, nowhere near the coast. And your own outward expansion is not in the US at all:
+
+- **His Jupiter MC:** ~100°W (Austin, central US).
+- **Your Jupiter MC:** ~97°E (Southeast Asia, around the Thailand longitude).
+- **Your Jupiter ASC:** ~24 to 30°E (the eastern Mediterranean: Athens, Istanbul, Cairo, and eastern Europe).
+- **Your eastern-US strength is Jupiter on the *IC*,** which is expansive *home and roots*, not expansive *career*. A real and good thing, but a different flavor of Jupiter than his Austin.
+
+So "maximally expansive for both, in one place" essentially does not exist on land: your two Jupiter engines point at opposite sides of the planet. What *does* exist is a set of honest tradeoffs, which the recommendation lays out.
 
 ---
 
-## 10. Caveats
+## 10. Recommendation
+
+The ranking stays provisional, but a few things are now firm:
+
+1. **Shared roots:** **Pittsburgh** remains a legitimate home base, Jupiter-blessed for Gabby and beloved by bfs, with his Saturn/Mars as the standing cost he carries willingly.
+2. **Balanced and still in the East:** the **southern Appalachian / Tennessee band (Knoxville, Atlanta, Asheville, Greenville)** is the real find. It keeps Gabby's Jupiter-IC home blessing and lifts bfs's heavy lines off, moving him from clearly negative to mildly positive. This is the closest thing to a place that works for *both* without leaving the region, though for him it is relief rather than expansion.
+3. **Shared vitality and romance:** **Paris** and **Madrid** remain the places where you both get Sun or Venus angular and your benefic lines converge, ideal for a chapter, a second home, or a reset.
+4. **Individual expansion (Jupiter), if that is the goal:** his is **Austin** (mild negative for you); yours is **Southeast Asia** or the **eastern Mediterranean** (not his best zones). These pull in opposite directions, which is simply the honest geometry.
+
+The clean version: **root in Pittsburgh, or shift to the Knoxville/Asheville band for more shared ease; go to Madrid or Paris to turn the relationship up; and treat pure outward expansion as a solo-leaning move for each of you, in opposite directions.**
+
+---
+
+## 11. Caveats
 
 - **Both birth times matter a lot here.** Relocated angles and ACG lines move roughly 1° (about 100 km, and one house-cusp degree) for every 4 minutes of birth time. His 12:01 AM and your 3:35 PM are both precise as given; if either turns out to be rounded, the angular placements can shift and a close call (Venus at 0.3° on an angle) could move. Worth confirming both certificate times before acting on a fine distinction.
 - **Ease is not everything.** The scores reward benefic angularity. They do not measure meaning, growth, or love, which is why Pittsburgh needed its own section and why a "harder" city can still be the right one.
