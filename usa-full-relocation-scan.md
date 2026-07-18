@@ -39,7 +39,7 @@
 | 8 | Honolulu | +1.0 | +3.2 | +1.0 | remote (Pacific) |
 | - | San Diego | +1.5 | -1.1 | -1.1 | you thrive, he strains |
 | - | Tampa / St Pete | +0.1 | +5.6 | +0.1 | his home peaks, you flat |
-| - | Asheville / Knoxville | +0.4 | +5.8 | +0.3 | his chart peaks, not yours |
+| - | Asheville / Knoxville | +0.4 | +5.8 | +0.3 | his chart peaks nationally, you comfortable |
 
 New Mexico has the highest both-positive floor of any real US region.
 
@@ -55,6 +55,29 @@ Around New Mexico's longitude two things line up at once:
 Slide about 5° west into Arizona (Phoenix, Tucson) and his Midheaven crosses into Scorpio, **ruled by Mars**, and he drops to -1.4, even though your shine actually *peaks* there. That single sign change of the Midheaven ruler is the whole difference between "both positive" and "you thrive, he strains." It is exactly the angle-ruler effect the first model was blind to.
 
 ---
+
+## Compared to Pittsburgh (the incumbent)
+
+Baseline, full protocol: **Pittsburgh is you -0.9 / him +3.9.** So home is mildly straining for you and good for him.
+
+| City | You | bfs | vs Pittsburgh (you / him) |
+|---|---|---|---|
+| Albuquerque | +1.9 | +3.8 | +2.7 / -0.1 |
+| Santa Fe | +1.8 | +4.0 | +2.6 / +0.1 |
+| Colorado Springs | +1.3 | +4.3 | +2.2 / +0.4 |
+| Asheville | +0.4 | +5.8 | +1.2 / +1.9 |
+| Knoxville | +0.3 | +6.0 | +1.1 / +2.1 |
+| Ann Arbor | +0.2 | +6.1 | +1.0 / +2.2 |
+| Atlanta | +0.1 | +5.9 | +1.0 / +2.0 |
+| San Diego | +1.5 | -1.1 | +2.4 / -5.0 |
+
+Three findings:
+
+1. **Every candidate improves your position over Pittsburgh**, where your chart is mildly strained. New Mexico lifts you the most.
+2. **The eastern band beats Pittsburgh for him too.** His dignified Jupiter still rules his angles across the Appalachians, but the Saturn-on-the-Ascendant and Mars-on-the-Descendant that weigh on him *in Pittsburgh specifically* lift off, so Asheville and Knoxville score him higher than home. That makes the band a rare win-win over the incumbent, and it is a short move within his own region rather than across the country.
+3. **New Mexico is your largest personal gain while keeping him even with home; San Diego is the only place he clearly loses versus Pittsburgh** (-5.0), the cost of your West Coast shine.
+
+The number cannot see belonging: his chart is more *supported* in Knoxville, but Pittsburgh is where he is *rooted and loved* (Cancer Sun and Venus in the home sector). Chart support and attachment are different things, and staying in Pittsburgh mainly serves the latter.
 
 ## Honest caveats
 
