@@ -1,0 +1,69 @@
+# Full-Protocol US Relocation Scan: Gabby + bfs
+
+**Gabby:** June 7, 1996, 3:35 PM EDT, Pittsburgh, PA (day chart)
+**bfs:** July 7, 1995, 12:01 AM EDT, Pittsburgh, PA (night chart)
+**Map:** `usa-relocation-field.png`
+
+> This runs a rebuilt engine, not the earlier Sun-line heuristic, on a half-degree grid across the entire continental US. It evaluates the whole relocated chart for each person, then keeps the *worse-off* of the two at each point, so a place only looks green if it works for both. The rebuild was prompted by a fair critique: the first model leaned too hard on a single Sun-on-Midheaven line and treated the angle rulers as decoration. This version makes them load-bearing.
+
+---
+
+## Method (four steps)
+
+1. **Relocated chart, weighted properly.** Angular planets (orb-scaled), plus the *condition of the angle rulers*: the rulers of the Ascendant, Midheaven, and IC, scored by dignity (domicile, exalt, detriment, fall) and by house placement (angular, succedent, cadent, and the difficult 6th/8th/12th). This is the piece the first model left out.
+2. **Sect.** Gabby is a day chart, bfs a night chart, which changes how much each planet helps or harms. For her, Jupiter is the in-sect benefic and Mars the out-of-sect (harsher) malefic. For him, Venus is the in-sect benefic and **Saturn the out-of-sect (harsher) malefic**, which correctly makes his Saturn-on-the-Ascendant zones read heavier.
+3. **Parans.** Co-angular pairs at a given latitude (two planets on angles at once), which are latitude-based and add a signal the longitude-driven lines never touched.
+4. **Synthesis.** total = angular + 0.8·rulers + 0.7·parans, with the components kept visible so no single factor hides. The weights are a heuristic. Astrology has no universal weights, and a practitioner who leaned harder on, say, an outer planet on an angle would reasonably rank some of these differently.
+
+---
+
+## What the whole country looks like
+
+- **You (Gabby):** supported across the West and Southwest, neutral-to-flat in the East. Your chart likes the western third of the country. Your Venus (your chart ruler) and Sun reach the Midheaven through the Southwest, which is your "seen and admired" zone.
+- **bfs:** supported down a central band and across the entire East, strained on the **West Coast**. In California his relocated Ascendant and Midheaven flip to Saturn and Mars; through the middle and East his dignified **Jupiter rules both angles** and Mercury (in domicile) rules his home. His chart is fundamentally well-governed almost everywhere except the Pacific.
+- **BOTH (worse-off of the two):** mostly strained, with **one warm-ish green stripe: New Mexico and the southern Rockies.** That is the single US zone where you are both clearly positive.
+
+---
+
+## Ranked, by floor (how the worse-off partner does)
+
+| Rank | City | You | bfs | Floor | Region |
+|---|---|---|---|---|---|
+| 1 | **Albuquerque, NM** | +1.9 | +3.8 | **+1.9** | New Mexico high desert |
+| 2 | **Santa Fe, NM** | +1.8 | +4.0 | **+1.8** | New Mexico high desert |
+| 3 | **Taos, NM** | +1.7 | +4.1 | +1.7 | New Mexico high desert |
+| 4 | **Las Cruces, NM** | +1.5 | +3.7 | +1.5 | warm end of the zone |
+| 5 | **El Paso, TX** | +1.4 | +3.7 | +1.4 | warm end of the zone |
+| 6 | Colorado Springs | +1.3 | +4.3 | +1.3 | Colorado Front Range (colder) |
+| 7 | Denver | +1.0 | +4.3 | +1.0 | Colorado Front Range (colder) |
+| 8 | Honolulu | +1.0 | +3.2 | +1.0 | warm, but remote |
+| - | San Diego | +1.5 | -1.1 | -1.1 | you thrive, he strains |
+| - | Tampa / St Pete | +0.1 | +5.6 | +0.1 | warm, his home peaks, you flat |
+| - | Asheville / Knoxville | +0.4 | +5.8 | +0.3 | his chart peaks, not your vibe |
+
+The New Mexico high desert is the highest both-positive floor of any real US region.
+
+---
+
+## Why New Mexico works (the mechanism)
+
+Around New Mexico's longitude two things line up at once:
+
+- **For you:** your **Venus sits on the Midheaven**, and Venus is your chart ruler (Libra rising). Your ruler, elevated on your most public angle, is your "being seen and admired" signature. (Your full Sun-blast peaks a little further west in Arizona, but that is where he fails.)
+- **For him:** his **Midheaven holds at 0° Sagittarius, ruled by his dignified Jupiter in the 10th**, and his home is ruled by Mercury in domicile. Even with Pluto near his Midheaven, his career angle is fundamentally well-governed, so he scores +3.7 to +4.1.
+
+Slide about 5° west into Arizona (Phoenix, Tucson) and his Midheaven crosses into Scorpio, **ruled by Mars**, and he drops to -1.4, even though your shine actually *peaks* there. That single sign change of the Midheaven ruler is the whole difference between "both positive" and "you thrive, he strains." It is exactly the angle-ruler effect the first model was blind to.
+
+---
+
+## Honest caveats
+
+- **The "it works for him" part hinges on a judgment call.** New Mexico comes out positive for him because his dignified Jupiter ruling the Midheaven outweighs Pluto sitting on that Midheaven at 2 to 3 degrees. Under this engine's weights, the ruler wins. An astrologer who weights an outer planet directly on an angle more heavily, as a lived, visceral intensity, would score him lower there. So New Mexico is a genuine candidate, but it rests on that specific call, and you should treat it as such rather than as a settled fact.
+- **Climate splits the zone.** The *warmest* part is Las Cruces and El Paso (mild winters, very sunny, low desert). **Santa Fe and Taos** are sunny, intensely artsy, walkable, and social, but at 7,000 feet they have cold, snowy winters, sunny rather than warm. **Albuquerque** (5,300 feet) is the middle: sunny, mid-size urban, milder than Santa Fe but still cool in winter. So the "warm most of the year" and "most walkable and artsy" ends of the zone are not the same town.
+- **The weights are a model, not a measurement.** Every number here is one engine's opinion, transparent in its components so it can be argued with.
+
+---
+
+## Bottom line
+
+Run across the entire country, the honest answer is that there *is* a warm-ish US zone where you both come out positive, and it is the **New Mexico high desert: Santa Fe and Albuquerque, with Las Cruces and El Paso as the warmer end.** It is the one place your Venus-on-the-Midheaven overlaps his Jupiter-ruled career. Santa Fe is the walkable, artsy, social heart of it (accept cool winters); Albuquerque or Las Cruces if warmth matters more than charm. Everywhere else in the country, one of you thrives while the other strains, and now that is visible in a single picture rather than asserted from one line.
