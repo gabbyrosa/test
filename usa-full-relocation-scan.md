@@ -21,7 +21,7 @@
 
 - **You (Gabby):** supported across the West and Southwest, neutral-to-flat in the East. Your chart likes the western third of the country. Your Venus (your chart ruler) and Sun reach the Midheaven through the Southwest, which is your "seen and admired" zone.
 - **bfs:** supported down a central band and across the entire East, strained on the **West Coast**. In California his relocated Ascendant and Midheaven flip to Saturn and Mars; through the middle and East his dignified **Jupiter rules both angles** and Mercury (in domicile) rules his home. His chart is fundamentally well-governed almost everywhere except the Pacific.
-- **BOTH (worse-off of the two):** mostly strained, with **one warm-ish green stripe: New Mexico and the southern Rockies.** That is the single US zone where you are both clearly positive.
+- **BOTH (worse-off of the two):** mostly strained, with **one green stripe: New Mexico and the southern Rockies.** That is the single US zone where you are both clearly positive.
 
 ---
 
@@ -29,19 +29,19 @@
 
 | Rank | City | You | bfs | Floor | Region |
 |---|---|---|---|---|---|
-| 1 | **Albuquerque, NM** | +1.9 | +3.8 | **+1.9** | New Mexico high desert |
-| 2 | **Santa Fe, NM** | +1.8 | +4.0 | **+1.8** | New Mexico high desert |
-| 3 | **Taos, NM** | +1.7 | +4.1 | +1.7 | New Mexico high desert |
-| 4 | **Las Cruces, NM** | +1.5 | +3.7 | +1.5 | warm end of the zone |
-| 5 | **El Paso, TX** | +1.4 | +3.7 | +1.4 | warm end of the zone |
-| 6 | Colorado Springs | +1.3 | +4.3 | +1.3 | Colorado Front Range (colder) |
-| 7 | Denver | +1.0 | +4.3 | +1.0 | Colorado Front Range (colder) |
-| 8 | Honolulu | +1.0 | +3.2 | +1.0 | warm, but remote |
+| 1 | **Albuquerque, NM** | +1.9 | +3.8 | **+1.9** | New Mexico |
+| 2 | **Santa Fe, NM** | +1.8 | +4.0 | **+1.8** | New Mexico |
+| 3 | **Taos, NM** | +1.7 | +4.1 | +1.7 | New Mexico |
+| 4 | **Las Cruces, NM** | +1.5 | +3.7 | +1.5 | New Mexico / west Texas |
+| 5 | **El Paso, TX** | +1.4 | +3.7 | +1.4 | New Mexico / west Texas |
+| 6 | Colorado Springs | +1.3 | +4.3 | +1.3 | Colorado Front Range |
+| 7 | Denver | +1.0 | +4.3 | +1.0 | Colorado Front Range |
+| 8 | Honolulu | +1.0 | +3.2 | +1.0 | remote (Pacific) |
 | - | San Diego | +1.5 | -1.1 | -1.1 | you thrive, he strains |
-| - | Tampa / St Pete | +0.1 | +5.6 | +0.1 | warm, his home peaks, you flat |
-| - | Asheville / Knoxville | +0.4 | +5.8 | +0.3 | his chart peaks, not your vibe |
+| - | Tampa / St Pete | +0.1 | +5.6 | +0.1 | his home peaks, you flat |
+| - | Asheville / Knoxville | +0.4 | +5.8 | +0.3 | his chart peaks, not yours |
 
-The New Mexico high desert is the highest both-positive floor of any real US region.
+New Mexico has the highest both-positive floor of any real US region.
 
 ---
 
@@ -59,11 +59,11 @@ Slide about 5° west into Arizona (Phoenix, Tucson) and his Midheaven crosses in
 ## Honest caveats
 
 - **The "it works for him" part hinges on a judgment call.** New Mexico comes out positive for him because his dignified Jupiter ruling the Midheaven outweighs Pluto sitting on that Midheaven at 2 to 3 degrees. Under this engine's weights, the ruler wins. An astrologer who weights an outer planet directly on an angle more heavily, as a lived, visceral intensity, would score him lower there. So New Mexico is a genuine candidate, but it rests on that specific call, and you should treat it as such rather than as a settled fact.
-- **Climate splits the zone.** The *warmest* part is Las Cruces and El Paso (mild winters, very sunny, low desert). **Santa Fe and Taos** are sunny, intensely artsy, walkable, and social, but at 7,000 feet they have cold, snowy winters, sunny rather than warm. **Albuquerque** (5,300 feet) is the middle: sunny, mid-size urban, milder than Santa Fe but still cool in winter. So the "warm most of the year" and "most walkable and artsy" ends of the zone are not the same town.
+- **The zone is a longitude band, not a single town.** The both-positive scores hold across New Mexico into west Texas and up the Colorado Front Range, strongest at Albuquerque, Santa Fe, and Taos. Any city in that band inherits the same core setup: your Venus on the Midheaven, his Midheaven ruled by dignified Jupiter.
 - **The weights are a model, not a measurement.** Every number here is one engine's opinion, transparent in its components so it can be argued with.
 
 ---
 
 ## Bottom line
 
-Run across the entire country, the honest answer is that there *is* a warm-ish US zone where you both come out positive, and it is the **New Mexico high desert: Santa Fe and Albuquerque, with Las Cruces and El Paso as the warmer end.** It is the one place your Venus-on-the-Midheaven overlaps his Jupiter-ruled career. Santa Fe is the walkable, artsy, social heart of it (accept cool winters); Albuquerque or Las Cruces if warmth matters more than charm. Everywhere else in the country, one of you thrives while the other strains, and now that is visible in a single picture rather than asserted from one line.
+Run across the entire country, the honest answer is that there *is* a US zone where you both come out positive, and it is **New Mexico and the southern Rockies: Albuquerque, Santa Fe, and Taos, with Las Cruces, El Paso, and the Colorado Front Range close behind.** It is the one place your Venus-on-the-Midheaven overlaps his Jupiter-ruled career. Everywhere else in the country, one of you thrives while the other strains, and now that is visible in a single picture rather than asserted from one line.
