@@ -88,6 +88,66 @@ def parans_near(lat, orb=1.5):
                   key=lambda p: abs(p[4] - lat))
 
 
+def profile(lat, lon, angle_orb=8.0):
+    """Fixed-protocol extraction for one city: the complete relocated chart
+    facts, identical fields for every location. Interpretation happens
+    elsewhere; this returns only computed facts."""
+    d = natal.compute()
+    jd = d["jd"]
+    swe.set_ephe_path("/usr/share/swisseph")
+    cusps, ascmc = swe.houses(jd, lat, lon, b"P")
+    asc, mc = ascmc[0], ascmc[1]
+    dsc, ic = (asc + 180) % 360, (mc + 180) % 360
+    angles = {"ASC": asc, "IC": ic, "DSC": dsc, "MC": mc}
+
+    def house_of(p):
+        p %= 360.0
+        for i in range(12):
+            a, b = cusps[i], cusps[(i + 1) % 12]
+            if (a < b and a <= p < b) or (a > b and (p >= a or p < b)):
+                return i + 1
+        return 12
+
+    def sign(x):
+        return natal.SIGNS[int((x % 360) // 30)]
+
+    bodies = BODIES + ["South Node"]
+    planets = {}
+    for n in bodies:
+        p = d["planets"][n]["lon"]
+        near, orb = min(((a, abs(norm180(p - al))) for a, al in angles.items()),
+                        key=lambda t: t[1])
+        planets[n] = {"house": house_of(p), "angle": near,
+                      "orb": round(orb, 1), "sign": d["planets"][n]["sign"]}
+
+    angular = sorted(
+        [{"body": n, "angle": planets[n]["angle"], "orb": planets[n]["orb"],
+          "house": planets[n]["house"]} for n in bodies
+         if planets[n]["orb"] <= angle_orb],
+        key=lambda x: x["orb"])
+
+    angle_rulers = {}
+    for a, al in angles.items():
+        cs = sign(al)
+        r = RULERS[cs]
+        angle_rulers[a] = {"cusp_sign": cs, "ruler": r,
+                           "ruler_house": house_of(d["planets"][r]["lon"]),
+                           "ruler_sign": d["planets"][r]["sign"]}
+
+    difficult = [x for x in angular
+                 if x["body"] in ("Saturn", "Mars", "Pluto", "Neptune", "Uranus")]
+
+    return {
+        "asc": (round(asc % 30, 1), sign(asc)), "mc": (round(mc % 30, 1), sign(mc)),
+        "dsc": (round(dsc % 30, 1), sign(dsc)), "ic": (round(ic % 30, 1), sign(ic)),
+        "chart_ruler": RULERS[sign(asc)],
+        "angular": angular, "planets": planets,
+        "angle_rulers": angle_rulers, "difficult_angular": difficult,
+        "parans": [{"b1": p[0], "a1": p[1], "b2": p[2], "a2": p[3],
+                    "lat": round(p[4], 1)} for p in parans_near(lat)],
+    }
+
+
 def report(name, lat, lon):
     r = relocate(lat, lon)
     print(f"\n=== {name}  ({lat:.2f}, {lon:.2f}) ===")
