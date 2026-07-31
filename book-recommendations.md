@@ -10,20 +10,23 @@
 - **Not depressing.** Doesn't have to be heartwarming or cozy, just not a gut-punch. Juicy, sharp, funny, absorbing, all good. Soul-crushing, no.
 - **No straight thrillers** (a crime simmering under a literary novel is fine), nothing you've read, and nothing whose screen version you've already watched.
 
-**Magnolia Parks and Daisy Haites are your all-time favorites**, so glossy, messy, rich-people-behaving-badly drama is the lane that matters most, and it leads the list. Beyond that, your 5-star shelf includes *My Husband*, and your 4-star loves run from sharp-and-a-bit-dark (*The Guest*, *Acts of Desperation*) to outright funny (*Phoebe Berman's Gonna Lose It*). The genuinely bleak stuff is held on a separate list at the bottom.
+**Magnolia Parks and Daisy Haites are your all-time favorites**, and reading your stars I finally see the actual thread: obsessive, all-consuming love. Your 5-star shelf (MPU, *My Husband*, *The Favorites*) and your 4-star *Rebecca* and *Broken Country* all share it. That lane leads the list now. Beyond it, your 4-star loves run from sharp-and-dark (*The Guest*, *Acts of Desperation*) to outright funny (*Phoebe Berman's Gonna Lose It*), and the genuinely bleak stuff is held on a separate list at the bottom.
 
 *Everything below is checked against your 630 books and is new to you. Two titles have recent TV versions and are flagged.*
 
 ---
 
-## Closest to Magnolia Parks & Daisy Haites
-*Your all-time favorites, so this is the lane that matters most: glossy, messy, rich-people-behaving-badly drama. Nobody quite matches Jessa Hastings, but these two catch the two halves of what she does, and they're both in your scope.*
+## The real thread: obsessive, all-consuming love
+Your whole 5-star shelf is one single thing. *Magnolia Parks*, *Daisy Haites*, *My Husband*, and *The Favorites* are all **obsessive, destructive, all-consuming love, told so you cannot look away.** You 4-starred *Rebecca* and *Broken Country* too, same DNA. That, not "rich" or "British," is the itch. These deep cuts are built to chase it, and every one is new to your shelf:
 
-- **Rivals** by **Jilly Cooper** - the glam half. Rich people behaving very badly in the 1980s TV world: sex, feuds, tennis, scheming, an ensemble you fall into. The joyful, soapy, grown-up cousin of the MPU. *(Recent Disney+ series, skip if you've watched it.)*
-- **Binding 13** (Boys of Tommen) by **Chloe Walsh** - the devastating half. A slow-burn, angsty Irish saga of obsessive young love and found family, six books to sink into. The single most-recommended Magnolia Parks read-alike, and Irish, so in scope.
-- **Wahala** by **Nikki May** - three glamorous Anglo-Nigerian best friends in London and the lethally charming fourth woman who blows the group apart. The rich-London-friend-group energy, minus the romance-saga.
+- **These Violent Delights** by **Micah Nemerever** - the "toxic couple of the year." Two university students fall into a feverish, codependent obsession that curdles into something terrible. Compulsively readable and doomed, the closest literary cousin to the BJ-and-Magnolia death spiral. This is the one I'd bet on.
+- **The Doll Factory** by **Elizabeth Macneal** - Victorian London glittering with the Great Exhibition, and one man's fixation on a spirited young painter tipping from adoration into menace. Gorgeous, dread-soaked, addictive. The *Rebecca* / *Broken Country* vein you already 4-starred, and British.
+- **Fates and Furies** by **Lauren Groff** - a glamorous marriage in two halves: his golden version, then her devastating one. Obsession, secrets, a gut-punch reveal. The literary sibling of *My Husband*.
+- **Lace** by **Shirley Conran** - the maximal, unapologetic glam bonkbuster: a scandalous starlet, four women, decades of wealth, sex, and revenge, and one incendiary question ("which one of you bitches is my mother?"). Pure juicy fun, zero sadness. The glossy-drama side of the MPU turned up to eleven.
+- **The Grosvenor's Curse** by **Ruby Frisenda** *(indie gamble)* - a self-published debut essentially trying to be Magnolia Parks: a British prince battling addiction, his girlfriend battling her own demons, a fight-for-the-relationship saga, even its own "LaLaLondon Universe." Rough and divisive (a 3.2 average), but nobody is talking about it and it chases your exact itch. Roll the dice.
+- *The source code:* **Wuthering Heights** by Emily Brontë. *The Favorites* is literally this on ice. If you have never actually read the original, it is the ur-text of everything you 5-star.
 
-> **One honest caveat.** The *truest* Magnolia Parks read-alikes (the messy, obsessive, rich-romance ones) are almost all American-led: Ana Huang's *Twisted* series, Kandi Steiner's *A Love Letter to Whiskey*, Tarryn Fisher's *The Opportunist*, Kate Stewart's *Flock*. They break your British/Irish/Aussie-lead rule, so I left them out, but if you'd waive that rule for this one lane, they're the closest thing going. Just say "add the American ones."
+For the two other halves of the MPU specifically, the glamour and the found-family saga: **Rivals** by Jilly Cooper (soapy rich-Brits-behaving-badly; skip if you've seen the Disney+ show) and **Binding 13** by Chloe Walsh (a six-book Irish saga of obsessive young love).
 
 ## Funny & sharp
 *Witty and entertaining, with feelings but not a downer.*
@@ -56,7 +59,8 @@ I pulled these because they're genuinely heavy, but they're superb if you're eve
 
 | If you want... | Read |
 |---|---|
-| Fun, glossy, zero sadness | Rivals · Wahala · Binding 13 |
+| Obsessive, all-consuming love | These Violent Delights · The Doll Factory · Fates and Furies |
+| Fun, glossy, zero sadness | Lace · Rivals · Binding 13 |
 | Funny with a soft center | Rachel's Holiday · Honey & Spice · Snowflake |
 | Sharp and witty | Love & Virtue · Queenie · Just Last Night |
 | Juicy and a bit wicked | How to Kill Your Family · Promising Young Women |
