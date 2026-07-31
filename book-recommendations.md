@@ -18,14 +18,35 @@
 ---
 
 ## The real thread: obsessive, all-consuming love
-Your whole 5-star shelf is one single thing. *Magnolia Parks*, *Daisy Haites*, *My Husband*, and *The Favorites* are all **obsessive, destructive, all-consuming love, told so you cannot look away.** You 4-starred *Rebecca* and *Broken Country* too, same DNA. That's the itch. Every pick here is that itch, written by a woman, centered on a woman, and new to your shelf:
+Your whole 5-star shelf is one single thing. *Magnolia Parks*, *Daisy Haites*, *My Husband*, and *The Favorites* are all **obsessive, destructive, all-consuming love, told so you cannot look away.** You 4-starred *Rebecca*, *Broken Country*, *My Dark Vanessa*, and *Bright Young Women* too, same DNA. That's the itch, and there's a deep bench of women writing it. Sorted so you can pick your exact flavor. Every pick is new to your shelf unless marked.
 
-- **They Never Learn** by **Layne Fargo** - the safe bet, because you gave her *The Favorites* five stars. A brilliant English professor has spent sixteen years quietly murdering the men who deserve it. A feminist-rage revenge romp, unrepentant and delicious. *(It bends your no-thriller rule, but it's a woman-fronted romp, not a whodunit, so I'm flagging rather than hiding it.)*
-- **The Doll Factory** by **Elizabeth Macneal** - Victorian London glittering with the Great Exhibition, and a spirited young painter, Iris, stalked by a collector whose adoration curdles into menace. Iris drives it; gorgeous, dread-soaked, addictive. The *Rebecca* / *Broken Country* vein you already 4-starred, and British.
-- **Fingersmith** by **Sarah Waters** - two women, a con, an obsession, and a mid-book twist that will knock you flat. Victorian, gorgeous, and utterly gripping. Waters writes obsessive love between women better than almost anyone.
-- **Lace** by **Shirley Conran** - the maximal, unapologetic glam bonkbuster: a scandalous starlet, four women, decades of wealth, sex, and revenge, and one incendiary question ("which one of you bitches is my mother?"). Pure juicy fun, zero sadness. The glossy-drama side of the MPU turned up to eleven.
+### Start with what you already own
+You've been sitting on some of the best matches. These are already on your TBR, so bump them up:
+- **Notes on a Scandal** by **Zoë Heller** - a lonely teacher's poisonous, obsessive fixation on a younger colleague. Controlled, wicked, unputdownable.
+- **Vladimir** by **Julia May Jonas** - a fifty-something professor's consuming infatuation with a younger man. Darkly funny, glamorous, propulsive.
+- **Valley of the Dolls** by **Jacqueline Susann** - three women, showbiz, pills, glorious melodrama. The original glam bonkbuster.
+- **Luster** by **Raven Leilani** - a young woman's messy, obsessive affair with a married man in an open marriage. Sharp and alive.
+- **Boy Parts** by **Eliza Clark** - a female photographer's dark, transgressive spiral. Nasty and magnetic.
+- **The Girls** by **Emma Cline** - a teenager pulled into a Manson-ish cult's orbit. Obsessive and atmospheric; you loved her *Guest*.
 
-*Already on your TBR and dead-on for this thread, so bump them up:* **Luster** by Raven Leilani (a young woman's messy, obsessive affair) and **Boy Parts** by Eliza Clark (a female photographer's dark spiral).
+### Fresh: doomed, all-consuming, can't-look-away
+- **Fingersmith** by **Sarah Waters** - two women, a con, an obsession, and a mid-book twist that flattens you. Waters writes obsessive love between women better than anyone. Start here.
+- **The Doll Factory** by **Elizabeth Macneal** - Iris, a young painter in Victorian London, stalked by a collector whose adoration curdles into menace. Gorgeous, dread-soaked, the *Rebecca* / *Broken Country* vein you 4-starred.
+- **Marlena** by **Julie Buntin** - two teenage girls, one magnetic and doomed, an obsessive friendship you know from page one ends badly. Addictive and devastating in the good way.
+- **The Thirteenth Tale** by **Diane Setterfield** - a reclusive author finally tells the gothic, twin-haunted secret at the center of her life. Bookish, twisty, consuming.
+- **Conversations with Friends** by **Sally Rooney** - Frances falls into an affair with an older married actor. Cool, precise, quietly obsessive. The *Acts of Desperation* nerve.
+- **They Never Learn** by **Layne Fargo** - the safe bet, since you gave her *The Favorites* five stars. A professor who has spent sixteen years killing the men who deserve it. *(Bends your no-thriller rule; a woman-fronted revenge romp, flagged not hidden.)*
+
+### Fresh: glam bonkbuster sagas (rich women behaving very badly)
+- **Lace** by **Shirley Conran** - a scandalous starlet, four women, decades of wealth, sex, and revenge, and "which one of you bitches is my mother?" Pure juicy fun, the MPU glossy side at eleven.
+- **Lucky** by **Jackie Collins** - Lucky Santangelo, a mafia heiress clawing her way to the top of Vegas. Trashy, glorious, unapologetic.
+- **Scruples** by **Judith Krantz** - a Beverly Hills fashion empire, a poor-little-rich-girl remade, sex and couture and ambition. The 1970s glam blockbuster.
+- **The Thorn Birds** by **Colleen McCullough** - a decades-long forbidden obsession between a woman and a priest in the Australian outback. Epic, romantic, devastating, impossible to stop.
+
+### Fresh: female rage, revenge, dark and fun
+- **Luckiest Girl Alive** by **Jessica Knoll** - since you 4-starred her *Bright Young Women*: Ani's flawless New York life is built to bury a violent past, and the reckoning is delicious. *(Netflix film exists, skip if you've seen it.)*
+- **My Sister, the Serial Killer** by **Oyinkan Braithwaite** - Korede keeps cleaning up her beautiful sister's murders, until the sister goes after the man Korede loves. Lagos, sharp, blackly funny.
+- **How to Kill Your Family** by **Bella Mackie** - Grace calmly murders the rich family who abandoned her mother, one by one. Outrageously funny, and it lands a twist.
 
 ## Funny & sharp
 *Witty and entertaining, with feelings but not a downer.*
@@ -43,7 +64,6 @@ Your whole 5-star shelf is one single thing. *Magnolia Parks*, *Daisy Haites*, *
 - **A Very Nice Girl** by **Imogen Crimp** - a broke young opera singer in London swallowed by an intoxicating, lopsided affair with an older financier.
 - **Promising Young Women** by **Caroline O'Donoghue** - a young woman in London tangled up with her married older boss. Sharp and a little wicked; you loved her *Rachel Incident*.
 - **A Lonely Girl Is a Dangerous Thing** by **Jessie Tu** *(Australian lead)* - a former child-prodigy violinist's messy, sexual reinvention. Intense and propulsive, in the *Crushing* vein.
-- **How to Kill Your Family** by **Bella Mackie** - Grace calmly murders the rich absent family who abandoned her mother, one by one. Outrageously funny, compulsively readable, and it lands a twist. Dark, but a romp, never a downer.
 - **The Paying Guests** by **Sarah Waters** - 1920s London: a landlady and her lodger fall into an obsessive affair that a crime slowly detonates. Lush and gripping, with the thriller running underneath, not on top.
 
 ---
@@ -57,13 +77,12 @@ I pulled these because they're genuinely heavy, but they're superb (and all by w
 
 | If you want... | Read |
 |---|---|
-| Obsessive, all-consuming love | The Doll Factory · Fingersmith · They Never Learn |
-| Fun, glossy, zero sadness | Lace |
+| Doomed, all-consuming love | Fingersmith · The Doll Factory · Marlena |
+| Already own it, dead-on | Notes on a Scandal · Vladimir · Valley of the Dolls |
+| Glam bonkbuster saga | Lace · Lucky · Scruples · The Thorn Birds |
+| Female rage, dark and fun | Luckiest Girl Alive · My Sister, the Serial Killer · They Never Learn |
+| Obsessive affair, sharp and messy | A Very Nice Girl · Conversations with Friends · A Lonely Girl Is a Dangerous Thing |
 | Funny with a soft center | Rachel's Holiday · Honey & Spice · Snowflake |
-| Sharp and witty | Love & Virtue · Queenie · Just Last Night |
-| Juicy and a bit wicked | How to Kill Your Family · Promising Young Women |
-| Obsessive and intense | A Very Nice Girl · A Lonely Girl Is a Dangerous Thing |
-| Clever and slippery | I Want Everything |
 | Literary, crime slow-burning underneath | The Paying Guests |
 
 ---
