@@ -1,76 +1,69 @@
 # Book Recommendations for Gabby
 
-*British, Irish, and Australian authors, matched to your full Goodreads shelf (630 books, ratings and all).*
+*Sorted by vibe, tuned to your Goodreads shelf (630 books, ratings and all).*
 
 ---
 
-## What your ratings say
+## The brief, as it stands
 
-Reading your stars, not just your shelves, is what I tuned these to:
+- **Leads from the UK, Ireland, or Australia** (British, English, Scottish, Welsh, Irish, Northern Irish, or Australian). The author can be from anywhere; it's the main character who should be from there.
+- **Not depressing.** Doesn't have to be heartwarming or cozy, just not a gut-punch. Juicy, sharp, funny, absorbing, all good. Soul-crushing, no.
+- **No straight thrillers** (a crime simmering under a literary novel is fine), nothing you've read, and nothing whose screen version you've already watched.
 
-- **Your 5-star heart:** Jessa Hastings and Maud Ventura's *My Husband*.
-- **Your 4-star heart:** sharp literary fiction with a dark or messy streak, *The Guest* (Emma Cline), *Discontent* (Beatriz Serrano), *Crushing* (Genevieve Novak), *Acts of Desperation* (Megan Nolan), *Sunburn*, *Into the Blue*.
-- **What you've moved on from:** straight mystery and thrillers (only welcome now as a side current inside a literary novel, never the whole point), and most hockey and sports rom-com (2 to 3 stars, a few DNFs).
+**Magnolia Parks and Daisy Haites are your all-time favorites**, so glossy, messy, rich-people-behaving-badly drama is the lane that matters most, and it leads the list. Beyond that, your 5-star shelf includes *My Husband*, and your 4-star loves run from sharp-and-a-bit-dark (*The Guest*, *Acts of Desperation*) to outright funny (*Phoebe Berman's Gonna Lose It*). The genuinely bleak stuff is held on a separate list at the bottom.
 
-Scope: British (English, Scottish, Welsh), Irish, Northern Irish, and Australian, per your call. Picks span everything you love, the Jessa Hastings drama, the *My Husband* obsession, and the sharp literary stuff, not around any single recent read.
-
-**Corrections from my earlier drafts:** now that I have your full history, I removed anything you already read or DNF'd (*Sorrow and Bliss*, *Cleopatra and Frankenstein*, *Blue Sisters*, *Deep End*, *It Happened One Summer*, *Just for the Summer*, *Evelyn Hugo*, most of Emily Henry, *Icebreaker*, *Really Good, Actually*) and the straight thrillers I'd floated (*Our Kind of Cruelty*, *You*). Everything below is checked against your 630 books and is new to you.
+*Everything below is checked against your 630 books and is new to you. Two titles have recent TV versions and are flagged.*
 
 ---
 
-## Irish & Northern Irish authors
-*You read a ton of Irish fiction and rate it highly, so this is probably your richest vein.*
+## Closest to Magnolia Parks & Daisy Haites
+*Your all-time favorites, so this is the lane that matters most: glossy, messy, rich-people-behaving-badly drama. Nobody quite matches Jessa Hastings, but these two catch the two halves of what she does, and they're both in your scope.*
 
-- **Ordinary Human Failings** by **Megan Nolan** *(Ireland)* - since you gave *Acts of Desperation* 4 stars, this is her next: a working-class Irish family in 1990s London and the fallout after a child's death. Bleak and gripping, and literary to the core.
-- **Lazy City** by **Rachel Connolly** *(Northern Ireland)* - a young woman back in Belfast after bolting from grad school in London, wrestling with grief and dysfunctional relationships. Sharp, hazy, mesmerizing. Won the Betty Trask Award.
-- **Nothing Special** by **Nicole Flattery** *(Ireland)* - a disaffected teenage girl typing transcripts at Andy Warhol's Factory in 1966. Cool, strange, and literary, for readers of Ottessa Moshfegh.
-- **Snowflake** by **Louise Nealon** *(Ireland)* - eighteen-year-old Debbie, a rural dairy farm, and a reluctant first year at Trinity. Funny, sad, and warm, on family and first love.
-- *Already on your TBR, so I left them off:* Naoise Dolan's *Exciting Times* and *The Happy Couple*. Worth adding: Caroline O'Donoghue's *Promising Young Women*, since you loved *The Rachel Incident*.
+- **Rivals** by **Jilly Cooper** - the glam half. Rich people behaving very badly in the 1980s TV world: sex, feuds, tennis, scheming, an ensemble you fall into. The joyful, soapy, grown-up cousin of the MPU. *(Recent Disney+ series, skip if you've watched it.)*
+- **Binding 13** (Boys of Tommen) by **Chloe Walsh** - the devastating half. A slow-burn, angsty Irish saga of obsessive young love and found family, six books to sink into. The single most-recommended Magnolia Parks read-alike, and Irish, so in scope.
+- **Wahala** by **Nikki May** - three glamorous Anglo-Nigerian best friends in London and the lethally charming fourth woman who blows the group apart. The rich-London-friend-group energy, minus the romance-saga.
 
-## English authors
-- **My Phantoms** by **Gwendoline Riley** - spare, blade-sharp, blackly funny: a closed-off narrator and an impossible mother. Unsettling intimacy done perfectly. For your *My Husband* streak.
-- **A Very Nice Girl** by **Imogen Crimp** - a broke young opera singer in London swallowed by an intoxicating, lopsided affair with an older financier. Obsessive-devotion catnip.
-- **Queenie** by **Candice Carty-Williams** - a messy, funny, gutting twenty-something spiraling through London: bad men, worse decisions, real heart.
-- **Assembly** by **Natasha Brown** - slim and devastating. A Black British woman at her boyfriend's posh garden party; class, ambition, and dread in under 150 pages.
-- **Penance** by **Eliza Clark** - since *Boy Parts* is already on your TBR, this is Clark's other one: a formally daring literary novel built from a true crime.
-- *If you want the funnier end:* **Insatiable** by Daisy Buchanan, **Weirdo** by Sara Pascoe, or anything by Nina Stibbe.
+> **One honest caveat.** The *truest* Magnolia Parks read-alikes (the messy, obsessive, rich-romance ones) are almost all American-led: Ana Huang's *Twisted* series, Kandi Steiner's *A Love Letter to Whiskey*, Tarryn Fisher's *The Opportunist*, Kate Stewart's *Flock*. They break your British/Irish/Aussie-lead rule, so I left them out, but if you'd waive that rule for this one lane, they're the closest thing going. Just say "add the American ones."
 
-## Scottish & Welsh authors
-- **The Panopticon** by **Jenni Fagan** *(Scotland)* - fifteen-year-old Anais, fierce and funny, trapped in the care system. A haunting, unforgettable voice; pure literary, no genre machinery.
-- **Young Mungo** by **Douglas Stuart** *(Scotland)* - from the Booker-winning author of *Shuggie Bain*: a tender, brutal, star-crossed love story in 1990s Glasgow. For when you want to be wrecked.
-- **The Paying Guests** by **Sarah Waters** *(Wales)* - 1920s London, a landlady and her lodger fall into an obsessive affair that a crime slowly detonates. Lush and literary, with exactly the side current of thriller you want, never the whole plot.
+## Funny & sharp
+*Witty and entertaining, with feelings but not a downer.*
 
-## Australian authors
-*You're already deep in Aussie lit (Genevieve Novak, Madeleine Gray, Meg Mason), so these are the ones you don't have yet.*
+- **Rachel's Holiday** by **Marian Keyes** - Rachel checks into rehab expecting a celebrity spa; it is not that. Hilarious and secretly moving. Her *Grown Ups* is the juicy family-saga one, *Again, Rachel* the sequel; you've read zero Keyes and she's a gold mine.
+- **Honey & Spice** by **Bolu Babalola** - Kiki, a romance-averse Black British uni student and campus-radio host, lands in a fake relationship with the exact guy she warned everyone off. Sharp, funny, swoony.
+- **Queenie** by **Candice Carty-Williams** - a messy twenty-something spiraling through London: bad men, worse decisions, real laughs. *(Recent Channel 4 / Hulu series, skip if you've watched it.)*
+- **Just Last Night** by **Mhairi McFarlane** - a grief-and-secrets romance with genuine jokes. Funnier and smarter than the cover lets on.
+- **Love & Virtue** by **Diana Reid** *(Australian lead)* - a sharp, funny campus novel about two young women, consent, and ambition. Won Australia's Book of the Year. Her *Seeing Other People* is next.
+- **Snowflake** by **Louise Nealon** - eighteen-year-old Debbie, a dairy farm, and a reluctant first year at Trinity. Funny and tender without tipping into bleak.
 
-- **Love & Virtue** by **Diana Reid** - a razor-sharp campus novel about two young women, consent, and ambition. Won Australia's Book of the Year. Sharper than *Green Dot*; her *Seeing Other People* is the follow-up.
-- **A Lonely Girl Is a Dangerous Thing** by **Jessie Tu** - a former child-prodigy violinist's messy, sexual, self-destructive reinvention in New York. Intense and unsparing, in the *Crushing* / *Discontent* vein.
-- **I Want Everything** by **Dominic Amerena** - a young writer stumbles on a vanished author and quietly steals her story. A buzzy 2025 prize-winner about ambition and deception. For your *The Guest* taste for a slippery narrator.
+## Messy, intense, a little dark
+*Absorbing and juicy, your The Guest / My Husband / Crushing lane, but none of these will flatten you.*
 
----
-
-## Also worth adding (not British/Irish/Aussie, but new to your shelf)
-
-- **Binding 13** (Boys of Tommen) by **Chloe Walsh** *(Ireland)* - Jessa Hastings lane: an angsty, slow-burn sports saga, six books deep.
-- **Daisy Jones & The Six** by **Taylor Jenkins Reid** - the *Time of Your Life* / *Into the Blue* fame lane. You have *Atmosphere* queued but not this.
-- **Tell Me Lies** by **Carola Lovering** - toxic, obsessive college relationship, no thriller machinery. You read *Bye, Baby* and queued two more of hers, but not this, her best-known.
-- **Normal People** by **Sally Rooney** *(Ireland)* - the essential Rooney; you have three others on your TBR but not this one.
+- **A Very Nice Girl** by **Imogen Crimp** - a broke young opera singer in London swallowed by an intoxicating, lopsided affair with an older financier.
+- **Promising Young Women** by **Caroline O'Donoghue** - a young woman in London tangled up with her married older boss. Sharp and a little wicked; you loved her *Rachel Incident*.
+- **A Lonely Girl Is a Dangerous Thing** by **Jessie Tu** *(Australian lead)* - a former child-prodigy violinist's messy, sexual reinvention. Intense and propulsive, in the *Crushing* vein.
+- **How to Kill Your Family** by **Bella Mackie** - Grace calmly murders the rich absent family who abandoned her mother, one by one. Outrageously funny, compulsively readable, and it lands a twist. Dark, but a romp, never a downer.
+- **I Want Everything** by **Dominic Amerena** *(Australian lead)* - a young writer steals a vanished author's story. Clever, slippery, buzzy 2025 prize-winner. For your *The Guest* taste.
+- **The Paying Guests** by **Sarah Waters** - 1920s London: a landlady and her lodger fall into an obsessive affair that a crime slowly detonates. Lush and gripping, with the thriller running underneath, not on top.
 
 ---
 
-## Quick-glance cheat sheet
+## On hold: the bleak brilliant ones
+I pulled these because they're genuinely heavy, but they're superb if you're ever in the mood for a good wrecking: **Young Mungo** (Douglas Stuart), **Ordinary Human Failings** (Megan Nolan), **Assembly** (Natasha Brown), **The Panopticon** (Jenni Fagan), **My Phantoms** (Gwendoline Riley), **Lazy City** (Rachel Connolly). Say the word and I'll move any back in.
 
-| In the mood for... | Read |
+---
+
+## Read by mood
+
+| If you want... | Read |
 |---|---|
-| Sharp, messy, literary young women | Queenie · Lazy City · Love & Virtue |
-| Wanting too much and paying for it | A Very Nice Girl · A Lonely Girl Is a Dangerous Thing |
-| Spare and blade-sharp | My Phantoms · Assembly |
-| Another Megan Nolan hit | Ordinary Human Failings |
-| Cool, strange, and literary | Nothing Special · The Panopticon |
-| To be completely wrecked | Young Mungo |
-| Literary, with a crime slow-burning underneath | The Paying Guests |
-| Toxic and obsessive | Tell Me Lies |
+| Fun, glossy, zero sadness | Rivals · Wahala · Binding 13 |
+| Funny with a soft center | Rachel's Holiday · Honey & Spice · Snowflake |
+| Sharp and witty | Love & Virtue · Queenie · Just Last Night |
+| Juicy and a bit wicked | How to Kill Your Family · Promising Young Women |
+| Obsessive and intense | A Very Nice Girl · A Lonely Girl Is a Dangerous Thing |
+| Clever and slippery | I Want Everything |
+| Literary, crime slow-burning underneath | The Paying Guests |
 
 ---
 
-*Want a spice-and-content-warning sort, these split into "next up" versus "someday," or pushed onto your Goodreads "to-read" shelf? Just say so. And if I still named something you've read, flag it and I'll swap in more.*
+*Want these split into "next up" versus "someday," a spice-and-content-warning pass, or pushed onto your Goodreads "to-read" shelf? Just say so.*
