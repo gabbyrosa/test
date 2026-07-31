@@ -18,35 +18,29 @@
 ---
 
 ## The real thread: obsessive, all-consuming love
-Your whole 5-star shelf is one single thing. *Magnolia Parks*, *Daisy Haites*, *My Husband*, and *The Favorites* are all **obsessive, destructive, all-consuming love, told so you cannot look away.** You 4-starred *Rebecca*, *Broken Country*, *My Dark Vanessa*, and *Bright Young Women* too, same DNA. That's the itch, and there's a deep bench of women writing it. Sorted so you can pick your exact flavor. Every pick is new to your shelf unless marked.
+Your whole 5-star shelf is one single thing. *Magnolia Parks*, *Daisy Haites*, *My Husband*, and *The Favorites* are all **obsessive, destructive, all-consuming love, told so you cannot look away.** You 4-starred *Rebecca*, *Broken Country*, *My Dark Vanessa*, and *Bright Young Women* too, same DNA. That's the itch, and there's a deep bench of women writing it with British, Irish, Scottish, Welsh, or Australian leads. Sorted so you can pick your exact flavor; every pick is new to your shelf unless marked.
 
 ### Start with what you already own
-You've been sitting on some of the best matches. These are already on your TBR, so bump them up:
-- **Notes on a Scandal** by **Zoë Heller** - a lonely teacher's poisonous, obsessive fixation on a younger colleague. Controlled, wicked, unputdownable.
-- **Vladimir** by **Julia May Jonas** - a fifty-something professor's consuming infatuation with a younger man. Darkly funny, glamorous, propulsive.
-- **Valley of the Dolls** by **Jacqueline Susann** - three women, showbiz, pills, glorious melodrama. The original glam bonkbuster.
-- **Luster** by **Raven Leilani** - a young woman's messy, obsessive affair with a married man in an open marriage. Sharp and alive.
-- **Boy Parts** by **Eliza Clark** - a female photographer's dark, transgressive spiral. Nasty and magnetic.
-- **The Girls** by **Emma Cline** - a teenager pulled into a Manson-ish cult's orbit. Obsessive and atmospheric; you loved her *Guest*.
+Two dead-on, in-scope matches are already on your TBR, so bump them up:
+- **Notes on a Scandal** by **Zoë Heller** *(UK)* - a lonely London teacher's poisonous, obsessive fixation on a younger colleague. Controlled, wicked, unputdownable.
+- **Boy Parts** by **Eliza Clark** *(UK)* - a Newcastle photographer's dark, transgressive spiral. Nasty and magnetic.
+- *(Also on your TBR and on-thread, but American-led so outside your filter: **Luster**, **Vladimir**, **Valley of the Dolls**, **The Girls**. Great books, just not UK/Irish/Aussie.)*
 
 ### Fresh: doomed, all-consuming, can't-look-away
-- **Fingersmith** by **Sarah Waters** - two women, a con, an obsession, and a mid-book twist that flattens you. Waters writes obsessive love between women better than anyone. Start here.
-- **The Doll Factory** by **Elizabeth Macneal** - Iris, a young painter in Victorian London, stalked by a collector whose adoration curdles into menace. Gorgeous, dread-soaked, the *Rebecca* / *Broken Country* vein you 4-starred.
-- **Marlena** by **Julie Buntin** - two teenage girls, one magnetic and doomed, an obsessive friendship you know from page one ends badly. Addictive and devastating in the good way.
-- **The Thirteenth Tale** by **Diane Setterfield** - a reclusive author finally tells the gothic, twin-haunted secret at the center of her life. Bookish, twisty, consuming.
-- **Conversations with Friends** by **Sally Rooney** - Frances falls into an affair with an older married actor. Cool, precise, quietly obsessive. The *Acts of Desperation* nerve.
-- **They Never Learn** by **Layne Fargo** - the safe bet, since you gave her *The Favorites* five stars. A professor who has spent sixteen years killing the men who deserve it. *(Bends your no-thriller rule; a woman-fronted revenge romp, flagged not hidden.)*
+- **Fingersmith** by **Sarah Waters** *(UK)* - two women, a con, an obsession, and a mid-book twist that flattens you. Waters writes obsessive love between women better than anyone. Start here.
+- **Almost Love** by **Louise O'Neill** *(Ireland)* - a young Irish art teacher's all-consuming, humiliating fixation on an older man. This one is *about* obsession, top to bottom. Intense and a little joyless, but dead center of your itch.
+- **The Doll Factory** by **Elizabeth Macneal** *(UK)* - Iris, a young painter in Victorian London, stalked by a collector whose adoration curdles into menace. Gorgeous, dread-soaked, the *Rebecca* / *Broken Country* vein you 4-starred.
+- **Affinity** by **Sarah Waters** *(UK)* - a lonely Victorian gentlewoman becomes obsessed with a spirit medium in a women's prison. Gothic, claustrophobic, with a gut-punch turn.
+- **The Thirteenth Tale** by **Diane Setterfield** *(UK)* - a reclusive author finally tells the gothic, twin-haunted secret at the center of her life. Bookish, twisty, consuming.
+- **Conversations with Friends** by **Sally Rooney** *(Ireland)* - Frances falls into an affair with an older married actor. Cool, precise, quietly obsessive. The *Acts of Desperation* nerve.
 
-### Fresh: glam bonkbuster sagas (rich women behaving very badly)
-- **Lace** by **Shirley Conran** - a scandalous starlet, four women, decades of wealth, sex, and revenge, and "which one of you bitches is my mother?" Pure juicy fun, the MPU glossy side at eleven.
-- **Lucky** by **Jackie Collins** - Lucky Santangelo, a mafia heiress clawing her way to the top of Vegas. Trashy, glorious, unapologetic.
-- **Scruples** by **Judith Krantz** - a Beverly Hills fashion empire, a poor-little-rich-girl remade, sex and couture and ambition. The 1970s glam blockbuster.
-- **The Thorn Birds** by **Colleen McCullough** - a decades-long forbidden obsession between a woman and a priest in the Australian outback. Epic, romantic, devastating, impossible to stop.
+### Fresh: glam sagas (rich women, sweeping drama)
+- **A Woman of Substance** by **Barbara Taylor Bradford** *(UK)* - Emma Harte claws from a Yorkshire servant's life to a retail empire, love and revenge across decades. The definitive British rags-to-riches saga, 30 million copies for a reason.
+- **The Forgotten Garden** by **Kate Morton** *(Australia)* - a foundling, a Cornish cottage, and a family secret unspooled across a century. Lush, gothic, addictive; Morton is the queen of the twisty saga.
+- **The Thorn Birds** by **Colleen McCullough** *(Australia)* - a decades-long forbidden obsession between a woman and a priest in the outback. Epic, romantic, devastating, impossible to stop.
 
-### Fresh: female rage, revenge, dark and fun
-- **Luckiest Girl Alive** by **Jessica Knoll** - since you 4-starred her *Bright Young Women*: Ani's flawless New York life is built to bury a violent past, and the reckoning is delicious. *(Netflix film exists, skip if you've seen it.)*
-- **My Sister, the Serial Killer** by **Oyinkan Braithwaite** - Korede keeps cleaning up her beautiful sister's murders, until the sister goes after the man Korede loves. Lagos, sharp, blackly funny.
-- **How to Kill Your Family** by **Bella Mackie** - Grace calmly murders the rich family who abandoned her mother, one by one. Outrageously funny, and it lands a twist.
+### Fresh: dark and fun
+- **How to Kill Your Family** by **Bella Mackie** *(UK)* - Grace calmly murders the rich family who abandoned her mother, one by one. Outrageously funny, compulsively readable, and it lands a twist.
 
 ## Funny & sharp
 *Witty and entertaining, with feelings but not a downer.*
@@ -77,13 +71,13 @@ I pulled these because they're genuinely heavy, but they're superb (and all by w
 
 | If you want... | Read |
 |---|---|
-| Doomed, all-consuming love | Fingersmith · The Doll Factory · Marlena |
-| Already own it, dead-on | Notes on a Scandal · Vladimir · Valley of the Dolls |
-| Glam bonkbuster saga | Lace · Lucky · Scruples · The Thorn Birds |
-| Female rage, dark and fun | Luckiest Girl Alive · My Sister, the Serial Killer · They Never Learn |
+| Doomed, all-consuming love | Fingersmith · The Doll Factory · Almost Love |
+| Already own it, dead-on | Notes on a Scandal · Boy Parts |
+| Glam saga, sweeping drama | A Woman of Substance · The Forgotten Garden · The Thorn Birds |
+| Gothic obsession | Affinity · The Thirteenth Tale |
 | Obsessive affair, sharp and messy | A Very Nice Girl · Conversations with Friends · A Lonely Girl Is a Dangerous Thing |
+| Dark and fun | How to Kill Your Family |
 | Funny with a soft center | Rachel's Holiday · Honey & Spice · Snowflake |
-| Literary, crime slow-burning underneath | The Paying Guests |
 
 ---
 
