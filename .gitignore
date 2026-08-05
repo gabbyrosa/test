@@ -2,6 +2,7 @@
 preview_*.png
 crop_*.png
 couple_preview.png
+overlap_preview.png
 __pycache__/
 *.pyc
 shoot*.py
