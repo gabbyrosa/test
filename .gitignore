@@ -1,6 +1,7 @@
 # dev-only preview renders
 preview_*.png
 crop_*.png
+couple_preview.png
 __pycache__/
 *.pyc
 shoot*.py
