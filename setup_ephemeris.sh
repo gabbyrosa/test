@@ -12,3 +12,7 @@ for f in sepl_18.se1 semo_18.se1 seas_18.se1; do
   curl -sSL -o "$DEST/$f" "$BASE/$f"
 done
 echo "Swiss Ephemeris files installed in $DEST"
+
+# Fixed-star catalogue (needed for swe.fixstar_ut)
+curl -sSL -o /usr/share/swisseph/sefstars.txt \
+  https://raw.githubusercontent.com/aloistr/swisseph/master/ephe/sefstars.txt
