@@ -1,0 +1,986 @@
+{
+ "Tokyo, Japan": {
+  "asc": "Gemini",
+  "mc": "Aquarius",
+  "venus": [
+   "ASC",
+   3.3
+  ],
+  "venus_h": 1,
+  "venus_ws": 1,
+  "sun": [
+   "ASC",
+   1.3
+  ],
+  "sun_h": 12,
+  "sun_ws": 1,
+  "jup": [
+   "DSC",
+   27.3
+  ],
+  "jup_h": 8,
+  "jup_ws": 8,
+  "h1": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 12,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "h2": {
+   "cusp": "Cancer",
+   "ruler": "Moon",
+   "ruler_house": 10,
+   "occupants": []
+  },
+  "h5": {
+   "cusp": "Virgo",
+   "ruler": "Mercury",
+   "ruler_house": 12,
+   "occupants": []
+  },
+  "h7": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 8,
+   "occupants": []
+  },
+  "h10": {
+   "cusp": "Aquarius",
+   "ruler": "Uranus",
+   "ruler_house": 9,
+   "occupants": [
+    "Moon"
+   ]
+  },
+  "aspects": [],
+  "parans": [
+   "North Node IC/Neptune DC @35.9*",
+   "South Node MC/Neptune DC @35.9*",
+   "Moon IC/Mars DC @36.8"
+  ],
+  "hard": {}
+ },
+ "Barcelona, Spain": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   0.8
+  ],
+  "venus_h": 7,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   3.8
+  ],
+  "sun_h": 6,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   24.8
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter",
+    "Neptune"
+   ]
+  },
+  "h2": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 3,
+   "occupants": [
+    "Uranus"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": [
+    "Mercury",
+    "Mars"
+   ]
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 5,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": []
+  },
+  "aspects": [
+   "Venus oppo ASC (0.8)",
+   "Jupiter squa MC (2.4)"
+  ],
+  "parans": [
+   "North Node MC/Venus DC @41.9",
+   "South Node IC/Venus DC @41.9",
+   "Uranus MC/Mars AC @40.9",
+   "Mars IC/Uranus AC @40.0"
+  ],
+  "hard": {
+   "Saturn": [
+    "IC",
+    7.5
+   ]
+  }
+ },
+ "Valencia, Spain": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   1.7
+  ],
+  "venus_h": 7,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   2.9
+  ],
+  "sun_h": 6,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   25.7
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter"
+   ]
+  },
+  "h2": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 3,
+   "occupants": [
+    "Uranus",
+    "Neptune"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": [
+    "Mercury",
+    "Mars"
+   ]
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 5,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": []
+  },
+  "aspects": [
+   "Venus oppo ASC (1.7)"
+  ],
+  "parans": [
+   "Chiron MC/Sun DC @39.5*",
+   "Saturn IC/Sun DC @39.3*",
+   "Mars IC/Uranus AC @40.0",
+   "Uranus MC/Mars AC @40.9"
+  ],
+  "hard": {
+   "Saturn": [
+    "IC",
+    4.7
+   ]
+  }
+ },
+ "Palma de Mallorca": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   0.9
+  ],
+  "venus_h": 6,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   5.4
+  ],
+  "sun_h": 6,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   23.2
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter",
+    "Neptune"
+   ]
+  },
+  "h2": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 3,
+   "occupants": [
+    "Moon",
+    "Uranus"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 6,
+   "occupants": [
+    "Mercury",
+    "Mars"
+   ]
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 5,
+   "occupants": []
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 6,
+   "occupants": []
+  },
+  "aspects": [
+   "Venus oppo ASC (0.9)",
+   "Jupiter squa MC (1.9)"
+  ],
+  "parans": [
+   "Chiron MC/Sun DC @39.5*",
+   "Saturn IC/Sun DC @39.3*",
+   "Mars IC/Uranus AC @40.0*",
+   "Uranus MC/Mars AC @40.9"
+  ],
+  "hard": {
+   "Saturn": [
+    "IC",
+    8.0
+   ]
+  }
+ },
+ "Nice, France": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   1.9
+  ],
+  "venus_h": 6,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   6.5
+  ],
+  "sun_h": 6,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   22.1
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter",
+    "Neptune"
+   ]
+  },
+  "h2": {
+   "cusp": "Aquarius",
+   "ruler": "Uranus",
+   "ruler_house": 2,
+   "occupants": [
+    "Moon",
+    "Uranus"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 6,
+   "occupants": [
+    "Mercury",
+    "Mars"
+   ]
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 5,
+   "occupants": []
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 6,
+   "occupants": []
+  },
+  "aspects": [
+   "Venus oppo ASC (1.9)",
+   "Venus trin MC (2.9)",
+   "Jupiter squa MC (3.1)"
+  ],
+  "parans": [],
+  "hard": {}
+ },
+ "Milan, Italy": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   2.2
+  ],
+  "venus_h": 6,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   6.7
+  ],
+  "sun_h": 6,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   21.9
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter",
+    "Neptune"
+   ]
+  },
+  "h2": {
+   "cusp": "Aquarius",
+   "ruler": "Uranus",
+   "ruler_house": 2,
+   "occupants": [
+    "Moon",
+    "Uranus"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 6,
+   "occupants": [
+    "Mercury",
+    "Mars"
+   ]
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 5,
+   "occupants": []
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 6,
+   "occupants": []
+  },
+  "aspects": [
+   "Venus oppo ASC (2.2)",
+   "Venus trin MC (0.8)"
+  ],
+  "parans": [
+   "Uranus MC/Mercury AC @45.5*",
+   "Moon IC/Pluto AC @45.8*",
+   "Chiron IC/Neptune DC @46.5",
+   "Saturn MC/Neptune DC @46.6",
+   "Moon IC/Mercury DC @46.8"
+  ],
+  "hard": {}
+ },
+ "Geneva, Switzerland": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   1.1
+  ],
+  "venus_h": 7,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   3.4
+  ],
+  "sun_h": 6,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   25.2
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter",
+    "Neptune"
+   ]
+  },
+  "h2": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 3,
+   "occupants": [
+    "Moon",
+    "Uranus"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": [
+    "Mercury",
+    "Mars"
+   ]
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 5,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": []
+  },
+  "aspects": [
+   "Venus oppo ASC (1.1)",
+   "Venus trin MC (4.1)",
+   "Jupiter squa MC (1.8)"
+  ],
+  "parans": [
+   "Chiron IC/Neptune DC @46.5*",
+   "Moon IC/Pluto AC @45.8*",
+   "Saturn MC/Neptune DC @46.6*",
+   "Moon IC/Mercury DC @46.8",
+   "Uranus MC/Mercury AC @45.5",
+   "Mercury IC/Neptune AC @47.1"
+  ],
+  "hard": {}
+ },
+ "Lisbon, Portugal": {
+  "asc": "Sagittarius",
+  "mc": "Libra",
+  "venus": [
+   "DSC",
+   8.6
+  ],
+  "venus_h": 7,
+  "venus_ws": 7,
+  "sun": [
+   "DSC",
+   4.1
+  ],
+  "sun_h": 7,
+  "sun_ws": 7,
+  "jup": [
+   "ASC",
+   32.7
+  ],
+  "jup_h": 1,
+  "jup_ws": 2,
+  "h1": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 1,
+   "occupants": [
+    "Jupiter"
+   ]
+  },
+  "h2": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 4,
+   "occupants": [
+    "Uranus",
+    "Neptune"
+   ]
+  },
+  "h5": {
+   "cusp": "Taurus",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": []
+  },
+  "h7": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 6,
+   "occupants": [
+    "Sun",
+    "Venus"
+   ]
+  },
+  "h10": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 7,
+   "occupants": []
+  },
+  "aspects": [],
+  "parans": [
+   "Saturn IC/Sun DC @39.3",
+   "Chiron MC/Sun DC @39.5",
+   "Mercury IC/Uranus AC @37.4",
+   "Mars IC/Uranus AC @40.0"
+  ],
+  "hard": {
+   "Saturn": [
+    "IC",
+    4.8
+   ]
+  }
+ },
+ "Cabo San Lucas, MX": {
+  "asc": "Virgo",
+  "mc": "Gemini",
+  "venus": [
+   "MC",
+   0.7
+  ],
+  "venus_h": 10,
+  "venus_ws": 10,
+  "sun": [
+   "MC",
+   3.8
+  ],
+  "sun_h": 9,
+  "sun_ws": 10,
+  "jup": [
+   "IC",
+   24.8
+  ],
+  "jup_h": 4,
+  "jup_ws": 5,
+  "h1": {
+   "cusp": "Virgo",
+   "ruler": "Mercury",
+   "ruler_house": 9,
+   "occupants": []
+  },
+  "h2": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 10,
+   "occupants": []
+  },
+  "h5": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 7,
+   "occupants": [
+    "Uranus",
+    "Neptune"
+   ]
+  },
+  "h7": {
+   "cusp": "Pisces",
+   "ruler": "Neptune",
+   "ruler_house": 5,
+   "occupants": [
+    "Saturn"
+   ]
+  },
+  "h10": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 9,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "aspects": [
+   "Venus squa ASC (0.8)"
+  ],
+  "parans": [
+   "Chiron IC/Jupiter DC @24.2"
+  ],
+  "hard": {}
+ },
+ "Scottsdale, AZ": {
+  "asc": "Virgo",
+  "mc": "Gemini",
+  "venus": [
+   "MC",
+   2.6
+  ],
+  "venus_h": 10,
+  "venus_ws": 10,
+  "sun": [
+   "MC",
+   1.9
+  ],
+  "sun_h": 9,
+  "sun_ws": 10,
+  "jup": [
+   "IC",
+   26.7
+  ],
+  "jup_h": 4,
+  "jup_ws": 5,
+  "h1": {
+   "cusp": "Virgo",
+   "ruler": "Mercury",
+   "ruler_house": 9,
+   "occupants": []
+  },
+  "h2": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 10,
+   "occupants": []
+  },
+  "h5": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 7,
+   "occupants": [
+    "Uranus",
+    "Neptune"
+   ]
+  },
+  "h7": {
+   "cusp": "Pisces",
+   "ruler": "Neptune",
+   "ruler_house": 5,
+   "occupants": [
+    "Saturn"
+   ]
+  },
+  "h10": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 9,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "aspects": [
+   "Venus squa ASC (1.7)",
+   "Jupiter trin ASC (4.2)"
+  ],
+  "parans": [],
+  "hard": {}
+ },
+ "Sedona, AZ": {
+  "asc": "Virgo",
+  "mc": "Gemini",
+  "venus": [
+   "MC",
+   2.4
+  ],
+  "venus_h": 10,
+  "venus_ws": 10,
+  "sun": [
+   "MC",
+   2.1
+  ],
+  "sun_h": 9,
+  "sun_ws": 10,
+  "jup": [
+   "IC",
+   26.5
+  ],
+  "jup_h": 4,
+  "jup_ws": 5,
+  "h1": {
+   "cusp": "Virgo",
+   "ruler": "Mercury",
+   "ruler_house": 9,
+   "occupants": []
+  },
+  "h2": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 10,
+   "occupants": []
+  },
+  "h5": {
+   "cusp": "Capricorn",
+   "ruler": "Saturn",
+   "ruler_house": 7,
+   "occupants": [
+    "Uranus",
+    "Neptune"
+   ]
+  },
+  "h7": {
+   "cusp": "Pisces",
+   "ruler": "Neptune",
+   "ruler_house": 5,
+   "occupants": [
+    "Saturn"
+   ]
+  },
+  "h10": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 9,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "aspects": [
+   "Venus squa ASC (1.5)",
+   "Jupiter trin ASC (4.4)"
+  ],
+  "parans": [
+   "North Node IC/Neptune DC @35.9",
+   "South Node MC/Neptune DC @35.9"
+  ],
+  "hard": {}
+ },
+ "Auckland, New Zealand": {
+  "asc": "Gemini",
+  "mc": "Aries",
+  "venus": [
+   "ASC",
+   4.2
+  ],
+  "venus_h": 1,
+  "venus_ws": 1,
+  "sun": [
+   "ASC",
+   0.3
+  ],
+  "sun_h": 12,
+  "sun_ws": 1,
+  "jup": [
+   "DSC",
+   28.3
+  ],
+  "jup_h": 7,
+  "jup_ws": 8,
+  "h1": {
+   "cusp": "Gemini",
+   "ruler": "Mercury",
+   "ruler_house": 11,
+   "occupants": [
+    "Venus"
+   ]
+  },
+  "h2": {
+   "cusp": "Cancer",
+   "ruler": "Moon",
+   "ruler_house": 9,
+   "occupants": []
+  },
+  "h5": {
+   "cusp": "Scorpio",
+   "ruler": "Pluto",
+   "ruler_house": 6,
+   "occupants": []
+  },
+  "h7": {
+   "cusp": "Sagittarius",
+   "ruler": "Jupiter",
+   "ruler_house": 7,
+   "occupants": [
+    "Jupiter"
+   ]
+  },
+  "h10": {
+   "cusp": "Aries",
+   "ruler": "Mars",
+   "ruler_house": 11,
+   "occupants": [
+    "Saturn"
+   ]
+  },
+  "aspects": [],
+  "parans": [
+   "Moon MC/Mars AC @-36.8*",
+   "Mercury MC/Uranus DC @-37.4",
+   "North Node MC/Neptune AC @-35.9",
+   "South Node IC/Neptune AC @-35.9"
+  ],
+  "hard": {
+   "Saturn": [
+    "MC",
+    0.6
+   ]
+  }
+ },
+ "St. Petersburg, FL": {
+  "asc": "Libra",
+  "mc": "Cancer",
+  "venus": [
+   "MC",
+   24.4
+  ],
+  "venus_h": 9,
+  "venus_ws": 9,
+  "sun": [
+   "MC",
+   28.9
+  ],
+  "sun_h": 9,
+  "sun_ws": 9,
+  "jup": [
+   "IC",
+   0.3
+  ],
+  "jup_h": 3,
+  "jup_ws": 4,
+  "h1": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 9,
+   "occupants": []
+  },
+  "h2": {
+   "cusp": "Scorpio",
+   "ruler": "Pluto",
+   "ruler_house": 2,
+   "occupants": [
+    "Pluto"
+   ]
+  },
+  "h5": {
+   "cusp": "Aquarius",
+   "ruler": "Uranus",
+   "ruler_house": 4,
+   "occupants": [
+    "Moon"
+   ]
+  },
+  "h7": {
+   "cusp": "Aries",
+   "ruler": "Mars",
+   "ruler_house": 8,
+   "occupants": []
+  },
+  "h10": {
+   "cusp": "Cancer",
+   "ruler": "Moon",
+   "ruler_house": 5,
+   "occupants": []
+  },
+  "aspects": [
+   "Jupiter squa ASC (0.3)",
+   "Jupiter oppo MC (0.3)"
+  ],
+  "parans": [],
+  "hard": {}
+ },
+ "Asheville, NC": {
+  "asc": "Libra",
+  "mc": "Cancer",
+  "venus": [
+   "MC",
+   24.5
+  ],
+  "venus_h": 9,
+  "venus_ws": 9,
+  "sun": [
+   "MC",
+   29.0
+  ],
+  "sun_h": 9,
+  "sun_ws": 9,
+  "jup": [
+   "IC",
+   0.4
+  ],
+  "jup_h": 3,
+  "jup_ws": 4,
+  "h1": {
+   "cusp": "Libra",
+   "ruler": "Venus",
+   "ruler_house": 9,
+   "occupants": []
+  },
+  "h2": {
+   "cusp": "Scorpio",
+   "ruler": "Pluto",
+   "ruler_house": 2,
+   "occupants": [
+    "Pluto"
+   ]
+  },
+  "h5": {
+   "cusp": "Aquarius",
+   "ruler": "Uranus",
+   "ruler_house": 4,
+   "occupants": [
+    "Moon"
+   ]
+  },
+  "h7": {
+   "cusp": "Aries",
+   "ruler": "Mars",
+   "ruler_house": 8,
+   "occupants": []
+  },
+  "h10": {
+   "cusp": "Cancer",
+   "ruler": "Moon",
+   "ruler_house": 5,
+   "occupants": []
+  },
+  "aspects": [
+   "Jupiter squa ASC (1.2)",
+   "Jupiter oppo MC (0.4)"
+  ],
+  "parans": [
+   "North Node IC/Neptune DC @35.9*",
+   "South Node MC/Neptune DC @35.9*",
+   "Moon IC/Mars DC @36.8"
+  ],
+  "hard": {}
+ }
+}
