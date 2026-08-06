@@ -10,8 +10,10 @@ severe-risk zones (Afghanistan, Balochistan), and Russia/Belarus on current
 relocation viability. Those exclusions are listed in EXCLUDED below so the
 filter stays auditable.
 
-Scoring is pure chart: benefics on angles, malefics on angles, chart ruler,
-Moon's house. No climate, no cost, no second chart.
+Scoring is pure chart and benefic-only, the conventional astrocartography
+reading: benefic lines on angles, chart ruler, Moon's house. Malefics on
+angles are reported as neutral facts but are NOT penalized. No climate, no
+cost, no second chart.
 """
 
 import math
@@ -153,11 +155,12 @@ def score(lat, lon):
                 w *= 0.5
             s += w
             hits.append(f"{b} {a} {o:.0f}°")
+    # Malefics are recorded as neutral facts, NOT scored. Scoring is benefic
+    # lines only, the conventional astrocartography reading.
     for b in HARD:
         a, o = min(((k, abs(n180(P[b] - v))) for k, v in ang.items()),
                    key=lambda t: t[1])
         if o <= 6:
-            s -= (2.5 if b == "Mars" else 1.5) * (1.0 if o <= 3 else 0.5)
             hard.append(f"{b} {a} {o:.0f}°")
     if RUL[sg(asc)] == "Venus":
         s += 1.0
@@ -213,7 +216,7 @@ for i, (s, nm, hits, hard) in enumerate(rows, 1):
     v = round(max(s, 0) / mx * 10, 1)
     w = ", ".join(hits) or "no benefic on an angle"
     if hard:
-        w += "   AVOID: " + ", ".join(hard)
+        w += "   (also angular: " + ", ".join(hard) + ")"
     print(f"{i:<4}{v:<6}{nm:<28}{w}")
 print("\n* = included but flagged: elevated crime, harassment, or political risk.")
 print("\nDROPPED on safety (chart score shown, so nothing is hidden):")
