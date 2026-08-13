@@ -56,8 +56,10 @@ def sign_of(lon):
     pos = lon - idx * 30
     deg = int(pos)
     minute = int(round((pos - deg) * 60))
-    if minute == 60:
+    if minute == 60:                      # rounding pushed us to the next degree
         minute, deg = 0, deg + 1
+        if deg == 30:                     # ...and past the end of the sign
+            deg, idx = 0, (idx + 1) % 12
     return idx, deg, minute
 
 

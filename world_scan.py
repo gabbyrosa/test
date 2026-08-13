@@ -197,7 +197,15 @@ def main():
     for lat, lon, s, hits, hard in ranked:
         if s <= 0:
             break
-        if all(math.hypot(lat - q["lat"], n180(lon - q["lon"])) > SEP for q in peaks):
+        # great-circle separation, not raw degrees: a degree of longitude is
+        # much shorter than a degree of latitude away from the equator
+        def far(q):
+            p1, p2 = math.radians(lat), math.radians(q["lat"])
+            dl = math.radians(n180(lon - q["lon"]))
+            c = (math.sin(p1) * math.sin(p2)
+                 + math.cos(p1) * math.cos(p2) * math.cos(dl))
+            return math.degrees(math.acos(max(-1.0, min(1.0, c)))) > SEP
+        if all(far(q) for q in peaks):
             peaks.append(dict(lat=lat, lon=lon, s=s, hits=hits, hard=hard,
                               where=nearest_place(lat, lon)))
         if len(peaks) >= 40:

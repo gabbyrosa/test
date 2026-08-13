@@ -2,6 +2,23 @@
 """
 Relocation-chart tools, the core of a professional relocation reading.
 
+CONVENTION NOTE. Two different definitions of "on an angle" are in play across
+this repo, and they are not interchangeable:
+
+  in mundo   the body is physically on the horizon or meridian. This is what
+             astrocartography.py draws, computed from right ascension and
+             declination.
+  zodiacal   the body's ecliptic longitude equals the relocated angle. This is
+             what the orbs in this file measure.
+
+For bodies on or near the ecliptic they agree closely: the Sun is identical
+(zero ecliptic latitude), Jupiter within 0.01 deg, Venus and Mars within 0.5.
+For bodies with real ecliptic latitude they diverge badly with distance from
+the equator -- at 55 deg latitude the Moon differs by 13 deg, Pluto by 13,
+Saturn by 10. So a zodiacal orb for the Moon, Mercury, Saturn or Pluto is not
+the distance to the line on the map, and should not be reported as though it
+were.
+
 A relocation chart keeps the birth moment (same UT) but recomputes the house
 framework for a new place: new Ascendant, new Midheaven, new house cusps, and
 therefore new houses for every natal planet. Astrocartography lines are just
