@@ -35,14 +35,32 @@ Everything discriminating comes from the LORD of the profected place:
      so the sidereal profected sign is one behind and the lord usually
      differs. Age 0 is a Venus year tropical, a Mercury year sidereal.
 
-  2. WHERE THAT LORD SITS NATALLY. This is the sharp one. Only two planets
-     change house between the zodiacs: Mercury and Mars, both 8th tropical
-     and 9th sidereal. Sun, Venus (9th), Moon (6th), Jupiter (4th) and
-     Saturn (7th) are in the same house in both.
+  2. WHERE THAT LORD SITS NATALLY. This is the sharp one, and it has two
+     separate causes, which I initially conflated.
 
-     So the concrete empirical question this test asks is, repeatedly:
-     did that year read as an 8th-house year (debt, others' money, crisis,
-     mortality) or a 9th-house year (long travel, foreign, higher study)?
+     (a) Only two planets change house between the zodiacs: Mercury and
+         Mars, both 8th tropical and 9th sidereal. Sun, Venus (9th), Moon
+         (6th), Jupiter (4th) and Saturn (7th) sit in the same house in
+         both charts.
+
+     (b) But the lord of the year also changes identity, because Libra
+         rising and Virgo rising profect to different signs. So a year can
+         predict different houses even when neither planet moved: age 3 is
+         a Saturn year tropical (7th) and a Jupiter year sidereal (4th),
+         and both of those planets are in the same house in both charts.
+
+     Cause (b) does most of the work. Of the nine discriminating years in
+     each twelve-year cycle, only three are the 8th-versus-9th question;
+     the other six are 4th-versus-9th, 7th-versus-4th, 4th-versus-7th,
+     8th-versus-4th, 6th-versus-9th and 9th-versus-6th. The exact pairs are
+     printed below.
+
+     CORRECTION, recorded rather than silently applied: the first committed
+     version of this file said the test asks "repeatedly" whether a year
+     was 8th-house or 9th-house. That was wrong, and it understated the
+     test's range. It changed no prediction, because the table is generated
+     from the charts and not from that sentence, so every prediction below
+     is byte-identical to the version committed before this correction.
 
   3. THE CONDITION of that lord. See the declared confound below.
 
@@ -237,6 +255,14 @@ def main():
     print(f"    ages where the two zodiacs agree entirely (excluded): "
           f"{', '.join(str(a) for a in none)}  and +12, +24")
     print(f"\n    {len(strong)} of every 12 years carry a usable prediction.")
+    pairs = {}
+    for a in strong:
+        k = (TH[DOM[S[(TI + a) % 12]]], SH[DOM[S[(SIa + a) % 12]]])
+        pairs.setdefault(k, []).append(a)
+    print("\n    the actual question asked in each discriminating year:")
+    for (t, s), ages in sorted(pairs.items()):
+        print(f"      h{t} vs h{s}   ages {', '.join(str(a) for a in ages):<10}"
+              f"{TOPIC[t]}   vs   {TOPIC[s]}")
 
     print("\n  CONFOUND 1, reported and NOT scored — the condition axis.")
     print("  Every domicile below is sidereal and every fall is tropical, so")
