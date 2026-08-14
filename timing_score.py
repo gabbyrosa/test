@@ -7,15 +7,20 @@ predictions scored here are provably the ones committed before any date was
 supplied. Nothing in the rubric is redefined in this file.
 
 EVENTS AS SUPPLIED, verbatim, before any astrology was applied:
-  "Wed, May 6, 2020, 8:44 PM"                          -- purpose not stated
-  "i was offered a full time position at my current
-   role mid july of this year"                          -- this year = 2026
-  "i got a raise"                                       -- no date given
-  "i went on a first date with my current boyfriend
-   of 5 years april 1 2021"
-  "i got hit by a car mid aug 2016"
-  "oct 8 2023 i moved into my boyfriends house where
-   i still live"
+  "Wed, May 6, 2020, 8:44 PM / i was offered a full time position at my
+   current role / mid july of this year i got a raise / i went on a first
+   date with my current boyfriend of 5 years april 1 2021 / um i got hit by
+   a car mid aug 2016"
+  "oct 8 2023 i moved into my boyfriends house where i still live"
+  "mRCH 2019 I started working part time at anthropology"
+
+PARSING CORRECTION. The first message was dictated as one run-on line and I
+split it wrongly on the first pass: I read the 6 May 2020 timestamp as an
+unlabelled event and attached the job offer to "mid july of this year". She
+corrected it. The timestamp belongs to the job offer; "mid july of this
+year" belongs to the raise. This moves the job offer from age 30 to age 23,
+which changes its prediction under both zodiacs, so the earlier scoring of
+that event is void and is replaced here.
 
 TOPIC ASSIGNMENT. Each event is mapped to houses using ONLY the twelve
 entries pre-registered in timing_prereg.py, quoted alongside each assignment.
@@ -36,8 +41,6 @@ import swisseph as swe
 # name, date, (primary, secondary), alternative (primary, secondary) or None,
 # justification quoted from the pre-registered topic map
 EVENTS = [
-    ("unlabelled event", dt.date(2020, 5, 6), None, None,
-     "NO DESCRIPTION SUPPLIED - cannot be assigned a topic, cannot be scored"),
     ("hit by a car", dt.date(2016, 8, 15), ([6], [8, 1]), ([8], [6, 1]),
      "h6 'illness, injury'; h8 'crisis, mortality'; h1 'body'"),
     ("first date with current partner", dt.date(2021, 4, 1), ([7], [5]), ([5], [7]),
@@ -50,9 +53,11 @@ EVENTS = [
      "h6 'work conditions, subordinate labour'; h10 'career action'; h2 'income'"),
     ("moved into partner's house", dt.date(2023, 10, 8), ([4], [7]), ([7], [4]),
      "h4 'home, moving house, property'; h7 'partnership begun'"),
-    ("offered full-time position, plus a raise", dt.date(2026, 7, 15),
-     ([10], [6, 2]), ([2], [10, 6]),
+    ("offered full-time position at current role", dt.date(2020, 5, 6),
+     ([10], [6, 2]), ([6], [10, 2]),
      "h10 'career action, promotion'; h6 'work conditions'; h2 'income'"),
+    ("got a raise", dt.date(2026, 7, 15), ([2], [10, 6]), ([10], [2, 6]),
+     "h2 'income, earnings'; h10 'career action'; h6 'work conditions'"),
 ]
 
 
