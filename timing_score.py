@@ -42,6 +42,12 @@ EVENTS = [
      "h6 'illness, injury'; h8 'crisis, mortality'; h1 'body'"),
     ("first date with current partner", dt.date(2021, 4, 1), ([7], [5]), ([5], [7]),
      "h7 'partnership begun'; h5 'romance begun in pleasure'"),
+    # Read as Anthropologie the retailer, on "working part time AT". If it
+    # were instead an anthropology programme the topic becomes h9 'higher
+    # study' and the result flips to favour tropical. Flagged to her.
+    ("started part-time work at Anthropologie", dt.date(2019, 3, 15),
+     ([6], [10, 2]), ([10], [6, 2]),
+     "h6 'work conditions, subordinate labour'; h10 'career action'; h2 'income'"),
     ("moved into partner's house", dt.date(2023, 10, 8), ([4], [7]), ([7], [4]),
      "h4 'home, moving house, property'; h7 'partnership begun'"),
     ("offered full-time position, plus a raise", dt.date(2026, 7, 15),
