@@ -41,6 +41,14 @@ import swisseph as swe
 # name, date, (primary, secondary), alternative (primary, secondary) or None,
 # justification quoted from the pre-registered topic map
 EVENTS = [
+    # Scored on the described act, enrolment in higher education. If she also
+    # moved out of the parental home to attend, h4 'moving house' enters the
+    # secondary set and sidereal picks up a partial. Unknown, so left out:
+    # the conservative choice is the one that manufactures no result. Asked.
+    ("started at Kent State University", dt.date(2014, 8, 25), ([9], [3]), ([3], [9]),
+     "h9 'higher study, worldview change'; h3 'study'"),
+    ("transferred to Ohio State University", dt.date(2015, 9, 20), ([9], [3]), ([3], [9]),
+     "h9 'higher study, worldview change'; h3 'study'"),
     ("hit by a car", dt.date(2016, 8, 15), ([6], [8, 1]), ([8], [6, 1]),
      "h6 'illness, injury'; h8 'crisis, mortality'; h1 'body'"),
     ("first date with current partner", dt.date(2021, 4, 1), ([7], [5]), ([5], [7]),
@@ -51,6 +59,13 @@ EVENTS = [
     ("started part-time work at Anthropologie", dt.date(2019, 3, 15),
      ([6], [10, 2]), ([10], [6, 2]),
      "h6 'work conditions, subordinate labour'; h10 'career action'; h2 'income'"),
+    # Concurrent with the retail job, per "part time while i was getting my
+    # yoga teacher training certification". Exact start and end unknown, so
+    # it may also extend into the age-23 year. What is certain is that it
+    # was under way in March 2019, inside the age-22 year.
+    ("yoga teacher training certification", dt.date(2019, 3, 15),
+     ([9], [3]), ([3], [9]),
+     "h9 'higher study, worldview change'; h3 'study'"),
     ("moved into partner's house", dt.date(2023, 10, 8), ([4], [7]), ([7], [4]),
      "h4 'home, moving house, property'; h7 'partnership begun'"),
     ("offered full-time position at current role", dt.date(2020, 5, 6),
@@ -91,8 +106,7 @@ def main():
 
     tt = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
     st = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
-    shared = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
-    used, dropped = [], []
+    used, dropped, rows = [], [], []
 
     for name, d, rank, alt, why in EVENTS:
         a = prof_age(d)
@@ -145,8 +159,9 @@ def main():
         else:
             tt[s1] += 1
             st[s2] += 1
-            shared[sc] += 1
             used.append(name)
+            rows.append((a, name, s1, s2, score(th, (rank[0], [])),
+                         score(sh, (rank[0], []))))
             print(f"\n  >> COUNTED")
 
         print(f"\n  recorded, NOT scored - nature of the lord: "
@@ -174,6 +189,49 @@ def main():
         tot[score((prof_age(d) % 12) + 1, rank)] += 1
     print(f"    profected house  {tot['HIT']} hit, {tot['PARTIAL']} partial, "
           f"{tot['MISS']} miss")
+
+    print("\n" + "=" * 96)
+    print("ROBUSTNESS CHECKS")
+    print("  Reported alongside the pre-registered tally above, not instead of")
+    print("  it. Both were forced into view by the data rather than planned.")
+    print("=" * 96)
+
+    print("\n  CHECK A - years that contain events pointing BOTH ways.")
+    print("  The pre-registration scores events, not years, and did not")
+    print("  anticipate one profection year producing an event that fits each")
+    print("  zodiac. A year like that discriminates nothing: both predicted")
+    print("  houses had real content in her life. Tally with such years dropped:")
+    by_age = {}
+    for a, name, s1, s2, _, _ in rows:
+        by_age.setdefault(a, []).append((name, s1, s2))
+    bad = set()
+    for a, evs in by_age.items():
+        tw = any(RANK[x] > RANK[y] for _, x, y in evs)
+        sw = any(RANK[y] > RANK[x] for _, x, y in evs)
+        if tw and sw:
+            bad.add(a)
+            print(f"    age {a} contradicts itself: "
+                  + "; ".join(f"{n} (T {x}, S {y})" for n, x, y in evs))
+    if not bad:
+        print("    none")
+    ta = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
+    sa = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
+    for a, name, s1, s2, _, _ in rows:
+        if a not in bad:
+            ta[s1] += 1
+            sa[s2] += 1
+    print(f"    tropical  {ta['HIT']} hit, {ta['PARTIAL']} partial, {ta['MISS']} miss")
+    print(f"    sidereal  {sa['HIT']} hit, {sa['PARTIAL']} partial, {sa['MISS']} miss")
+
+    print("\n  CHECK B - strict scoring, exact primary matches only, no partial")
+    print("  credit. Tests whether the result rests on secondary significators:")
+    tb = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
+    sb = {"HIT": 0, "PARTIAL": 0, "MISS": 0}
+    for a, name, _, _, x, y in rows:
+        tb[x] += 1
+        sb[y] += 1
+    print(f"    tropical  {tb['HIT']} hit, {tb['MISS']} miss")
+    print(f"    sidereal  {sb['HIT']} hit, {sb['MISS']} miss")
 
 
 if __name__ == "__main__":
