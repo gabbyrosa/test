@@ -1,104 +1,177 @@
 # Working standards for this repo
 
-This project is astrological analysis held to research standards. The subject
-matter is not falsifiable in the way science is; the *method* still can be.
-Everything below was learned by getting it wrong first. Follow it by default,
-without being asked.
+Astrological analysis held to research standards. The subject matter is not
+falsifiable the way science is; the *method* still can be. Every rule below was
+learned by getting it wrong first. Follow them by default, without being asked.
 
-## Declare the framework before using it
+The first two are at the top because they caused the most damage.
 
-State the system, the era and the school before any interpretation. Then stay
-inside it. If a technique comes from a different tradition than the one
-declared, label it inline — do not let it pass because it is adjacent.
+---
 
-Real failures this prevents: medieval material (almuten, Lilly moiety orbs,
-semi-sextiles) presented as Hellenistic; a KP-style nakshatra-chain analysis
-presented as Parashari. Both looked native to the framework. Neither was.
+## 1. A caveat stays attached to the claim, permanently
 
-## Provenance of inputs, not just outputs
+The failure is not stating a limitation. It is stating it once and then
+letting it fall away from the summary where the claim actually gets used.
+**A limitation does not expire because the result became interesting.**
 
-Be able to say where every input came from. A candidate list, a city set, a
-set of events — if any of it entered during an earlier analysis that already
-had conclusions, it is contaminated and must be rebuilt from a stated
-criterion.
+Real instances in this repo, all the same shape:
 
-The single highest-yield question anyone has asked in this repo was "where did
-these cities come from." The answer was that 60% arrived during analyses that
-already knew what they wanted to find.
+- Venus was combust and lowest in dig bala, stated in the technical section,
+  gone by the time "Venus is the chart's strength" reached the synthesis
+- Jupiter's kendradhipati dosha was noted, then "amazing Jupiter, amazing home"
+  survived into the conclusions anyway
+- The Lot of Spirit boundary moved 217 miles across a ±8 minute birth-time
+  window; the Spirit argument kept being used at full strength
+- The city list's contamination was found, acknowledged, and the same cities
+  kept reappearing in later passes
 
-## No scores, no counting, no composites
+Operationally: if a claim carries a caveat anywhere, the caveat travels with it
+into every restatement, including the one-line summary and the headline. If it
+will not fit, the claim is too strong for that length and gets cut instead.
 
-Never produce a ranking, a score out of ten, a weighted index, or a count of
-positives unless explicitly asked. This includes scores hiding inside prose:
-"six gains and three losses" is a score. "Most indicators agree" is a count.
+## 2. Agreement between non-independent methods is not evidence
+
+Two methods describing the same geometry in different vocabularies have not
+confirmed each other. They have agreed with themselves twice.
+
+Before treating convergence as support, show that the underlying quantities are
+actually independent. Four astrological systems all reading the same
+planetary positions are not four witnesses.
+
+Corollaries that came from the same mistake:
+
+- **Same locus, two descriptions, one fact.** A "Venus line" and a "Venus-ruled
+  regime" at the same longitude are one finding.
+- **Distance from a boundary is stability, not quality.** Being far from a
+  regime edge means the reading is robust to small input changes. It says
+  nothing about whether the reading is good.
+
+---
+
+## 3. Declare the framework before interpreting
+
+State the system, era and school before any interpretation, then stay inside
+it. Anything from another tradition gets labelled inline, even when it is
+adjacent and looks native.
+
+Caught here: medieval material (almuten, Lilly moiety orbs, semi-sextiles)
+presented as Hellenistic; a KP-weighted nakshatra-chain analysis presented as
+Parashari. Both looked native. Neither was.
+
+## 4. Four registers, never merged
+
+1. **Calculation** — computed, checkable against an ephemeris
+2. **Sourced doctrine** — what a named text says, with the text named
+3. **Inference** — my reasoning from 1 and 2, in my voice
+4. **Possible lived expression** — plural, probabilistic, conditional
+
+Three registers is not enough. The specific failure was writing my own
+synthesis inside the tradition's voice: "classically read as..." over an
+inference. Registers 2 and 3 must stay apart or that failure recurs.
+
+Never write "you always", "this means your X is bad", or one deterministic
+personality sentence. If a claim needs timing to be true, say so.
+
+## 5. No scores, rankings, averages or composites
+
+Not unless the aggregation rule and the independence of its inputs were
+established in advance. This includes scores hidden in prose: "six gains and
+three losses" is a score. "Most indicators agree" is a count.
 
 Report factors as facts and let them stay uncommensurable when they are.
 
-## Three registers, kept apart
+## 6. Nothing is inherited into a fresh analysis
 
-1. **Technical fact** — computed, checkable against an ephemeris
-2. **Traditional delineation** — what the sources hold, in their voice
-3. **Possible lived expressions** — plural, probabilistic, and mine
+Candidate lists, city sets, event sets, rankings, conclusions. If any of it
+entered during an earlier analysis that already had conclusions, it is
+contaminated and gets rebuilt from a stated criterion.
 
-Never put an inference in the tradition's register. Writing "classically read
-as..." over your own synthesis is the specific failure to watch for.
+The highest-yield question anyone has asked in this repo was "where did these
+cities come from." The answer was that 60% arrived during analyses that already
+knew what they wanted to find.
 
-Never write "you always", "this means your X is bad", or a single deterministic
-personality sentence. If a claim needs timing to be true, say that it does.
+## 7. Pre-register selection and scoring rules
 
-## Say what was not computed
+Fix the inclusion rule, the scoring rule, the exclusions and the known
+confounds in a committed file *before* seeing results. Then do not revise them.
+If a rule turns out to have a hole, report the original result alongside any
+repair rather than replacing it.
 
-If a measure has competing formulations and no way to choose, do not produce a
+## 8. Provenance labels, applied honestly
+
+Every doctrinal claim carries one of:
+
+| Label | Meaning |
+|---|---|
+| **verified primary** | text and edition named, quoted |
+| **secondary** | a named source citing the primary; the primary unchecked |
+| **standard practice** | widely held, grounding unverified |
+| **school-dependent** | authorities materially disagree |
+| **contemporary** | postdates the declared framework |
+| **inferred** | mine |
+| **unknown** | I do not know where this comes from |
+
+Editions matter and are part of the citation. The node-aspect doctrine differs
+between the Khemraj 1932 and Santhanam 1984 editions of the same text; two
+translations of one verse gave materially different strengths of claim.
+
+## 9. Never invent a citation
+
+If the primary source is not in the environment, supply no citation at all. An
+invented chapter and verse is worse than an admitted gap, because a reader
+cannot tell it from a real one. Web search is permitted and its results are
+tiered by source quality, but a practitioner blog is not a text.
+
+## 10. State what was not computed
+
+If a measure has competing formulations and no way to choose, produce no
 number. Say it was not computed and why. Then do not later claim strength "by
-every measure" — the omission is binding on the conclusion.
+every measure" — the omission binds the conclusion.
 
-## Never cite what cannot be verified
+## 11. Sensitivity-test anything convention-dependent
 
-If the primary source is not available in the environment, supply no citation
-at all. An invented chapter and verse is worse than an admitted gap, because a
-reader cannot tell it from a real one. Say plainly that the claim is
-unsourced and mark whether it is standard practice, school-dependent, or your
-own synthesis.
-
-## Sensitivity-test every conclusion
-
-Identify which convention each headline claim depends on, then test it against
-the alternatives. Label results as **invariant**, **framework-dependent**, or
+Identify which convention each headline claim rests on and test the
+alternatives. Label results **invariant**, **framework-dependent** or
 **interpretive**.
 
-Conventions that turned out to be load-bearing here: whole sign vs quadrant
-houses, tropical vs sidereal, mean vs true node, flat vs moiety orbs, sign-based
-vs degree-based aspects, and the year-length used for period arithmetic.
+Load-bearing conventions found here: whole sign vs quadrant houses, tropical vs
+sidereal, mean vs true node, flat vs moiety orbs, sign-based vs degree-based
+aspects, the year length in period arithmetic, and — a bug, not a convention —
+whether a house cusp is a boundary or a midpoint.
 
-## Verify a correction before claiming it
+## 12. Verify every downstream occurrence before calling a fix done
 
-When fixing an error, find *every* instance and check each one. Twice in this
-repo a fix was applied in two places out of four, reported as done, and left
-the document contradicting itself. Grep for the stale claim afterwards and show
-the result.
+Find *every* instance and check each one. Grep for the stale claim afterwards
+and show the result. Three times in this repo a fix was applied to some
+instances, reported as complete, and left the document contradicting itself.
 
-## Stop before the verdict
+## 13. Stop at the requested stage
 
 Most errors here were introduced at the moment of reaching a conclusion, not
-while gathering evidence. When asked to stop at a stage, stop there. When not
-asked, still separate the evidence from the verdict so the verdict can be
-rejected without discarding the work.
+while gathering evidence. When asked to stop at a stage, stop. When not asked,
+still separate evidence from verdict so the verdict can be rejected without
+discarding the work.
 
-## Pre-register anything predictive
+## 14. Reproducibility is part of the deliverable
 
-Fix the scoring rule, the exclusions, and the known confounds in a committed
-file *before* seeing the data. Then do not revise them. If a rule turns out to
-have a hole, say so and report the original result alongside any repair.
+Any document making numeric claims carries an appendix: library and version,
+calculation flags, coordinates, time-zone conversion, and every formula and
+convention that was a choice rather than a fact.
 
-## Reproducibility is part of the deliverable
+---
 
-Any document making numeric claims carries an appendix with: library and
-version, calculation flags, coordinates, time-zone conversion, and every
-formula and convention that was a choice rather than a fact.
+## Holding the line
+
+These apply even when a request pushes against them. If asked for a ranking, a
+best city, a single verdict, or a convergence claim, name the rule and offer
+the nearest thing that survives it, rather than complying quietly. Being asked
+for a score is not authorisation to produce one; explicit acknowledgement of
+the rule is.
 
 ## Environment
 
-- Swiss Ephemeris data lives at `/usr/share/swisseph`
+- Swiss Ephemeris data at `/usr/share/swisseph`
 - Chromium for PDF rendering: `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`
 - `natal.py` is the single source of truth for the tropical chart; `jyotish.py`
   computes the Parashari chart independently and shares nothing with it, by design
+- `protocol.md` is the portable, project-agnostic version of the above
