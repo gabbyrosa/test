@@ -6,18 +6,27 @@ is rewritten.
 
 ---
 
-## OPEN — known, deliberately not actioned
+## CLOSED — all three actioned
 
-Three substantive corrections are outstanding. They are parked by agreement and
-are to be handled as **one discrete audit**, not folded into an unrelated pass,
-because a correction merged into other work is the one whose downstream
-occurrences never get checked.
+The three parked corrections were applied as one discrete audit. Every landing
+site listed below was edited and then grep-verified; zero stale claims remained.
 
-| # | Correction | Source | Where it lands |
-|---|---|---|---|
-| 1 | **Functional-table errors.** Moon is under-called as "mixed" where the text says malefic. Sun is over-called as a functional malefic where the text says its role depends on association. Saturn is not named for Virgo in the passage at all, so "mixed, tilting benefic" is unsupported by it. | BPHS ch. 34 vv. 31-32, sanskritdocuments translation | Reading §7 table; §4 Sun and Saturn entries; §15 wherever the functional roles are relied on |
-| 2 | **Yoga citation and provenance.** Dharma-Karmadhipati currently rests on the generic kendra-trikona rule. The same Virgo passage names the Venus-Mercury conjunction as yoga-producing for this lagna specifically, which is stronger and more direct. Carries **low textual stability** — a second translation reads "become Yogakaraka" rather than "their yuti will produce Yog." | same passage | Reading §9 Dharma-Karmadhipati; §16 Theme I combo line |
-| 3 | **Node drishti removal.** The drishti table gives Rahu and Ketu a 7th aspect each. No tier-A source supports it; ch. 34 vv. 16-17 give the nodes effects by conjunction and occupation only. Ketu is separately argued to cast no graha drishti at all. | BPHS ch. 34 vv. 16-17 | Reading §6 drishti table (both node rows, plus "Saturn receives Rahu" and "Rahu receives Ketu"); §14 aspects-received row; §17 conventions table |
+| # | Correction | Outcome |
+|---|---|---|
+| 1 | Functional-table errors | Moon corrected to **malefic** (stated in the text). Sun corrected to **"role will depend on his association"**, not classed either way. Saturn relabelled **not named for this lagna, verdict inferred**. Mars, Jupiter, Mercury and Venus confirmed as they stood. Jupiter's two mechanisms now separated: ch. 34 vv. 2–7 mute a benefic, ch. 34 vv. 31–32 class Guru a malefic for Kanya outright. |
+| 2 | Yoga citation | Dharma-Karmadhipati now rests on ch. 34 vv. 31–32 naming the Venus–Mercury yuti as yoga-producing for Kanya specifically, rather than on the generic kendra–trikona rule. Carries **low textual stability** inline. |
+| 3 | Node drishti removal | Both cast rows removed from §6, §14 rebuilt with separate cast and received rows, §17 conventions row changed to **excluded**, citing ch. 34 vv. 16–17. |
+
+**Two things surfaced during the audit that were not on the list.**
+
+Removing the node casts leaves **Saturn and Ketu receiving no drishti at all**,
+joining the Moon. Three of nine bodies are now unaspected, where the document
+previously had one.
+
+And the claim that Saturn aspects "seven of the other eight bodies" was an
+**arithmetic error**, present in two places and independent of the node
+question. It is six: Sun, Mars, Mercury, Jupiter, Venus and Rahu. The two it
+misses are the Moon and Ketu.
 
 Two of the original audit's own conclusions were also reversed by the search
 addendum at the end of this file and are already recorded there: the Jupiter
