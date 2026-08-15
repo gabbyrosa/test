@@ -161,3 +161,156 @@ Worth stating, because most of the document does survive:
   precisely what makes the Saturn overstatement indefensible.
 - The Venus structure, which was the document's most valuable result and
   becomes *more* interesting once corrected: not weak, but context-dependent.
+
+---
+
+# Addendum: web search performed
+
+The original audit declined to search, on the grounds that online Jyotish
+material is mostly unsourced and mutually copied. That was a judgement call,
+not a capability limit, and it was overruled. Searched August 2026.
+
+## Source quality tiers used below
+
+| Tier | Meaning |
+|---|---|
+| **A** | A published translation of the primary text, quoted directly |
+| **B** | Named secondary source giving a specific, checkable citation |
+| **C** | Practitioner site, unsourced, of the kind that copies from other practitioner sites |
+| **D** | SEO content farm. Ignored entirely. |
+
+Most results were tier C or D and are not cited. One tier-A source was
+reached: a public translation of *Brihat Parashara Hora Shastra* chapters
+34-45 at sanskritdocuments.org. **It is still a translation of uncertain
+edition**, and the caution below about editions is not rhetorical.
+
+## Two findings that REVERSE the original audit
+
+### 1. "Jupiter is a functional malefic for Virgo" was correct. My softening was wrong.
+
+**Tier A.** BPHS ch. 34, vv. 31-32, on Kanya (Virgo) lagna:
+
+> "Mangal, Guru, and Chandr are malefics, while Buddh and Shukr are
+> auspicious. Shukr's yuti with Buddh will produce Yog. Shukr is a killer as
+> well. Surya's role will depend on his association."
+
+Guru is Jupiter, and the text names it a malefic for this lagna directly. The
+original audit said "functional malefic" overstated the kendradhipati
+doctrine. Both things turn out to be true at once, in the same chapter: the
+*general* rule (vv. 2-7) is muting, not reversal —
+
+> "Benefics owning Kendras will not give benefic effects, while malefics
+> owning Kendras will not remain inauspicious."
+
+— but the *per-lagna list* applies the malefic label to Jupiter for Virgo
+without qualification. The reading's original wording stands; my audit's
+correction of it does not.
+
+### 2. The functional benefic/malefic table is not a modern systematization.
+
+The original audit called the per-lagna table "a 20th-century systematization"
+that BPHS does not provide. **That is wrong.** BPHS ch. 34 gives per-lagna
+benefic and malefic lists explicitly. The table's *form* is classical.
+
+## Three errors in the reading's table, found against the text
+
+**Tier A**, same passage:
+
+| Graha | Reading says | BPHS ch. 34 vv. 31-32 says | Verdict |
+|---|---|---|---|
+| Jupiter | functional malefic | malefic | correct |
+| Mars | functional malefic | malefic | correct |
+| Mercury | strongest functional benefic | auspicious | correct |
+| Venus | benefic with maraka duty | auspicious, "a killer as well" | correct |
+| **Moon** | **"mixed"** | **malefic** | **under-called** |
+| **Sun** | **functional malefic** | **"role will depend on his association"** | **over-called** |
+| **Saturn** | **"mixed, tilting benefic"** | **not mentioned for this lagna** | **unsupported by this passage** |
+
+## A citation for the chart's central yoga
+
+**Tier A.** The same passage continues: *"Shukr's yuti with Buddh will produce
+Yog."* BPHS names the **Venus-Mercury conjunction as yoga-producing for Virgo
+lagna specifically** — and that is exactly the configuration in this chart,
+Venus and Mercury conjunct in Taurus.
+
+This is better textual grounding than the generic kendra-trikona raja yoga
+rule the reading cited for Dharma-Karmadhipati. The reading should cite this
+verse instead.
+
+**Translation caveat, which matters here.** A tier-C source quotes the same
+passage as "Indeed, Mercury and Venus become Yogakaraka" — a materially
+stronger claim than "their yuti will produce Yog." Two translations, two
+different strengths of claim, from one verse. This is precisely why the
+edition needs to be named before the citation is trusted.
+
+## Node aspects: unsupported, and the 5/7/9 rule traces to an edition dispute
+
+**Tier A.** BPHS ch. 34, vv. 16-17:
+
+> "Rahu and Ketu give predominantly the effects as due to their yuti with a
+> bhava lord or as due to the bhava they occupy."
+
+Conjunction and occupation. No drishti. This is exactly the treatment the
+original audit recommended, now with a text behind it.
+
+**Tier B.** The 5/7/9 node-aspect doctrine is reported to derive from the
+**Khemraj 1932 edition** of BPHS, which differs from the **Santhanam 1984**
+edition, and to have been popularised by J.N. Bhasin. Separately, Ketu is
+argued to cast no graha drishti at all on doctrinal grounds — being headless,
+it cannot glance — and to have rashi drishti only.
+
+**Correction needed:** remove both node rows from the drishti table. The
+reading currently gives Rahu and Ketu a 7th aspect each, which no tier-A
+source supports and which a doctrinal argument specifically denies for Ketu.
+
+## Retrograde and cheshta bala: the correction was right
+
+**Tier B.** Retrograde grahas receive maximum cheshta bala, 60 shashtiamsas,
+placing them in the same bracket as exalted grahas for that component. A
+pointer worth checking: **Saravali 5.39**, reported as "a benefic, if
+retrograde, is strong and is capable of conferring kingdom."
+
+Not verified against Saravali itself. But it is a named text and verse, which
+is a real improvement over the nothing the reading had.
+
+## Nakshatra chains: confirmed as KP, not Parashari
+
+**Tier C**, but consistent across many independent sources, and the
+distinction is definitional rather than doctrinal:
+
+In Parashari, sign lordship dominates interpretation and nakshatra is used
+mainly for dasha calculation. KP's signature methodological departure is
+**inverting that weighting** so the star lord overrides the planet itself.
+
+Section 5 of the reading builds a structural map out of nakshatra-lord chains
+and treats it as parallel in authority to the rashi analysis. That is the KP
+weighting. The original audit's most serious finding is confirmed.
+
+K.S. Krishnamurti worked in Madras from the early 1950s; the first
+*Krishnamurti Paddhati Reader* appeared in 1963. So the technique postdates
+the Parashari corpus by a very long way.
+
+## Nakshatra parivartana: still no classical basis found
+
+Searching found parivartana defined consistently as an **exchange of rashis**
+between two house lords, attributed to BPHS. Nothing named a nakshatra-level
+exchange. Absence of evidence from a search is weak, but it is consistent
+with the original finding: the term is my extension.
+
+## What remains unverified
+
+Lakshmi yoga's conditions, the hora doctrine on self-generated versus received
+wealth, the baladi avastha multipliers, rashi sandhi weighting, and the claim
+about an unaspected Moon. None were reached at tier A or B. The last of these
+was an invented attribution and is already withdrawn from the reading.
+
+## Sources
+
+- [Brihat Parashara Hora Shastra, chapters 34-45 (translation)](https://sanskritdocuments.org/doc_z_misc_sociology_astrology/horaashaastraEng34-45.html) — tier A
+- [Brihat Parashara Hora Shastra (overview)](https://en.wikipedia.org/wiki/Brihat_Parashara_Hora_Shastra) — tier B
+- [Aspects of the Nodes, jyotishvidya.com](https://www.jyotishvidya.com/nodes.htm) — tier B, the Khemraj/Santhanam edition claim
+- [Cheshta Bala, astrosutras.in](https://astrosutras.in/index.php/2025/03/04/cheshta-bala-motional-strength-detailed-explanation/) — tier B/C, the Saravali 5.39 pointer
+- [Shadbala overview, Thoughts on Jyotish](https://medium.com/thoughts-on-jyotish/shadbala-the-6-sources-of-strength-4c5befc0c59a) — tier C
+- [KP significator hierarchy, Jagannath Hora](https://jagannathhora.com/kp-significator-hierarchy-4-level-reading/) — tier C
+- [KP vs Vedic comparison, Jagannath Hora](https://jagannathhora.com/kp-vs-vedic-astrology-comparison/) — tier C
+- [Kendradhipati dosha, jyotishbootcamp](https://jyotishbootcamp.substack.com/p/kendrathipathi-dosha) — tier C
