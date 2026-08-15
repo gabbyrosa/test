@@ -1,0 +1,978 @@
+<title>Hasta Lagna, Rahu Rising</title>
+<style>
+:root{
+  --ground:#EDF0EE; --surface:#F7F9F7; --sunk:#E2E7E4;
+  --ink:#16211D; --body:#2C3A35; --muted:#5C6B65; --faint:#8A9A93;
+  --rule:#CBD5D0; --hair:#DDE4E0;
+  --verdigris:#1F6B5E; --verdigris-soft:#D9E7E3;
+  --brass:#8A6D25; --brass-soft:#EDE6D2;
+  --iron:#9C4630; --iron-soft:#F2DED8;
+  --shadow:rgba(22,33,29,.07);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0D1512; --surface:#131E1A; --sunk:#0A100E;
+    --ink:#E6EDE9; --body:#C3D0CB; --muted:#8FA099; --faint:#66766F;
+    --rule:#2A3833; --hair:#1E2B26;
+    --verdigris:#52B9A3; --verdigris-soft:#122A25;
+    --brass:#C4A24A; --brass-soft:#241E10;
+    --iron:#D2705A; --iron-soft:#2A1712;
+    --shadow:rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0D1512; --surface:#131E1A; --sunk:#0A100E;
+  --ink:#E6EDE9; --body:#C3D0CB; --muted:#8FA099; --faint:#66766F;
+  --rule:#2A3833; --hair:#1E2B26;
+  --verdigris:#52B9A3; --verdigris-soft:#122A25;
+  --brass:#C4A24A; --brass-soft:#241E10;
+  --iron:#D2705A; --iron-soft:#2A1712;
+  --shadow:rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{
+  background:var(--ground); color:var(--body);
+  font:400 16.5px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  margin:0; padding:0;
+  -webkit-font-smoothing:antialiased;
+}
+.serif{font-family:Palatino,"Palatino Linotype","Iowan Old Style","Book Antiqua",Georgia,serif}
+.mono{font-family:ui-monospace,"SF Mono","Cascadia Mono","Roboto Mono",Consolas,monospace;
+  font-variant-numeric:tabular-nums}
+
+/* ---------- shell ---------- */
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px 120px;
+  display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:1120px){
+  .wrap{grid-template-columns:172px minmax(0,1fr);gap:56px;padding-left:32px}
+  .rail{display:block}
+}
+.rail{display:none;position:sticky;top:0;align-self:start;
+  padding:48px 0;max-height:100vh;overflow-y:auto}
+.rail ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.rail a{display:grid;grid-template-columns:22px 1fr;gap:8px;
+  text-decoration:none;color:var(--faint);font-size:12.5px;line-height:1.35;
+  padding:5px 6px;border-radius:3px}
+.rail a:hover{color:var(--verdigris);background:var(--surface)}
+.rail a:focus-visible{outline:2px solid var(--verdigris);outline-offset:1px}
+.rail .n{font-family:ui-monospace,monospace;font-size:10.5px;color:var(--rule);
+  padding-top:2px}
+.col{min-width:0;max-width:none}
+
+/* ---------- masthead ---------- */
+header{padding:72px 0 40px;border-bottom:2px solid var(--ink);margin-bottom:0}
+.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--verdigris);font-weight:600;margin:0 0 20px}
+h1{font-family:Palatino,"Palatino Linotype","Iowan Old Style",Georgia,serif;
+  font-weight:400;font-size:clamp(38px,6vw,62px);line-height:1.02;
+  letter-spacing:-.018em;color:var(--ink);margin:0 0 22px;text-wrap:balance;
+  max-width:16ch}
+.dek{font-size:18px;line-height:1.55;color:var(--muted);max-width:62ch;margin:0}
+.vitals{display:flex;flex-wrap:wrap;gap:0 34px;margin-top:32px;
+  font-size:12.5px;color:var(--muted)}
+.vitals div{display:flex;flex-direction:column;gap:3px;padding:2px 0}
+.vitals dt{font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint)}
+.vitals dd{margin:0;color:var(--ink);font-family:ui-monospace,monospace;
+  font-variant-numeric:tabular-nums;font-size:13px}
+
+/* ---------- sections ---------- */
+section{padding:52px 0;border-bottom:1px solid var(--hair)}
+section:last-of-type{border-bottom:none}
+.shead{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:baseline;
+  margin:0 0 8px}
+.snum{font-family:ui-monospace,monospace;font-size:12px;color:var(--verdigris);
+  font-weight:600;letter-spacing:.04em}
+h2{font-family:Palatino,"Palatino Linotype","Iowan Old Style",Georgia,serif;
+  font-weight:400;font-size:clamp(25px,3.2vw,33px);line-height:1.12;
+  letter-spacing:-.012em;color:var(--ink);margin:0;text-wrap:balance}
+h3{font-family:Palatino,"Palatino Linotype","Iowan Old Style",Georgia,serif;
+  font-weight:400;font-size:21px;line-height:1.2;color:var(--ink);
+  margin:40px 0 12px;text-wrap:balance}
+h4{font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);font-weight:600;margin:30px 0 10px}
+p{max-width:70ch;margin:0 0 15px}
+.lede{font-size:17.5px;color:var(--muted);max-width:66ch;margin:0 0 26px}
+strong{color:var(--ink);font-weight:600}
+em{font-style:italic}
+.sk{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-style:italic;
+  color:var(--ink)}
+a{color:var(--verdigris)}
+ul{max-width:70ch;padding-left:20px;margin:0 0 16px}
+li{margin-bottom:7px}
+li::marker{color:var(--faint)}
+
+/* ---------- the three-level device ---------- */
+.tri{margin:26px 0;display:flex;flex-direction:column;gap:0;
+  background:var(--surface);border:1px solid var(--hair);border-radius:2px;
+  overflow:hidden}
+.tri > div{padding:15px 20px 16px;border-left:3px solid transparent}
+.tri > div + div{border-top:1px solid var(--hair)}
+.tri .lv{font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  font-weight:700;margin:0 0 7px;display:block}
+.tri p{margin:0 0 9px;max-width:66ch}
+.tri p:last-child{margin-bottom:0}
+.t-fact{border-left-color:var(--verdigris)!important;background:var(--surface)}
+.t-fact .lv{color:var(--verdigris)}
+.t-fact p{font-family:ui-monospace,"SF Mono",Consolas,monospace;
+  font-variant-numeric:tabular-nums;font-size:13.5px;line-height:1.6;color:var(--ink)}
+.t-class{border-left-color:var(--brass)!important}
+.t-class .lv{color:var(--brass)}
+.t-class p{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:16.5px;
+  line-height:1.6}
+.t-lived{border-left-color:var(--rule)!important;background:var(--sunk)}
+.t-lived .lv{color:var(--muted)}
+.t-lived p{font-size:15.5px;line-height:1.62}
+.t-lived ul{margin:0;font-size:15.5px;max-width:66ch}
+
+/* ---------- tables ---------- */
+.tbl{overflow-x:auto;margin:22px 0;border:1px solid var(--hair);border-radius:2px;
+  background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:13px;
+  font-family:ui-monospace,"SF Mono",Consolas,monospace;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+th{text-align:left;font-weight:600;color:var(--muted);font-size:10.5px;
+  letter-spacing:.09em;text-transform:uppercase;padding:11px 13px;
+  border-bottom:1px solid var(--rule);background:var(--sunk)}
+td{padding:8px 13px;border-bottom:1px solid var(--hair);color:var(--body)}
+tr:last-child td{border-bottom:none}
+td.k{color:var(--ink);font-weight:600}
+.up{color:var(--verdigris);font-weight:600}
+.dn{color:var(--iron);font-weight:600}
+.nu{color:var(--faint)}
+.br{color:var(--brass);font-weight:600}
+
+/* ---------- chart diagrams ---------- */
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:26px;margin:28px 0}
+.chart figcaption{font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 10px;font-weight:600}
+.sq{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(4,1fr);
+  aspect-ratio:1;border:1.5px solid var(--ink);background:var(--surface)}
+.sq div{border:.5px solid var(--rule);padding:5px 6px;min-width:0;
+  display:flex;flex-direction:column;gap:2px;overflow:hidden}
+.sq .rs{font-size:8.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--faint);font-family:ui-monospace,monospace}
+.sq .gr{font-size:11px;line-height:1.32;color:var(--ink);font-weight:600;
+  font-family:ui-monospace,monospace;word-break:break-word;white-space:normal}
+.sq .hollow{border:none;background:transparent}
+.sq .lag{background:var(--verdigris-soft)}
+.sq .lag .rs{color:var(--verdigris)}
+.core{grid-column:2/4;grid-row:2/4;border:.5px solid var(--rule)!important;
+  align-items:center;justify-content:center;text-align:center;background:var(--sunk)}
+.core b{font-family:Palatino,Georgia,serif;font-weight:400;font-size:15px;
+  color:var(--ink);display:block}
+.core span{font-size:9.5px;color:var(--faint);letter-spacing:.08em;
+  text-transform:uppercase;font-family:ui-monospace,monospace}
+
+/* ---------- callouts ---------- */
+.note{border-left:3px solid var(--brass);background:var(--brass-soft);
+  padding:15px 20px;margin:24px 0;border-radius:0 2px 2px 0}
+.note p{margin:0 0 9px;font-size:15px;max-width:64ch}
+.note p:last-child{margin:0}
+.note .lv{font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--brass);font-weight:700;display:block;margin-bottom:7px}
+.caution{border-left-color:var(--iron);background:var(--iron-soft)}
+.caution .lv{color:var(--iron)}
+
+/* ---------- theme summary cards ---------- */
+.themes{display:flex;flex-direction:column;gap:2px;margin:28px 0}
+.theme{background:var(--surface);border:1px solid var(--hair);
+  padding:20px 22px;display:grid;grid-template-columns:34px 1fr;gap:16px}
+.theme .tn{font-family:ui-monospace,monospace;font-size:12px;color:var(--verdigris);
+  font-weight:700;padding-top:3px}
+.theme h3{margin:0 0 8px;font-size:19px}
+.theme p{margin:0 0 8px;font-size:15.5px;max-width:64ch}
+.theme p:last-child{margin:0}
+.theme .combo{font-family:ui-monospace,monospace;font-size:12.5px;
+  color:var(--muted);background:var(--sunk);padding:8px 11px;
+  border-radius:2px;margin-top:11px;white-space:normal;line-height:1.55}
+
+footer{padding:44px 0 0;border-top:2px solid var(--ink);margin-top:16px;
+  font-size:13.5px;color:var(--muted)}
+footer p{max-width:66ch}
+</style>
+
+<div class="wrap">
+<nav class="rail" aria-label="Sections">
+<ol>
+<li><a href="#s1"><span class="n">01</span><span>Technical foundation</span></a></li>
+<li><a href="#s2"><span class="n">02</span><span>Lagna &amp; Lagna lord</span></a></li>
+<li><a href="#s3"><span class="n">03</span><span>The Moon in depth</span></a></li>
+<li><a href="#s4"><span class="n">04</span><span>Graha by graha</span></a></li>
+<li><a href="#s5"><span class="n">05</span><span>Nakshatra network</span></a></li>
+<li><a href="#s6"><span class="n">06</span><span>The twelve bhavas</span></a></li>
+<li><a href="#s7"><span class="n">07</span><span>Functional roles</span></a></li>
+<li><a href="#s8"><span class="n">08</span><span>Relationships &amp; drishti</span></a></li>
+<li><a href="#s9"><span class="n">09</span><span>Yogas</span></a></li>
+<li><a href="#s10"><span class="n">10</span><span>Strength</span></a></li>
+<li><a href="#s11"><span class="n">11</span><span>Navamsa D9</span></a></li>
+<li><a href="#s12"><span class="n">12</span><span>Other vargas</span></a></li>
+<li><a href="#s13"><span class="n">13</span><span>Vimshottari dasha</span></a></li>
+<li><a href="#s14"><span class="n">14</span><span>Rahu &amp; Ketu</span></a></li>
+<li><a href="#s15"><span class="n">15</span><span>Synthesis by area</span></a></li>
+<li><a href="#s16"><span class="n">16</span><span>Structural themes</span></a></li>
+</ol>
+</nav>
+
+<div class="col">
+<header>
+<p class="eyebrow">Parashari Jyotish &middot; Lahiri sidereal &middot; computed from scratch</p>
+<h1>Hasta Lagna, Rahu Rising</h1>
+<p class="dek">A full natal reading of the chart for 7 June 1996, 3:35 PM EDT, Pittsburgh. Every placement below is computed with the Swiss Ephemeris under one declared framework, and every delineation is separated from the technical fact that produced it.</p>
+<dl class="vitals">
+<div><dt>Lagna</dt><dd>22&deg;16&prime; Virgo</dd></div>
+<div><dt>Rashi (Moon)</dt><dd>15&deg;09&prime; Aquarius</dd></div>
+<div><dt>Janma nakshatra</dt><dd>Shatabhisha 3</dd></div>
+<div><dt>Ayanamsha</dt><dd>23&deg;48&prime;26&Prime;</dd></div>
+<div><dt>Current dasha</dt><dd>Saturn / Venus</dd></div>
+</dl>
+</header>
+
+<!-- ============ 1 ============ -->
+<section id="s1">
+<div class="shead"><span class="snum">01</span><h2>Technical foundation</h2></div>
+<p class="lede">Everything that follows depends on these choices, so they are stated before any interpretation rather than buried in it.</p>
+
+<div class="tbl"><table>
+<tr><th>Parameter</th><th>Choice</th><th>Note</th></tr>
+<tr><td class="k">Ayanamsha</td><td>Lahiri (Chitrapaksha)</td><td>23.8073&deg; at birth. The Indian government standard.</td></tr>
+<tr><td class="k">Zodiac</td><td>Sidereal</td><td>&mdash;</td></tr>
+<tr><td class="k">Bhava convention</td><td>Whole sign (rashi = bhava)</td><td>Parashari default. Sripati cusps cross-checked below.</td></tr>
+<tr><td class="k">Nodes</td><td>Mean node</td><td>True node differs by 63.4&prime;. Same rashi, same nakshatra, same pada.</td></tr>
+<tr><td class="k">System</td><td>Parashari only</td><td>No Jaimini rashi drishti, no chara karakas, no Nadi.</td></tr>
+<tr><td class="k">Aspects</td><td>Graha drishti, sign-based</td><td>All grahas the 7th; Mars also 4th/8th; Jupiter 5th/9th; Saturn 3rd/10th.</td></tr>
+</table></div>
+
+<h3>The rashi chart</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Longitude</th><th>Bhava</th><th>Nakshatra</th><th>Pada</th><th>Nak. lord</th><th>Dignity</th><th>Motion</th></tr>
+<tr><td class="k">Sun</td><td>23&deg;29&prime;59&Prime; Taurus</td><td>9</td><td>Mrigashira</td><td>1</td><td>Mars</td><td class="nu">enemy&rsquo;s sign</td><td>direct</td></tr>
+<tr><td class="k">Moon</td><td>15&deg;09&prime;20&Prime; Aquarius</td><td>6</td><td>Shatabhisha</td><td>3</td><td>Rahu</td><td class="nu">neutral sign</td><td>direct</td></tr>
+<tr><td class="k">Mars</td><td>2&deg;44&prime;51&Prime; Taurus</td><td>9</td><td>Krittika</td><td>2</td><td>Sun</td><td class="nu">neutral sign</td><td>direct</td></tr>
+<tr><td class="k">Mercury</td><td>0&deg;16&prime;53&Prime; Taurus</td><td>9</td><td>Krittika</td><td>2</td><td>Sun</td><td class="nu">friend&rsquo;s sign</td><td>direct</td></tr>
+<tr><td class="k">Jupiter</td><td>22&deg;05&prime;33&Prime; Sagittarius</td><td>4</td><td>Purva Ashadha</td><td>3</td><td>Venus</td><td class="up">OWN SIGN</td><td class="dn">retrograde</td></tr>
+<tr><td class="k">Venus</td><td>28&deg;01&prime;11&Prime; Taurus</td><td>9</td><td>Mrigashira</td><td>2</td><td>Mars</td><td class="up">OWN SIGN</td><td class="dn">retrograde</td></tr>
+<tr><td class="k">Saturn</td><td>12&deg;12&prime;27&Prime; Pisces</td><td>7</td><td>Uttara Bhadrapada</td><td>3</td><td>Saturn</td><td class="nu">neutral sign</td><td>direct</td></tr>
+<tr><td class="k">Rahu</td><td>20&deg;13&prime;09&Prime; Virgo</td><td>1</td><td>Hasta</td><td>4</td><td>Moon</td><td class="nu">&mdash;</td><td>retrograde</td></tr>
+<tr><td class="k">Ketu</td><td>20&deg;13&prime;09&Prime; Pisces</td><td>7</td><td>Revati</td><td>2</td><td>Mercury</td><td class="nu">&mdash;</td><td>retrograde</td></tr>
+<tr><td class="k">Lagna</td><td>22&deg;16&prime;00&Prime; Virgo</td><td>1</td><td>Hasta</td><td>4</td><td>Moon</td><td class="nu">&mdash;</td><td>&mdash;</td></tr>
+<tr><td class="k">MC</td><td>24&deg;52&prime;18&Prime; Gemini</td><td>10</td><td>Punarvasu</td><td>2</td><td>Jupiter</td><td class="nu">&mdash;</td><td>&mdash;</td></tr>
+</table></div>
+
+<figure class="charts">
+<div class="chart">
+<figcaption>D1 Rashi &mdash; South Indian</figcaption>
+<div class="sq">
+<div><span class="rs">Pisces</span><span class="gr">Sa Ke</span></div>
+<div><span class="rs">Aries</span><span class="gr"></span></div>
+<div><span class="rs">Taurus</span><span class="gr">Su Ma Me Ve</span></div>
+<div><span class="rs">Gemini</span><span class="gr">MC</span></div>
+<div><span class="rs">Aquarius</span><span class="gr">Mo</span></div>
+<div class="core"><b>Virgo Lagna</b><span>22&deg;16&prime; &middot; Hasta 4</span></div>
+<div><span class="rs">Cancer</span><span class="gr"></span></div>
+<div><span class="rs">Capricorn</span><span class="gr"></span></div>
+<div><span class="rs">Leo</span><span class="gr"></span></div>
+<div><span class="rs">Sagittarius</span><span class="gr">Ju</span></div>
+<div><span class="rs">Scorpio</span><span class="gr"></span></div>
+<div><span class="rs">Libra</span><span class="gr"></span></div>
+<div class="lag"><span class="rs">Virgo &middot; Lagna</span><span class="gr">Asc Ra</span></div>
+</div>
+</div>
+<div class="chart">
+<figcaption>D9 Navamsa &mdash; South Indian</figcaption>
+<div class="sq">
+<div><span class="rs">Pisces</span><span class="gr"></span></div>
+<div><span class="rs">Aries</span><span class="gr"></span></div>
+<div><span class="rs">Taurus</span><span class="gr"></span></div>
+<div><span class="rs">Gemini</span><span class="gr"></span></div>
+<div><span class="rs">Aquarius</span><span class="gr">Mo</span></div>
+<div class="core"><b>Cancer Lagna</b><span>Navamsa</span></div>
+<div class="lag"><span class="rs">Cancer &middot; Lagna</span><span class="gr">Asc Ra</span></div>
+<div><span class="rs">Capricorn</span><span class="gr">Ma Me Ke</span></div>
+<div><span class="rs">Leo</span><span class="gr">Su</span></div>
+<div><span class="rs">Sagittarius</span><span class="gr"></span></div>
+<div><span class="rs">Scorpio</span><span class="gr"></span></div>
+<div><span class="rs">Libra</span><span class="gr">Ju Sa</span></div>
+<div><span class="rs">Virgo</span><span class="gr">Ve</span></div>
+</div>
+</div>
+</figure>
+
+<h3>One caveat that has to come first</h3>
+<div class="note caution">
+<span class="lv">Bhava chalit divergence</span>
+<p>The Lagna falls at 22&deg;16&prime;, very late in Virgo. Under whole-sign bhavas a graha&rsquo;s rashi <em>is</em> its house. Under Sripati cusps, which many Jyotishis use to decide where a graha actually sits, the cusps land near 22&deg; of each sign, so anything in the early degrees of a rashi drops back a house.</p>
+<p><strong>Six of nine grahas shift.</strong> Moon 6&rarr;5. Mars 9&rarr;8. Mercury 9&rarr;8. Jupiter 4&rarr;3. Saturn 7&rarr;6. Rahu 1&rarr;12. Ketu 7&rarr;6. Only the Sun and Venus hold.</p>
+<p>This reading uses whole sign throughout, which is the Parashari standard and the convention nearly all classical yoga rules assume. But a late Lagna makes that choice load-bearing rather than incidental, and where a conclusion would reverse under the other convention, this document says so instead of presenting one reading as settled.</p>
+</div>
+</section>
+
+<!-- ============ 2 ============ -->
+<section id="s2">
+<div class="shead"><span class="snum">02</span><h2>Lagna and Lagna lord</h2></div>
+
+<h4>Technical</h4>
+<p>Lagna 22&deg;16&prime;00&Prime; Virgo, in <span class="sk">Hasta</span> nakshatra, pada 4, whose lord is the Moon. Hasta pada 4 falls in the Pisces navamsa. Lagna lord is Mercury, placed in Taurus in the 9th bhava, in a friend&rsquo;s sign, direct in motion, 23&deg;13&prime; from the Sun and therefore not combust. Mercury sits in Krittika pada 2, whose lord is the Sun. Mercury&rsquo;s dispositor is Venus, in its own sign in the same bhava. Mercury receives one aspect, Saturn&rsquo;s 3rd-house special drishti. It casts on the 3rd.</p>
+
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>Lagna lord Mercury is in the 9th, conjunct Venus (lord of the 9th and 2nd), the Sun (12th lord) and Mars (3rd and 8th lord). The Lagna lord is therefore not in the Lagna, not in a kendra, and is instead concentrated in a trikona alongside four other bodies, with its own dispositor Venus in own sign beside it.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>A Lagna lord in the 9th is called well placed in classical Parashari terms: the 9th is the strongest trikona, the house of <span class="sk">dharma</span>, fortune, teachers, father and long journeys. The self is described as finding its footing through the 9th&rsquo;s matters rather than through the 1st&rsquo;s. That the Lagna lord also owns the 10th ties livelihood into the same package. Its placement with the 9th lord in the 9th lord&rsquo;s own sign is what makes the raja yoga in section 9 possible.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<p>Plural and probabilistic, and the tradition does not pick between them:</p>
+<ul>
+<li>A sense of self built more around belief, orientation or field of interest than around body or personality</li>
+<li>Formative influence from teachers, mentors, older figures or a tradition, rather than self-invention</li>
+<li>Identity that travels well, and may be clarified by distance from where one started</li>
+<li>Work and worldview tending to fuse, so that a job feels like a stance rather than a task</li>
+</ul>
+<p>Which of these dominates is a dasha question, not a natal one. See section 13.</p></div>
+</div>
+
+<h4>The Lagna&rsquo;s nakshatra chain</h4>
+<p>Hasta&rsquo;s lord is the Moon. The Moon is in the 6th, in Shatabhisha, whose lord is Rahu. Rahu is in Hasta, in the 1st. This closes: <strong>Lagna &rarr; Moon &rarr; Rahu &rarr; back to Hasta.</strong> The nakshatra governing the rising degree is ruled by a graha whose own nakshatra is ruled by the graha sitting on that rising degree. Section 5 takes this apart properly, because it is the single most unusual structure in the chart.</p>
+</section>
+
+<!-- ============ 3 ============ -->
+<section id="s3">
+<div class="shead"><span class="snum">03</span><h2>The Moon in depth</h2></div>
+<p class="lede">Traced through every layer, because in Jyotish the Moon is the chart&rsquo;s working mind and the anchor of the dasha system.</p>
+
+<div class="tbl"><table>
+<tr><th>Layer</th><th>Value</th><th>Condition of that layer</th></tr>
+<tr><td class="k">Rashi</td><td>Aquarius 15&deg;09&prime;20&Prime;</td><td class="nu">neutral sign, no dignity either way</td></tr>
+<tr><td class="k">Bhava</td><td>6th (whole sign)</td><td class="dn">dusthana &mdash; but 5th under Sripati</td></tr>
+<tr><td class="k">Janma nakshatra</td><td>Shatabhisha, pada 3</td><td>lord Rahu</td></tr>
+<tr><td class="k">Navamsa</td><td>Aquarius</td><td class="up">VARGOTTAMA</td></tr>
+<tr><td class="k">Rashi lord</td><td>Saturn</td><td>7th bhava, dig bala 56.6/60, exalted in D9</td></tr>
+<tr><td class="k">Nakshatra lord</td><td>Rahu</td><td>1st bhava, 2&deg;03&prime; from the Lagna degree</td></tr>
+<tr><td class="k">Paksha</td><td>Krishna, tithi 22 (Saptami)</td><td>57.4% illuminated, waning</td></tr>
+<tr><td class="k">Drishti received</td><td>none</td><td class="dn">no graha aspects the Moon</td></tr>
+<tr><td class="k">Drishti cast</td><td>12th bhava</td><td>&mdash;</td></tr>
+<tr><td class="k">Conjunctions</td><td>none</td><td>alone in Aquarius</td></tr>
+<tr><td class="k">Avastha</td><td>Yuva (adult)</td><td>baladi, by degree</td></tr>
+</table></div>
+
+<h3>The chain, traced</h3>
+<p><strong>Moon &rarr; Aquarius &rarr; Saturn.</strong> The Moon&rsquo;s sign lord is Saturn, which sits in the 7th bhava in Pisces. Saturn there has 56.6 of a possible 60 virupas of <span class="sk">dig bala</span>, close to the maximum any graha can hold, because the 7th is Saturn&rsquo;s direction of strength. Saturn is also in its own nakshatra, Uttara Bhadrapada, and rises to exaltation in the navamsa. So the Moon&rsquo;s dispositor is one of the best-supported bodies in the chart, and it is supported by measures that have nothing to do with rashi dignity.</p>
+
+<p><strong>Moon &rarr; Shatabhisha &rarr; Rahu.</strong> The nakshatra lord is Rahu, which sits two degrees from the Lagna in Hasta &mdash; and Hasta&rsquo;s lord is the Moon. This is a <span class="sk">nakshatra parivartana</span>, a mutual exchange at the nakshatra level: the Moon occupies Rahu&rsquo;s asterism while Rahu occupies the Moon&rsquo;s. There is no rashi-level exchange anywhere in this chart. There are two at nakshatra level, and this is one of them.</p>
+
+<p><strong>Pada and navamsa.</strong> Shatabhisha pada 3 places the Moon in the Aquarius navamsa, the same sign it occupies in the rashi chart. The Moon is <span class="sk">vargottama</span>. In classical terms this is a real strength: what the Moon is in the birth chart, it remains in the ninth harmonic, without dilution.</p>
+
+<h3>Where the layers reinforce, and where they contradict</h3>
+<div class="note">
+<span class="lv">Reinforcing</span>
+<p>Vargottama status, a dispositor with near-maximal directional strength, a nakshatra lord sitting on the Lagna, and a <span class="sk">Sunapha yoga</span> (Saturn in the 2nd from the Moon, which also rules out <span class="sk">Kemadruma</span>, the isolated-Moon affliction). Four independent supports.</p>
+</div>
+<div class="note caution">
+<span class="lv">Contradicting</span>
+<p>The 6th bhava is a <span class="sk">dusthana</span>. The Moon receives <em>no graha drishti at all</em> &mdash; nothing aspects it. It has no conjunction. It is waning, at 57.4% lit, which places it barely inside the window classical texts call a strong Moon and on the declining side of it. And its nakshatra lord is Rahu, a graha with no sign dignity of its own.</p>
+</div>
+
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>A vargottama Moon, unaspected and unconjunct, in a dusthana by whole sign but in the 5th under Sripati cusps, in mutual nakshatra exchange with Rahu, disposed by a Saturn that is directionally the strongest body in the chart.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>Parashara treats an unaspected Moon as self-referring: the mind takes its cues from its own dispositors rather than from other grahas. Vargottama sustains that consistency across the harmonic. A 6th-house Moon is classically associated with service, health, contention and daily labour &mdash; the 6th being <span class="sk">shatru bhava</span> &mdash; while a 5th-house Moon reads entirely differently, toward intelligence and creative issue. That the two conventions disagree here is a genuine ambiguity in this chart, not a gap in the reading.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>Emotional processing that happens internally and arrives already resolved, since nothing in the chart aspects the Moon to modify it in transit through the psyche</li>
+<li>A steady rather than volatile temperament, from vargottama, with the steadiness coming from Saturn&rsquo;s structure rather than from ease</li>
+<li>A pull toward being useful, toward work with a service or problem-solving shape, if the 6th reading holds</li>
+<li>Or a pull toward creative and intellectual output, if the Sripati 5th holds</li>
+<li>Some dependence on Rahu-flavoured novelty, unconventional interests or outsider positions for emotional interest, given the Moon&ndash;Rahu exchange</li>
+</ul>
+<p>The 6th-versus-5th question cannot be settled from the chart alone. It is the kind of thing that dasha evidence discriminates, and the Moon&rsquo;s own mahadasha does not arrive until 2087.</p></div>
+</div>
+</section>
+
+<!-- ============ 4 ============ -->
+<section id="s4">
+<div class="shead"><span class="snum">04</span><h2>Graha by graha</h2></div>
+
+<h3>Sun</h3>
+<p><strong>Technical.</strong> 23&deg;29&prime;59&Prime; Taurus, 9th bhava, Mrigashira pada 1, nakshatra lord Mars. Taurus is Venus&rsquo;s sign and Venus is the Sun&rsquo;s natural enemy, so the Sun sits in an enemy&rsquo;s rashi. Direct. Navamsa Leo &mdash; own sign, a clear gain. Dig bala 49.5/60. Baladi avastha Kumara. Functional lord of the 12th. Conjunct Mars, Mercury and Venus; aspected only by Saturn&rsquo;s 3rd-house drishti; casts on the 3rd.</p>
+<p><strong>Classical.</strong> The Sun as 12th lord for Virgo Lagna is a functional malefic by lordship, but placed in the 9th &mdash; the house of father, dharma and fortune &mdash; in the company of the chart&rsquo;s two most dignified benefics. A 12th lord in a trikona is classically read as expenditure and dissolution being channelled into the 9th&rsquo;s matters, which the tradition treats more kindly than a 12th lord elsewhere. Its own-sign navamsa means the Sun&rsquo;s weakness is a rashi-level appearance that does not persist into D9.</p>
+<p><strong>Possible expressions.</strong> Ambivalence toward authority figures without hostility to them; a sense of self that does not announce itself; the possibility that time, money or energy goes abroad, into study, or into things that do not return directly; a father or father-figure connected to belief, distance or education. All of these are contingent; none is required.</p>
+
+<h3>Mercury</h3>
+<p><strong>Technical.</strong> 0&deg;16&prime;53&Prime; Taurus &mdash; the very first degree of the sign &mdash; 9th bhava, Krittika pada 2, nakshatra lord Sun. Friend&rsquo;s sign. Direct, 23&deg;13&prime; from the Sun, <em>not</em> combust. Navamsa Capricorn. Dig bala 12.7/60, the second lowest in the chart. Baladi avastha Mrita. Lord of the 1st and the 10th. Conjunct Sun, Mars, Venus; aspected by Saturn.</p>
+<p><strong>Classical.</strong> Lagna lord and 10th lord in one body, placed in the 9th with the 9th lord: this is the raja yoga engine of the chart, treated in section 9. But two counterweights are on the record. Mercury sits at 0&deg;16&prime;, a <span class="sk">sandhi</span> degree at the junction of signs, which classical texts read as a graha not fully established in its rashi. And its baladi avastha is <span class="sk">Mrita</span>, the weakest of the five. Neither cancels a yoga; both temper the ease with which it operates.</p>
+<p><strong>Possible expressions.</strong> Intelligence directed at meaning rather than mechanics; a working life shaped around what one believes about a field; skill in language, analysis or systems used in service of a larger orientation; a slow start in establishing professional footing relative to the underlying capacity. The gap between capacity and establishment is a dasha matter.</p>
+
+<h3>Venus</h3>
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>28&deg;01&prime;11&Prime; Taurus, 9th bhava, Mrigashira pada 2, nakshatra lord Mars. OWN SIGN. But: retrograde; combust at 4&deg;32&prime; from the Sun against a retrograde orb of 8&deg;; dig bala 9.0/60, the lowest of any graha here; baladi avastha Bala (infant); and DEBILITATED in the navamsa, falling to Virgo. Lord of the 9th and the 2nd.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>This is the most important nuance in the chart and it cuts against the obvious reading. Venus holds the single best rashi dignity available &mdash; its own sign, as lord of the best trikona, in that trikona. By rashi alone it is the chart&rsquo;s strongest body. By every other classical measure it is among the weakest: <span class="sk">asta</span> (combust), retrograde, minimal <span class="sk">dig bala</span>, infant avastha, and <span class="sk">neecha</span> in D9. Parashari method does not let rashi dignity overrule the rest; it requires all of it to be weighed. A graha strong in rashi and weak in varga is classically read as promising more than it delivers without effort, or as delivering in bursts tied to period rather than continuously.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>Real aesthetic capacity and real taste, which nonetheless may not feel reliably available or self-evident from the inside</li>
+<li>Value, beauty and relationship mattering enormously as themes while being complicated in operation</li>
+<li>Fortune arriving through periods rather than as a standing condition &mdash; and note that the current antardasha is Venus&rsquo;s, running to December 2028</li>
+<li>A gap between how much beauty matters to her and how much she experiences herself as having it</li>
+<li>Retrogression classically turns a graha&rsquo;s work inward or backward: revisiting, reworking, returning to things</li>
+</ul>
+<p>None of this says the capacity is absent. It says the chart makes its availability conditional, and section 13 is where the conditions live.</p></div>
+</div>
+
+<h3>Mars</h3>
+<p><strong>Technical.</strong> 2&deg;44&prime;51&Prime; Taurus, 9th bhava, Krittika pada 2, nakshatra lord Sun. Neutral sign. Direct. Not combust (20&deg;45&prime;). Navamsa Capricorn &mdash; <strong>exalted</strong>, a substantial gain. Dig bala 42.6/60. Baladi avastha Mrita. Functional lord of the 3rd and the 8th, both difficult houses for this Lagna, making Mars the clearest functional malefic here. Casts special drishti on the 4th (onto Jupiter) and the 12th, plus the 7th aspect on the 3rd.</p>
+<p><strong>Classical.</strong> A functional malefic sitting in the best trikona is a mixed signature: the 8th lord in the 9th is a classical difficulty (the 12th from the 9th, dissolving fortune) while placement in a trikona among benefics moderates it. Mars in Mrita avastha at rashi level but exalted in navamsa is the mirror image of Venus: weak in the visible chart, strong underneath.</p>
+<p><strong>Possible expressions.</strong> Drive that attaches to belief or to a field rather than to competition; a capacity for sustained effort that is more available in practice than it appears on paper; friction around inheritance, shared resources, or the fortunes of the father; energy that shows up under pressure rather than on demand.</p>
+
+<h3>Jupiter</h3>
+<p><strong>Technical.</strong> 22&deg;05&prime;33&Prime; Sagittarius, 4th bhava, Purva Ashadha pada 3, nakshatra lord Venus. OWN SIGN. Retrograde. Navamsa Libra &mdash; own-sign status is <em>not</em> retained. Dig bala 30.1/60. Baladi avastha Vriddha (old). Functional lord of the 4th and the 7th, both kendras. Receives Mars&rsquo;s 8th-house drishti and Saturn&rsquo;s 10th-house drishti. Casts on the 8th, 10th and 12th.</p>
+<div class="note caution">
+<span class="lv">Kendradhipati dosha</span>
+<p>For Virgo Lagna, Jupiter owns the 4th and the 7th and nothing else. A natural benefic owning only kendras acquires <span class="sk">kendradhipati dosha</span> in Parashari doctrine and functions closer to neutral or malefic for that Lagna. The 7th is additionally a <span class="sk">maraka</span> house. So the chart&rsquo;s single Mahapurusha yoga is formed by a graha that is, for this specific Lagna, functionally compromised. Own-sign placement mitigates the dosha; it does not remove it.</p>
+</div>
+<p><strong>Possible expressions.</strong> A strong attachment to home, land or domestic ground as a source of meaning; wisdom that arrives through the domestic and the private rather than the public; the possibility that expansion in one area of life reliably costs something in another, given the same graha rules both home and partnership. Jupiter&rsquo;s mahadasha ran 2002 to 2018 &mdash; childhood through age twenty-two &mdash; so much of its work is already historical rather than pending.</p>
+
+<h3>Saturn</h3>
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>12&deg;12&prime;27&Prime; Pisces, 7th bhava, Uttara Bhadrapada pada 3 &mdash; <em>its own nakshatra</em>. Neutral sign, no rashi dignity. Direct. Dig bala 56.6/60, the highest in the chart. Navamsa Libra &mdash; <strong>exalted</strong>. Vargottama in D10. Lord of the 5th (trikona) and the 6th (dusthana). Conjunct Ketu. Aspects the 1st, the 4th and the 9th &mdash; that is, the Lagna, Jupiter, and all four grahas in the ninth. Currently running its mahadasha, 2018 to 2037.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>Saturn is the quiet structural centre of this chart, and nothing about its rashi says so. It holds no sign dignity at all, yet it has near-maximal directional strength, sits in its own nakshatra, exalts in the navamsa, is vargottama in the career varga, aspects more of the chart than any other graha, and rules a trikona. As 5th lord it carries the chart&rsquo;s intelligence and creative signification; as 6th lord it carries service, health and difficulty. Saturn in the 7th is classically read as delay and weight in partnership, but also as durability once established, and dig bala there is a genuine strength rather than a consolation.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>Partnership arriving with structure, seriousness or an age or responsibility differential, and lasting</li>
+<li>Creative and intellectual output that is disciplined rather than spontaneous, and improves with time</li>
+<li>A long working relationship with limits, health, or service as recurring themes</li>
+<li>Authority accumulating slowly and then holding</li>
+</ul>
+<p>Because Saturn&rsquo;s mahadasha runs to December 2037, these are live conditions now rather than background ones. Section 13 breaks the sub-periods down.</p></div>
+</div>
+</section>
+
+<!-- ============ 5 ============ -->
+<section id="s5">
+<div class="shead"><span class="snum">05</span><h2>The nakshatra network</h2></div>
+<p class="lede">Four grahas share one rashi in this chart. They do not share one nakshatra, and treating them as a single cluster would erase the most interesting structure present.</p>
+
+<h3>The Taurus stellium is not one thing</h3>
+<div class="tbl"><table>
+<tr><th>Nakshatra</th><th>Span</th><th>Grahas</th><th>Pada</th><th>Nakshatra lord</th></tr>
+<tr><td class="k">Krittika</td><td>26&deg;40&prime; Ari &ndash; 10&deg;00&prime; Tau</td><td class="k">Mercury, Mars</td><td>both pada 2</td><td class="br">Sun</td></tr>
+<tr><td class="k">Mrigashira</td><td>23&deg;20&prime; Tau &ndash; 6&deg;40&prime; Gem</td><td class="k">Sun, Venus</td><td>1 and 2</td><td class="br">Mars</td></tr>
+</table></div>
+<p>The four bodies in the ninth split cleanly into two pairs, and the pairs are separated by more than twenty degrees of arc. Mercury and Mars sit together at the sign&rsquo;s opening, both in Krittika pada 2, ruled by the Sun. The Sun and Venus sit together at its close, in Mrigashira, ruled by Mars. Whatever this stellium does, it does through two distinct channels rather than one.</p>
+
+<div class="note">
+<span class="lv">The exchange</span>
+<p>The Sun is in Mars&rsquo;s nakshatra. Mars is in the Sun&rsquo;s nakshatra. This is a <strong>nakshatra parivartana</strong> between the two, and it means the pair that governs the ninth-house group governs it reciprocally: neither is upstream of the other. The Sun channels Mercury and Mars; Mars channels the Sun and Venus; and the Sun and Mars channel each other.</p>
+</div>
+
+<h3>Who controls how much of the chart</h3>
+<div class="tbl"><table>
+<tr><th>Nakshatra lord</th><th>Placements it governs</th><th>Count</th></tr>
+<tr><td class="k">Sun</td><td>Mars, Mercury</td><td>2</td></tr>
+<tr><td class="k">Mars</td><td>Sun, Venus</td><td>2</td></tr>
+<tr><td class="k">Rahu</td><td>Moon</td><td>1</td></tr>
+<tr><td class="k">Moon</td><td>Rahu</td><td>1</td></tr>
+<tr><td class="k">Venus</td><td>Jupiter</td><td>1</td></tr>
+<tr><td class="k">Mercury</td><td>Ketu</td><td>1</td></tr>
+<tr><td class="k">Saturn</td><td>Saturn</td><td>1 (its own)</td></tr>
+</table></div>
+<p>No single graha dominates the chart through nakshatra rulership. Control is distributed, and it is distributed in a specific pattern: <strong>two closed mutual pairs</strong> (Sun&ndash;Mars, Moon&ndash;Rahu), <strong>one self-referring graha</strong> (Saturn, in its own nakshatra), and two open links (Venus&rarr;Jupiter, Mercury&rarr;Ketu).</p>
+
+<h3>Chains, followed to termination</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Nakshatra chain</th><th>Terminates</th></tr>
+<tr><td class="k">Sun</td><td>Sun &rarr; Mars &rarr; Sun</td><td class="br">closed loop</td></tr>
+<tr><td class="k">Mars</td><td>Mars &rarr; Sun &rarr; Mars</td><td class="br">closed loop</td></tr>
+<tr><td class="k">Moon</td><td>Moon &rarr; Rahu &rarr; Moon</td><td class="br">closed loop</td></tr>
+<tr><td class="k">Rahu</td><td>Rahu &rarr; Moon &rarr; Rahu</td><td class="br">closed loop</td></tr>
+<tr><td class="k">Saturn</td><td>Saturn &rarr; Saturn</td><td class="br">self</td></tr>
+<tr><td class="k">Mercury</td><td>Mercury &rarr; Sun &rarr; Mars &rarr; Sun</td><td>feeds the Sun&ndash;Mars loop</td></tr>
+<tr><td class="k">Venus</td><td>Venus &rarr; Mars &rarr; Sun &rarr; Mars</td><td>feeds the Sun&ndash;Mars loop</td></tr>
+<tr><td class="k">Jupiter</td><td>Jupiter &rarr; Venus &rarr; Mars &rarr; Sun</td><td>feeds the Sun&ndash;Mars loop</td></tr>
+<tr><td class="k">Ketu</td><td>Ketu &rarr; Mercury &rarr; Sun &rarr; Mars</td><td>feeds the Sun&ndash;Mars loop</td></tr>
+</table></div>
+
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>Seven of nine grahas resolve into or through the Sun&ndash;Mars loop. The Moon and Rahu form a separate closed pair that touches nothing else. Saturn resolves only to itself.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>Nakshatra lordship is the layer Vimshottari runs on, so these chains describe how periods will actually deliver. A chart whose nakshatra network converges on a Sun&ndash;Mars pair is described as operating through initiative, heat, visibility and assertion &mdash; the two most <span class="sk">kshatriya</span> grahas &mdash; regardless of how the rashi chart looks. That the emotional apparatus (Moon) sits outside that convergence, in a sealed pair with Rahu, is a genuine structural separation and not a minor detail.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>A public or working self that runs hotter and more directly than the emotional self does</li>
+<li>An inner life that answers to different logic than the outer one, and does not translate easily into it</li>
+<li>Interests, tastes or emotional attachments that feel unaccountable to the rest of the personality</li>
+<li>Saturn&rsquo;s self-reference suggesting a domain &mdash; discipline, structure, partnership, service &mdash; that answers to nothing but itself</li>
+</ul></div>
+</div>
+</section>
+
+<!-- ============ 6 ============ -->
+<section id="s6">
+<div class="shead"><span class="snum">06</span><h2>The twelve bhavas</h2></div>
+<div class="tbl"><table>
+<tr><th>Bhava</th><th>Rashi</th><th>Lord</th><th>Lord placed</th><th>Lord&rsquo;s dignity</th><th>Lord&rsquo;s nakshatra</th><th>Occupants</th></tr>
+<tr><td class="k">1</td><td>Virgo</td><td>Mercury</td><td>9th, Taurus</td><td class="nu">friend&rsquo;s sign</td><td>Krittika 2</td><td class="k">Rahu</td></tr>
+<tr><td class="k">2</td><td>Libra</td><td>Venus</td><td>9th, Taurus</td><td class="up">own sign</td><td>Mrigashira 2</td><td>&mdash;</td></tr>
+<tr><td class="k">3</td><td>Scorpio</td><td>Mars</td><td>9th, Taurus</td><td class="nu">neutral</td><td>Krittika 2</td><td>&mdash;</td></tr>
+<tr><td class="k">4</td><td>Sagittarius</td><td>Jupiter</td><td>4th, Sagittarius</td><td class="up">own sign</td><td>P. Ashadha 3</td><td class="k">Jupiter</td></tr>
+<tr><td class="k">5</td><td>Capricorn</td><td>Saturn</td><td>7th, Pisces</td><td class="nu">neutral</td><td>U. Bhadrapada 3</td><td>&mdash;</td></tr>
+<tr><td class="k">6</td><td>Aquarius</td><td>Saturn</td><td>7th, Pisces</td><td class="nu">neutral</td><td>U. Bhadrapada 3</td><td class="k">Moon</td></tr>
+<tr><td class="k">7</td><td>Pisces</td><td>Jupiter</td><td>4th, Sagittarius</td><td class="up">own sign</td><td>P. Ashadha 3</td><td class="k">Saturn, Ketu</td></tr>
+<tr><td class="k">8</td><td>Aries</td><td>Mars</td><td>9th, Taurus</td><td class="nu">neutral</td><td>Krittika 2</td><td>&mdash;</td></tr>
+<tr><td class="k">9</td><td>Taurus</td><td>Venus</td><td>9th, Taurus</td><td class="up">own sign</td><td>Mrigashira 2</td><td class="k">Sun, Mars, Mercury, Venus</td></tr>
+<tr><td class="k">10</td><td>Gemini</td><td>Mercury</td><td>9th, Taurus</td><td class="nu">friend&rsquo;s sign</td><td>Krittika 2</td><td>&mdash;</td></tr>
+<tr><td class="k">11</td><td>Cancer</td><td>Moon</td><td>6th, Aquarius</td><td class="nu">neutral</td><td>Shatabhisha 3</td><td>&mdash;</td></tr>
+<tr><td class="k">12</td><td>Leo</td><td>Sun</td><td>9th, Taurus</td><td class="nu">enemy&rsquo;s sign</td><td>Mrigashira 2</td><td>&mdash;</td></tr>
+</table></div>
+
+<h4>The eight bhavas flagged for attention</h4>
+<p><strong>1st.</strong> Virgo, lord Mercury in the 9th, Rahu occupying. The self is described elsewhere in the chart and marked here by a node. Section 14.</p>
+<p><strong>2nd.</strong> Libra, lord Venus in own sign in the 9th. Wealth and speech ruled by the chart&rsquo;s most dignified body &mdash; but that body is combust and debilitated in D9, so the 2nd&rsquo;s support is strong on paper and conditional in practice. The D2 Hora chart (section 12) is the appropriate cross-check.</p>
+<p><strong>4th.</strong> Sagittarius, lord Jupiter <em>in</em> the 4th, in own sign. The strongest house-lord placement in the chart by ordinary reckoning: a kendra lord in its own kendra, forming Hamsa yoga. Qualified by kendradhipati dosha and retrogression.</p>
+<p><strong>5th.</strong> Capricorn, lord Saturn in the 7th with dig bala. Intelligence, creativity and children ruled by the chart&rsquo;s most directionally powerful graha, but one placed in the partnership house and joined to Ketu.</p>
+<p><strong>7th.</strong> Pisces, lord Jupiter in the 4th in own sign; occupied by Saturn (with maximal dig bala) and Ketu. The 7th is unusually loaded: a well-placed lord, a dignified-by-direction malefic, and a node. Section 15 handles this carefully.</p>
+<p><strong>9th.</strong> Taurus, lord Venus in it, in own sign, with three other grahas. The most populated house in the chart and the seat of both major yogas.</p>
+<p><strong>10th.</strong> Gemini, lord Mercury in the 9th with the 9th lord. This conjunction is the Dharma-Karmadhipati yoga. No occupants, but Jupiter aspects the 10th from the 4th.</p>
+<p><strong>11th.</strong> Cancer, lord Moon in the 6th, unaspected. Gains, networks and friendships ruled by the least connected body in the chart.</p>
+</section>
+
+<!-- ============ 7 ============ -->
+<section id="s7">
+<div class="shead"><span class="snum">07</span><h2>Functional roles for this Lagna</h2></div>
+<p class="lede">Determined from Virgo rising, not from any graha&rsquo;s natural character. The result contradicts the natural reading in two places, and those two places matter.</p>
+
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Rules</th><th>Nature of those houses</th><th>Functional verdict</th></tr>
+<tr><td class="k">Mercury</td><td>1, 10</td><td>kendra + trikona; kendra</td><td class="up">strongest functional benefic</td></tr>
+<tr><td class="k">Venus</td><td>9, 2</td><td>best trikona; maraka</td><td class="up">functional benefic, with maraka duty</td></tr>
+<tr><td class="k">Saturn</td><td>5, 6</td><td>trikona; dusthana</td><td class="br">mixed, tilting benefic via the 5th</td></tr>
+<tr><td class="k">Moon</td><td>11</td><td>upachaya</td><td class="br">mixed</td></tr>
+<tr><td class="k">Jupiter</td><td>4, 7</td><td>kendra; kendra + maraka</td><td class="dn">functional malefic by kendradhipati dosha</td></tr>
+<tr><td class="k">Mars</td><td>3, 8</td><td>upachaya; dusthana</td><td class="dn">functional malefic</td></tr>
+<tr><td class="k">Sun</td><td>12</td><td>dusthana</td><td class="dn">functional malefic</td></tr>
+</table></div>
+
+<div class="note">
+<span class="lv">A correction to a common software output</span>
+<p>Mercury also rules only kendras here (the 1st and the 10th), which some programs flag for kendradhipati dosha. Classical doctrine exempts the Lagna lord: the 1st is simultaneously a kendra and a trikona, and lordship of the Lagna is held to override the dosha. Mercury is a functional benefic without qualification. Jupiter, ruling the 4th and 7th and nothing else, is not exempt.</p>
+</div>
+
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>The chart&rsquo;s two own-sign grahas are Venus and Jupiter. Venus is a functional benefic that also carries maraka lordship of the 2nd. Jupiter, the greater natural benefic, is a functional malefic for Virgo Lagna. Meanwhile Saturn, the greater natural malefic, rules a trikona and tilts benefic.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>Parashari doctrine is explicit that lordship governs function and that natural character is secondary. For Virgo Lagna the practical consequence is a reversal: Saturn is to be treated as broadly supportive and Jupiter as broadly complicating, in direct contradiction to their natural reputations. This is standard doctrine for this Lagna, not an idiosyncratic reading.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>Discipline, limitation and structure functioning as sources of benefit rather than obstruction</li>
+<li>Expansion, optimism and abundance carrying costs that are not obvious in advance</li>
+<li>The house of home and the house of partnership sharing one ruler, so that the two areas move together whether or not that is convenient</li>
+<li>Periods of Saturn reading better in life than they read on paper &mdash; and Saturn&rsquo;s mahadasha is running now</li>
+</ul></div>
+</div>
+</section>
+
+<!-- ============ 8 ============ -->
+<section id="s8">
+<div class="shead"><span class="snum">08</span><h2>Relationships and drishti</h2></div>
+
+<h3>Graha drishti, sign-based</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Casts upon</th><th>Receives from</th></tr>
+<tr><td class="k">Saturn</td><td>1st, 4th, 9th</td><td>Rahu (7th)</td></tr>
+<tr><td class="k">Jupiter</td><td>8th, 10th, 12th</td><td class="dn">Mars (8th), Saturn (10th)</td></tr>
+<tr><td class="k">Mars</td><td>3rd, 4th, 12th</td><td>Saturn (3rd)</td></tr>
+<tr><td class="k">Sun</td><td>3rd</td><td>Saturn (3rd)</td></tr>
+<tr><td class="k">Mercury</td><td>3rd</td><td>Saturn (3rd)</td></tr>
+<tr><td class="k">Venus</td><td>3rd</td><td>Saturn (3rd)</td></tr>
+<tr><td class="k">Moon</td><td>12th</td><td class="dn">nothing</td></tr>
+<tr><td class="k">Rahu</td><td>7th</td><td>Saturn, Ketu</td></tr>
+<tr><td class="k">Ketu</td><td>1st</td><td>Rahu</td></tr>
+</table></div>
+<p><strong>Saturn touches almost everything.</strong> Its three drishtis land on the Lagna, on Jupiter in the 4th, and on all four grahas in the 9th. Seven of the other eight bodies receive Saturn&rsquo;s aspect. The one that does not is the Moon.</p>
+<p><strong>Jupiter is doubly aspected by malefics.</strong> Mars&rsquo;s 8th-house special drishti and Saturn&rsquo;s 10th-house special drishti both land on Jupiter in the 4th. The chart&rsquo;s only Mahapurusha yoga sits under both malefic aspects simultaneously. Jupiter in turn aspects the 10th, which is the sole graha drishti reaching the career house.</p>
+
+<h3>Compound relationships (natural plus temporal)</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Great friends</th><th>Great enemies</th></tr>
+<tr><td class="k">Sun</td><td>Moon</td><td class="dn">Venus</td></tr>
+<tr><td class="k">Moon</td><td>Sun, Mercury</td><td class="nu">none</td></tr>
+<tr><td class="k">Mars</td><td>Moon</td><td class="dn">Mercury</td></tr>
+<tr><td class="k">Mercury</td><td class="nu">none</td><td class="nu">none</td></tr>
+<tr><td class="k">Jupiter</td><td>Moon</td><td class="dn">Mercury, Venus</td></tr>
+<tr><td class="k">Venus</td><td>Saturn</td><td class="dn">Sun</td></tr>
+<tr><td class="k">Saturn</td><td>Mercury, Venus</td><td class="nu">none</td></tr>
+</table></div>
+<p>Two things stand out. <strong>Venus and the Sun are compound great enemies while sharing a rashi</strong> &mdash; and the Sun combusts Venus. <strong>Saturn is a great friend to both Mercury and Venus</strong>, the two functional benefics, and has no compound enemies at all. Saturn aspecting the ninth-house group is therefore an aspect between friends, not an affliction.</p>
+
+<h3>Dispositor chains</h3>
+<div class="tbl"><table>
+<tr><th>Chain</th><th>Terminates in</th></tr>
+<tr><td>Sun &rarr; Venus</td><td class="br">Venus, own sign</td></tr>
+<tr><td>Mars &rarr; Venus</td><td class="br">Venus, own sign</td></tr>
+<tr><td>Mercury &rarr; Venus</td><td class="br">Venus, own sign</td></tr>
+<tr><td>Rahu &rarr; Mercury &rarr; Venus</td><td class="br">Venus, own sign</td></tr>
+<tr><td>Moon &rarr; Saturn &rarr; Jupiter</td><td class="br">Jupiter, own sign</td></tr>
+<tr><td>Saturn &rarr; Jupiter</td><td class="br">Jupiter, own sign</td></tr>
+<tr><td>Ketu &rarr; Jupiter</td><td class="br">Jupiter, own sign</td></tr>
+</table></div>
+<p>Every chain terminates, and there are exactly two terminals. Venus governs the Sun, Mars, Mercury, Rahu and itself &mdash; five bodies. Jupiter governs the Moon, Saturn, Ketu and itself &mdash; four. No loops, no unresolved chains. The chart has two governing authorities and they divide it almost evenly.</p>
+<p>Note which side the Moon falls on: not Venus&rsquo;s. The emotional apparatus reports to Jupiter through Saturn, while the ninth-house group reports to Venus. The same split that appeared in the nakshatra network appears again at rashi level, drawn along the same line.</p>
+</section>
+
+<!-- ============ 9 ============ -->
+<section id="s9">
+<div class="shead"><span class="snum">09</span><h2>Yogas actually present</h2></div>
+<p class="lede">Each rule is stated first, then tested. Combinations that do not form are listed too, because a yoga&rsquo;s absence is information and its false presence is the commonest failure in software readings.</p>
+
+<h3>Hamsa Yoga &mdash; forms</h3>
+<p><strong>Rule.</strong> One of the five <span class="sk">Pancha Mahapurusha</span> yogas: Jupiter in its own sign or exaltation, occupying a kendra from the Lagna.</p>
+<p><strong>Test.</strong> Jupiter in Sagittarius, its own sign, in the 4th bhava, a kendra. <strong>Forms.</strong></p>
+<p><strong>Modification.</strong> Three qualifications, all on the record. Jupiter is retrograde. Jupiter carries kendradhipati dosha for Virgo Lagna. Jupiter receives the special drishti of both Mars and Saturn. And Jupiter does not retain own-sign status in the navamsa, falling to Libra. The yoga forms and is real; it is not unqualified.</p>
+
+<h3>Dharma-Karmadhipati Yoga &mdash; forms</h3>
+<p><strong>Rule.</strong> Association of the 9th lord (<span class="sk">dharma</span>) with the 10th lord (<span class="sk">karma</span>). Classically among the strongest raja yogas available.</p>
+<p><strong>Test.</strong> 9th lord Venus and 10th lord Mercury are conjunct in Taurus in the 9th bhava. Venus is in its own sign there. <strong>Forms, by conjunction, in the 9th lord&rsquo;s own house.</strong></p>
+<p><strong>Modification.</strong> Venus is combust and debilitated in D9; Mercury sits at 0&deg;16&prime; in <span class="sk">sandhi</span> and in Mrita avastha. The yoga is structurally excellent and its participants are individually compromised. Classical practice reads this as a yoga that delivers in its periods rather than continuously.</p>
+
+<h3>Lakshmi Yoga &mdash; forms, with one condition partially met</h3>
+<p><strong>Rule.</strong> The 9th lord in its own sign or exaltation, in a kendra or trikona, with a strong Lagna lord.</p>
+<p><strong>Test.</strong> 9th lord Venus in own sign Taurus, in the 9th, a trikona &mdash; first condition fully met. Lagna lord Mercury in a friend&rsquo;s sign in a trikona alongside it &mdash; well placed but not in own sign or exaltation. <strong>The primary condition forms; the supporting condition is met in placement but not in dignity.</strong></p>
+
+<h3>Sunapha Yoga &mdash; forms</h3>
+<p><strong>Rule.</strong> A graha other than the Sun in the 2nd from the Moon.</p>
+<p><strong>Test.</strong> Saturn in Pisces, the 2nd from the Moon in Aquarius. <strong>Forms.</strong> No graha occupies the 12th from the Moon, so Anapha does not form and Durudhara does not form.</p>
+
+<h3>Kemadruma &mdash; does not form</h3>
+<p><strong>Rule.</strong> The affliction of the isolated Moon: no graha in the 2nd or 12th from it. <strong>Test.</strong> Saturn occupies the 2nd. <strong>Cancelled.</strong> This matters given how isolated the Moon otherwise is.</p>
+
+<h3>Combinations that do not form</h3>
+<div class="tbl"><table>
+<tr><th>Yoga</th><th>Requirement</th><th>Why not</th></tr>
+<tr><td class="k">Malavya</td><td>Venus own/exalted in a kendra</td><td>Venus is own sign but in the 9th, a trikona, not a kendra</td></tr>
+<tr><td class="k">Shasha</td><td>Saturn own/exalted in a kendra</td><td>Saturn is in a kendra but Pisces is neither own nor exaltation</td></tr>
+<tr><td class="k">Ruchaka</td><td>Mars own/exalted in a kendra</td><td>neither condition met</td></tr>
+<tr><td class="k">Bhadra</td><td>Mercury own/exalted in a kendra</td><td>neither condition met</td></tr>
+<tr><td class="k">Gaja Kesari</td><td>Jupiter in a kendra from the Moon</td><td>Jupiter is in the 11th from the Moon</td></tr>
+<tr><td class="k">Sakata</td><td>Moon in 6/8/12 from Jupiter</td><td>Moon is in the 3rd from Jupiter</td></tr>
+<tr><td class="k">Vipareeta Raja</td><td>a 6/8/12 lord in another of 6/8/12</td><td>Saturn to the 7th, Mars to the 9th, Sun to the 9th &mdash; none qualify</td></tr>
+<tr><td class="k">Neecha Bhanga</td><td>cancellation of a debility</td><td>no graha is debilitated in the rashi chart</td></tr>
+<tr><td class="k">Budha-Aditya</td><td>Sun and Mercury conjunct</td><td>same rashi but 23&deg;13&prime; apart, in different nakshatras &mdash; nominal only</td></tr>
+<tr><td class="k">Rashi parivartana</td><td>mutual exchange of signs</td><td>none anywhere in the chart</td></tr>
+</table></div>
+<p>Malavya is the near miss worth naming: Venus needed to be in a kendra and is three houses off. Had the Lagna been Scorpio or Aquarius rather than Virgo, the same Venus would have produced a Mahapurusha yoga.</p>
+</section>
+
+<!-- ============ 10 ============ -->
+<section id="s10">
+<div class="shead"><span class="snum">10</span><h2>Strength, and its limits</h2></div>
+<div class="note caution">
+<span class="lv">What is not computed here, and why</span>
+<p>Full <span class="sk">Shadbala</span> requires Sthana, Dig, Kala, Cheshta, Naisargika and Drik bala. Several of those &mdash; Cheshta bala in particular &mdash; have competing formulations across authorities, and the aggregate thresholds by which a graha is called strong or weak differ between schools. Producing a single number would mean picking one formulation and presenting it as settled. <strong>Shadbala is therefore not given.</strong></p>
+<p><span class="sk">Ishta</span> and <span class="sk">Kashta phala</span> derive from Shadbala components and are likewise omitted rather than approximated.</p>
+<p>Two measures with single unambiguous definitions <em>are</em> computed exactly: Dig bala, and Baladi avastha.</p>
+</div>
+
+<h3>Dig bala, computed</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Virupas / 60</th><th>Direction of strength</th><th>Reading</th></tr>
+<tr><td class="k">Saturn</td><td class="up">56.6</td><td>7th (west)</td><td class="up">near maximal</td></tr>
+<tr><td class="k">Sun</td><td>49.5</td><td>10th (south)</td><td>strong</td></tr>
+<tr><td class="k">Moon</td><td>43.2</td><td>4th (north)</td><td>moderate</td></tr>
+<tr><td class="k">Mars</td><td>42.6</td><td>10th (south)</td><td>moderate</td></tr>
+<tr><td class="k">Jupiter</td><td>30.1</td><td>1st (east)</td><td class="nu">middling</td></tr>
+<tr><td class="k">Mercury</td><td class="dn">12.7</td><td>1st (east)</td><td class="dn">weak</td></tr>
+<tr><td class="k">Venus</td><td class="dn">9.0</td><td>4th (north)</td><td class="dn">weakest in the chart</td></tr>
+</table></div>
+
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>The two grahas with the best rashi dignity (Venus, own sign; Jupiter, own sign) rank last and fifth on directional strength. The graha with no rashi dignity at all (Saturn) ranks first, at 56.6 of 60. Mercury, the Lagna lord, ranks sixth.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>Parashari method treats these as independent axes that must both be weighed; neither overrules the other. A graha strong in <span class="sk">sthana</span> and weak in <span class="sk">dig</span> is classically read as having capacity without natural placement for exercising it &mdash; it holds the quality but not the position. The reverse, Saturn&rsquo;s case, is a graha positioned to act without inherent quality to draw on: effective by location rather than by nature.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>Real talent in Venus&rsquo;s domains that does not automatically convert into position, recognition or felt possession</li>
+<li>Effectiveness in Saturn&rsquo;s domains &mdash; structure, endurance, partnership, service &mdash; that exceeds any felt enthusiasm for them</li>
+<li>A recurring gap between what is possessed and what is deployed</li>
+</ul></div>
+</div>
+
+<h3>Baladi avastha</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>Degree in rashi</th><th>Avastha</th></tr>
+<tr><td class="k">Venus</td><td>28&deg;02&prime;</td><td class="nu">Bala &mdash; infant</td></tr>
+<tr><td class="k">Sun</td><td>23&deg;30&prime;</td><td>Kumara &mdash; youth</td></tr>
+<tr><td class="k">Rahu / Ketu</td><td>20&deg;13&prime;</td><td>Kumara &mdash; youth</td></tr>
+<tr><td class="k">Moon</td><td>15&deg;09&prime;</td><td class="up">Yuva &mdash; adult, the strongest state</td></tr>
+<tr><td class="k">Saturn</td><td>12&deg;12&prime;</td><td class="up">Yuva &mdash; adult</td></tr>
+<tr><td class="k">Jupiter</td><td>22&deg;06&prime;</td><td class="nu">Vriddha &mdash; old</td></tr>
+<tr><td class="k">Mars</td><td>2&deg;45&prime;</td><td class="dn">Mrita &mdash; dead, the weakest</td></tr>
+<tr><td class="k">Mercury</td><td>0&deg;17&prime;</td><td class="dn">Mrita &mdash; dead</td></tr>
+</table></div>
+<p>The Moon and Saturn hold the strongest avastha; Mercury and Mars the weakest. This is a second, independent measure agreeing with dig bala on the same point: the bodies that look best by sign are not the bodies best positioned to act.</p>
+</section>
+
+<!-- ============ 11 ============ -->
+<section id="s11">
+<div class="shead"><span class="snum">11</span><h2>Navamsa, read as a chart</h2></div>
+<p class="lede">The D9 is the rashi chart&rsquo;s second body, not merely a marriage indicator. Read on its own terms it substantially rearranges the hierarchy.</p>
+
+<div class="tbl"><table>
+<tr><th>Graha</th><th>D1 rashi</th><th>D1 dignity</th><th>D9 rashi</th><th>D9 bhava</th><th>D9 dignity</th><th>Direction</th></tr>
+<tr><td class="k">Saturn</td><td>Pisces</td><td class="nu">neutral</td><td>Libra</td><td>4</td><td class="up">EXALTED</td><td class="up">major gain</td></tr>
+<tr><td class="k">Mars</td><td>Taurus</td><td class="nu">neutral</td><td>Capricorn</td><td>7</td><td class="up">EXALTED</td><td class="up">major gain</td></tr>
+<tr><td class="k">Sun</td><td>Taurus</td><td class="nu">enemy</td><td>Leo</td><td>2</td><td class="up">own sign</td><td class="up">gain</td></tr>
+<tr><td class="k">Moon</td><td>Aquarius</td><td class="nu">neutral</td><td>Aquarius</td><td>8</td><td class="br">VARGOTTAMA</td><td class="br">holds</td></tr>
+<tr><td class="k">Rahu</td><td>Virgo</td><td class="nu">&mdash;</td><td>Cancer</td><td>1</td><td class="nu">&mdash;</td><td>on the D9 Lagna</td></tr>
+<tr><td class="k">Jupiter</td><td>Sagittarius</td><td class="up">own sign</td><td>Libra</td><td>4</td><td class="nu">neutral</td><td class="dn">loses own sign</td></tr>
+<tr><td class="k">Mercury</td><td>Taurus</td><td class="nu">friend</td><td>Capricorn</td><td>7</td><td class="nu">neutral</td><td class="nu">flat</td></tr>
+<tr><td class="k">Venus</td><td>Taurus</td><td class="up">own sign</td><td>Virgo</td><td>3</td><td class="dn">DEBILITATED</td><td class="dn">major loss</td></tr>
+</table></div>
+
+<h3>The question this section exists to answer</h3>
+<p>Does the apparent strength of Venus and Jupiter in the rashi chart persist in the navamsa? <strong>No, in both cases, and to different degrees.</strong></p>
+<p><strong>Venus falls from own sign to debilitation.</strong> This is the largest single reversal in the chart. The body carrying the best rashi dignity, ruling the best trikona, and forming two of the three yogas, arrives in the navamsa <span class="sk">neecha</span>. Combined with combustion, retrogression, the lowest dig bala in the chart, and infant avastha, the accumulated picture is consistent across five independent measures: Venus is strong in exactly one layer and weak in every other one examined.</p>
+<p><strong>Jupiter loses own-sign status</strong>, arriving in Libra as a neutral. The Hamsa yoga&rsquo;s participant is not sustained in the second body. Less severe than Venus, but in the same direction.</p>
+<p><strong>Saturn exalts.</strong> The graha with no rashi dignity, maximal dig bala, its own nakshatra, and vargottama status in D10 also exalts in the navamsa. Across every layer except rashi, Saturn is the strongest body in this chart.</p>
+<p><strong>Mars exalts</strong> in Capricorn, and <strong>the Sun gains its own sign</strong>. Both bodies that look mediocre in the rashi chart are substantially better underneath. This pairs with the nakshatra finding: the Sun&ndash;Mars loop that governs seven of nine placements consists of two grahas that are stronger in D9 than D1.</p>
+<p><strong>Rahu occupies the D9 Lagna</strong> in Cancer, as it occupies the D1 Lagna in Virgo. The node is on the ascending degree of both charts.</p>
+
+<div class="note">
+<span class="lv">7th lord in D9</span>
+<p>The D9 Lagna is Cancer, so its 7th is Capricorn, ruled by Saturn &mdash; which sits exalted in Libra in the 4th of D9. Capricorn itself holds Mars (exalted), Mercury and Ketu. The navamsa 7th is heavily occupied and its lord is exalted. Read alongside D1, where the 7th holds Saturn with maximal dig bala plus Ketu and is ruled by an own-sign Jupiter, both charts describe a 7th house that is structurally weighty rather than light.</p>
+</div>
+</section>
+
+<!-- ============ 12 ============ -->
+<section id="s12">
+<div class="shead"><span class="snum">12</span><h2>Other vargas, where they earn their place</h2></div>
+<p class="lede">Four charts, each consulted for the single question it answers. Not sixteen.</p>
+
+<h3>D10 Dashamsha &mdash; career</h3>
+<div class="tbl"><table>
+<tr><th>Graha</th><th>D10 rashi</th><th>Bhava</th><th>Status</th></tr>
+<tr><td class="k">Jupiter</td><td>Cancer</td><td>8</td><td class="up">EXALTED</td></tr>
+<tr><td class="k">Mars</td><td>Capricorn</td><td>2</td><td class="up">EXALTED</td></tr>
+<tr><td class="k">Venus</td><td>Libra</td><td>11</td><td class="up">own sign, house of gains</td></tr>
+<tr><td class="k">Sun</td><td>Leo</td><td>9</td><td class="up">own sign</td></tr>
+<tr><td class="k">Moon</td><td>Cancer</td><td>8</td><td class="up">own sign</td></tr>
+<tr><td class="k">Saturn</td><td>Pisces</td><td>4</td><td class="br">VARGOTTAMA</td></tr>
+<tr><td class="k">Mercury</td><td>Capricorn</td><td>2</td><td class="nu">neutral</td></tr>
+</table></div>
+<p>The career varga is the strongest divisional chart in this set by some distance: five grahas in own sign or exaltation, and Saturn vargottama. Venus, weak nearly everywhere else, holds its own sign in the 11th of D10, the house of gains. This is a real and specific finding, and it is worth noting that it sits against Venus&rsquo;s weakness elsewhere rather than confirming it.</p>
+
+<h3>D4 Chaturthamsha &mdash; home and property</h3>
+<p>Lagna Pisces, with Rahu on it. Jupiter and Saturn both in Gemini in the 4th of D4 &mdash; the home house of the home chart, holding the D1 lord of the 4th and the D1 lord of the 5th and 6th. Mars and Mercury are vargottama in Taurus. The Sun and Venus fall together into the 12th.</p>
+<p>Jupiter occupying the 4th in both D1 and D4 is a genuine repetition. Rahu occupying the Lagna in D1, D4 and D9 is a stronger one.</p>
+
+<h3>D7 Saptamsha &mdash; children</h3>
+<p>Lagna Leo. Venus is in Taurus in the 10th of D7, in its own sign and <strong>vargottama</strong> &mdash; the only varga examined in which Venus is unambiguously strong. The Moon is exalted in the same sign and house, Jupiter joins them, and the Sun is exalted in the 9th. The 4th of D7 holds Mars in own sign, Mercury and Saturn.</p>
+<p>Given Venus&rsquo;s condition everywhere else, its vargottama own-sign placement here is a specific, narrow strength rather than a general one, and it is recorded as such.</p>
+
+<h3>D2 Hora &mdash; wealth</h3>
+<p>Six of nine bodies fall in the Moon&rsquo;s hora (Cancer): Moon, Mars, Mercury, Jupiter, Saturn. Three fall in the Sun&rsquo;s (Leo): Sun, Venus, and both nodes. Jupiter is exalted in the Moon&rsquo;s hora; Mars is debilitated there.</p>
+<p>Classical hora doctrine holds that the Sun&rsquo;s hora favours self-generated wealth and the Moon&rsquo;s favours received or accumulated wealth. The distribution here tilts toward the Moon&rsquo;s side. This is the lightest of the four vargas in evidentiary weight and is reported as a tendency, not a finding.</p>
+</section>
+
+<!-- ============ 13 ============ -->
+<section id="s13">
+<div class="shead"><span class="snum">13</span><h2>Vimshottari dasha</h2></div>
+<p class="lede">Computed from the exact Moon at 15&deg;09&prime;20&Prime; Aquarius. Dates before interpretation.</p>
+
+<div class="note">
+<span class="lv">Derivation</span>
+<p>Janma nakshatra <span class="sk">Shatabhisha</span>, pada 3, lord Rahu. The Moon has traversed <strong>63.6671%</strong> of the asterism. Rahu&rsquo;s mahadasha is 18 years, so the balance remaining at birth is 18 &times; 0.363329 = <strong>6.5399 years</strong>, or 6 years 6 months 14 days.</p>
+</div>
+
+<div class="tbl"><table>
+<tr><th>Mahadasha</th><th>From</th><th>To</th><th>Years</th><th>Age</th></tr>
+<tr><td class="k">Rahu</td><td>7 Jun 1996</td><td>22 Dec 2002</td><td>6.54 (partial)</td><td>0&ndash;6</td></tr>
+<tr><td class="k">Jupiter</td><td>22 Dec 2002</td><td>22 Dec 2018</td><td>16</td><td>6&ndash;22</td></tr>
+<tr><td class="k">Saturn</td><td class="up">22 Dec 2018</td><td class="up">21 Dec 2037</td><td>19</td><td>22&ndash;41</td></tr>
+<tr><td class="k">Mercury</td><td>21 Dec 2037</td><td>22 Dec 2054</td><td>17</td><td>41&ndash;58</td></tr>
+<tr><td class="k">Ketu</td><td>22 Dec 2054</td><td>21 Dec 2061</td><td>7</td><td>58&ndash;65</td></tr>
+<tr><td class="k">Venus</td><td>21 Dec 2061</td><td>21 Dec 2081</td><td>20</td><td>65&ndash;85</td></tr>
+</table></div>
+
+<h3>Saturn mahadasha, the current period</h3>
+<div class="tbl"><table>
+<tr><th>Antardasha</th><th>From</th><th>To</th><th>Length</th></tr>
+<tr><td class="k">Saturn / Saturn</td><td>22 Dec 2018</td><td>25 Dec 2021</td><td>3.01 y</td></tr>
+<tr><td class="k">Saturn / Mercury</td><td>25 Dec 2021</td><td>3 Sep 2024</td><td>2.69 y</td></tr>
+<tr><td class="k">Saturn / Ketu</td><td>3 Sep 2024</td><td>13 Oct 2025</td><td>1.11 y</td></tr>
+<tr><td class="k up">Saturn / Venus</td><td class="up">13 Oct 2025</td><td class="up">12 Dec 2028</td><td class="up">3.17 y &mdash; current</td></tr>
+<tr><td class="k">Saturn / Sun</td><td>12 Dec 2028</td><td>24 Nov 2029</td><td>0.95 y</td></tr>
+<tr><td class="k">Saturn / Moon</td><td>24 Nov 2029</td><td>25 Jun 2031</td><td>1.58 y</td></tr>
+<tr><td class="k">Saturn / Mars</td><td>25 Jun 2031</td><td>3 Aug 2032</td><td>1.11 y</td></tr>
+<tr><td class="k">Saturn / Rahu</td><td>3 Aug 2032</td><td>10 Jun 2035</td><td>2.85 y</td></tr>
+<tr><td class="k">Saturn / Jupiter</td><td>10 Jun 2035</td><td>21 Dec 2037</td><td>2.53 y</td></tr>
+</table></div>
+
+<h4>Pratyantardashas within Saturn / Venus</h4>
+<div class="tbl"><table>
+<tr><th>Period</th><th>From</th><th>To</th></tr>
+<tr><td class="k">Sa / Ve / Venus</td><td>13 Oct 2025</td><td>23 Apr 2026</td></tr>
+<tr><td class="k">Sa / Ve / Sun</td><td>23 Apr 2026</td><td>20 Jun 2026</td></tr>
+<tr><td class="k up">Sa / Ve / Moon</td><td class="up">20 Jun 2026</td><td class="up">25 Sep 2026 &mdash; current</td></tr>
+<tr><td class="k">Sa / Ve / Mars</td><td>25 Sep 2026</td><td>1 Dec 2026</td></tr>
+<tr><td class="k">Sa / Ve / Rahu</td><td>1 Dec 2026</td><td>23 May 2027</td></tr>
+<tr><td class="k">Sa / Ve / Jupiter</td><td>23 May 2027</td><td>25 Oct 2027</td></tr>
+<tr><td class="k">Sa / Ve / Saturn</td><td>25 Oct 2027</td><td>25 Apr 2028</td></tr>
+<tr><td class="k">Sa / Ve / Mercury</td><td>25 Apr 2028</td><td>6 Oct 2028</td></tr>
+<tr><td class="k">Sa / Ve / Ketu</td><td>6 Oct 2028</td><td>12 Dec 2028</td></tr>
+</table></div>
+
+<h3>What each period activates</h3>
+<p><strong>Saturn mahadasha (2018&ndash;2037).</strong> Activates the 5th and 6th bhavas by lordship, the 7th by occupation, and the 1st, 4th and 9th by drishti. Saturn is the chart&rsquo;s directionally strongest graha, exalted in D9, vargottama in D10, in its own nakshatra, a great friend to both functional benefics, and a functional benefic-leaning body for this Lagna via the 5th. On the classical evidence this is a well-supported nineteen years, and the support comes from structure rather than from ease.</p>
+<p><strong>Saturn/Venus (Oct 2025&ndash;Dec 2028).</strong> Activates the 9th and 2nd bhavas by lordship and the 9th by occupation, and brings in the participant of both the Dharma-Karmadhipati and Lakshmi yogas. Because Venus is the graha whose strength is concentrated in one layer, the classical expectation is that a Venus period is where its rashi dignity gets its opportunity to operate. Two independent caveats belong on the record: Venus is combust and debilitated in D9, and Venus is a maraka lord for this Lagna. In Jyotish this combination is read as a period of real opening in the 9th&rsquo;s and 2nd&rsquo;s matters that is not uniformly smooth.</p>
+<p><strong>Saturn/Rahu (2032&ndash;2035)</strong> will activate the graha sitting on the Lagna, in mutual nakshatra exchange with the Moon. Named because it is structurally the most distinctive sub-period remaining in this mahadasha.</p>
+<div class="note caution">
+<span class="lv">A limit worth stating</span>
+<p>Dasha lords describe which parts of the chart are live, not what happens in them. Anything more specific than that requires transits, and no transit work is included here. Where this document says a claim is timing-dependent, that is what it means.</p>
+</div>
+</section>
+
+<!-- ============ 14 ============ -->
+<section id="s14">
+<div class="shead"><span class="snum">14</span><h2>Rahu and Ketu</h2></div>
+
+<div class="tbl"><table>
+<tr><th></th><th>Rahu</th><th>Ketu</th></tr>
+<tr><td class="k">Longitude</td><td>20&deg;13&prime;09&Prime; Virgo</td><td>20&deg;13&prime;09&Prime; Pisces</td></tr>
+<tr><td class="k">Bhava</td><td>1st &mdash; on the Lagna</td><td>7th</td></tr>
+<tr><td class="k">Distance to Lagna</td><td class="up">2&deg;03&prime;</td><td>&mdash;</td></tr>
+<tr><td class="k">Nakshatra</td><td>Hasta pada 4</td><td>Revati pada 2</td></tr>
+<tr><td class="k">Nakshatra lord</td><td>Moon</td><td>Mercury</td></tr>
+<tr><td class="k">Dispositor</td><td>Mercury (9th, friend&rsquo;s sign)</td><td>Jupiter (4th, own sign)</td></tr>
+<tr><td class="k">Conjunctions</td><td>none</td><td>Saturn (8&deg;01&prime;)</td></tr>
+<tr><td class="k">Aspects received</td><td>Saturn, Ketu</td><td>Rahu</td></tr>
+<tr><td class="k">D9</td><td>Cancer &mdash; on the D9 Lagna</td><td>Capricorn, 7th of D9</td></tr>
+<tr><td class="k">D4</td><td>Pisces &mdash; on the D4 Lagna</td><td>Virgo, 7th of D4</td></tr>
+</table></div>
+
+<div class="tri">
+<div class="t-fact"><span class="lv">Technical fact</span>
+<p>Rahu sits 2&deg;03&prime; from the ascending degree, in the same nakshatra <em>and the same pada</em> as the Lagna. Its nakshatra lord is the Moon; the Moon&rsquo;s nakshatra lord is Rahu. Rahu also occupies the Lagna of the navamsa and of the D4. Ketu occupies the 7th with Saturn, disposed by an own-sign Jupiter.</p></div>
+<div class="t-class"><span class="lv">Classical delineation</span>
+<p>Parashara treats the nodes as <span class="sk">chhaya grahas</span>, shadow bodies with no substance of their own, which act through the graha that disposes them and through whatever they occupy. Rahu on the Lagna is classically described as amplifying and distorting the presentation of the self &mdash; magnifying the outward signal while loosening its correspondence to what is inside. Its dispositor here is Mercury, the Lagna lord, well placed in the 9th, which is a favourable channel. Ketu in the 7th with Saturn is read as detachment or non-attachment in the partnership house, with Saturn adding weight and duration to the same house.</p>
+<p>I am not going to reach for past-life language. It exists in the later tradition rather than in the Parashari core this reading is built on, and using it would mean importing a framework I have not declared.</p></div>
+<div class="t-lived"><span class="lv">Possible lived expressions</span>
+<ul>
+<li>A presented self that lands more strongly on others than it feels from the inside</li>
+<li>Some genuine mismatch between how she is read and how she experiences herself</li>
+<li>Interest in what is unconventional, foreign to her origins, or outside inherited categories &mdash; reinforced by the Moon&ndash;Rahu exchange</li>
+<li>In the 7th: a partnership house that is simultaneously heavy (Saturn), detached or non-possessive in some register (Ketu), and well governed (own-sign Jupiter as its lord). These are not contradictory; they describe a house with several distinct characteristics at once</li>
+<li>Rahu&rsquo;s appearance on the Lagna of D1, D9 <em>and</em> D4 is unusual repetition, and repetition across vargas is what classical method treats as significant rather than incidental</li>
+</ul></div>
+</div>
+</section>
+
+<!-- ============ 15 ============ -->
+<section id="s15">
+<div class="shead"><span class="snum">15</span><h2>Synthesis by life area</h2></div>
+<p class="lede">Only now, and with each area separated into what the chart strongly supports, what is genuinely mixed, and what depends on period.</p>
+
+<h3>Identity and temperament</h3>
+<p><strong>Strongly supported:</strong> a self constituted through orientation, belief and field rather than through self-assertion &mdash; Lagna lord in the 9th with the 9th lord, both major yogas seated there. A presentation that carries further than it feels &mdash; Rahu within 2&deg; of the Lagna, in its pada, and on the Lagna of two other vargas.</p>
+<p><strong>Mixed:</strong> Mercury is the Lagna lord and is simultaneously the chart&rsquo;s strongest functional benefic and one of its weakest bodies by dig bala and avastha. Capacity and position do not match.</p>
+<p><strong>Timing-dependent:</strong> Mercury&rsquo;s own mahadasha does not begin until December 2037.</p>
+
+<h3>Emotional processing</h3>
+<p><strong>Strongly supported:</strong> self-containment. The Moon receives no drishti from any graha, has no conjunction, and is vargottama. Whatever it does, it does without modification from the rest of the chart.</p>
+<p><strong>Mixed:</strong> the 6th-versus-5th bhava question is unresolved and unresolvable from the chart alone. Sunapha and the absence of Kemadruma are genuine supports; the dusthana placement and the waning phase are genuine pressures.</p>
+<p><strong>Structural, and worth stating plainly:</strong> the Moon sits outside the Sun&ndash;Mars nakshatra convergence that governs seven of nine placements, and reports to Jupiter through Saturn rather than to Venus. The emotional apparatus runs on different machinery than the rest of the chart. This appears independently at nakshatra level and at dispositor level.</p>
+
+<h3>Aesthetics and attraction</h3>
+<p><strong>Strongly supported as a theme:</strong> Venus rules the 9th and the 2nd, sits in its own sign, and forms two of the three yogas. Beauty and value are structurally central to this chart.</p>
+<p><strong>Mixed, and this is the chart&rsquo;s sharpest tension:</strong> Venus is combust, retrograde, lowest in dig bala, infant in avastha, and debilitated in navamsa. Five independent measures point one way and one points the other. The classical reading is capacity without easy access &mdash; not absence.</p>
+<p><strong>Timing-dependent:</strong> Venus&rsquo;s antardasha is running now, to December 2028. On classical logic this is when its rashi dignity has its opening. Venus&rsquo;s own mahadasha is not until 2061.</p>
+
+<h3>Relationships</h3>
+<p><strong>Strongly supported:</strong> weight and durability. The 7th holds Saturn at 56.6/60 dig bala plus Ketu, and is ruled by Jupiter in its own sign. The D9 7th is heavily occupied with an exalted lord. Both charts describe a substantial 7th.</p>
+<p><strong>Mixed:</strong> Jupiter rules both the 4th and the 7th, so home and partnership share a governor and move together. Jupiter carries kendradhipati dosha, is retrograde, receives both malefic special aspects, and loses its own sign in D9. Saturn in the 7th is classically delay-then-durability. Ketu there is a detaching influence in the same house.</p>
+<p><strong>Timing-dependent:</strong> Saturn, the 7th&rsquo;s principal occupant, is running its mahadasha until 2037.</p>
+
+<h3>Home and family</h3>
+<p><strong>Strongly supported:</strong> Jupiter in its own sign in the 4th, forming the chart&rsquo;s only Mahapurusha yoga, and repeating in the 4th of the D4. Home as a source of meaning is among the best-attested features here.</p>
+<p><strong>Mixed:</strong> the same qualifications as above, plus Mars&rsquo;s 8th-house drishti landing on Jupiter.</p>
+
+<h3>Money</h3>
+<p><strong>Strongly supported:</strong> the 2nd is ruled by an own-sign Venus in a trikona; the Dharma-Karmadhipati and Lakshmi yogas both bear on fortune. Venus holds its own sign in the 11th of D10, the house of gains.</p>
+<p><strong>Mixed:</strong> Venus&rsquo;s condition again, and its maraka lordship of the 2nd. D2 tilts toward received rather than self-generated wealth, which is the weakest evidence in this section and is flagged as such.</p>
+
+<h3>Career</h3>
+<p><strong>Strongly supported:</strong> this is the best-attested area in the chart. The 10th lord conjoins the 9th lord in the 9th, in the 9th lord&rsquo;s own sign &mdash; a first-order raja yoga. Jupiter casts the only graha drishti reaching the 10th. And the D10 is the strongest varga examined: five grahas in own sign or exaltation, Saturn vargottama, Venus in own sign in the house of gains.</p>
+<p><strong>Mixed:</strong> Mercury as 10th lord is weak in dig bala and Mrita in avastha. The structure is excellent; the vehicle is not effortless.</p>
+
+<h3>Friendships and community</h3>
+<p><strong>Mixed to weak:</strong> the 11th is ruled by the Moon, the least connected body in the chart &mdash; unaspected, unconjunct, in a dusthana by whole sign. No graha occupies the 11th. This is the thinnest area on the chart&rsquo;s own evidence, and thin is not the same as bad.</p>
+<p><strong>Countervailing:</strong> Venus in own sign in the 11th of D10 concerns professional gains rather than friendship, and should not be borrowed to strengthen this reading.</p>
+
+<h3>Creativity</h3>
+<p><strong>Mixed:</strong> the 5th is ruled by Saturn &mdash; disciplined rather than spontaneous, improving with time. No occupants. If the Sripati convention holds, the Moon is in the 5th, which would change this reading materially. The two conventions genuinely disagree.</p>
+
+<h3>Travel, learning, worldview</h3>
+<p><strong>Strongly supported:</strong> four grahas in the 9th including the Lagna lord and an own-sign 9th lord. The 9th is the centre of gravity of this chart by any reckoning.</p>
+<p><strong>Nuance from section 5:</strong> the four are not one cluster. Mercury and Mars operate through Krittika under the Sun; the Sun and Venus through Mrigashira under Mars. Two channels, not one.</p>
+
+<h3>Spirituality</h3>
+<p><strong>Mixed:</strong> the 9th is strong but is doing dharma-as-orientation work rather than renunciate work. Ketu in the 7th and Saturn&rsquo;s self-referring nakshatra are the detachment signatures present. The 12th is ruled by the Sun, placed in the 9th &mdash; dissolution channelled into belief. No <span class="sk">sannyasa yoga</span> forms.</p>
+
+<h3>Recurring strengths and recurring tensions</h3>
+<p><strong>Strengths that appear in more than one layer:</strong> the 9th house; Saturn&rsquo;s non-rashi strength; the career structure; Rahu&rsquo;s Lagna repetition across three vargas.</p>
+<p><strong>Tensions that appear in more than one layer:</strong> the gap between rashi dignity and every other measure, most acute in Venus; the separation of the emotional apparatus from the rest of the chart, visible at nakshatra and dispositor level independently; and the fact that both own-sign benefics carry functional complications for this specific Lagna.</p>
+</section>
+
+<!-- ============ 16 ============ -->
+<section id="s16">
+<div class="shead"><span class="snum">16</span><h2>The structural themes</h2></div>
+<p class="lede">If nothing at all were known about the person: the six themes this chart is actually built around, and the exact combinations that produce each.</p>
+
+<div class="themes">
+<div class="theme"><span class="tn">I</span><div>
+<h3>The ninth house is the chart</h3>
+<p>Four of nine grahas occupy it, including the Lagna lord, the 10th lord, and its own lord in its own sign. Both major yogas are seated there. Identity, livelihood, fortune and value all route through one house.</p>
+<p class="combo">Sun + Mars + Mercury + Venus in Taurus in the 9th &middot; Mercury = lord of 1 and 10 &middot; Venus = lord of 9 and 2, in own sign &middot; Dharma-Karmadhipati and Lakshmi both formed here</p>
+</div></div>
+
+<div class="theme"><span class="tn">II</span><div>
+<h3>Venus is strong in one layer and weak in five</h3>
+<p>The single most important nuance in the chart, and the one a surface reading gets backwards. Own sign is real. So are combustion, retrogression, the lowest dig bala present, infant avastha, and debilitation in navamsa.</p>
+<p class="combo">Venus own sign Taurus &middot; combust 4&deg;32&prime; against an 8&deg; retrograde orb &middot; dig bala 9.0/60 &middot; Bala avastha &middot; D9 Virgo, debilitated &middot; against which: D7 Taurus own sign vargottama, D10 Libra own sign in the 11th</p>
+</div></div>
+
+<div class="theme"><span class="tn">III</span><div>
+<h3>Saturn is the strongest body by every measure except sign</h3>
+<p>It holds no rashi dignity whatsoever, and it leads the chart on directional strength, sits in its own nakshatra, exalts in the navamsa, is vargottama in the career varga, aspects seven of the other eight bodies, rules a trikona, and has no compound enemies. It is also currently running its nineteen-year mahadasha.</p>
+<p class="combo">Saturn Pisces, 7th &middot; dig bala 56.6/60, the highest present &middot; own nakshatra Uttara Bhadrapada &middot; D9 Libra exalted &middot; D10 Pisces vargottama &middot; lord of 5 and 6 &middot; drishti on 1, 4, 9 &middot; mahadasha Dec 2018 to Dec 2037</p>
+</div></div>
+
+<div class="theme"><span class="tn">IV</span><div>
+<h3>The emotional apparatus runs separately from everything else</h3>
+<p>Two independent layers say the same thing. In the nakshatra network the Moon sits in a sealed pair with Rahu while seven other placements converge on the Sun&ndash;Mars loop. In the dispositor chains the Moon reports to Jupiter while the entire ninth-house group reports to Venus. And no graha aspects the Moon at all.</p>
+<p class="combo">Moon in Shatabhisha (Rahu) &harr; Rahu in Hasta (Moon), a closed nakshatra parivartana &middot; Moon &rarr; Saturn &rarr; Jupiter, while Sun/Mars/Mercury/Rahu &rarr; Venus &middot; zero drishti received &middot; no conjunction &middot; vargottama in Aquarius</p>
+</div></div>
+
+<div class="theme"><span class="tn">V</span><div>
+<h3>Rahu is on the ascending degree of three charts</h3>
+<p>2&deg;03&prime; from the Lagna in D1, in the same nakshatra and the same pada. Also on the Lagna of the navamsa and of the D4. Repetition across vargas is what classical method treats as structurally significant.</p>
+<p class="combo">Rahu 20&deg;13&prime; Virgo, Hasta pada 4 &middot; Lagna 22&deg;16&prime; Virgo, Hasta pada 4 &middot; D9 Lagna Cancer with Rahu &middot; D4 Lagna Pisces with Rahu &middot; dispositor Mercury, the Lagna lord</p>
+</div></div>
+
+<div class="theme"><span class="tn">VI</span><div>
+<h3>Both own-sign benefics are functionally complicated for this Lagna</h3>
+<p>Jupiter owns the 4th and 7th and nothing else, taking kendradhipati dosha, and is the chart&rsquo;s only Mahapurusha yoga while receiving both malefic special aspects. Venus owns the 9th but also the 2nd, a maraka house. The natural reading and the functional reading point different ways, and Parashari doctrine says the functional one governs.</p>
+<p class="combo">Jupiter own sign Sagittarius in the 4th = Hamsa yoga &middot; lord of 4 and 7, both kendras = kendradhipati dosha &middot; retrograde &middot; receives Mars 8th and Saturn 10th drishti &middot; D9 Libra, own sign not retained &middot; Venus lord of 9 (trikona) and 2 (maraka)</p>
+</div></div>
+</div>
+</section>
+
+<footer>
+<p>Computed with the Swiss Ephemeris under Lahiri ayanamsha, Parashari whole-sign bhavas, mean nodes. Dig bala and baladi avastha computed exactly; Shadbala, Ishta and Kashta phala omitted rather than approximated, for the reasons given in section 10. No tropical comparison and no material from any other framework appears anywhere in this document.</p>
+</footer>
+</div>
+</div>
