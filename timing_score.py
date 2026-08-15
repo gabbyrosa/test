@@ -41,12 +41,14 @@ import swisseph as swe
 # name, date, (primary, secondary), alternative (primary, secondary) or None,
 # justification quoted from the pre-registered topic map
 EVENTS = [
-    # Scored on the described act, enrolment in higher education. If she also
-    # moved out of the parental home to attend, h4 'moving house' enters the
-    # secondary set and sidereal picks up a partial. Unknown, so left out:
-    # the conservative choice is the one that manufactures no result. Asked.
-    ("started at Kent State University", dt.date(2014, 8, 25), ([9], [3]), ([3], [9]),
-     "h9 'higher study, worldview change'; h3 'study'"),
+    # Confirmed: she moved out of the parental home to attend, and took on NO
+    # student loans. So h4 'moving house' is genuinely touched and h8 'debt'
+    # is genuinely NOT. Scored as one episode rather than two events, because
+    # the move was caused by the enrolment, unlike the age-22 pair which were
+    # independent activities that merely coincided. Scored both ways below.
+    ("started at Kent State, moving out of parents' house", dt.date(2014, 8, 25),
+     ([9], [3, 4]), ([4], [9, 3]),
+     "h9 'higher study'; h4 'moving house, parents'; h3 'study'"),
     ("transferred to Ohio State University", dt.date(2015, 9, 20), ([9], [3]), ([3], [9]),
      "h9 'higher study, worldview change'; h3 'study'"),
     ("hit by a car", dt.date(2016, 8, 15), ([6], [8, 1]), ([8], [6, 1]),
