@@ -28,6 +28,27 @@ And the claim that Saturn aspects "seven of the other eight bodies" was an
 question. It is six: Sun, Mars, Mercury, Jupiter, Venus and Rahu. The two it
 misses are the Moon and Ketu.
 
+## Audited baseline
+
+**Commit `12a79c71c8e3762776c1f807522fe5cb53857869`** (short `12a79c7`) is the audited baseline. Referenced by
+SHA rather than by tag: this session's git credentials return HTTP 403 on tag
+refs, consistently across retries, so `jyotish-audit-baseline` exists locally
+but could not be pushed and will not survive the container. The SHA is
+immutable and is on the remote branch, so it anchors the state just as well.
+
+**What this state claims:**
+
+- The three parked corrections are actioned — functional table, yoga citation, node drishti removal.
+- A stale-claim sweep across 20 searched patterns returns zero instances.
+- Two count errors were found by enumeration and fixed: Saturn aspects six of the other eight bodies, not seven; six of nine grahas resolve into the Sun–Mars cycle, not seven.
+- One invented attribution withdrawn ("Parashara treats an unaspected Moon as self-referring"); one softened and given the verse that supports its mechanism.
+- Section 17's claim that a cleanup had already happened is corrected, and the sequence recorded.
+
+**What this state does not claim:** that the document is verified. Four
+provenance questions remain open below, with four distinct dispositions. The
+next audit should be able to fail cleanly against this SHA rather than against
+a standard that moved underneath it.
+
 ## STILL OPEN — four items, four different dispositions
 
 Not to be rolled into a generic "citations cleanup." Each needs a different
