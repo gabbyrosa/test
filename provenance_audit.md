@@ -57,9 +57,62 @@ kind of work, and merging them would hide which question is actually unanswered.
 | Item | Problem type | The question that has to be answered first |
 |---|---|---|
 | **Nakshatra-chain framing (§5)** | Provenance / framework | Not "find a citation." Whether the technique belongs inside the declared framework at all. Confirmed KP-weighted; the choice is to relabel the section or drop its interpretive weight. |
-| **Lakshmi yoga conditions** | Doctrinal verification | Until verified it must not retain **principal yoga** status merely because the analysis has leaned on it throughout. Demote or verify; do not leave it load-bearing and unchecked. |
+| ~~Lakshmi yoga conditions~~ | Doctrinal verification | **CLOSED — see below. Outcome: confirmed, rule replaced, false qualification withdrawn, real qualification attached.** |
 | **Hora doctrine, baladi multipliers** | Implementation + provenance | Two questions, not one. Is there a textual source, *and* does the code implement the same doctrine the source describes? A correct citation over a divergent implementation is worse than neither. |
 | **Rashi sandhi** | Definition + provenance | Fix the exact numerical boundary being asserted before testing the chart against it. Currently the claim has no stated degree band. |
+
+### Item 1 of 4 — Lakshmi Yoga — **CLOSED: CONFIRMED**
+
+**Source.** *Phaladeepika* of Mantreswara, ch. 6 v. 28, wisdomlib text-and-translation
+edition. Textual stability: **not tested** — one translation consulted.
+
+> "If the lord of the 9th and Venus be posited in their own or exaltation houses
+> identical with a Trikona or a Kendra, the resulting Yoga is Lakshmi."
+
+**The rule the document was using was wrong twice.** It read "the 9th lord in its
+own sign or exaltation, in a kendra or trikona, with a strong Lagna lord." That
+**omitted the condition on Venus** and **added a Lagna-lord condition verse 28 does
+not contain**. Verse 28 is silent on the Lagna lord, and equally silent on
+combustion, retrogression and affliction.
+
+The document had then reported the yoga as forming "with one condition partially
+met" — a qualification manufactured out of a requirement that does not exist. That
+is the inverse of the usual failure: not a caveat that decayed, but a caveat
+invented from a misremembered rule.
+
+**Test against verse 28 as written.**
+
+| Condition | Chart | Verdict |
+|---|---|---|
+| Lord of the 9th, own or exaltation, in trikona or kendra | 9th from Virgo is Taurus, so the 9th lord is Venus; Venus 28°01′ Taurus, own sign, in the 9th, a trikona | satisfied |
+| Venus, own or exaltation, in trikona or kendra | same placement | satisfied |
+
+**Outcome: CONFIRMED.** The yoga forms and retains principal status.
+
+**Real qualification, which replaces the false one.** For Virgo lagna the 9th lord
+*is* Venus, so verse 28's two named roles collapse onto one graha and a single
+placement does double duty. Enumerating all twelve lagnas, this occurs for exactly
+**two — Virgo and Aquarius** — the only ones whose 9th sign is Taurus or Libra. The
+other ten require two distinct grahas simultaneously dignified. The yoga forms, and
+it forms on a materially cheaper condition here than the sloka's phrasing implies.
+
+**Not disqualifying, but still true.** Verse 28 says nothing about combustion or
+navamsa dignity, so Venus being combust at 4°32′ and debilitated in D9 does not
+block formation. Those travel with the claim regardless.
+
+**Incidental findings from the same source, recorded but NOT actioned** (scope
+discipline — these belong to no open item and would need their own pass):
+Phaladeepika sloka 5 defines Kemadruma as the absence of Sunapha, Anapha and
+Durudhara *and* no kendra association with the Moon — a condition the reading does
+not state. Sloka 14 phrases Gaja Kesari as "the Moon in a Kendra position to
+Jupiter," the mirror of the reading's phrasing; the relation is symmetric so the
+verdict is unchanged.
+
+**Landing sites edited:** §9 rule and test, §13 Saturn/Venus dasha, §15 Money,
+§16 Theme I combo. Verified: old rule appears only inside the correction note as a
+recorded quotation, zero live instances.
+
+---
 
 Two of the original audit's own conclusions were also reversed by the search
 addendum at the end of this file and are already recorded there: the Jupiter
