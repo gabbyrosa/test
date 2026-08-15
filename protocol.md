@@ -37,7 +37,13 @@ translations materially alter the doctrine, and textual stability is a separate
 axis from how good the source is.
 
 When correcting an error, audit every downstream claim before saying the fix is
-complete.
+complete. Whenever prose contains a count, enumerate the counted objects and
+reconcile the total against the list rather than letting a plausible-sounding
+number stand.
+
+Distinguish "this audit closed its defined scope with zero stale instances
+remaining" from "this document is verified." Only the first is ever earned by a
+single pass.
 
 Stop at the requested stage and do not rush to a verdict.
 

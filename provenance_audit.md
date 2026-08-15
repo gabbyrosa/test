@@ -28,6 +28,18 @@ And the claim that Saturn aspects "seven of the other eight bodies" was an
 question. It is six: Sun, Mars, Mercury, Jupiter, Venus and Rahu. The two it
 misses are the Moon and Ketu.
 
+## STILL OPEN — four items, four different dispositions
+
+Not to be rolled into a generic "citations cleanup." Each needs a different
+kind of work, and merging them would hide which question is actually unanswered.
+
+| Item | Problem type | The question that has to be answered first |
+|---|---|---|
+| **Nakshatra-chain framing (§5)** | Provenance / framework | Not "find a citation." Whether the technique belongs inside the declared framework at all. Confirmed KP-weighted; the choice is to relabel the section or drop its interpretive weight. |
+| **Lakshmi yoga conditions** | Doctrinal verification | Until verified it must not retain **principal yoga** status merely because the analysis has leaned on it throughout. Demote or verify; do not leave it load-bearing and unchecked. |
+| **Hora doctrine, baladi multipliers** | Implementation + provenance | Two questions, not one. Is there a textual source, *and* does the code implement the same doctrine the source describes? A correct citation over a divergent implementation is worse than neither. |
+| **Rashi sandhi** | Definition + provenance | Fix the exact numerical boundary being asserted before testing the chart against it. Currently the claim has no stated degree band. |
+
 Two of the original audit's own conclusions were also reversed by the search
 addendum at the end of this file and are already recorded there: the Jupiter
 "functional malefic" label for Virgo is textually supported, and the

@@ -164,7 +164,35 @@ Find *every* instance and check each one. Grep for the stale claim afterwards
 and show the result. Three times in this repo a fix was applied to some
 instances, reported as complete, and left the document contradicting itself.
 
-## 13. Stop at the requested stage
+## 13. Enumerate anything you count
+
+Whenever prose contains a count, list the counted objects and reconcile the
+total against the list. Do not let a number stand because it sounds
+structurally plausible.
+
+Two count errors survived multiple passes here, both caught only by
+enumeration:
+
+- "Saturn aspects seven of the other eight bodies." Listing the recipients —
+  Sun, Mars, Mercury, Jupiter, Venus, Rahu — gives six.
+- "Seven of nine grahas resolve into the Sun–Mars cycle." Following each chain
+  to its terminal loop gives six: Sun, Mars, Mercury, Jupiter, Venus, Ketu.
+
+Both had been reported as verified in earlier passes. A count is the easiest
+kind of claim to check and the easiest to skip checking.
+
+## 14. "Audit closed" and "document verified" are different claims
+
+The strongest thing sayable after a correction pass is that *the pass closed
+its defined scope and its stale-claim search returned zero instances*. That is
+not the same as the document being verified, and the difference is not
+pedantry: the pass that closed the three parked corrections also turned up two
+unrelated count errors, a leaked stale claim in three places, and a section
+that asserted a cleanup which had never happened.
+
+Say what the audit covered. Never generalise it to the document.
+
+## 15. Stop at the requested stage
 
 Most errors here were introduced at the moment of reaching a conclusion, not
 while gathering evidence. When asked to stop at a stage, stop. When not asked,
