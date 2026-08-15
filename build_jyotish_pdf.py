@@ -89,7 +89,8 @@ footer{padding:16pt 0 0;margin-top:12pt;font-size:9pt;break-inside:avoid}
 footer p{max-width:none}
 
 /* sections that begin a major movement start on a fresh page */
-#s4,#s9,#s13,#s15,#s16{break-before:page;page-break-before:always}
+#s4,#s9,#s13,#s15,#s16,#s17{break-before:page;page-break-before:always}
+.tier{break-after:avoid;page-break-after:avoid;font-size:7pt;padding:2pt 5pt}
 """
 
 

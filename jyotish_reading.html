@@ -189,6 +189,11 @@ td.sn{padding-left:4px;color:var(--muted)}
   color:var(--muted);background:var(--sunk);padding:8px 11px;
   border-radius:2px;margin-top:11px;white-space:normal;line-height:1.55}
 
+.tier{display:inline-block;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+  font-weight:700;padding:3px 7px;border-radius:2px;margin-bottom:9px}
+.t-inv{background:var(--verdigris-soft);color:var(--verdigris)}
+.t-fw{background:var(--brass-soft);color:var(--brass)}
+.t-hyp{background:var(--sunk);color:var(--muted);border:1px solid var(--rule)}
 footer{padding:44px 0 0;border-top:2px solid var(--ink);margin-top:16px;
   font-size:13.5px;color:var(--muted)}
 footer p{max-width:66ch}
@@ -213,6 +218,7 @@ footer p{max-width:66ch}
 <li><a href="#s14"><span class="n">14</span><span>Rahu &amp; Ketu</span></a></li>
 <li><a href="#s15"><span class="n">15</span><span>Synthesis by area</span></a></li>
 <li><a href="#s16"><span class="n">16</span><span>Structural themes</span></a></li>
+<li><a href="#s17"><span class="n">17</span><span>Reproduction appendix</span></a></li>
 </ol>
 </nav>
 
@@ -307,12 +313,16 @@ footer p{max-width:66ch}
 </div>
 </figure>
 
-<h3>One caveat that has to come first</h3>
+<h3>One caveat, and a correction to an earlier version of it</h3>
 <div class="note caution">
-<span class="lv">Bhava chalit divergence</span>
-<p>The Lagna falls at 22&deg;16&prime;, very late in Virgo. Under whole-sign bhavas a graha&rsquo;s rashi <em>is</em> its house. Under Sripati cusps, which many Jyotishis use to decide where a graha actually sits, the cusps land near 22&deg; of each sign, so anything in the early degrees of a rashi drops back a house.</p>
-<p><strong>Six of nine grahas shift.</strong> Moon 6&rarr;5. Mars 9&rarr;8. Mercury 9&rarr;8. Jupiter 4&rarr;3. Saturn 7&rarr;6. Rahu 1&rarr;12. Ketu 7&rarr;6. Only the Sun and Venus hold.</p>
-<p>This reading uses whole sign throughout, which is the Parashari standard and the convention nearly all classical yoga rules assume. But a late Lagna makes that choice load-bearing rather than incidental, and where a conclusion would reverse under the other convention, this document says so instead of presenting one reading as settled.</p>
+<span class="lv">A convention error, now fixed</span>
+<p>An earlier version of this document reported that <em>six of nine grahas</em> change bhava between whole sign and Sripati, and treated that as the reading&rsquo;s largest vulnerability. <strong>That figure was wrong, and it was wrong because of a mistake in my own code.</strong></p>
+<p>I computed the cross-check by asking which cusp-to-cusp interval each graha fell into. That is the Western convention, in which a cusp <em>begins</em> a house. Jyotish does not use it. In bhava chalit the cusp is the <span class="sk">bhava madhya</span>, the midpoint, and the bhava runs from the sandhi halfway back to the previous madhya to the sandhi halfway on to the next. Treating a midpoint as a boundary displaces every graha by roughly half a bhava, which manufactured the divergence I then reported as a finding.</p>
+</div>
+<div class="note">
+<span class="lv">Bhava chalit, computed correctly</span>
+<p>Under Sripati proper &mdash; Porphyry trisection of the quadrants for the madhyas, sandhis at the midpoints &mdash; <strong>two of nine grahas shift, not six.</strong> Mars 9&rarr;8 and Mercury 9&rarr;8. Everything else holds: Moon stays in the 6th, Jupiter in the 4th, Saturn and Ketu in the 7th, Rahu in the 1st, Sun and Venus in the 9th. Taking Placidus cusps as madhyas instead of Porphyry gives the same two.</p>
+<p>The correction runs the other way from the caveat it replaces. Most of this chart&rsquo;s structure is <em>convention-independent</em>, including the Hamsa yoga, Rahu on the Lagna, and the loaded 7th. The one thing genuinely at stake is how much of the ninth-house concentration survives, and section 16 tests every headline claim against it explicitly.</p>
 </div>
 </section>
 
@@ -387,7 +397,7 @@ footer p{max-width:66ch}
 <p>Parashara treats an unaspected Moon as self-referring: the mind takes its cues from its own dispositors rather than from other grahas. Vargottama sustains that consistency across the harmonic. A 6th-house Moon is classically associated with service, health, contention and daily labour &mdash; the 6th being <span class="sk">shatru bhava</span> &mdash; while a 5th-house Moon reads entirely differently, toward intelligence and creative issue. That the two conventions disagree here is a genuine ambiguity in this chart, not a gap in the reading.</p></div>
 <div class="t-lived"><span class="lv">Possible lived expressions</span>
 <ul>
-<li>Emotional processing that happens internally and arrives already resolved, since nothing in the chart aspects the Moon to modify it in transit through the psyche</li>
+<li>Emotional processing that is comparatively little modified by the rest of the chart, since under the declared drishti system no graha aspects the Moon. What that feels like from the inside is not something the configuration establishes</li>
 <li>A steady rather than volatile temperament, from vargottama, with the steadiness coming from Saturn&rsquo;s structure rather than from ease</li>
 <li>A pull toward being useful, toward work with a service or problem-solving shape, if the 6th reading holds</li>
 <li>Or a pull toward creative and intellectual output, if the Sripati 5th holds</li>
@@ -414,16 +424,16 @@ footer p{max-width:66ch}
 <h3>Venus</h3>
 <div class="tri">
 <div class="t-fact"><span class="lv">Technical fact</span>
-<p>28&deg;01&prime;11&Prime; Taurus, 9th bhava, Mrigashira pada 2, nakshatra lord Mars. OWN SIGN. But: retrograde; combust at 4&deg;32&prime; from the Sun against a retrograde orb of 8&deg;; dig bala 9.0/60, the lowest of any graha here; baladi avastha Bala (infant); and DEBILITATED in the navamsa, falling to Virgo. Lord of the 9th and the 2nd.</p></div>
+<p>28&deg;01&prime;11&Prime; Taurus, 9th bhava, Mrigashira pada 2, nakshatra lord Mars. OWN SIGN. Retrograde &mdash; which Shadbala counts as a source of <span class="sk">cheshta bala</span>, i.e. as STRENGTH, not weakness. Against that: combust at 4&deg;32&prime; from the Sun against a retrograde orb of 8&deg;; dig bala 9.0/60, the lowest of any graha here; DEBILITATED in the navamsa, falling to Virgo; and baladi avastha Bala, a minor modifier. Own sign again in D7 (vargottama) and in D10. Lord of the 9th and the 2nd.</p></div>
 <div class="t-class"><span class="lv">Classical delineation</span>
-<p>This is the most important nuance in the chart and it cuts against the obvious reading. Venus holds the single best rashi dignity available &mdash; its own sign, as lord of the best trikona, in that trikona. By rashi alone it is the chart&rsquo;s strongest body. By every other classical measure it is among the weakest: <span class="sk">asta</span> (combust), retrograde, minimal <span class="sk">dig bala</span>, infant avastha, and <span class="sk">neecha</span> in D9. Parashari method does not let rashi dignity overrule the rest; it requires all of it to be weighed. A graha strong in rashi and weak in varga is classically read as promising more than it delivers without effort, or as delivering in bursts tied to period rather than continuously.</p></div>
+<p>This is the most important nuance in the chart and it cuts against the obvious reading. Venus holds the single best rashi dignity available &mdash; its own sign, as lord of the best trikona, in that trikona. By rashi alone it is the chart&rsquo;s strongest body. Three further measures cut against it: <span class="sk">asta</span> (combust), minimal <span class="sk">dig bala</span>, and <span class="sk">neecha</span> in D9, with infant avastha a minor fourth. <strong>Retrogression is not among them.</strong> Shadbala treats a retrograde graha as gaining <span class="sk">cheshta bala</span>; reading retrogression as weakening is a modern convention this document does not use. Nor is the picture uniform across the vargas: Venus returns to its own sign in D10 and to own sign plus vargottama in D7. Parashari method does not let rashi dignity overrule the rest, but it equally does not let one varga stand for all of them.</p></div>
 <div class="t-lived"><span class="lv">Possible lived expressions</span>
 <ul>
 <li>Real aesthetic capacity and real taste, which nonetheless may not feel reliably available or self-evident from the inside</li>
 <li>Value, beauty and relationship mattering enormously as themes while being complicated in operation</li>
 <li>Fortune arriving through periods rather than as a standing condition &mdash; and note that the current antardasha is Venus&rsquo;s, running to December 2028</li>
 <li>A gap between how much beauty matters to her and how much she experiences herself as having it</li>
-<li>Retrogression classically turns a graha&rsquo;s work inward or backward: revisiting, reworking, returning to things</li>
+<li>Strength that shows up in some contexts and not others, since the vargas genuinely disagree: weak in the ninth-harmonic reading of the chart, strong in the career and progeny vargas</li>
 </ul>
 <p>None of this says the capacity is absent. It says the chart makes its availability conditional, and section 13 is where the conditions live.</p></div>
 </div>
@@ -636,6 +646,11 @@ footer p{max-width:66ch}
 <section id="s9">
 <div class="shead"><span class="snum">09</span><h2>Yogas actually present</h2></div>
 <p class="lede">Each rule is stated first, then tested. Combinations that do not form are listed too, because a yoga&rsquo;s absence is information and its false presence is the commonest failure in software readings.</p>
+<div class="note">
+<span class="lv">Tiers, defined before use</span>
+<p><strong>Principal structural yogas:</strong> Hamsa, Dharma-Karmadhipati, Lakshmi. <strong>Supporting lunar yoga:</strong> Sunapha. <strong>Explicitly absent or cancelled:</strong> Kemadruma, Malavya, Shasha, Ruchaka, Bhadra, Gaja Kesari, Sakata, Vipareeta Raja, and rashi parivartana.</p>
+<p>Four yogas form in total. Where this document says &ldquo;the three principal yogas&rdquo; it means the first tier, and Sunapha is counted separately rather than silently dropped.</p>
+</div>
 
 <h3>Hamsa Yoga &mdash; forms</h3>
 <p><strong>Rule.</strong> One of the five <span class="sk">Pancha Mahapurusha</span> yogas: Jupiter in its own sign or exaltation, occupying a kendra from the Lagna.</p>
@@ -651,7 +666,7 @@ footer p{max-width:66ch}
 <p><strong>Rule.</strong> The 9th lord in its own sign or exaltation, in a kendra or trikona, with a strong Lagna lord.</p>
 <p><strong>Test.</strong> 9th lord Venus in own sign Taurus, in the 9th, a trikona &mdash; first condition fully met. Lagna lord Mercury in a friend&rsquo;s sign in a trikona alongside it &mdash; well placed but not in own sign or exaltation. <strong>The primary condition forms; the supporting condition is met in placement but not in dignity.</strong></p>
 
-<h3>Sunapha Yoga &mdash; forms</h3>
+<h3>Sunapha Yoga &mdash; forms (supporting, not principal)</h3>
 <p><strong>Rule.</strong> A graha other than the Sun in the 2nd from the Moon.</p>
 <p><strong>Test.</strong> Saturn in Pisces, the 2nd from the Moon in Aquarius. <strong>Forms.</strong> No graha occupies the 12th from the Moon, so Anapha does not form and Durudhara does not form.</p>
 
@@ -783,7 +798,8 @@ footer p{max-width:66ch}
 <p>Given Venus&rsquo;s condition everywhere else, its vargottama own-sign placement here is a specific, narrow strength rather than a general one, and it is recorded as such.</p>
 
 <h3>D2 Hora &mdash; wealth</h3>
-<p>Six of nine bodies fall in the Moon&rsquo;s hora (Cancer): Moon, Mars, Mercury, Jupiter, Saturn. Three fall in the Sun&rsquo;s (Leo): Sun, Venus, and both nodes. Jupiter is exalted in the Moon&rsquo;s hora; Mars is debilitated there.</p>
+<p><strong>Construction used:</strong> the standard Parashari hora. Each rashi divides into two halves of 15&deg;. In odd rashis the first half is the Sun&rsquo;s hora (mapped to Leo) and the second the Moon&rsquo;s (mapped to Cancer); in even rashis the order reverses. Other hora constructions exist and would give a different chart, so the convention is stated rather than assumed.</p>
+<p>Under it, five of the seven grahas fall in the Moon&rsquo;s hora: Moon, Mars, Mercury, Jupiter, Saturn. The Sun and Venus fall in the Sun&rsquo;s, as do both nodes. Jupiter is exalted in the Moon&rsquo;s hora; Mars is debilitated there.</p>
 <p>Classical hora doctrine holds that the Sun&rsquo;s hora favours self-generated wealth and the Moon&rsquo;s favours received or accumulated wealth. The distribution here tilts toward the Moon&rsquo;s side. This is the lightest of the four vargas in evidentiary weight and is reported as a tendency, not a finding.</p>
 </section>
 
@@ -865,13 +881,13 @@ footer p{max-width:66ch}
 
 <div class="tri">
 <div class="t-fact"><span class="lv">Technical fact</span>
-<p>Rahu sits 2&deg;03&prime; from the ascending degree, in the same nakshatra <em>and the same pada</em> as the Lagna. Its nakshatra lord is the Moon; the Moon&rsquo;s nakshatra lord is Rahu. Rahu also occupies the Lagna of the navamsa and of the D4. Ketu occupies the 7th with Saturn, disposed by an own-sign Jupiter.</p></div>
+<p>Rahu sits 2&deg;03&prime; from the ascending degree, in the same nakshatra <em>and the same pada</em> as the Lagna. This is a degree conjunction and holds under any bhava convention; the separate claim that Rahu occupies bhava 1 also holds under both whole sign and Sripati. Its nakshatra lord is the Moon; the Moon&rsquo;s nakshatra lord is Rahu. Rahu also occupies the Lagna of the navamsa and of the D4. Ketu occupies the 7th with Saturn, disposed by an own-sign Jupiter.</p></div>
 <div class="t-class"><span class="lv">Classical delineation</span>
 <p>Parashara treats the nodes as <span class="sk">chhaya grahas</span>, shadow bodies with no substance of their own, which act through the graha that disposes them and through whatever they occupy. Rahu on the Lagna is classically described as amplifying and distorting the presentation of the self &mdash; magnifying the outward signal while loosening its correspondence to what is inside. Its dispositor here is Mercury, the Lagna lord, well placed in the 9th, which is a favourable channel. Ketu in the 7th with Saturn is read as detachment or non-attachment in the partnership house, with Saturn adding weight and duration to the same house.</p>
 <p>I am not going to reach for past-life language. It exists in the later tradition rather than in the Parashari core this reading is built on, and using it would mean importing a framework I have not declared.</p></div>
 <div class="t-lived"><span class="lv">Possible lived expressions</span>
 <ul>
-<li>A presented self that lands more strongly on others than it feels from the inside</li>
+<li>A presented self that may land more strongly on others than it feels from the inside &mdash; an interpretive extrapolation from the amplification doctrine, not a technical finding</li>
 <li>Some genuine mismatch between how she is read and how she experiences herself</li>
 <li>Interest in what is unconventional, foreign to her origins, or outside inherited categories &mdash; reinforced by the Moon&ndash;Rahu exchange</li>
 <li>In the 7th: a partnership house that is simultaneously heavy (Saturn), detached or non-possessive in some register (Ketu), and well governed (own-sign Jupiter as its lord). These are not contradictory; they describe a house with several distinct characteristics at once</li>
@@ -892,21 +908,21 @@ footer p{max-width:66ch}
 
 <h3>Emotional processing</h3>
 <p><strong>Strongly supported:</strong> self-containment. The Moon receives no drishti from any graha, has no conjunction, and is vargottama. Whatever it does, it does without modification from the rest of the chart.</p>
-<p><strong>Mixed:</strong> the 6th-versus-5th bhava question is unresolved and unresolvable from the chart alone. Sunapha and the absence of Kemadruma are genuine supports; the dusthana placement and the waning phase are genuine pressures.</p>
-<p><strong>Structural, and worth stating plainly:</strong> the Moon sits outside the Sun&ndash;Mars nakshatra convergence that governs seven of nine placements, and reports to Jupiter through Saturn rather than to Venus. The emotional apparatus runs on different machinery than the rest of the chart. This appears independently at nakshatra level and at dispositor level.</p>
+<p><strong>Mixed:</strong> Sunapha and the absence of Kemadruma are genuine supports; the dusthana placement and the waning phase are genuine pressures. An earlier version of this document treated the Moon&rsquo;s house as unresolved between the 6th and the 5th. That was an artefact of the bhava error corrected in section 1: under Sripati computed properly the Moon holds in the 6th, so there is no ambiguity to resolve.</p>
+<p><strong>Structural, and worth stating plainly:</strong> the Moon is unusually segregated from the chart&rsquo;s dominant nakshatra and dispositor networks. It sits outside the Sun&ndash;Mars nakshatra convergence that governs seven of nine placements, and reports to Jupiter through Saturn rather than to Venus. That is a network fact, shown independently at two levels. Calling it &ldquo;the emotional apparatus running on different machinery&rdquo; imports a psychological model the configuration does not supply, so the finding is stated as segregation and interpreted separately.</p>
 
 <h3>Aesthetics and attraction</h3>
-<p><strong>Strongly supported as a theme:</strong> Venus rules the 9th and the 2nd, sits in its own sign, and forms two of the three yogas. Beauty and value are structurally central to this chart.</p>
-<p><strong>Mixed, and this is the chart&rsquo;s sharpest tension:</strong> Venus is combust, retrograde, lowest in dig bala, infant in avastha, and debilitated in navamsa. Five independent measures point one way and one points the other. The classical reading is capacity without easy access &mdash; not absence.</p>
+<p><strong>Strongly supported as a theme:</strong> Venus rules the 9th and the 2nd, sits in its own sign, and participates in two of the three principal yogas. Beauty and value are structurally central to this chart.</p>
+<p><strong>Mixed, and this is the chart&rsquo;s sharpest tension:</strong> Venus is combust, lowest in dig bala, and debilitated in D9, with infant avastha a minor fourth mark against. But it holds its own sign in D1, gains <span class="sk">cheshta bala</span> from retrogression, and returns to own sign in D10 and own sign plus vargottama in D7. The honest reading is not weakness but <strong>context-dependence</strong>: the same graha is differently resourced depending on which layer of the chart is being asked.</p>
 <p><strong>Timing-dependent:</strong> Venus&rsquo;s antardasha is running now, to December 2028. On classical logic this is when its rashi dignity has its opening. Venus&rsquo;s own mahadasha is not until 2061.</p>
 
 <h3>Relationships</h3>
-<p><strong>Strongly supported:</strong> weight and durability. The 7th holds Saturn at 56.6/60 dig bala plus Ketu, and is ruled by Jupiter in its own sign. The D9 7th is heavily occupied with an exalted lord. Both charts describe a substantial 7th.</p>
+<p><strong>Strongly supported, and convention-independent:</strong> weight and durability. The 7th holds Saturn at 56.6/60 dig bala plus Ketu, and is ruled by Jupiter in its own sign. Saturn and Ketu both hold the 7th under Sripati as well as whole sign, and Saturn&rsquo;s dig bala is measured from the Descendant degree rather than from a cusp, so it does not depend on the bhava question at all. The D9 7th is heavily occupied with an exalted lord.</p>
 <p><strong>Mixed:</strong> Jupiter rules both the 4th and the 7th, so home and partnership share a governor and move together. Jupiter carries kendradhipati dosha, is retrograde, receives both malefic special aspects, and loses its own sign in D9. Saturn in the 7th is classically delay-then-durability. Ketu there is a detaching influence in the same house.</p>
 <p><strong>Timing-dependent:</strong> Saturn, the 7th&rsquo;s principal occupant, is running its mahadasha until 2037.</p>
 
 <h3>Home and family</h3>
-<p><strong>Strongly supported:</strong> Jupiter in its own sign in the 4th, forming the chart&rsquo;s only Mahapurusha yoga, and repeating in the 4th of the D4. Home as a source of meaning is among the best-attested features here.</p>
+<p><strong>Strongly supported, and convention-independent:</strong> Jupiter in its own sign in the 4th, forming the chart&rsquo;s only Mahapurusha yoga, and repeating in the 4th of the D4. Jupiter holds the 4th under Sripati as well as whole sign, so the Hamsa yoga is not at risk from the bhava question. Home as a source of meaning is among the best-attested features here.</p>
 <p><strong>Mixed:</strong> the same qualifications as above, plus Mars&rsquo;s 8th-house drishti landing on Jupiter.</p>
 
 <h3>Money</h3>
@@ -914,7 +930,8 @@ footer p{max-width:66ch}
 <p><strong>Mixed:</strong> Venus&rsquo;s condition again, and its maraka lordship of the 2nd. D2 tilts toward received rather than self-generated wealth, which is the weakest evidence in this section and is flagged as such.</p>
 
 <h3>Career</h3>
-<p><strong>Strongly supported:</strong> this is the best-attested area in the chart. The 10th lord conjoins the 9th lord in the 9th, in the 9th lord&rsquo;s own sign &mdash; a first-order raja yoga. Jupiter casts the only graha drishti reaching the 10th. And the D10 is the strongest varga examined: five grahas in own sign or exaltation, Saturn vargottama, Venus in own sign in the house of gains.</p>
+<p><strong>Strongly supported:</strong> career is one of the chart&rsquo;s most redundantly signified topics. The 10th lord conjoins the 9th lord &mdash; a conjunction by rashi, which no bhava convention can disturb &mdash; in the 9th lord&rsquo;s own sign. Jupiter casts the only graha drishti reaching the 10th. And the D10 is the strongest varga examined: five grahas in own sign or exaltation, Saturn vargottama, Venus in own sign in the house of gains.</p>
+<p><strong>Convention-dependent in one respect:</strong> the claim that the conjunction sits <em>in the 9th bhava</em> does not hold under Sripati, which places Mercury in the 8th while Venus stays in the 9th. The yoga forms either way, since conjunction is a rashi relationship; its ninth-house seating is the part at stake. The accurate statement is that career is redundantly signified, though the precise ninth-house mechanism is bhava-convention dependent.</p>
 <p><strong>Mixed:</strong> Mercury as 10th lord is weak in dig bala and Mrita in avastha. The structure is excellent; the vehicle is not effortless.</p>
 
 <h3>Friendships and community</h3>
@@ -922,10 +939,10 @@ footer p{max-width:66ch}
 <p><strong>Countervailing:</strong> Venus in own sign in the 11th of D10 concerns professional gains rather than friendship, and should not be borrowed to strengthen this reading.</p>
 
 <h3>Creativity</h3>
-<p><strong>Mixed:</strong> the 5th is ruled by Saturn &mdash; disciplined rather than spontaneous, improving with time. No occupants. If the Sripati convention holds, the Moon is in the 5th, which would change this reading materially. The two conventions genuinely disagree.</p>
+<p><strong>Mixed:</strong> the 5th is ruled by Saturn &mdash; disciplined rather than spontaneous, improving with time, on Saturn&rsquo;s classical significations. No occupants under either bhava convention, the earlier claim of a Moon in the 5th having been an artefact of the error corrected in section 1. So the 5th is read entirely through its lord, which is thinner evidence than an occupied house would give.</p>
 
 <h3>Travel, learning, worldview</h3>
-<p><strong>Strongly supported:</strong> four grahas in the 9th including the Lagna lord and an own-sign 9th lord. The 9th is the centre of gravity of this chart by any reckoning.</p>
+<p><strong>Supported, with the one real convention caveat in the document:</strong> four grahas in the 9th under whole sign, including the Lagna lord and an own-sign 9th lord. Under Sripati the count drops to two, Sun and Venus, with Mercury and Mars moving to the 8th. The 9th remains the most populated house either way, but &ldquo;four of nine grahas&rdquo; is a whole-sign statement and is labelled as one.</p>
 <p><strong>Nuance from section 5:</strong> the four are not one cluster. Mercury and Mars operate through Krittika under the Sun; the Sun and Venus through Mrigashira under Mars. Two channels, not one.</p>
 
 <h3>Spirituality</h3>
@@ -940,39 +957,51 @@ footer p{max-width:66ch}
 <section id="s16">
 <div class="shead"><span class="snum">16</span><h2>The structural themes</h2></div>
 <p class="lede">If nothing at all were known about the person: the six themes this chart is actually built around, and the exact combinations that produce each.</p>
+<div class="note">
+<span class="lv">Three tiers, and why they are separated</span>
+<p><span class="tier t-inv">Invariant</span> survives the methodological choices this document had to make &mdash; principally the bhava convention, but also the aspect scheme and the node convention. <span class="tier t-fw">Framework-dependent</span> is strong under the declared whole-sign Parashari convention and materially altered under another defensible one. <span class="tier t-hyp">Interpretive</span> is a reasonable extrapolation rather than a technical finding, and is labelled so it cannot be mistaken for one.</p>
+<p>After the bhava correction in section 1, five of the six themes are invariant. Only the ninth-house concentration is genuinely at stake.</p>
+</div>
 
 <div class="themes">
 <div class="theme"><span class="tn">I</span><div>
+<span class="tier t-fw">Framework-dependent</span>
 <h3>The ninth house is the chart</h3>
-<p>Four of nine grahas occupy it, including the Lagna lord, the 10th lord, and its own lord in its own sign. Both major yogas are seated there. Identity, livelihood, fortune and value all route through one house.</p>
+<p>Four of nine grahas occupy it under whole sign, including the Lagna lord, the 10th lord, and its own lord in its own sign. Two of the three principal yogas &mdash; Dharma-Karmadhipati and Lakshmi &mdash; are seated there; the third, Hamsa, is in the 4th. Identity, livelihood, fortune and value all route through one house.</p>
 <p class="combo">Sun + Mars + Mercury + Venus in Taurus in the 9th &middot; Mercury = lord of 1 and 10 &middot; Venus = lord of 9 and 2, in own sign &middot; Dharma-Karmadhipati and Lakshmi both formed here</p>
 </div></div>
 
 <div class="theme"><span class="tn">II</span><div>
-<h3>Venus is strong in one layer and weak in five</h3>
-<p>The single most important nuance in the chart, and the one a surface reading gets backwards. Own sign is real. So are combustion, retrogression, the lowest dig bala present, infant avastha, and debilitation in navamsa.</p>
+<span class="tier t-inv">Invariant</span>
+<h3>Venus is resourced differently at every layer</h3>
+<p>The single most important nuance in the chart, and the one a surface reading gets backwards in both directions. Own sign is real, and so is combustion, the lowest dig bala present, and debilitation in the navamsa. But retrogression is a <span class="sk">cheshta bala</span> strength rather than a weakness, baladi avastha is a minor modifier, and Venus returns to own sign in D10 and own sign plus vargottama in D7. Not weak. Context-dependent.</p>
 <p class="combo">weakening: combust 4&deg;32&prime; against an 8&deg; retrograde orb &middot; dig bala 9.0/60 &middot; D9 Virgo debilitated &middot; Bala avastha (minor) &nbsp;|&nbsp; strengthening: own sign Taurus &middot; D7 Taurus own sign vargottama &middot; D10 Libra own sign in the 11th &middot; retrogression, which cheshta bala counts as strength &mdash; not as the weakness a modern reading would make it</p>
 </div></div>
 
 <div class="theme"><span class="tn">III</span><div>
+<span class="tier t-inv">Invariant</span>
 <h3>Saturn is the most consistently supported graha across the non-rashi measures actually computed</h3>
 <p>It holds no rashi dignity whatsoever, and it leads the chart on directional strength, sits in its own nakshatra, exalts in the navamsa, is vargottama in the career varga, aspects seven of the other eight bodies, rules a trikona, and has no compound enemies. It is also currently running its nineteen-year mahadasha. The claim is scoped deliberately: this document declines to compute Shadbala, Ishta and Kashta phala, so it cannot say Saturn leads on <em>every</em> measure, only on the non-rashi measures actually calculated here.</p>
 <p class="combo">Saturn Pisces, 7th &middot; dig bala 56.6/60, the highest present &middot; own nakshatra Uttara Bhadrapada &middot; D9 Libra exalted &middot; D10 Pisces vargottama &middot; lord of 5 and 6 &middot; drishti on 1, 4, 9 &middot; mahadasha Dec 2018 to Dec 2037</p>
 </div></div>
 
 <div class="theme"><span class="tn">IV</span><div>
-<h3>The emotional apparatus runs separately from everything else</h3>
-<p>Two independent layers say the same thing. In the nakshatra network the Moon sits in a sealed pair with Rahu while seven other placements converge on the Sun&ndash;Mars loop. In the dispositor chains the Moon reports to Jupiter while the entire ninth-house group reports to Venus. And no graha aspects the Moon at all.</p>
+<span class="tier t-inv">Invariant</span>
+<h3>The Moon is segregated from the chart&rsquo;s dominant networks</h3>
+<p>Two independent layers say the same thing. In the nakshatra network the Moon sits in a sealed pair with Rahu while seven other placements converge on the Sun&ndash;Mars loop. In the dispositor chains the Moon reports to Jupiter while the entire ninth-house group reports to Venus. And no graha aspects the Moon at all. All three are rashi- or nakshatra-level facts, so none depends on the bhava convention.</p>
+<p><span class="tier t-hyp">Interpretive</span> Reading this as a separation between emotional and public life is an extrapolation. The network separation is the finding; the psychological gloss is not.</p>
 <p class="combo">Moon in Shatabhisha (Rahu) &harr; Rahu in Hasta (Moon), a closed nakshatra parivartana &middot; Moon &rarr; Saturn &rarr; Jupiter, while Sun/Mars/Mercury/Rahu &rarr; Venus &middot; zero drishti received &middot; no conjunction &middot; vargottama in Aquarius</p>
 </div></div>
 
 <div class="theme"><span class="tn">V</span><div>
-<h3>Rahu is on the ascending degree of three charts</h3>
-<p>2&deg;03&prime; from the Lagna in D1, in the same nakshatra and the same pada. Also on the Lagna of the navamsa and of the D4. Repetition across vargas is what classical method treats as structurally significant.</p>
+<span class="tier t-inv">Invariant</span>
+<h3>Rahu is conjunct the Ascendant degree</h3>
+<p>Stated as a degree conjunction rather than as a house placement, because that is the form that survives every bhava convention: 2&deg;03&prime; from the ascending degree, in the same nakshatra and the same pada. Bhava membership is a separate and weaker claim, though it also holds &mdash; Rahu is in the 1st under whole sign and under Sripati computed correctly. Rahu additionally occupies the Lagna rashi of the navamsa and of the D4.</p>
 <p class="combo">Rahu 20&deg;13&prime; Virgo, Hasta pada 4 &middot; Lagna 22&deg;16&prime; Virgo, Hasta pada 4 &middot; D9 Lagna Cancer with Rahu &middot; D4 Lagna Pisces with Rahu &middot; dispositor Mercury, the Lagna lord</p>
 </div></div>
 
 <div class="theme"><span class="tn">VI</span><div>
+<span class="tier t-inv">Invariant</span>
 <h3>Both own-sign benefics are functionally complicated for this Lagna</h3>
 <p>Jupiter owns the 4th and 7th and nothing else, taking kendradhipati dosha, and is the chart&rsquo;s only Mahapurusha yoga while receiving both malefic special aspects. Venus owns the 9th but also the 2nd, a maraka house. The natural reading and the functional reading point different ways, and Parashari doctrine says the functional one governs.</p>
 <p class="combo">Jupiter own sign Sagittarius in the 4th = Hamsa yoga &middot; lord of 4 and 7, both kendras = kendradhipati dosha &middot; retrograde &middot; receives Mars 8th and Saturn 10th drishti &middot; D9 Libra, own sign not retained &middot; Venus lord of 9 (trikona) and 2 (maraka)</p>
@@ -980,8 +1009,89 @@ footer p{max-width:66ch}
 </div>
 </section>
 
+
+<!-- ============ 17 ============ -->
+<section id="s17">
+<div class="shead"><span class="snum">17</span><h2>Reproduction appendix</h2></div>
+<p class="lede">Everything a technically competent reader would need to recompute this chart and get the same numbers, including the conventions that were choices rather than facts.</p>
+
+<h4>Software and data</h4>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Value</th></tr>
+<tr><td class="k">Ephemeris</td><td>Swiss Ephemeris 2.10.03 via pyswisseph 20230604</td></tr>
+<tr><td class="k">Data files</td><td>sepl_18.se1, semo_18.se1, seas_18.se1</td></tr>
+<tr><td class="k">Calculation flags</td><td>FLG_SWIEPH (2) | FLG_SPEED (256) | FLG_SIDEREAL (65536) = 65794</td></tr>
+<tr><td class="k">Sidereal mode</td><td>swe.set_sid_mode(SIDM_LAHIRI, 0, 0)</td></tr>
+<tr><td class="k">Houses call</td><td>swe.houses_ex(JD, lat, lon, b"P", FLG_SIDEREAL)</td></tr>
+</table></div>
+
+<h4>Time and place</h4>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Value</th></tr>
+<tr><td class="k">Local time</td><td>7 June 1996, 15:35</td></tr>
+<tr><td class="k">Zone</td><td>EDT, UTC&minus;4. Daylight saving was in effect in Pennsylvania on that date (US DST ran 7 April to 27 October 1996).</td></tr>
+<tr><td class="k">Universal time</td><td>19:35 UT</td></tr>
+<tr><td class="k">Julian Day (UT)</td><td>2450242.315972</td></tr>
+<tr><td class="k">Latitude</td><td>40.4406&deg; N</td></tr>
+<tr><td class="k">Longitude</td><td>79.9959&deg; W (passed as &minus;79.9959)</td></tr>
+<tr><td class="k">Ayanamsha at JD</td><td>23.807272&deg;</td></tr>
+</table></div>
+
+<h4>Conventions that were choices</h4>
+<div class="tbl"><table>
+<tr><th>Choice</th><th>What was used</th><th>What else exists</th></tr>
+<tr><td class="k">Bhava</td><td>Whole sign for the reading; Sripati (Porphyry madhyas, sandhis at midpoints between adjacent madhyas) as cross-check</td><td>Placidus-madhya gives the same two shifts. Equal-house and Koch would differ.</td></tr>
+<tr><td class="k">Nodes</td><td>Mean node</td><td>True node differs by 63.4&prime; here; same rashi, nakshatra and pada</td></tr>
+<tr><td class="k">Drishti</td><td>Sign-based graha drishti; 7th for all, plus Mars 4/8, Jupiter 5/9, Saturn 3/10</td><td>Degree-based virupa drishti would give partial values rather than binary</td></tr>
+<tr><td class="k">Node drishti</td><td>Included at the 7th &mdash; <strong>and flagged as school-dependent</strong>, not classical Parashari</td><td>Some authorities give 5/7/9, some 3/11, some none</td></tr>
+<tr><td class="k">Combustion orbs</td><td>Moon 12&deg;, Mars 17&deg;, Mercury 14&deg; (12&deg; retro), Jupiter 11&deg;, Venus 10&deg; (8&deg; retro), Saturn 15&deg;</td><td>Orb tables vary by a degree or two between authorities</td></tr>
+</table></div>
+
+<h4>Divisional chart formulae</h4>
+<div class="tbl"><table>
+<tr><th>Varga</th><th>Rule implemented</th></tr>
+<tr><td class="k">D9 Navamsa</td><td>index = (rashi &times; 9 + part) mod 12, part = floor(deg / 3&deg;20&prime;). Movable signs start from themselves, fixed from the 9th, dual from the 5th &mdash; this formula reproduces all three.</td></tr>
+<tr><td class="k">D10 Dashamsha</td><td>part = floor(deg / 3&deg;). Odd rashi: (rashi + part) mod 12. Even rashi: (rashi + 8 + part) mod 12.</td></tr>
+<tr><td class="k">D4 Chaturthamsha</td><td>part = floor(deg / 7&deg;30&prime;); index = (rashi + part &times; 3) mod 12.</td></tr>
+<tr><td class="k">D7 Saptamsha</td><td>part = floor(deg / 4&deg;17&prime;08&Prime;). Odd: (rashi + part) mod 12. Even: (rashi + 6 + part) mod 12.</td></tr>
+<tr><td class="k">D2 Hora</td><td>15&deg; halves. Odd rashi: first half Sun&rsquo;s hora (Leo), second Moon&rsquo;s (Cancer). Even rashi: reversed.</td></tr>
+</table></div>
+
+<h4>Dig bala</h4>
+<p>Points of maximum strength: Lagna for Jupiter and Mercury, the 4th cusp for Moon and Venus, the 7th for Saturn, the 10th for Sun and Mars. Virupas = (angular distance from the point <em>opposite</em> the point of maximum strength) &divide; 3, giving 0 at the weak point and 60 at the strong one. Computed from the actual ecliptic longitudes of the Ascendant and MC, not from bhava cusps, which is why the dig bala figures are unaffected by the bhava convention.</p>
+
+<h4>Baladi avastha</h4>
+<p>Five states of 6&deg; each within the rashi. In odd rashis the order runs Bala, Kumara, Yuva, Vriddha, Mrita from 0&deg;; in even rashis the order is reversed, so the count runs from 30&deg; downward. State only; the fractional strength multipliers some treatments attach (Bala &frac14;, Kumara &frac12;, Yuva full, Vriddha &frac14;, Mrita negligible) were <em>not</em> applied.</p>
+
+<h4>Vimshottari date arithmetic</h4>
+<div class="tbl"><table>
+<tr><th>Step</th><th>Convention used</th></tr>
+<tr><td class="k">Nakshatra fraction</td><td>Moon&rsquo;s longitude within the 13&deg;20&prime; asterism, divided by 13&deg;20&prime;. Here 63.6671%.</td></tr>
+<tr><td class="k">Balance at birth</td><td>18 &times; (1 &minus; 0.636671) = 6.5399 years of Rahu</td></tr>
+<tr><td class="k">Year length</td><td><strong>365.2425 days</strong>, the Gregorian mean year</td></tr>
+<tr><td class="k">Date arithmetic</td><td>Decimal years &times; 365.2425, added as a timedelta to the birth instant. No rounding until the date is printed.</td></tr>
+<tr><td class="k">The &ldquo;6y 6m 14d&rdquo; figure</td><td>A nominal 12-month, 30-day breakdown of the decimal, shown for readability only. <strong>It is not what the dates were computed from</strong> &mdash; those come from the decimal directly.</td></tr>
+</table></div>
+<div class="note caution">
+<span class="lv">Sensitivity of the dasha dates</span>
+<p>The year-length convention matters more than it looks. Against 365.25 (Julian year) the difference is under a day across the whole sequence and can be ignored. Against a 360-day <span class="sk">savana</span> year, which some traditions use, the first mahadasha boundary moves by roughly 35 days and the error compounds forward.</p>
+<p>So the exact dates in section 13 are exact <em>given 365.2425</em>. A practitioner using savana years will get materially different boundaries, and the antardasha and pratyantardasha dates should be read as precise to within days rather than to the day.</p>
+</div>
+
+<h4>What &ldquo;computed exactly&rdquo; means and does not mean</h4>
+<p>Dig bala and baladi avastha are computed exactly in the sense that each has a single unambiguous formula, stated above, applied without approximation. It does not mean the upstream choices are beyond dispute &mdash; ayanamsha, node convention, drishti scheme and bhava convention are all choices, and they are listed above precisely so a reader can vary them.</p>
+
+<h4>On citations, stated plainly</h4>
+<div class="note caution">
+<span class="lv">A limit this document cannot currently fix</span>
+<p>This reading repeatedly says &ldquo;classical texts hold&rdquo;, &ldquo;standard practice treats&rdquo;, and in one earlier version &ldquo;Parashara treats&rdquo;. <strong>No primary source was available while writing it</strong> &mdash; not Brihat Parashara Hora Shastra, not Phaladeepika, not Saravali, not Jataka Parijata.</p>
+<p>Rather than supply citations I cannot verify, I have supplied none. An invented chapter and verse would be worse than an admitted gap, and it would be indistinguishable from a real one to any reader who trusted it. A companion provenance audit classifies every doctrinal claim in this document as classical, standard later practice, school-dependent, or my own synthesis, and names the ones that most need checking &mdash; the nakshatra-chain apparatus and the functional benefic table above all.</p>
+<p>Until those claims are checked against texts, this document should be read as <em>a rigorous computation with a carefully labelled interpretation attached</em>, not as a sourced presentation of classical doctrine.</p>
+</div>
+</section>
+
 <footer>
-<p>Computed with the Swiss Ephemeris under Lahiri ayanamsha, Parashari whole-sign bhavas, mean nodes. Dig bala and baladi avastha computed exactly; Shadbala, Ishta and Kashta phala omitted rather than approximated, for the reasons given in section 10. No tropical comparison and no material from any other framework appears anywhere in this document.</p>
+<p>Computed with Swiss Ephemeris 2.10.03 under Lahiri ayanamsha, Parashari whole-sign bhavas, mean nodes. Full parameters, formulae and convention choices in section 17. Dig bala and baladi avastha computed from the single unambiguous formula each has; Shadbala, Ishta and Kashta phala omitted rather than approximated, for the reasons given in section 10. No doctrinal claim in this document carries a citation, because no primary source was available &mdash; section 17 explains what follows from that. No tropical comparison and no material from any other framework appears anywhere.</p>
 </footer>
 </div>
 </div>
