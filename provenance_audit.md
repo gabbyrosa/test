@@ -6,6 +6,26 @@ is rewritten.
 
 ---
 
+## OPEN — known, deliberately not actioned
+
+Three substantive corrections are outstanding. They are parked by agreement and
+are to be handled as **one discrete audit**, not folded into an unrelated pass,
+because a correction merged into other work is the one whose downstream
+occurrences never get checked.
+
+| # | Correction | Source | Where it lands |
+|---|---|---|---|
+| 1 | **Functional-table errors.** Moon is under-called as "mixed" where the text says malefic. Sun is over-called as a functional malefic where the text says its role depends on association. Saturn is not named for Virgo in the passage at all, so "mixed, tilting benefic" is unsupported by it. | BPHS ch. 34 vv. 31-32, sanskritdocuments translation | Reading §7 table; §4 Sun and Saturn entries; §15 wherever the functional roles are relied on |
+| 2 | **Yoga citation and provenance.** Dharma-Karmadhipati currently rests on the generic kendra-trikona rule. The same Virgo passage names the Venus-Mercury conjunction as yoga-producing for this lagna specifically, which is stronger and more direct. Carries **low textual stability** — a second translation reads "become Yogakaraka" rather than "their yuti will produce Yog." | same passage | Reading §9 Dharma-Karmadhipati; §16 Theme I combo line |
+| 3 | **Node drishti removal.** The drishti table gives Rahu and Ketu a 7th aspect each. No tier-A source supports it; ch. 34 vv. 16-17 give the nodes effects by conjunction and occupation only. Ketu is separately argued to cast no graha drishti at all. | BPHS ch. 34 vv. 16-17 | Reading §6 drishti table (both node rows, plus "Saturn receives Rahu" and "Rahu receives Ketu"); §14 aspects-received row; §17 conventions table |
+
+Two of the original audit's own conclusions were also reversed by the search
+addendum at the end of this file and are already recorded there: the Jupiter
+"functional malefic" label for Virgo is textually supported, and the
+per-lagna functional table is not a modern systematization.
+
+---
+
 ## The limit of this audit, stated first
 
 **I do not have Brihat Parashara Hora Shastra, Phaladeepika, Jataka Parijata,

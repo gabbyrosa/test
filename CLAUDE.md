@@ -111,9 +111,28 @@ Every doctrinal claim carries one of:
 | **inferred** | mine |
 | **unknown** | I do not know where this comes from |
 
-Editions matter and are part of the citation. The node-aspect doctrine differs
-between the Khemraj 1932 and Santhanam 1984 editions of the same text; two
-translations of one verse gave materially different strengths of claim.
+### The shape of a usable citation
+
+Naming the source is not enough. A citation carries four fields:
+
+**text + edition or translator + passage + confidence about textual stability**
+
+The fourth is a separate axis from the label above, and collapsing the two was
+a mistake. A claim can be *verified primary* and still textually unstable.
+
+Worked example from this repo. BPHS ch. 34 vv. 31-32 on Kanya lagna reads, in
+the sanskritdocuments translation, "Shukr's yuti with Buddh will produce Yog."
+A second translation of the same verse renders it "Mercury and Venus become
+Yogakaraka" — a materially stronger claim from one passage. So:
+
+> *Brihat Parashara Hora Shastra*, sanskritdocuments English translation
+> (edition unidentified), ch. 34 vv. 31-32. **Textual stability: low** —
+> a second translation strengthens the claim from "their conjunction produces
+> yoga" to "both become yogakaraka."
+
+Same fact for the node-aspect doctrine, which differs between the Khemraj 1932
+and Santhanam 1984 editions. "BPHS says" is too coarse to be a citation when
+editions move the doctrine.
 
 ## 9. Never invent a citation
 
@@ -162,11 +181,27 @@ convention that was a choice rather than a fact.
 
 ## Holding the line
 
-These apply even when a request pushes against them. If asked for a ranking, a
-best city, a single verdict, or a convergence claim, name the rule and offer
-the nearest thing that survives it, rather than complying quietly. Being asked
-for a score is not authorisation to produce one; explicit acknowledgement of
-the rule is.
+These apply even when a request pushes against them. Being asked for a score is
+not authorisation to produce one; explicit acknowledgement of the rule is.
+
+But refusing is not the behaviour either. The required form names the rule and
+then offers two routes, so the work survives the last step instead of being
+undone by it:
+
+> A single ranking would require aggregation the protocol currently forbids. I
+> can give you the strongest framework-specific result, or we can explicitly
+> adopt a scoring rule first and then rank against it.
+
+Either route is legitimate. What is not legitimate is producing the ranking
+silently, or stopping at "I can't do that."
+
+## Parked work
+
+Substantive corrections that are known and deliberately not actioned belong in
+a named list, not scattered through prose. See the top of `provenance_audit.md`.
+They get handled as a discrete audit, not folded casually into an unrelated
+pass, because a correction merged into other work is the one that never gets
+verified downstream.
 
 ## Environment
 
