@@ -61,9 +61,9 @@ kind of work, and merging them would hide which question is actually unanswered.
 | **Hora doctrine, baladi multipliers** | Implementation + provenance | Two questions, not one. Is there a textual source, *and* does the code implement the same doctrine the source describes? A correct citation over a divergent implementation is worse than neither. |
 | **Rashi sandhi** | Definition + provenance | Fix the exact numerical boundary being asserted before testing the chart against it. Currently the claim has no stated degree band. |
 
-### Item 1 of 4 — Lakshmi Yoga — **CLOSED: CONFIRMED**
+### Item 1 of 4 — Lakshmi Yoga — **CLOSED: forms under the ordinary reading of Phaladeepika 6.21**
 
-**Source.** *Phaladeepika* of Mantreswara, ch. 6 v. 28, wisdomlib text-and-translation
+**Source.** *Phaladeepika* of Mantreswara, ch. 6 v. 21, wisdomlib text-and-translation
 edition. Textual stability: **not tested** — one translation consulted.
 
 > "If the lord of the 9th and Venus be posited in their own or exaltation houses
@@ -71,8 +71,8 @@ edition. Textual stability: **not tested** — one translation consulted.
 
 **The rule the document was using was wrong twice.** It read "the 9th lord in its
 own sign or exaltation, in a kendra or trikona, with a strong Lagna lord." That
-**omitted the condition on Venus** and **added a Lagna-lord condition verse 28 does
-not contain**. Verse 28 is silent on the Lagna lord, and equally silent on
+**omitted the condition on Venus** and **added a Lagna-lord condition verse 21 does
+not contain**. Verse 21 is silent on the Lagna lord, and equally silent on
 combustion, retrogression and affliction.
 
 The document had then reported the yoga as forming "with one condition partially
@@ -80,23 +80,46 @@ met" — a qualification manufactured out of a requirement that does not exist. 
 is the inverse of the usual failure: not a caveat that decayed, but a caveat
 invented from a misremembered rule.
 
-**Test against verse 28 as written.**
+**Test against verse 21 as written.**
 
 | Condition | Chart | Verdict |
 |---|---|---|
 | Lord of the 9th, own or exaltation, in trikona or kendra | 9th from Virgo is Taurus, so the 9th lord is Venus; Venus 28°01′ Taurus, own sign, in the 9th, a trikona | satisfied |
 | Venus, own or exaltation, in trikona or kendra | same placement | satisfied |
 
-**Outcome: CONFIRMED.** The yoga forms and retains principal status.
+**Outcome: forms under the ordinary reading of 6.21.** Both stated conditions are
+met and the yoga retains principal status.
+
+**Citation error, corrected.** This audit first recorded the verse as **6.28**. That
+was wrong — 6.28 defines Srikantha, Srinatha and Virinchi. Caught on review. My
+automated reads of the wisdomlib page returned the verse number inconsistently
+(first 28, then 21 with an internally contradictory answer about what 21 contains),
+so the number now rests on a human check rather than on my own reading.
+
+**Consequence for the citation format.** The *passage* field is only ever as good as
+the read that produced it, and can fail independently of the text being correct. The
+four-field citation shape needs passage-number confidence tracked separately from
+textual stability. Recorded here; propagated to CLAUDE.md.
 
 **Real qualification, which replaces the false one.** For Virgo lagna the 9th lord
-*is* Venus, so verse 28's two named roles collapse onto one graha and a single
+*is* Venus, so verse 21's two named roles collapse onto one graha and a single
 placement does double duty. Enumerating all twelve lagnas, this occurs for exactly
 **two — Virgo and Aquarius** — the only ones whose 9th sign is Taurus or Libra. The
-other ten require two distinct grahas simultaneously dignified. The yoga forms, and
-it forms on a materially cheaper condition here than the sloka's phrasing implies.
+other ten require two distinct grahas simultaneously dignified.
 
-**Not disqualifying, but still true.** Verse 28 says nothing about combustion or
+What this establishes is narrow: the yoga here **requires only one distinct graha to
+be dignified rather than two**. That is a statement about how many bodies the
+condition needs — not about the yoga being weaker or easier in effect. The earlier
+wording, "a materially cheaper condition," overstated it in the direction of a
+quality judgement and is withdrawn.
+
+**Provenance of the one-graha reading: secondary.** Later and practical Jyotish
+sources recognise this single-planet form for Virgo and Aquarius ascendants. Verse 21
+itself names "the lord of the 9th and Venus" without separately discussing the case
+where the two roles fall on the same graha, so the classical text does not explicitly
+confirm the Virgo one-planet case.
+
+**Not disqualifying, but still true.** Verse 21 says nothing about combustion or
 navamsa dignity, so Venus being combust at 4°32′ and debilitated in D9 does not
 block formation. Those travel with the claim regardless.
 

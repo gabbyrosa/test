@@ -134,6 +134,19 @@ Same fact for the node-aspect doctrine, which differs between the Khemraj 1932
 and Santhanam 1984 editions. "BPHS says" is too coarse to be a citation when
 editions move the doctrine.
 
+### Passage-number confidence is its own field
+
+The *passage* field is only as good as the read that produced it, and it can fail
+while the quoted text is perfectly correct. Track it separately from textual
+stability.
+
+Worked example: Lakshmi Yoga was first cited here as *Phaladeepika* 6.28. The
+quoted verse was right; the number was wrong — 6.28 defines Srikantha, Srinatha
+and Virinchi, and Lakshmi is 6.21. Automated reads of the same page returned the
+number inconsistently across attempts, including one internally contradictory
+answer. A citation whose text is verified and whose number came from a single
+automated read should say so.
+
 ## 9. Never invent a citation
 
 If the primary source is not in the environment, supply no citation at all. An
