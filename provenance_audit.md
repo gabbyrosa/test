@@ -59,7 +59,7 @@ kind of work, and merging them would hide which question is actually unanswered.
 | **Nakshatra-chain framing (§5)** | Provenance / framework | Not "find a citation." Whether the technique belongs inside the declared framework at all. Confirmed KP-weighted; the choice is to relabel the section or drop its interpretive weight. |
 | ~~Lakshmi yoga conditions~~ | Doctrinal verification | **CLOSED — see below. Outcome: confirmed, rule replaced, false qualification withdrawn, real qualification attached.** |
 | **Hora doctrine, baladi multipliers** | Implementation + provenance | Two questions, not one. Is there a textual source, *and* does the code implement the same doctrine the source describes? A correct citation over a divergent implementation is worse than neither. |
-| **Rashi sandhi** | Definition + provenance | Fix the exact numerical boundary being asserted before testing the chart against it. Currently the claim has no stated degree band. |
+| ~~Rashi sandhi~~ | Definition + provenance | **CLOSED — see below. Outcome: no sourced threshold exists; claim withdrawn, no verdict given.** |
 
 ### Item 1 of 4 — Lakshmi Yoga — **CLOSED: forms under the ordinary reading of Phaladeepika 6.21**
 
@@ -134,6 +134,56 @@ verdict is unchanged.
 **Landing sites edited:** §9 rule and test, §13 Saturn/Venus dasha, §15 Money,
 §16 Theme I combo. Verified: old rule appears only inside the correction note as a
 recorded quotation, zero live instances.
+
+### Item 2 of 4 — Rashi sandhi — **CLOSED: threshold not establishable; claim withdrawn**
+
+**Scope first.** The document used "sandhi" in two unrelated senses. *Bhava sandhi*
+(§1, §17) is a computational definition I stated and implemented — the midpoint
+between adjacent bhava madhyas — and is not in dispute. *Rashi sandhi* is the open
+claim and landed in exactly two places, both about Mercury.
+
+**Disclosure.** Mercury's position (0°16′53″ Taurus) was already known to me before
+this search, so the threshold could not be fixed blind. Mitigation: report every
+threshold variant found rather than selecting one, and record which side Mercury
+falls on for each.
+
+**Definition search — three searches, no classical passage found.**
+
+| Source | Threshold given | Cites a text for the number? |
+|---|---|---|
+| secondary | 29°40′ of preceding rashi to **0°20′** of following | no |
+| secondary (Sarbani Rath) | none stated; worked example places a graha "at rāśi sandhi" at **0°05′** | no |
+| secondary, on **gandanta** | last/first 3°20′ at three junctions | **yes — attributed to Parāśara** |
+
+**Test, both variants, computed.**
+
+| Variant | Threshold | Mercury 0°16′53″ |
+|---|---|---|
+| 0°20′ band | 0°20′00″ | **inside by 3′07″** |
+| 0°05′ scale | 0°05′00″ | **outside by 11′53″** |
+
+**Outcome: no verdict.** The claim flips on a choice between two unsourced
+conventions separated by 15 arcminutes, with Mercury sitting between them. Under
+the rule that a measure with competing formulations and no way to choose produces
+no number, none is produced. The attribution to "classical texts" is withdrawn as
+unsupported.
+
+**The one named attribution does not apply.** Gandanta — the severe form, attributed
+to Parāśara (secondary) — covers Pisces–Aries, Cancer–Leo and Scorpio–Sagittarius,
+the water-to-fire joins. **Aries–Taurus is not among them**, so gandanta is
+inapplicable to Mercury at any degree. This is the reverse of the usual pattern: the
+sourced doctrine is the one that fails to apply, while the applicable-looking one is
+unsourced.
+
+**What survives.** The geometric fact — Mercury is 17 arcminutes into Taurus, the
+first graha by degree in that sign — is computed and stands on its own, with no
+doctrinal weight attached. Mercury's Mrita avastha, the second counterweight in the
+same passage, is untouched here; it belongs to item 3.
+
+**Landing sites edited:** §4 Mercury (full note), §9 Dharma-Karmadhipati modification
+(sandhi clause removed), §17 conventions table (new row: rashi sandhi **not used**).
+Verified: the old attribution appears only inside the correction note as a recorded
+quotation, zero live instances.
 
 ---
 
