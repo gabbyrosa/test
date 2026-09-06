@@ -58,7 +58,7 @@ kind of work, and merging them would hide which question is actually unanswered.
 |---|---|---|
 | **Nakshatra-chain framing (§5)** | Provenance / framework | Not "find a citation." Whether the technique belongs inside the declared framework at all. Confirmed KP-weighted; the choice is to relabel the section or drop its interpretive weight. |
 | ~~Lakshmi yoga conditions~~ | Doctrinal verification | **CLOSED — see below. Outcome: confirmed, rule replaced, false qualification withdrawn, real qualification attached.** |
-| **Hora doctrine** | Implementation + provenance | Item 4, still open. Baladi split out and CLOSED separately below. |
+| ~~Hora doctrine~~ | Implementation + provenance | **CLOSED — see below. Construction confirmed; wealth interpretation and majority-counting both withdrawn.** |
 | ~~Rashi sandhi~~ | Definition + provenance | **CLOSED — see below. Outcome: no sourced threshold exists; claim withdrawn, no verdict given.** |
 
 ### Item 1 of 4 — Lakshmi Yoga — **CLOSED: forms under the ordinary reading of Phaladeepika 6.21**
@@ -254,6 +254,67 @@ independently verified.
 comparison paragraph, three table rows), §15 identity, §15 career, §9 modification
 (strengthened), §17 formula block and fractions and a new nodes note, footer. Verified:
 one stale string remains and it is the recorded quotation inside the correction.
+
+### Item 4 of 4 — D2 Hora — **CLOSED: construction confirmed, interpretation withdrawn**
+
+Eleven live sites enumerated before any research (15 raw hits; three were "Brihat
+Parashara Hora Shastra" in a citation and one a CSS variable), grouped as
+construction / placements / D2 dignity / interpretation / aggregation.
+
+**Construction — CONFIRMED.** 15° halves; odd rashi first half Sun's hora → Leo,
+second Moon's → Cancer; even reversed. Secondary sources report the classics
+*unanimous* on this definition — BPHS, Brihat Jataka, Saravali, Phaladeepika, Jataka
+Parijata. The document's hedge that "other hora constructions exist and would give a
+different chart" misrepresented that and is corrected: variant schemes circulate in
+later practice, but the classical position is not in dispute.
+
+**Placements — CONFIRMED**, recomputed from degrees.
+
+| hora | grahas |
+|---|---|
+| Moon's (Cancer) | Moon, Mars, Mercury, Jupiter, Saturn |
+| Sun's (Leo) | Sun, Venus |
+
+**D2 dignity — CONFIRMED.** Jupiter exalted in Cancer, Mars debilitated in Cancer.
+
+**Interpretation — WITHDRAWN.** The document said *"Classical hora doctrine holds that
+the Sun's hora favours self-generated wealth and the Moon's favours received or
+accumulated wealth."* The self-generated-versus-received binary is **practitioner
+convention, tier C**. No classical passage stating it was located, and one source
+consulted explicitly cautions that the texts do not treat the horas as that kind of
+binary. The attribution to "classical hora doctrine" fails.
+
+**Aggregation — WITHDRAWN, and it fails two ways.** *"The distribution here tilts
+toward the Moon's side"* counts grahas and reads the majority. No source consulted
+endorses that, and the one source setting out an analytical procedure **explicitly
+rejects** it — the D2 being a table recording which graha went where, not a
+distribution to be totalled. It also breached this document's own standing rule
+against counting without an aggregation rule fixed in advance. That second failure was
+visible before any research and did not need provenance to settle.
+
+**A rule that IS attributed — and the chart does not meet it.** *Phaladeepika* ch. 3
+v. 12, reported also in *Saravali* and *Brihat Jataka*: natural malefics in the Sun's
+hora **in odd signs** make the native strong and wealthy. Tested: Sun is in the Sun's
+hora but in Taurus, an even sign; Mars and Saturn are both in the Moon's hora.
+**0 of 3.** Only the malefic limb was available, so no delineation is built on it.
+**Provenance: secondary; passage number unverified** — from a practitioner page
+quoting the verse, and this audit has already had one verse number prove wrong when
+taken from a single automated read.
+
+**Nodes — removed.** No source consulted uses Rahu and Ketu in D2 analysis. "As do
+both nodes" was the same unsupported extension found in the baladi pass.
+
+**The D2 is a table, not a house-chart.** The document already assigned it no lagna and
+no houses, which was correct; that is now stated rather than left implicit.
+
+**What remains of the D2:** construction and placements, plus Jupiter's exaltation and
+Mars's debilitation in Cancer. **No wealth conclusion is drawn from it anywhere.**
+
+**Landing sites edited:** §12 (construction, placements, interpretation, aggregation,
+nodes, attributed rule), §15 Money (contribution withdrawn), §6 (D2 no longer named as
+the 2nd-house cross-check), §17 conventions row. Verified: three residual matches, all
+three inside the correction note — two in the recorded quotation, one in the sentence
+naming the withdrawn phrase. **Zero live.**
 
 ---
 
