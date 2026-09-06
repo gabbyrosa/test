@@ -1,0 +1,3 @@
+pyswisseph==2.10.3.2
+# Optional, only for regenerating the preview screenshots (shoot.py):
+# playwright==1.61.0

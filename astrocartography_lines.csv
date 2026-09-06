@@ -1,0 +1,821 @@
+body,angle,latitude_deg,longitude_deg
+Sun,MC,,-114.02
+Sun,IC,,65.98
+Sun,AC,65.0,91.45
+Sun,DC,65.0,40.52
+Sun,AC,60.0,109.16
+Sun,DC,60.0,22.80
+Sun,AC,55.0,119.02
+Sun,DC,55.0,12.94
+Sun,AC,50.0,125.87
+Sun,DC,50.0,6.10
+Sun,AC,45.0,131.09
+Sun,DC,45.0,0.88
+Sun,AC,40.0,135.30
+Sun,DC,40.0,-3.33
+Sun,AC,35.0,138.84
+Sun,DC,35.0,-6.87
+Sun,AC,30.0,141.92
+Sun,DC,30.0,-9.95
+Sun,AC,25.0,144.66
+Sun,DC,25.0,-12.69
+Sun,AC,20.0,147.17
+Sun,DC,20.0,-15.20
+Sun,AC,15.0,149.51
+Sun,DC,15.0,-17.54
+Sun,AC,10.0,151.73
+Sun,DC,10.0,-19.76
+Sun,AC,5.0,153.87
+Sun,DC,5.0,-21.91
+Sun,AC,0.0,155.98
+Sun,DC,0.0,-24.02
+Sun,AC,-5.0,158.09
+Sun,DC,-5.0,-26.13
+Sun,AC,-10.0,160.24
+Sun,DC,-10.0,-28.27
+Sun,AC,-15.0,162.46
+Sun,DC,-15.0,-30.49
+Sun,AC,-20.0,164.80
+Sun,DC,-20.0,-32.83
+Sun,AC,-25.0,167.31
+Sun,DC,-25.0,-35.34
+Sun,AC,-30.0,170.05
+Sun,DC,-30.0,-38.08
+Sun,AC,-35.0,173.13
+Sun,DC,-35.0,-41.16
+Sun,AC,-40.0,176.67
+Sun,DC,-40.0,-44.70
+Sun,AC,-45.0,-179.12
+Sun,DC,-45.0,-48.91
+Sun,AC,-50.0,-173.90
+Sun,DC,-50.0,-54.13
+Sun,AC,-55.0,-167.06
+Sun,DC,-55.0,-60.98
+Sun,AC,-60.0,-157.20
+Sun,DC,-60.0,-70.84
+Sun,AC,-65.0,-139.48
+Sun,DC,-65.0,-88.55
+Moon,MC,,149.21
+Moon,IC,,-30.79
+Moon,AC,80.0,91.77
+Moon,DC,80.0,-153.36
+Moon,AC,75.0,79.95
+Moon,DC,75.0,-141.54
+Moon,AC,70.0,74.32
+Moon,DC,70.0,-135.91
+Moon,AC,65.0,70.95
+Moon,DC,65.0,-132.54
+Moon,AC,60.0,68.67
+Moon,DC,60.0,-130.25
+Moon,AC,55.0,67.00
+Moon,DC,55.0,-128.58
+Moon,AC,50.0,65.70
+Moon,DC,50.0,-127.29
+Moon,AC,45.0,64.65
+Moon,DC,45.0,-126.24
+Moon,AC,40.0,63.78
+Moon,DC,40.0,-125.36
+Moon,AC,35.0,63.02
+Moon,DC,35.0,-124.60
+Moon,AC,30.0,62.35
+Moon,DC,30.0,-123.93
+Moon,AC,25.0,61.74
+Moon,DC,25.0,-123.33
+Moon,AC,20.0,61.19
+Moon,DC,20.0,-122.77
+Moon,AC,15.0,60.67
+Moon,DC,15.0,-122.25
+Moon,AC,10.0,60.17
+Moon,DC,10.0,-121.75
+Moon,AC,5.0,59.68
+Moon,DC,5.0,-121.27
+Moon,AC,0.0,59.21
+Moon,DC,0.0,-120.79
+Moon,AC,-5.0,58.73
+Moon,DC,-5.0,-120.32
+Moon,AC,-10.0,58.25
+Moon,DC,-10.0,-119.83
+Moon,AC,-15.0,57.75
+Moon,DC,-15.0,-119.33
+Moon,AC,-20.0,57.23
+Moon,DC,-20.0,-118.81
+Moon,AC,-25.0,56.67
+Moon,DC,-25.0,-118.26
+Moon,AC,-30.0,56.07
+Moon,DC,-30.0,-117.65
+Moon,AC,-35.0,55.40
+Moon,DC,-35.0,-116.98
+Moon,AC,-40.0,54.64
+Moon,DC,-40.0,-116.22
+Moon,AC,-45.0,53.76
+Moon,DC,-45.0,-115.35
+Moon,AC,-50.0,52.71
+Moon,DC,-50.0,-114.30
+Moon,AC,-55.0,51.42
+Moon,DC,-55.0,-113.00
+Moon,AC,-60.0,49.75
+Moon,DC,-60.0,-111.33
+Moon,AC,-65.0,47.46
+Moon,DC,-65.0,-109.05
+Moon,AC,-70.0,44.09
+Moon,DC,-70.0,-105.68
+Moon,AC,-75.0,38.46
+Moon,DC,-75.0,-100.05
+Moon,AC,-80.0,26.64
+Moon,DC,-80.0,-88.23
+Mercury,MC,,-137.55
+Mercury,IC,,42.45
+Mercury,AC,70.0,84.42
+Mercury,DC,70.0,0.49
+Mercury,AC,65.0,96.98
+Mercury,DC,65.0,-12.07
+Mercury,AC,60.0,104.50
+Mercury,DC,60.0,-19.59
+Mercury,AC,55.0,109.72
+Mercury,DC,55.0,-24.81
+Mercury,AC,50.0,113.64
+Mercury,DC,50.0,-28.73
+Mercury,AC,45.0,116.75
+Mercury,DC,45.0,-31.85
+Mercury,AC,40.0,119.33
+Mercury,DC,40.0,-34.42
+Mercury,AC,35.0,121.53
+Mercury,DC,35.0,-36.62
+Mercury,AC,30.0,123.46
+Mercury,DC,30.0,-38.56
+Mercury,AC,25.0,125.20
+Mercury,DC,25.0,-40.30
+Mercury,AC,20.0,126.80
+Mercury,DC,20.0,-41.89
+Mercury,AC,15.0,128.29
+Mercury,DC,15.0,-43.39
+Mercury,AC,10.0,129.72
+Mercury,DC,10.0,-44.81
+Mercury,AC,5.0,131.10
+Mercury,DC,5.0,-46.19
+Mercury,AC,0.0,132.45
+Mercury,DC,0.0,-47.55
+Mercury,AC,-5.0,133.81
+Mercury,DC,-5.0,-48.90
+Mercury,AC,-10.0,135.19
+Mercury,DC,-10.0,-50.28
+Mercury,AC,-15.0,136.61
+Mercury,DC,-15.0,-51.71
+Mercury,AC,-20.0,138.11
+Mercury,DC,-20.0,-53.20
+Mercury,AC,-25.0,139.70
+Mercury,DC,-25.0,-54.80
+Mercury,AC,-30.0,141.44
+Mercury,DC,-30.0,-56.54
+Mercury,AC,-35.0,143.38
+Mercury,DC,-35.0,-58.47
+Mercury,AC,-40.0,145.58
+Mercury,DC,-40.0,-60.67
+Mercury,AC,-45.0,148.15
+Mercury,DC,-45.0,-63.25
+Mercury,AC,-50.0,151.27
+Mercury,DC,-50.0,-66.36
+Mercury,AC,-55.0,155.19
+Mercury,DC,-55.0,-70.28
+Mercury,AC,-60.0,160.41
+Mercury,DC,-60.0,-75.50
+Mercury,AC,-65.0,167.93
+Mercury,DC,-65.0,-83.02
+Mercury,AC,-70.0,-179.51
+Mercury,DC,-70.0,-95.58
+Venus,MC,,-109.13
+Venus,IC,,70.87
+Venus,AC,65.0,93.05
+Venus,DC,65.0,48.69
+Venus,AC,60.0,112.46
+Venus,DC,60.0,29.28
+Venus,AC,55.0,122.79
+Venus,DC,55.0,18.94
+Venus,AC,50.0,129.90
+Venus,DC,50.0,11.84
+Venus,AC,45.0,135.29
+Venus,DC,45.0,6.45
+Venus,AC,40.0,139.63
+Venus,DC,40.0,2.11
+Venus,AC,35.0,143.27
+Venus,DC,35.0,-1.53
+Venus,AC,30.0,146.43
+Venus,DC,30.0,-4.70
+Venus,AC,25.0,149.25
+Venus,DC,25.0,-7.52
+Venus,AC,20.0,151.83
+Venus,DC,20.0,-10.09
+Venus,AC,15.0,154.22
+Venus,DC,15.0,-12.49
+Venus,AC,10.0,156.50
+Venus,DC,10.0,-14.76
+Venus,AC,5.0,158.70
+Venus,DC,5.0,-16.97
+Venus,AC,0.0,160.87
+Venus,DC,0.0,-19.13
+Venus,AC,-5.0,163.03
+Venus,DC,-5.0,-21.30
+Venus,AC,-10.0,165.24
+Venus,DC,-10.0,-23.50
+Venus,AC,-15.0,167.51
+Venus,DC,-15.0,-25.78
+Venus,AC,-20.0,169.91
+Venus,DC,-20.0,-28.17
+Venus,AC,-25.0,172.48
+Venus,DC,-25.0,-30.75
+Venus,AC,-30.0,175.30
+Venus,DC,-30.0,-33.57
+Venus,AC,-35.0,178.47
+Venus,DC,-35.0,-36.73
+Venus,AC,-40.0,-177.89
+Venus,DC,-40.0,-40.37
+Venus,AC,-45.0,-173.55
+Venus,DC,-45.0,-44.71
+Venus,AC,-50.0,-168.16
+Venus,DC,-50.0,-50.10
+Venus,AC,-55.0,-161.06
+Venus,DC,-55.0,-57.21
+Venus,AC,-60.0,-150.72
+Venus,DC,-60.0,-67.54
+Venus,AC,-65.0,-131.31
+Venus,DC,-65.0,-86.95
+Mars,MC,,-135.94
+Mars,IC,,44.06
+Mars,AC,70.0,60.51
+Mars,DC,70.0,27.61
+Mars,AC,65.0,85.59
+Mars,DC,65.0,2.53
+Mars,AC,60.0,96.86
+Mars,DC,60.0,-8.74
+Mars,AC,55.0,104.16
+Mars,DC,55.0,-16.04
+Mars,AC,50.0,109.48
+Mars,DC,50.0,-21.36
+Mars,AC,45.0,113.63
+Mars,DC,45.0,-25.51
+Mars,AC,40.0,117.03
+Mars,DC,40.0,-28.91
+Mars,AC,35.0,119.91
+Mars,DC,35.0,-31.79
+Mars,AC,30.0,122.43
+Mars,DC,30.0,-34.31
+Mars,AC,25.0,124.69
+Mars,DC,25.0,-36.57
+Mars,AC,20.0,126.76
+Mars,DC,20.0,-38.64
+Mars,AC,15.0,128.69
+Mars,DC,15.0,-40.57
+Mars,AC,10.0,130.53
+Mars,DC,10.0,-42.41
+Mars,AC,5.0,132.31
+Mars,DC,5.0,-44.19
+Mars,AC,0.0,134.06
+Mars,DC,0.0,-45.94
+Mars,AC,-5.0,135.81
+Mars,DC,-5.0,-47.69
+Mars,AC,-10.0,137.59
+Mars,DC,-10.0,-49.47
+Mars,AC,-15.0,139.43
+Mars,DC,-15.0,-51.31
+Mars,AC,-20.0,141.36
+Mars,DC,-20.0,-53.24
+Mars,AC,-25.0,143.43
+Mars,DC,-25.0,-55.31
+Mars,AC,-30.0,145.69
+Mars,DC,-30.0,-57.57
+Mars,AC,-35.0,148.21
+Mars,DC,-35.0,-60.09
+Mars,AC,-40.0,151.09
+Mars,DC,-40.0,-62.97
+Mars,AC,-45.0,154.49
+Mars,DC,-45.0,-66.37
+Mars,AC,-50.0,158.64
+Mars,DC,-50.0,-70.52
+Mars,AC,-55.0,163.96
+Mars,DC,-55.0,-75.84
+Mars,AC,-60.0,171.26
+Mars,DC,-60.0,-83.14
+Mars,AC,-65.0,-177.47
+Mars,DC,-65.0,-94.41
+Mars,AC,-70.0,-152.39
+Mars,DC,-70.0,-119.49
+Jupiter,MC,,97.02
+Jupiter,IC,,-82.98
+Jupiter,AC,65.0,69.65
+Jupiter,DC,65.0,124.40
+Jupiter,AC,60.0,52.85
+Jupiter,DC,60.0,141.20
+Jupiter,AC,55.0,43.28
+Jupiter,DC,55.0,150.77
+Jupiter,AC,50.0,36.59
+Jupiter,DC,50.0,157.46
+Jupiter,AC,45.0,31.49
+Jupiter,DC,45.0,162.56
+Jupiter,AC,40.0,27.36
+Jupiter,DC,40.0,166.69
+Jupiter,AC,35.0,23.88
+Jupiter,DC,35.0,170.17
+Jupiter,AC,30.0,20.86
+Jupiter,DC,30.0,173.19
+Jupiter,AC,25.0,18.16
+Jupiter,DC,25.0,175.89
+Jupiter,AC,20.0,15.69
+Jupiter,DC,20.0,178.36
+Jupiter,AC,15.0,13.39
+Jupiter,DC,15.0,-179.35
+Jupiter,AC,10.0,11.21
+Jupiter,DC,10.0,-177.16
+Jupiter,AC,5.0,9.10
+Jupiter,DC,5.0,-175.05
+Jupiter,AC,0.0,7.02
+Jupiter,DC,0.0,-172.98
+Jupiter,AC,-5.0,4.95
+Jupiter,DC,-5.0,-170.90
+Jupiter,AC,-10.0,2.84
+Jupiter,DC,-10.0,-168.79
+Jupiter,AC,-15.0,0.65
+Jupiter,DC,-15.0,-166.61
+Jupiter,AC,-20.0,-1.64
+Jupiter,DC,-20.0,-164.31
+Jupiter,AC,-25.0,-4.11
+Jupiter,DC,-25.0,-161.84
+Jupiter,AC,-30.0,-6.81
+Jupiter,DC,-30.0,-159.14
+Jupiter,AC,-35.0,-9.83
+Jupiter,DC,-35.0,-156.12
+Jupiter,AC,-40.0,-13.31
+Jupiter,DC,-40.0,-152.64
+Jupiter,AC,-45.0,-17.44
+Jupiter,DC,-45.0,-148.51
+Jupiter,AC,-50.0,-22.54
+Jupiter,DC,-50.0,-143.41
+Jupiter,AC,-55.0,-29.23
+Jupiter,DC,-55.0,-136.72
+Jupiter,AC,-60.0,-38.80
+Jupiter,DC,-60.0,-127.15
+Jupiter,AC,-65.0,-55.60
+Jupiter,DC,-65.0,-110.35
+Saturn,MC,,176.18
+Saturn,IC,,-3.82
+Saturn,AC,85.0,82.14
+Saturn,DC,85.0,-89.79
+Saturn,AC,80.0,84.17
+Saturn,DC,80.0,-91.82
+Saturn,AC,75.0,84.86
+Saturn,DC,75.0,-92.51
+Saturn,AC,70.0,85.21
+Saturn,DC,70.0,-92.85
+Saturn,AC,65.0,85.42
+Saturn,DC,65.0,-93.07
+Saturn,AC,60.0,85.56
+Saturn,DC,60.0,-93.21
+Saturn,AC,55.0,85.67
+Saturn,DC,55.0,-93.32
+Saturn,AC,50.0,85.76
+Saturn,DC,50.0,-93.40
+Saturn,AC,45.0,85.82
+Saturn,DC,45.0,-93.47
+Saturn,AC,40.0,85.88
+Saturn,DC,40.0,-93.53
+Saturn,AC,35.0,85.93
+Saturn,DC,35.0,-93.58
+Saturn,AC,30.0,85.97
+Saturn,DC,30.0,-93.62
+Saturn,AC,25.0,86.01
+Saturn,DC,25.0,-93.66
+Saturn,AC,20.0,86.05
+Saturn,DC,20.0,-93.70
+Saturn,AC,15.0,86.08
+Saturn,DC,15.0,-93.73
+Saturn,AC,10.0,86.11
+Saturn,DC,10.0,-93.76
+Saturn,AC,5.0,86.14
+Saturn,DC,5.0,-93.79
+Saturn,AC,0.0,86.18
+Saturn,DC,0.0,-93.82
+Saturn,AC,-5.0,86.21
+Saturn,DC,-5.0,-93.86
+Saturn,AC,-10.0,86.24
+Saturn,DC,-10.0,-93.89
+Saturn,AC,-15.0,86.27
+Saturn,DC,-15.0,-93.92
+Saturn,AC,-20.0,86.30
+Saturn,DC,-20.0,-93.95
+Saturn,AC,-25.0,86.34
+Saturn,DC,-25.0,-93.99
+Saturn,AC,-30.0,86.38
+Saturn,DC,-30.0,-94.03
+Saturn,AC,-35.0,86.42
+Saturn,DC,-35.0,-94.07
+Saturn,AC,-40.0,86.47
+Saturn,DC,-40.0,-94.12
+Saturn,AC,-45.0,86.53
+Saturn,DC,-45.0,-94.18
+Saturn,AC,-50.0,86.60
+Saturn,DC,-50.0,-94.24
+Saturn,AC,-55.0,86.68
+Saturn,DC,-55.0,-94.33
+Saturn,AC,-60.0,86.79
+Saturn,DC,-60.0,-94.44
+Saturn,AC,-65.0,86.93
+Saturn,DC,-65.0,-94.58
+Saturn,AC,-70.0,87.15
+Saturn,DC,-70.0,-94.79
+Saturn,AC,-75.0,87.49
+Saturn,DC,-75.0,-95.14
+Saturn,AC,-80.0,88.18
+Saturn,DC,-80.0,-95.83
+Saturn,AC,-85.0,90.21
+Saturn,DC,-85.0,-97.86
+Uranus,MC,,116.48
+Uranus,IC,,-63.52
+Uranus,AC,70.0,107.59
+Uranus,DC,70.0,125.37
+Uranus,AC,65.0,76.94
+Uranus,DC,65.0,156.02
+Uranus,AC,60.0,65.00
+Uranus,DC,60.0,167.96
+Uranus,AC,55.0,57.38
+Uranus,DC,55.0,175.58
+Uranus,AC,50.0,51.86
+Uranus,DC,50.0,-178.90
+Uranus,AC,45.0,47.56
+Uranus,DC,45.0,-174.59
+Uranus,AC,40.0,44.04
+Uranus,DC,40.0,-171.08
+Uranus,AC,35.0,41.06
+Uranus,DC,35.0,-168.10
+Uranus,AC,30.0,38.46
+Uranus,DC,30.0,-165.50
+Uranus,AC,25.0,36.13
+Uranus,DC,25.0,-163.17
+Uranus,AC,20.0,34.00
+Uranus,DC,20.0,-161.04
+Uranus,AC,15.0,32.01
+Uranus,DC,15.0,-159.05
+Uranus,AC,10.0,30.12
+Uranus,DC,10.0,-157.15
+Uranus,AC,5.0,28.28
+Uranus,DC,5.0,-155.32
+Uranus,AC,0.0,26.48
+Uranus,DC,0.0,-153.52
+Uranus,AC,-5.0,24.68
+Uranus,DC,-5.0,-151.72
+Uranus,AC,-10.0,22.85
+Uranus,DC,-10.0,-149.88
+Uranus,AC,-15.0,20.95
+Uranus,DC,-15.0,-147.99
+Uranus,AC,-20.0,18.96
+Uranus,DC,-20.0,-146.00
+Uranus,AC,-25.0,16.83
+Uranus,DC,-25.0,-143.87
+Uranus,AC,-30.0,14.50
+Uranus,DC,-30.0,-141.54
+Uranus,AC,-35.0,11.90
+Uranus,DC,-35.0,-138.94
+Uranus,AC,-40.0,8.92
+Uranus,DC,-40.0,-135.96
+Uranus,AC,-45.0,5.41
+Uranus,DC,-45.0,-132.44
+Uranus,AC,-50.0,1.10
+Uranus,DC,-50.0,-128.14
+Uranus,AC,-55.0,-4.42
+Uranus,DC,-55.0,-122.62
+Uranus,AC,-60.0,-12.04
+Uranus,DC,-60.0,-115.00
+Uranus,AC,-65.0,-23.98
+Uranus,DC,-65.0,-103.06
+Uranus,AC,-70.0,-54.63
+Uranus,DC,-70.0,-72.41
+Neptune,MC,,109.10
+Neptune,IC,,-70.90
+Neptune,AC,65.0,71.21
+Neptune,DC,65.0,146.98
+Neptune,AC,60.0,58.70
+Neptune,DC,60.0,159.49
+Neptune,AC,55.0,50.81
+Neptune,DC,55.0,167.38
+Neptune,AC,50.0,45.11
+Neptune,DC,50.0,173.08
+Neptune,AC,45.0,40.69
+Neptune,DC,45.0,177.50
+Neptune,AC,40.0,37.08
+Neptune,DC,40.0,-178.89
+Neptune,AC,35.0,34.03
+Neptune,DC,35.0,-175.84
+Neptune,AC,30.0,31.36
+Neptune,DC,30.0,-173.17
+Neptune,AC,25.0,28.98
+Neptune,DC,25.0,-170.79
+Neptune,AC,20.0,26.79
+Neptune,DC,20.0,-168.60
+Neptune,AC,15.0,24.75
+Neptune,DC,15.0,-166.56
+Neptune,AC,10.0,22.82
+Neptune,DC,10.0,-164.63
+Neptune,AC,5.0,20.94
+Neptune,DC,5.0,-162.75
+Neptune,AC,0.0,19.10
+Neptune,DC,0.0,-160.90
+Neptune,AC,-5.0,17.25
+Neptune,DC,-5.0,-159.06
+Neptune,AC,-10.0,15.37
+Neptune,DC,-10.0,-157.18
+Neptune,AC,-15.0,13.44
+Neptune,DC,-15.0,-155.25
+Neptune,AC,-20.0,11.40
+Neptune,DC,-20.0,-153.21
+Neptune,AC,-25.0,9.21
+Neptune,DC,-25.0,-151.02
+Neptune,AC,-30.0,6.83
+Neptune,DC,-30.0,-148.64
+Neptune,AC,-35.0,4.16
+Neptune,DC,-35.0,-145.97
+Neptune,AC,-40.0,1.11
+Neptune,DC,-40.0,-142.92
+Neptune,AC,-45.0,-2.50
+Neptune,DC,-45.0,-139.31
+Neptune,AC,-50.0,-6.92
+Neptune,DC,-50.0,-134.89
+Neptune,AC,-55.0,-12.62
+Neptune,DC,-55.0,-129.19
+Neptune,AC,-60.0,-20.51
+Neptune,DC,-60.0,-121.30
+Neptune,AC,-65.0,-33.02
+Neptune,DC,-65.0,-108.79
+Pluto,MC,,51.69
+Pluto,IC,,-128.31
+Pluto,AC,80.0,7.93
+Pluto,DC,80.0,95.44
+Pluto,AC,75.0,-9.94
+Pluto,DC,75.0,113.31
+Pluto,AC,70.0,-17.83
+Pluto,DC,70.0,121.20
+Pluto,AC,65.0,-22.46
+Pluto,DC,65.0,125.84
+Pluto,AC,60.0,-25.57
+Pluto,DC,60.0,128.94
+Pluto,AC,55.0,-27.83
+Pluto,DC,55.0,131.21
+Pluto,AC,50.0,-29.58
+Pluto,DC,50.0,132.96
+Pluto,AC,45.0,-31.00
+Pluto,DC,45.0,134.37
+Pluto,AC,40.0,-32.18
+Pluto,DC,40.0,135.55
+Pluto,AC,35.0,-33.20
+Pluto,DC,35.0,136.57
+Pluto,AC,30.0,-34.10
+Pluto,DC,30.0,137.47
+Pluto,AC,25.0,-34.91
+Pluto,DC,25.0,138.28
+Pluto,AC,20.0,-35.66
+Pluto,DC,20.0,139.03
+Pluto,AC,15.0,-36.36
+Pluto,DC,15.0,139.73
+Pluto,AC,10.0,-37.03
+Pluto,DC,10.0,140.40
+Pluto,AC,5.0,-37.68
+Pluto,DC,5.0,141.05
+Pluto,AC,0.0,-38.31
+Pluto,DC,0.0,141.69
+Pluto,AC,-5.0,-38.95
+Pluto,DC,-5.0,142.32
+Pluto,AC,-10.0,-39.60
+Pluto,DC,-10.0,142.97
+Pluto,AC,-15.0,-40.27
+Pluto,DC,-15.0,143.64
+Pluto,AC,-20.0,-40.97
+Pluto,DC,-20.0,144.34
+Pluto,AC,-25.0,-41.72
+Pluto,DC,-25.0,145.09
+Pluto,AC,-30.0,-42.53
+Pluto,DC,-30.0,145.90
+Pluto,AC,-35.0,-43.43
+Pluto,DC,-35.0,146.80
+Pluto,AC,-40.0,-44.45
+Pluto,DC,-40.0,147.82
+Pluto,AC,-45.0,-45.63
+Pluto,DC,-45.0,149.00
+Pluto,AC,-50.0,-47.04
+Pluto,DC,-50.0,150.42
+Pluto,AC,-55.0,-48.79
+Pluto,DC,-55.0,152.17
+Pluto,AC,-60.0,-51.06
+Pluto,DC,-60.0,154.43
+Pluto,AC,-65.0,-54.16
+Pluto,DC,-65.0,157.54
+Pluto,AC,-70.0,-58.80
+Pluto,DC,-70.0,162.17
+Pluto,AC,-75.0,-66.69
+Pluto,DC,-75.0,170.06
+Pluto,AC,-80.0,-84.56
+Pluto,DC,-80.0,-172.07
+North Node,MC,,3.66
+North Node,IC,,-176.34
+North Node,AC,80.0,-50.17
+North Node,DC,80.0,57.50
+North Node,AC,75.0,-63.48
+North Node,DC,75.0,70.81
+North Node,AC,70.0,-69.72
+North Node,DC,70.0,77.05
+North Node,AC,65.0,-73.44
+North Node,DC,65.0,80.77
+North Node,AC,60.0,-75.95
+North Node,DC,60.0,83.28
+North Node,AC,55.0,-77.79
+North Node,DC,55.0,85.12
+North Node,AC,50.0,-79.21
+North Node,DC,50.0,86.54
+North Node,AC,45.0,-80.36
+North Node,DC,45.0,87.69
+North Node,AC,40.0,-81.33
+North Node,DC,40.0,88.66
+North Node,AC,35.0,-82.16
+North Node,DC,35.0,89.49
+North Node,AC,30.0,-82.89
+North Node,DC,30.0,90.22
+North Node,AC,25.0,-83.55
+North Node,DC,25.0,90.88
+North Node,AC,20.0,-84.16
+North Node,DC,20.0,91.49
+North Node,AC,15.0,-84.74
+North Node,DC,15.0,92.07
+North Node,AC,10.0,-85.28
+North Node,DC,10.0,92.61
+North Node,AC,5.0,-85.81
+North Node,DC,5.0,93.14
+North Node,AC,0.0,-86.34
+North Node,DC,0.0,93.66
+North Node,AC,-5.0,-86.86
+North Node,DC,-5.0,94.19
+North Node,AC,-10.0,-87.39
+North Node,DC,-10.0,94.72
+North Node,AC,-15.0,-87.93
+North Node,DC,-15.0,95.26
+North Node,AC,-20.0,-88.51
+North Node,DC,-20.0,95.84
+North Node,AC,-25.0,-89.12
+North Node,DC,-25.0,96.45
+North Node,AC,-30.0,-89.78
+North Node,DC,-30.0,97.11
+North Node,AC,-35.0,-90.51
+North Node,DC,-35.0,97.84
+North Node,AC,-40.0,-91.34
+North Node,DC,-40.0,98.67
+North Node,AC,-45.0,-92.31
+North Node,DC,-45.0,99.64
+North Node,AC,-50.0,-93.46
+North Node,DC,-50.0,100.79
+North Node,AC,-55.0,-94.88
+North Node,DC,-55.0,102.21
+North Node,AC,-60.0,-96.72
+North Node,DC,-60.0,104.05
+North Node,AC,-65.0,-99.23
+North Node,DC,-65.0,106.56
+North Node,AC,-70.0,-102.95
+North Node,DC,-70.0,110.28
+North Node,AC,-75.0,-109.19
+North Node,DC,-75.0,116.52
+North Node,AC,-80.0,-122.50
+North Node,DC,-80.0,129.83
+Chiron,MC,,-3.70
+Chiron,IC,,176.30
+Chiron,AC,85.0,-16.41
+Chiron,DC,85.0,9.01
+Chiron,AC,80.0,-64.75
+Chiron,DC,80.0,57.35
+Chiron,AC,75.0,-75.13
+Chiron,DC,75.0,67.73
+Chiron,AC,70.0,-80.14
+Chiron,DC,70.0,72.74
+Chiron,AC,65.0,-83.15
+Chiron,DC,65.0,75.76
+Chiron,AC,60.0,-85.20
+Chiron,DC,60.0,77.80
+Chiron,AC,55.0,-86.70
+Chiron,DC,55.0,79.30
+Chiron,AC,50.0,-87.86
+Chiron,DC,50.0,80.46
+Chiron,AC,45.0,-88.80
+Chiron,DC,45.0,81.41
+Chiron,AC,40.0,-89.59
+Chiron,DC,40.0,82.20
+Chiron,AC,35.0,-90.27
+Chiron,DC,35.0,82.88
+Chiron,AC,30.0,-90.87
+Chiron,DC,30.0,83.48
+Chiron,AC,25.0,-91.42
+Chiron,DC,25.0,84.02
+Chiron,AC,20.0,-91.92
+Chiron,DC,20.0,84.52
+Chiron,AC,15.0,-92.39
+Chiron,DC,15.0,84.99
+Chiron,AC,10.0,-92.84
+Chiron,DC,10.0,85.44
+Chiron,AC,5.0,-93.27
+Chiron,DC,5.0,85.87
+Chiron,AC,0.0,-93.70
+Chiron,DC,0.0,86.30
+Chiron,AC,-5.0,-94.13
+Chiron,DC,-5.0,86.73
+Chiron,AC,-10.0,-94.56
+Chiron,DC,-10.0,87.16
+Chiron,AC,-15.0,-95.01
+Chiron,DC,-15.0,87.61
+Chiron,AC,-20.0,-95.48
+Chiron,DC,-20.0,88.08
+Chiron,AC,-25.0,-95.98
+Chiron,DC,-25.0,88.58
+Chiron,AC,-30.0,-96.52
+Chiron,DC,-30.0,89.13
+Chiron,AC,-35.0,-97.12
+Chiron,DC,-35.0,89.73
+Chiron,AC,-40.0,-97.80
+Chiron,DC,-40.0,90.41
+Chiron,AC,-45.0,-98.59
+Chiron,DC,-45.0,91.20
+Chiron,AC,-50.0,-99.54
+Chiron,DC,-50.0,92.14
+Chiron,AC,-55.0,-100.70
+Chiron,DC,-55.0,93.30
+Chiron,AC,-60.0,-102.20
+Chiron,DC,-60.0,94.80
+Chiron,AC,-65.0,-104.24
+Chiron,DC,-65.0,96.85
+Chiron,AC,-70.0,-107.26
+Chiron,DC,-70.0,99.86
+Chiron,AC,-75.0,-112.27
+Chiron,DC,-75.0,104.87
+Chiron,AC,-80.0,-122.65
+Chiron,DC,-80.0,115.25
+Chiron,AC,-85.0,-170.99
+Chiron,DC,-85.0,163.59
+South Node,MC,,-176.34
+South Node,IC,,3.66
+South Node,AC,80.0,57.50
+South Node,DC,80.0,-50.17
+South Node,AC,75.0,70.81
+South Node,DC,75.0,-63.48
+South Node,AC,70.0,77.05
+South Node,DC,70.0,-69.72
+South Node,AC,65.0,80.77
+South Node,DC,65.0,-73.44
+South Node,AC,60.0,83.28
+South Node,DC,60.0,-75.95
+South Node,AC,55.0,85.12
+South Node,DC,55.0,-77.79
+South Node,AC,50.0,86.54
+South Node,DC,50.0,-79.21
+South Node,AC,45.0,87.69
+South Node,DC,45.0,-80.36
+South Node,AC,40.0,88.66
+South Node,DC,40.0,-81.33
+South Node,AC,35.0,89.49
+South Node,DC,35.0,-82.16
+South Node,AC,30.0,90.22
+South Node,DC,30.0,-82.89
+South Node,AC,25.0,90.88
+South Node,DC,25.0,-83.55
+South Node,AC,20.0,91.49
+South Node,DC,20.0,-84.16
+South Node,AC,15.0,92.07
+South Node,DC,15.0,-84.74
+South Node,AC,10.0,92.61
+South Node,DC,10.0,-85.28
+South Node,AC,5.0,93.14
+South Node,DC,5.0,-85.81
+South Node,AC,0.0,93.66
+South Node,DC,0.0,-86.34
+South Node,AC,-5.0,94.19
+South Node,DC,-5.0,-86.86
+South Node,AC,-10.0,94.72
+South Node,DC,-10.0,-87.39
+South Node,AC,-15.0,95.26
+South Node,DC,-15.0,-87.93
+South Node,AC,-20.0,95.84
+South Node,DC,-20.0,-88.51
+South Node,AC,-25.0,96.45
+South Node,DC,-25.0,-89.12
+South Node,AC,-30.0,97.11
+South Node,DC,-30.0,-89.78
+South Node,AC,-35.0,97.84
+South Node,DC,-35.0,-90.51
+South Node,AC,-40.0,98.67
+South Node,DC,-40.0,-91.34
+South Node,AC,-45.0,99.64
+South Node,DC,-45.0,-92.31
+South Node,AC,-50.0,100.79
+South Node,DC,-50.0,-93.46
+South Node,AC,-55.0,102.21
+South Node,DC,-55.0,-94.88
+South Node,AC,-60.0,104.05
+South Node,DC,-60.0,-96.72
+South Node,AC,-65.0,106.56
+South Node,DC,-65.0,-99.23
+South Node,AC,-70.0,110.28
+South Node,DC,-70.0,-102.95
+South Node,AC,-75.0,116.52
+South Node,DC,-75.0,-109.19
+South Node,AC,-80.0,129.83
+South Node,DC,-80.0,-122.50

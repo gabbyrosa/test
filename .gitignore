@@ -1,0 +1,11 @@
+# dev-only preview renders
+preview_*.png
+crop_*.png
+couple_preview.png
+overlap_preview.png
+her_preview.png
+__pycache__/
+*.pyc
+shoot*.py
+standalone_map.html
+pdf_preview.png
