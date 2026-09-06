@@ -58,7 +58,7 @@ kind of work, and merging them would hide which question is actually unanswered.
 |---|---|---|
 | **Nakshatra-chain framing (§5)** | Provenance / framework | Not "find a citation." Whether the technique belongs inside the declared framework at all. Confirmed KP-weighted; the choice is to relabel the section or drop its interpretive weight. |
 | ~~Lakshmi yoga conditions~~ | Doctrinal verification | **CLOSED — see below. Outcome: confirmed, rule replaced, false qualification withdrawn, real qualification attached.** |
-| **Hora doctrine, baladi multipliers** | Implementation + provenance | Two questions, not one. Is there a textual source, *and* does the code implement the same doctrine the source describes? A correct citation over a divergent implementation is worse than neither. |
+| **Hora doctrine** | Implementation + provenance | Item 4, still open. Baladi split out and CLOSED separately below. |
 | ~~Rashi sandhi~~ | Definition + provenance | **CLOSED — see below. Outcome: no sourced threshold exists; claim withdrawn, no verdict given.** |
 
 ### Item 1 of 4 — Lakshmi Yoga — **CLOSED: forms under the ordinary reading of Phaladeepika 6.21**
@@ -171,9 +171,14 @@ unsupported.
 **The one named attribution does not apply.** Gandanta — the severe form, attributed
 to Parāśara (secondary) — covers Pisces–Aries, Cancer–Leo and Scorpio–Sagittarius,
 the water-to-fire joins. **Aries–Taurus is not among them**, so gandanta is
-inapplicable to Mercury at any degree. This is the reverse of the usual pattern: the
-sourced doctrine is the one that fails to apply, while the applicable-looking one is
-unsourced.
+inapplicable to Mercury at any degree.
+
+**What this audit did and did not falsify.** It falsified *this document's*
+attribution and *this document's* numerical implementation. It did not falsify the
+concept of sandhi at sign boundaries, and it is not a finding that no such doctrine
+exists. The precise result is: **no classical passage supporting the specific
+numerical rashi-sandhi threshold used in this document was located.** A textual
+source may surface later without making this audit wrong.
 
 **What survives.** The geometric fact — Mercury is 17 arcminutes into Taurus, the
 first graha by degree in that sign — is computed and stands on its own, with no
@@ -184,6 +189,71 @@ same passage, is untouched here; it belongs to item 3.
 (sandhi clause removed), §17 conventions table (new row: rashi sandhi **not used**).
 Verified: the old attribution appears only inside the correction note as a recorded
 quotation, zero live instances.
+
+### Item 3 of 4 — Baladi avastha — **CLOSED: classification confirmed, weight scheme corrected**
+
+Two questions, deliberately not collapsed.
+
+**Q1 — Classification. CONFIRMED.** All nine bodies recomputed from degrees, not from
+stored labels, against the sourced rule: five states of 6°, odd signs running
+Bala→Mrita from 0°, even signs reversed. **Zero mismatches.** The parity rule was
+validated independently by the invariant the sources state separately — 12°–18° must
+be Yuva under *both* parities — which the implementation reproduces.
+
+| graha | degree | parity | computed | document |
+|---|---|---|---|---|
+| Sun | 23°30′ Taurus | even | Kumara | Kumara |
+| Moon | 15°09′ Aquarius | odd | Yuva | Yuva |
+| Mars | 2°45′ Taurus | even | Mrita | Mrita |
+| Mercury | 0°17′ Taurus | even | Mrita | Mrita |
+| Jupiter | 22°06′ Sagittarius | odd | Vriddha | Vriddha |
+| Venus | 28°02′ Taurus | even | Bala | Bala |
+| Saturn | 12°12′ Pisces | even | Yuva | Yuva |
+| Rahu / Ketu | 20°13′ | even | Kumara | Kumara |
+
+**Q2 — Weight. NOT what the document claimed.** Four findings.
+
+**(a) Category error, now withdrawn.** §10 called baladi *"a second, independent
+measure agreeing with dig bala on the same point."* Shadbala has six named components
+— Sthana, Dig, Kala, Cheshta, Naisargika, Drik. **Baladi is not among them.** It is a
+separate scheme that does not feed the Shadbala total. Dig bala and baladi are not two
+witnesses to one proposition, and presenting them as agreeing manufactured
+corroboration out of two incommensurable things. This is rule 2 — non-independent
+agreement — inverted: not two descriptions of one quantity, but two *different*
+quantities treated as one.
+
+**(b) What avasthas actually do.** Sources describe them as tempering how effectively
+strength manifests, and specifically as modifying **the effectiveness of yogas**. Also:
+a graha in Mrita that sits in its own or exaltation sign is better placed than one in
+debilitation — so **Mrita does not mean inert**, and "the weakest" was the wrong gloss.
+
+**(c) One use was better grounded than assumed.** §9 cites Mercury's Mrita avastha as
+tempering the Dharma-Karmadhipati yoga. That is *precisely* what sources say avasthas
+do. That use is strengthened with the attribution rather than weakened — the only place
+in this pass where the audit improved a claim instead of cutting one.
+
+**(d) Two specificities were mine, not the sources'.** §17 gave the multipliers as
+"Bala ¼, Kumara ½, Yuva full, **Vriddha ¼**, **Mrita negligible**." Sources give Vriddha
+as *"minimum"* and Mrita as *"gives no result"*. Corrected. The fractions remain
+**unapplied**, and what they modify is not stated in commensurable units by any source
+consulted.
+
+**(e) Nodes: unsupported extension.** No source consulted states that baladi applies to
+Rahu and Ketu. Their row is computed by the same arithmetic, marked as not relied on,
+and flagged in §17.
+
+**Provenance: secondary / standard practice throughout.** No primary passage was
+reached for baladi. The degree scheme is consistent across sources; the weight language
+is not.
+
+**Scope of the finding.** What is corrected is this document's treatment of baladi as a
+strength axis. The classification scheme itself survives intact and is now
+independently verified.
+
+**Landing sites:** 32 live strings enumerated first. Edited: §10 (opening claim, the
+comparison paragraph, three table rows), §15 identity, §15 career, §9 modification
+(strengthened), §17 formula block and fractions and a new nodes note, footer. Verified:
+one stale string remains and it is the recorded quotation inside the correction.
 
 ---
 
